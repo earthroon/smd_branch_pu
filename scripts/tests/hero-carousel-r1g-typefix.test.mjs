@@ -32,7 +32,14 @@ test('R1G current-element check requires image element, matching src and active 
     getAttribute(key) { return key === 'src' ? this.src : null; }
   }
   const slides = {value:[{imageId:'hero-1',src:'/a.jpg'}]};
-  const env = { HTMLImageElement:MockImage, slides };
+  const env = {
+    HTMLImageElement: MockImage,
+    slides,
+    publicAssetUrl: src =>
+      /^\/(?:media|about|curriculum|figma|figma-r2)\//.test(src)
+        ? `/smd_branch_pu${src}`
+        : src
+  };
   const valid = vm.runInNewContext(`${imagePredicate}\neventIsCurrent`, env);
   assert.equal(valid(new MockImage('/a.jpg'), {imageId:'hero-1',src:'/a.jpg'}), true);
   assert.equal(valid(new MockImage('/old.jpg'), {imageId:'hero-1',src:'/a.jpg'}), false);
@@ -40,6 +47,13 @@ test('R1G current-element check requires image element, matching src and active 
   assert.equal(valid(null, {imageId:'hero-1',src:'/a.jpg'}), false);
   slides.value=[{imageId:'hero-1',src:'/new.jpg'}];
   assert.equal(valid(new MockImage('/a.jpg'), {imageId:'hero-1',src:'/a.jpg'}), false);
+  slides.value=[{imageId:'hero-1',src:'/media/home/1.png'}];
+  assert.equal(
+    valid(new MockImage('/smd_branch_pu/media/home/1.png'),
+      {imageId:'hero-1',src:'/media/home/1.png'}), true);
+  assert.equal(
+    valid(new MockImage('/media/home/1.png'),
+      {imageId:'hero-1',src:'/media/home/1.png'}), false);
 });
 test('R1G start returns boolean reflecting actual phase admission, not a TS-narrowed read', () => {
   assert.match(intro, /function start\(now:number,source:IntroIntent\):boolean/);

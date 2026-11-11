@@ -9,7 +9,23 @@ export default defineNuxtConfig({
       ? 'github_pages'
       : 'cloudflare-module',
     prerender: process.env.GITHUB_PAGES === '1'
-      ? { ignore: ['/videos'] }
+      ? {
+          crawlLinks: false,
+          concurrency: 1,
+          routes: [
+            '/',
+            '/about',
+            '/curriculum',
+            '/archive',
+            '/reviews',
+            '/faq',
+            '/contact',
+            '/practice',
+            '/promotion',
+            '/privacy'
+          ],
+          ignore: ['/videos']
+        }
       : undefined
   },
   app: {

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { usePublicStaticAssetUrl } from '~/composables/usePublicStaticAssetUrl';
 /** CF5A: presentation foundation only. No product V5 binding or Core fetch. */
 import {computed,ref,watch} from 'vue';
 import {resolveSiteImageRender,type SiteImageRenderInput} from '~/utils/site-media-render';
@@ -9,7 +10,7 @@ const loadState=ref<'pending'|'loaded'|'failed'>('pending');
 watch(()=>renderModel.value.src,()=>{loadState.value='pending';});
 function eventBelongsToCurrentSource(event:Event):boolean {
   const target=event.currentTarget as HTMLImageElement | null;
-  return target?.getAttribute('src')===renderModel.value.src;
+  return target?.getAttribute('src')===publicAssetUrl(renderModel.value.src);
 }
 function onLoad(event:Event){
   if(eventBelongsToCurrentSource(event))loadState.value='loaded';
@@ -17,13 +18,14 @@ function onLoad(event:Event){
 function onError(event:Event){
   if(eventBelongsToCurrentSource(event))loadState.value='failed';
 }
+const publicAssetUrl = usePublicStaticAssetUrl();
 </script>
 <template>
   <figure :class="renderModel.frameClass"
     :data-site-media-slot="renderModel.slotId"
     :data-site-media-display="renderModel.displayMode"
     :data-site-media-load="loadState">
-    <img :key="renderModel.src" :src="renderModel.src"
+    <img :key="renderModel.src" :src="publicAssetUrl(renderModel.src)"
       :width="renderModel.width" :height="renderModel.height"
       :alt="renderModel.alt" :title="renderModel.title"
       :class="renderModel.imageClass"

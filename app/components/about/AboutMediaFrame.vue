@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { usePublicStaticAssetUrl } from '~/composables/usePublicStaticAssetUrl';
 import { computed, ref, watch } from 'vue';
 import {useStandalonePublishedMedia} from '~/composables/useStandalonePublishedMedia';
 import { aboutSourceAssets } from '~/data/about-r1-assets.generated';
@@ -26,13 +27,14 @@ const style = computed(() => {
 });
 function settle(event: Event, next: 'loaded' | 'failed') {
   const img = event.currentTarget as HTMLImageElement | null;
-  if (img?.getAttribute('src') === src.value) state.value = next;
+  if (img?.getAttribute('src') === publicAssetUrl(src.value)) state.value = next;
 }
+const publicAssetUrl = usePublicStaticAssetUrl();
 </script>
 <template>
   <figure class="smd-about__media" :style="style" :data-about-photo="slotId"
     :data-source-layer="photo.sourceLayerId" :data-source-sha256="photo.sha256" :data-media-state="state">
-    <img :key="src" :src="src" :alt="decodeURIComponent(photo.alt)" :title="decodeURIComponent(photo.title)"
+    <img :key="src" :src="publicAssetUrl(src)" :alt="decodeURIComponent(photo.alt)" :title="decodeURIComponent(photo.title)"
       :width="photo.sourceWidth" :height="photo.sourceHeight" :style="geometry.imageStyle"
       :loading="slotId === 'about.hero.photo' ? 'eager' : 'lazy'"
       :fetchpriority="slotId === 'about.hero.photo' ? 'high' : 'auto'" decoding="async"

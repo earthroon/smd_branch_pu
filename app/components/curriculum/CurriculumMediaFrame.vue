@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { usePublicStaticAssetUrl } from '~/composables/usePublicStaticAssetUrl';
 import { computed,ref,watch } from 'vue';
 import {useStandalonePublishedMedia} from '~/composables/useStandalonePublishedMedia';
 import { curriculumSourceAssets } from '~/data/curriculum-r1-assets.generated';
@@ -19,12 +20,13 @@ const geometry=computed(()=>curriculumMediaCss(photo.value));
 const state=ref<'pending'|'loaded'|'failed'>('pending');
 watch(src,()=>{state.value='pending';});
 function settle(event:Event,next:'loaded'|'failed') {
-  if((event.currentTarget as HTMLImageElement|null)?.getAttribute('src')===src.value)state.value=next;
+  if((event.currentTarget as HTMLImageElement|null)?.getAttribute('src')===publicAssetUrl(src.value))state.value=next;
 }
+const publicAssetUrl = usePublicStaticAssetUrl();
 </script>
 <template><figure class="smd-curriculum__media" :style="{...geometry.frameStyle,...curriculumFrameStyle(photo.frame,photo.sectionId)}"
   :data-curriculum-photo="slotId" :data-source-layer="photo.sourceLayerId" :data-source-sha256="photo.sha256" :data-media-state="state">
-  <img :key="src" :src="src" :width="photo.sourceWidth" :height="photo.sourceHeight" :alt="photo.alt"
+  <img :key="src" :src="publicAssetUrl(src)" :width="photo.sourceWidth" :height="photo.sourceHeight" :alt="photo.alt"
     :style="geometry.imageStyle" :loading="slotId==='curriculum.hero.photo'?'eager':'lazy'"
     :fetchpriority="slotId==='curriculum.hero.photo'?'high':'auto'" decoding="async"
     @load="settle($event,'loaded')" @error="settle($event,'failed')" />

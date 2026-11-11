@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { usePublicStaticAssetUrl } from '~/composables/usePublicStaticAssetUrl';
 /** R7 independent-route fullscreen cover. Content and links are passed from the route owner. */
 import { computed } from 'vue';
 const props = withDefaults(defineProps<{
@@ -18,10 +19,11 @@ const props = withDefaults(defineProps<{
   linkLabel: undefined,
 });
 const coverId = computed(() => `r7-${props.pageId}-cover-title`);
+const publicAssetUrl = usePublicStaticAssetUrl();
 </script>
 <template>
   <section class="smd-r7-route__cover" :data-r7-page="pageId" :aria-labelledby="coverId" data-r7-cover="fullscreen">
-    <img class="smd-r7-route__cover-image" :src="imageSrc" :alt="imageAlt"
+    <img class="smd-r7-route__cover-image" :src="publicAssetUrl(imageSrc)" :alt="imageAlt"
       loading="eager" fetchpriority="high" decoding="async" />
     <div class="smd-r7-route__cover-wash" aria-hidden="true" />
     <div class="smd-r7-route__cover-frame">

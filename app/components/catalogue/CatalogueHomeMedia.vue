@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { usePublicStaticAssetUrl } from '~/composables/usePublicStaticAssetUrl';
 /** HomeMediaFrame retains image src, metadata, CMS publication and display-mode ownership. */
 import HomeMediaFrame from '~/components/home/HomeMediaFrame.vue';
 import { homeMediaSlots, type HomeMediaSlotId } from '~/data/home-r2-manifest';
@@ -22,10 +23,11 @@ const state = computed<'bound' | 'unbound' | 'failed'>(() => {
 function onMediaError(event: Event): void {
   const image = event.target;
   if (!(image instanceof HTMLImageElement)) return;
-  if (resolved.value?.src && (image.currentSrc || image.src) === new URL(resolved.value.src, document.baseURI).href) {
+  if (resolved.value?.src && (image.currentSrc || image.src) === new URL(publicAssetUrl(resolved.value.src), document.baseURI).href) {
     failedSrc.value = resolved.value.src;
   }
 }
+const publicAssetUrl = usePublicStaticAssetUrl();
 </script>
 
 <template>

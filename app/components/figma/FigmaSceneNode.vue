@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { usePublicStaticAssetUrl } from '~/composables/usePublicStaticAssetUrl';
 import {figmaScene} from '~/data/figma-r2-scene.generated';
 import {homeMediaSlots, type HomeMediaSlotId} from '~/data/home-r2-manifest';
 import {useHomeMediaSlot} from '~/composables/useHomeMediaSlot';
@@ -68,6 +69,7 @@ const imageOverscan = computed(() => {
   }
 });
 
+const publicAssetUrl = usePublicStaticAssetUrl();
 </script>
 <template>
   <g v-if="node && node.visible && !blocked" :transform="translate" :data-figma-node="node.key"
@@ -88,7 +90,7 @@ const imageOverscan = computed(() => {
   :y="node.rect[3] * (1 - imageOverscan) / 2"
   :width="node.rect[2] * imageOverscan"
   :height="node.rect[3] * imageOverscan"
-  :href="image.src"
+  :href="publicAssetUrl(image.src)"
   :preserveAspectRatio="
     mediaSlot?.startsWith('home.methods.') ||
     mediaSlot === 'home.special-start.photo'

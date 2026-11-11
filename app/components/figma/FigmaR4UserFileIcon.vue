@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { usePublicStaticAssetUrl } from '~/composables/usePublicStaticAssetUrl';
 import { figmaScene } from '~/data/figma-r2-scene.generated';
 import { SMD_HOME_R2_VISUAL_R4 } from '~/data/figma-r2-visual-r4';
 
@@ -40,10 +41,11 @@ const y = (group.rect[1] ?? NaN) + (owner.rect[1] ?? NaN);
 if (!Number.isFinite(x) || !Number.isFinite(y)) {
   throw new Error('SMD_HOME_R4_FILE_ICON_COORDINATE_INVALID');
 }
+const publicAssetUrl = usePublicStaticAssetUrl();
 </script>
 <template>
   <image
-    :href="optical.href"
+    :href="publicAssetUrl(optical.href)"
     :x="x" :y="y"
     width="98" height="98"
     preserveAspectRatio="xMidYMid meet"

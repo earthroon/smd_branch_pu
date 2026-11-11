@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { usePublicStaticAssetUrl } from '~/composables/usePublicStaticAssetUrl';
 /** Keep the existing media mode/publication selector; only the frame geometry changes. */
 import { computed, ref, watch } from 'vue';
 import { useStandalonePublishedMedia } from '~/composables/useStandalonePublishedMedia';
@@ -27,14 +28,15 @@ const failure = ref<string|null>(null);
 watch(src, () => {failure.value = null;});
 function onError(event:Event):void {
   const target=event.currentTarget;
-  if (target instanceof HTMLImageElement && target.getAttribute('src')===src.value)
+  if (target instanceof HTMLImageElement && target.getAttribute('src')===publicAssetUrl(src.value))
     failure.value=src.value;
 }
+const publicAssetUrl = usePublicStaticAssetUrl();
 </script>
 <template>
   <figure class="smd-r7-route__source-media" :data-media-slot="slotId"
     :data-media-state="failure ? 'failed' : 'bound'">
-    <img v-if="!failure" :key="src" :src="src"
+    <img v-if="!failure" :key="src" :src="publicAssetUrl(src)"
       :alt="decodeURIComponent(photo.alt)" :width="photo.sourceWidth" :height="photo.sourceHeight"
       :loading="priority ? 'eager' : 'lazy'" :fetchpriority="priority ? 'high' : 'auto'"
       decoding="async" @error="onError" />

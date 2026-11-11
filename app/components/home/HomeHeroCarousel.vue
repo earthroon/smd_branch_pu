@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { usePublicStaticAssetUrl } from '~/composables/usePublicStaticAssetUrl';
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, useId, watch } from 'vue';
 import { useStandalonePublishedMedia } from '~/composables/useStandalonePublishedMedia';
 import { useContentMode } from '~/composables/useContentMode';
@@ -229,7 +230,7 @@ function onSwipeCancel(): void { touchStart = null; }
 
 function eventIsCurrent(node: EventTarget | null, slot: HeroCarouselSlot): node is HTMLImageElement {
   return node instanceof HTMLImageElement &&
-    node.getAttribute('src') === slot.src &&
+    node.getAttribute('src') === publicAssetUrl(slot.src) &&
     slides.value.some(current => current.imageId === slot.imageId && current.src === slot.src);
 }
 function decodeImage(img: HTMLImageElement, slot: HeroCarouselSlot): void {
@@ -271,7 +272,7 @@ function reconcileLoadedImages(): void {
   const valid = new Map(slides.value.map(s => [s.imageId, s] as const));
   for (const img of root.value.querySelectorAll<HTMLImageElement>('img[data-hero-image-id]')) {
     const slot = valid.get(img.dataset.heroImageId as HeroCarouselSlot['imageId']);
-    if (!slot || img.getAttribute('src') !== slot.src || !img.complete) continue;
+    if (!slot || img.getAttribute('src') !== publicAssetUrl(slot.src) || !img.complete) continue;
     if (img.naturalWidth > 0) decodeImage(img, slot);
     else if (eventIsCurrent(img, slot)) reportImageLoadFailure(slot);
   }
@@ -366,6 +367,7 @@ onBeforeUnmount(() => {
   reducedQuery?.removeEventListener('change', updateOwner);
   document.removeEventListener('visibilitychange', onVisibility);
 });
+const publicAssetUrl = usePublicStaticAssetUrl();
 </script>
 
 <template>
@@ -394,7 +396,7 @@ onBeforeUnmount(() => {
             '--hero-focal-x': `${slide.focalPoint.xPercent}%`,
             '--hero-focal-y': `${slide.focalPoint.yPercent}%`,
           }">
-          <img :src="slide.src" :alt="slide.alt" :width="slide.width" :height="slide.height"
+          <img :src="publicAssetUrl(slide.src)" :alt="slide.alt" :width="slide.width" :height="slide.height"
             :data-hero-image-id="slide.imageId" loading="eager"
             :fetchpriority="slide.order === 0 ? 'high' : 'auto'" decoding="async"
             draggable="false" @load="onImageLoad($event, slide)" @error="onImageError($event, slide)" />

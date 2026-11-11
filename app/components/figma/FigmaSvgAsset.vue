@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { usePublicStaticAssetUrl } from '~/composables/usePublicStaticAssetUrl';
 import {figmaScene} from '~/data/figma-r2-scene.generated';
 import {r3SvgOverride} from '~/data/figma-r2-visual-r3';
 import {resolveR4BHelmetCandidate} from '~/data/figma-r2-visual-r4b';
@@ -11,6 +12,7 @@ const inkWidth=computed(()=>props.line?(line.value?.conservativeInkBounds?.[2]??
 const inkHeight=computed(()=>props.line?(line.value?.conservativeInkBounds?.[3]??2):props.height);
 const visual=computed(()=>r3SvgOverride(props.nodeKey,props.assetId));
 const r4bHelmet=computed(()=>resolveR4BHelmetCandidate(props.nodeKey,props.assetId,asset.value?.sha256));
+const publicAssetUrl = usePublicStaticAssetUrl();
 </script>
 <template>
   <!-- CF8: one methods-only background override fills source node-1:52's 10px top gap.
@@ -20,19 +22,19 @@ const r4bHelmet=computed(()=>resolveR4BHelmetCandidate(props.nodeKey,props.asset
     :data-original-asset-id="assetId" :data-original-svg-sha256="asset.sha256"
     :data-user-visual-override="visual.authority" />
   <!-- CF10: source path remains at (0,0), viewport and placement expanded by ink radius. -->
-  <image v-else-if="asset && visual?.kind==='chevron-ink'" :href="visual.href"
+  <image v-else-if="asset && visual?.kind==='chevron-ink'" :href="publicAssetUrl(visual.href)"
     x="-1.5" y="-1.5" width="23.5" height="44"
     preserveAspectRatio="xMidYMid meet" :data-figma-svg-instance="nodeKey"
     :data-original-asset-id="assetId" :data-original-svg-sha256="asset.sha256"
     :data-derived-svg-sha256="visual.derivedSha256" :data-user-visual-override="visual.authority" />
   <!-- CF9: isolated filled-path inset, NOT a canonical stroke-width rewrite. -->
-  <image v-else-if="asset && visual?.kind==='helmet-weight' && r4bHelmet" :href="asset.src"
+  <image v-else-if="asset && visual?.kind==='helmet-weight' && r4bHelmet" :href="publicAssetUrl(asset.src)"
     :x="x" :y="y" :width="inkWidth" :height="inkHeight"
     preserveAspectRatio="xMidYMid meet" :data-figma-svg-instance="nodeKey"
     :data-original-asset-id="assetId" :data-original-svg-sha256="asset.sha256"
     :data-r4b-selected-source-sha256="asset.sha256" :data-user-visual-override="r4bHelmet.authority"
     :data-r4b-candidate="r4bHelmet.renderedCandidateId" :data-visual-qualification="r4bHelmet.qualification" />
-  <image v-else-if="asset" :href="asset.src" :x="x" :y="y"
+  <image v-else-if="asset" :href="publicAssetUrl(asset.src)" :x="x" :y="y"
     :width="inkWidth" :height="inkHeight" preserveAspectRatio="none"
     :data-figma-svg-instance="nodeKey" :data-original-asset-id="assetId"
     :data-original-svg-sha256="asset.sha256"

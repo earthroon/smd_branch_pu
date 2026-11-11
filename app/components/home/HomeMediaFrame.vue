@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { usePublicStaticAssetUrl } from '~/composables/usePublicStaticAssetUrl';
 import { homeMediaSlots, type HomeMediaSlotId } from '~/data/home-r2-manifest';
 import {useHomeMediaSlot} from '~/composables/useHomeMediaSlot';
 const props = defineProps<{slotId: HomeMediaSlotId}>();
@@ -9,13 +10,14 @@ const frameStyle = computed(() => ({
   borderRadius: source.value.sourceRadii.map(r => `min(${r}px, 9vw)`).join(' '),
   backgroundColor: `rgba(${source.value.placeholderRgba.slice(0,3).map(n => Math.round(n*255)).join(',')},${source.value.placeholderRgba[3]})`,
 }));
+const publicAssetUrl = usePublicStaticAssetUrl();
 </script>
 <template>
   <div class="smd-home__media-frame w-full shrink-0 overflow-hidden" :data-media-slot="source.slotId"
     :data-media-state="image ? (image.kind==='local'?'local':'published') : 'unbound'"
     :data-media-origin="image?.kind??'unbound'" :style="frameStyle" :aria-hidden="image?undefined:'true'">
     <img v-if="image" :key="image.src"
-      :src="image.src" :alt="image.alt" :title="image.title" :width="image.width" :height="image.height"
+      :src="publicAssetUrl(image.src)" :alt="image.alt" :title="image.title" :width="image.width" :height="image.height"
     loading="lazy"
 decoding="async"
 :style="{

@@ -42,6 +42,25 @@ jobs:
         shell: bash
         run: |
           test -f .output/public/index.html
+          # Byte-identical public assets must accompany prerendered HTML.
+          while IFS= read -r -d '' source; do
+            target=".output/public/${source#public/}"
+            test -f "$target" || { echo "::error file=$source::ASSET_MISSING"; exit 1; }
+            cmp -s "$source" "$target" || { echo "::error file=$source::ASSET_DRIFT"; exit 1; }
+          done < <(find public -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.svg' -o -iname '*.webp' -o -iname '*.avif' \) -print0)
+          # Check DOM image references do not accidentally escape the repository base.
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          broken = []
+          root = Path('.output/public')
+          for page in root.rglob('*.html'):
+              text = page.read_text(encoding='utf-8')
+              if re.search(r'''(?:src|href)=["']/((?:media|about|curriculum|figma|figma-r2)/)''', text):
+                  broken.append(str(page))
+          if broken:
+              raise SystemExit('PUBLIC_ASSET_BASE_MISSING: ' + ', '.join(broken))
+          PY
           touch .output/public/.nojekyll
 
       - name: Setup Pages
