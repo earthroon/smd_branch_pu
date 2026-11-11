@@ -1,0 +1,25 @@
+{
+  "contract": "SMD-HOME-R2-CF1",
+  "sourceSnapshotDigest": "5e877e46cc1bad3e7985a553163120c59c9b9d0f731a66d575e781fa5c60146f",
+  "generatedFrom": {
+    "skin.jsonl": "fe38ccb06dfc5be1755de0ebc289e9b469327066da1a358f8e94f33eb3a29c1a",
+    "figma-reference.json": "d3770060b861a0211c4dea1a5582f78ce97ea1040588324b10923ccddb824a3b",
+    "export-session.json": "a3c6ce020566cceb620f6ba348c2a46f7a28e876a2c485073982168fefeb547a"
+  },
+  "sourceStatus": "SOURCE_VALIDATED",
+  "staticStatus": "PASS",
+  "nodeCount": 272,
+  "nativeTextCount": 76,
+  "assetShaPassCount": 31,
+  "rootSectionCount": 11,
+  "bodySectionCount": 9,
+  "unboundMediaSlotCount": 8,
+  "blockedRenderCount": 32,
+  "directClipBlockerCount": 2,
+  "noTouchFileCount": 21,
+  "compile": "NOT_RUN",
+  "runtime": "NOT_RUN",
+  "physical": "NOT_RUN",
+  "performance": "NOT_RUN",
+  "productCommitAllowed": false
+}

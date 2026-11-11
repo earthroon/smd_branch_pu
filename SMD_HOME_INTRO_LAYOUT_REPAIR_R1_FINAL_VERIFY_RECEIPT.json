@@ -1,0 +1,87 @@
+{
+  "contract": "SMD_HOME_INTRO_LAYOUT_REPAIR_R1",
+  "parent": "FILM_R13_NONLINEAR_WIND_R1_full_baked_unverified.zip",
+  "parentArchiveSha256": "c284a2b19728eaf80822c33637e73df2e9a924624ff399a3d71abd7257edd5ba",
+  "source": {
+    "baked": true,
+    "modified": 6,
+    "added": 1,
+    "unchangedParentFiles": 969,
+    "changedFiles": [
+      {
+        "path": "app/assets/css/home-hero-film.css",
+        "operation": "modify",
+        "parentSha256": "9ec5e3590b94f025c88ff12f82119fececcf1ce2c686bff595566d6f260d360d",
+        "sourceSha256": "28e43b1714f8eab4bc73d6146fd229156c9f3fb61f94f709dacde4d4ead775a9",
+        "sizeBytes": 2445
+      },
+      {
+        "path": "app/assets/css/home-r2-interaction.css",
+        "operation": "modify",
+        "parentSha256": "41638bc7e32e0317c8f1543394dddbbc3fdef08f4a2962e6dd54db773a2ae432",
+        "sourceSha256": "98c6157f8eb284b794e58d8b2421b6a3ba0d3b00ea1e0d515b7e27e1891d192c",
+        "sizeBytes": 3704
+      },
+      {
+        "path": "app/components/home/HomeIntroStage.vue",
+        "operation": "modify",
+        "parentSha256": "c63a0791fa329f05b399f78cc6ba3a452d0c9dca353d197fd34fa2ecf88292d6",
+        "sourceSha256": "f26ab8166e11ca7ba1c91dcb7d4154447bf9f02f7bec683351365dcf47cde882",
+        "sizeBytes": 1711
+      },
+      {
+        "path": "app/composables/useHomeIntroReveal.ts",
+        "operation": "modify",
+        "parentSha256": "7268779d898eea3a3d37547f25bc372f27a21e0c87aa1e640b7afc5a83e670bd",
+        "sourceSha256": "07932e38142ba4e7239ded3abb8573e324a8f0a79c7e7f113c38b86b310da518",
+        "sizeBytes": 17560
+      },
+      {
+        "path": "scripts/figma-r2/verify-home-intro-browser.mjs",
+        "operation": "modify",
+        "parentSha256": "0b7e6093d462fabb96e1672e8b03d2270034b2acb53c008f9451e3a93d214186",
+        "sourceSha256": "6c7493e7aab4a29f8439c2f53a23d9f8f9510bc14158e906f850dedb18b63baa",
+        "sizeBytes": 12113
+      },
+      {
+        "path": "scripts/tests/home-intro-compact-reveal.test.mjs",
+        "operation": "add",
+        "parentSha256": null,
+        "sourceSha256": "7c6f039afccc14ff08f2c3d079506c03b25d021eae1e413d4a36fd445ac3ca99",
+        "sizeBytes": 4484
+      },
+      {
+        "path": "scripts/tests/home-intro-scroll.test.mjs",
+        "operation": "modify",
+        "parentSha256": "3f2a07abe3041759186d0747f3554cffe68e97ea27f1961d2f1997dc218123d3",
+        "sourceSha256": "4cf7b4913bb6d33a76e199ce0b97aec7842b795fdc76c7db1029d5baef0abbc0",
+        "sizeBytes": 4941
+      }
+    ],
+    "noTouch": [
+      "app/utils/homeIntroTimeline.ts",
+      "app/utils/homeFilmWind.ts",
+      "app/data/home-film-wind-lut.json",
+      "app/data/figma-r2-scene.generated.ts",
+      "app/utils/homeInfoLayoutMath.ts",
+      "app/components/home/HomeHeroFilm.vue",
+      "app/components/home/HomeBodyStage.vue"
+    ]
+  },
+  "validation": {
+    "heroWindNode": "78/78 PASS",
+    "introNode": "15/15 PASS",
+    "introSourceGate": "4/4 PASS",
+    "isolatedStrictTypeScript": "PASS",
+    "isolatedChromiumActualControllerCss": "12/12 PASS",
+    "nuxtTypecheck": "NOT_RUN",
+    "nuxtBuild": "NOT_RUN",
+    "actualNuxtBrowser": "NOT_RUN",
+    "whiteBandProductAttribution": "UNKNOWN",
+    "physicalPerformance": "UNKNOWN",
+    "fullZipReextractTests": "78/78 + 15/15 + 4/4 PASS",
+    "fullZipReextractByteParity": "976/976 ENTRIES, ZERO MISMATCHES",
+    "windowsPowerShellApply": "NOT_RUN"
+  },
+  "productPromotion": false
+}

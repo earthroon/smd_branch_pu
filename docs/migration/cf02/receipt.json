@@ -1,0 +1,160 @@
+{
+  "contract": "SMD-NUXT-R2-CF02",
+  "parent": "SMD-NUXT-R2-CF00-CF01",
+  "sourceOriginalSha256": "dafe2bf558842066ec5dd0aa1234005880a0ad303575ae08e964a263b80ccfe3",
+  "sourceParentSha256": "3778ba4205573c2e78dd173c21e1c95e79aeb07fd5f672866bb680619d7ead20",
+  "sourceReferenceSha256": "e037db7f44266a16ba65dfce83c425a1bc97024a57b955b7a6a1f6a56af3e888",
+  "changedFiles": [
+    {
+      "path": "app/components/feature/ArchiveGallery.vue",
+      "sha256": "bf30261acbce6a05578016c4fbb7721cd2e531c3bfe2b7366ceef9c95efab030"
+    },
+    {
+      "path": "app/components/feature/PracticeBlock.vue",
+      "sha256": "95ea8b0b474da46afb77bf6d7ea8ea0201db1a99398263d32a0a77e879cd28c5"
+    },
+    {
+      "path": "app/components/feature/TeachGrid.vue",
+      "sha256": "8178794145f81091e569e2c3fa79606918b784ca0a1309b6e864b9f224e6812f"
+    },
+    {
+      "path": "app/components/home/HeroSection.vue",
+      "sha256": "fe57f880022e7fc00e90082c79208bd4ebf991afa1503828b2316d5d75bccafa"
+    },
+    {
+      "path": "app/components/home/StatementSection.vue",
+      "sha256": "b9a42e3a8057506b0bc1af3e93e3d37019a292de5c7c66479d6c9e6086ff7374"
+    },
+    {
+      "path": "app/pages/about.vue",
+      "sha256": "e25f8c8b11aa3bf4e798f71a733eaeab2df3b1ebd495effd099846a8bec9d758"
+    },
+    {
+      "path": "app/pages/contact.vue",
+      "sha256": "e79f97f6a29ff9b6c3fa81d8e1f1557b2f108095683a9273a55f93445a78aae5"
+    },
+    {
+      "path": "app/pages/curriculum.vue",
+      "sha256": "cb12bfa8a80266e6d35528ab80232a3f5a5698ea291ee4125cb3e8920823da05"
+    },
+    {
+      "path": "app/pages/practice.vue",
+      "sha256": "710cbe7c73c0bcafb1062028ec4398289a8344386f1c7b176b77203c5c1b9fc9"
+    },
+    {
+      "path": "app/pages/promotion.vue",
+      "sha256": "2a449be29c72d85d534f5223b77b92752c82cc7a4e211be0b4eee630083abe33"
+    }
+  ],
+  "noTouchViolations": [],
+  "sourceDeltasRestored": [
+    "home_photo_frame_and_titles",
+    "home_statement_photo_title",
+    "practice_montage_classes_and_titles",
+    "teaching_grid_card_typography_and_transition",
+    "about_image_titles_and_typography",
+    "curriculum_learning_path_typography",
+    "practice_facility_fourth_description_and_photo",
+    "archive_filter_group_and_placeholder_hover_arrow",
+    "promotion_allocation_graphic_and_markup",
+    "contact_channel_hover_styles"
+  ],
+  "sourceDeltasUnresolved": [
+    {
+      "path": "promotionBenefits[0].desc",
+      "owner": "CF04",
+      "status": "BLOCKED_CF04_SEED_DRIFT"
+    },
+    {
+      "path": "ContactForm.vue added security controls",
+      "owner": "CF07",
+      "status": "DECLARED_POST_SOURCE_UI_DELTA"
+    },
+    {
+      "path": "contact tel target behavior",
+      "owner": "CF03",
+      "status": "DEFERRED_INTERACTION_POLICY"
+    }
+  ],
+  "static": {
+    "pageGate": {
+      "status": "PASS",
+      "checksPassed": 119,
+      "checksTotal": 119
+    },
+    "fixtureGate": {
+      "status": "PASS",
+      "originalJsxTextFragments": 56,
+      "cmsProjectedFragments": 4,
+      "pageLocalArrays": 2,
+      "sourceCssExact": true
+    },
+    "negativeGate": {
+      "status": "PASS",
+      "testCases": 17,
+      "negativeCases": 15
+    },
+    "legacyCF00Model": {
+      "status": "PASS",
+      "testCases": 7
+    },
+    "legacyCF01Layout": {
+      "status": "PASS",
+      "checks": 38
+    },
+    "legacyWorker": {
+      "status": "PASS",
+      "testCases": 25
+    }
+  },
+  "compile": {
+    "vueScriptSyntax": {
+      "status": "PASS_STATIC_PARSER_ONLY",
+      "sources": 13,
+      "parseDiagnostics": 0
+    },
+    "typecheck": {
+      "status": "BLOCKED_DEPENDENCIES_UNAVAILABLE",
+      "reason": "npm registry EAI_AGAIN"
+    },
+    "build": {
+      "status": "BLOCKED_DEPENDENCIES_UNAVAILABLE",
+      "reason": "npm registry EAI_AGAIN"
+    }
+  },
+  "runtime": {
+    "ssr": "UNKNOWN_NOT_RUN",
+    "hydration": "UNKNOWN_NOT_RUN",
+    "routeResponses": "UNKNOWN_NOT_RUN"
+  },
+  "physical": {
+    "referenceCapture": null,
+    "candidateCapture": null,
+    "visualComparison": null,
+    "fontAndImageLoad": null
+  },
+  "copyParity": {
+    "pageLocal": "PASS_STATIC_LITERAL_AND_ARRAY",
+    "cmsBenefit": "BLOCKED_CF04",
+    "fullProduction": false
+  },
+  "evidence": {
+    "source": "BAKED_SOURCE",
+    "static": "PASS",
+    "compile": "BLOCKED_DEPENDENCIES_UNAVAILABLE",
+    "runtime": "UNKNOWN",
+    "physical": "UNKNOWN",
+    "performance": "NOT_MEASURED",
+    "promoted": false
+  },
+  "markersIssued": [
+    "PASS_SMD_NUXT_R2_CF02_SOURCE_FILE_PARITY",
+    "PASS_SMD_NUXT_R2_CF02_PAGE_STATIC"
+  ],
+  "markersNotIssued": [
+    "PASS_SMD_NUXT_R2_CF02_NUXT_COMPILE",
+    "PASS_SMD_NUXT_R2_CF02_PAGE_BROWSER_LAYOUT_PARITY",
+    "PASS_SMD_NUXT_R2_CF02_FULL_CONTENT_PARITY",
+    "PASS_SMD_NUXT_R2_CF02_ROOT_PROMOTION"
+  ]
+}

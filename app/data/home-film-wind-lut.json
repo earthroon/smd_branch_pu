@@ -1,0 +1,2626 @@
+{
+  "contract": "FILM-WIND-LUT-V1",
+  "modelRevision": "FILM-R13-NONLINEAR-WIND-R1",
+  "profileId": "r13-film-wind-v1",
+  "parentSpeedRevision": "FILM-SPEED-R3",
+  "parentSpeedSha256": "d3ce450cabe2f3d959ce2685499d171ded14e4208e56d039805825504e423e33",
+  "unit": "normalized-time-and-distance",
+  "meanSpeedCssPxS": 193.2,
+  "knots": [
+    {
+      "u": 0,
+      "q": 1
+    },
+    {
+      "u": 0.62,
+      "q": 1.3
+    },
+    {
+      "u": 0.85,
+      "q": 3.4
+    },
+    {
+      "u": 0.94,
+      "q": 3.4
+    },
+    {
+      "u": 1,
+      "q": 1
+    }
+  ],
+  "samples": [
+    {
+      "timeFraction": 0,
+      "positionFraction": 0,
+      "normalizedVelocity": 0.591191250369
+    },
+    {
+      "timeFraction": 0.001953125,
+      "positionFraction": 0.001154670438,
+      "normalizedVelocity": 0.591191305553
+    },
+    {
+      "timeFraction": 0.00390625,
+      "positionFraction": 0.002309341252,
+      "normalizedVelocity": 0.59119168975
+    },
+    {
+      "timeFraction": 0.005859375,
+      "positionFraction": 0.003464013401,
+      "normalizedVelocity": 0.59119272625
+    },
+    {
+      "timeFraction": 0.0078125,
+      "positionFraction": 0.00461868847,
+      "normalizedVelocity": 0.591194732132
+    },
+    {
+      "timeFraction": 0.009765625,
+      "positionFraction": 0.005773368657,
+      "normalizedVelocity": 0.591198018309
+    },
+    {
+      "timeFraction": 0.01171875,
+      "positionFraction": 0.006928056761,
+      "normalizedVelocity": 0.591202889563
+    },
+    {
+      "timeFraction": 0.013671875,
+      "positionFraction": 0.008082756171,
+      "normalizedVelocity": 0.591209644586
+    },
+    {
+      "timeFraction": 0.015625,
+      "positionFraction": 0.009237470852,
+      "normalizedVelocity": 0.591218576019
+    },
+    {
+      "timeFraction": 0.017578125,
+      "positionFraction": 0.010392205337,
+      "normalizedVelocity": 0.591229970494
+    },
+    {
+      "timeFraction": 0.01953125,
+      "positionFraction": 0.011546964711,
+      "normalizedVelocity": 0.591244108672
+    },
+    {
+      "timeFraction": 0.021484375,
+      "positionFraction": 0.012701754602,
+      "normalizedVelocity": 0.591261265281
+    },
+    {
+      "timeFraction": 0.0234375,
+      "positionFraction": 0.013856581169,
+      "normalizedVelocity": 0.59128170916
+    },
+    {
+      "timeFraction": 0.025390625,
+      "positionFraction": 0.01501145109,
+      "normalizedVelocity": 0.591305703293
+    },
+    {
+      "timeFraction": 0.02734375,
+      "positionFraction": 0.016166371551,
+      "normalizedVelocity": 0.591333504854
+    },
+    {
+      "timeFraction": 0.029296875,
+      "positionFraction": 0.017321350236,
+      "normalizedVelocity": 0.591365365241
+    },
+    {
+      "timeFraction": 0.03125,
+      "positionFraction": 0.018476395311,
+      "normalizedVelocity": 0.591401530122
+    },
+    {
+      "timeFraction": 0.033203125,
+      "positionFraction": 0.019631515421,
+      "normalizedVelocity": 0.59144223947
+    },
+    {
+      "timeFraction": 0.03515625,
+      "positionFraction": 0.020786719671,
+      "normalizedVelocity": 0.591487727603
+    },
+    {
+      "timeFraction": 0.037109375,
+      "positionFraction": 0.021942017617,
+      "normalizedVelocity": 0.591538223227
+    },
+    {
+      "timeFraction": 0.0390625,
+      "positionFraction": 0.023097419261,
+      "normalizedVelocity": 0.59159394947
+    },
+    {
+      "timeFraction": 0.041015625,
+      "positionFraction": 0.02425293503,
+      "normalizedVelocity": 0.591655123928
+    },
+    {
+      "timeFraction": 0.04296875,
+      "positionFraction": 0.025408575774,
+      "normalizedVelocity": 0.591721958699
+    },
+    {
+      "timeFraction": 0.044921875,
+      "positionFraction": 0.026564352751,
+      "normalizedVelocity": 0.591794660426
+    },
+    {
+      "timeFraction": 0.046875,
+      "positionFraction": 0.027720277617,
+      "normalizedVelocity": 0.591873430337
+    },
+    {
+      "timeFraction": 0.048828125,
+      "positionFraction": 0.028876362416,
+      "normalizedVelocity": 0.59195846428
+    },
+    {
+      "timeFraction": 0.05078125,
+      "positionFraction": 0.03003261957,
+      "normalizedVelocity": 0.59204995277
+    },
+    {
+      "timeFraction": 0.052734375,
+      "positionFraction": 0.031189061867,
+      "normalizedVelocity": 0.592148081021
+    },
+    {
+      "timeFraction": 0.0546875,
+      "positionFraction": 0.032345702452,
+      "normalizedVelocity": 0.592253028991
+    },
+    {
+      "timeFraction": 0.056640625,
+      "positionFraction": 0.033502554815,
+      "normalizedVelocity": 0.592364971418
+    },
+    {
+      "timeFraction": 0.05859375,
+      "positionFraction": 0.034659632785,
+      "normalizedVelocity": 0.592484077865
+    },
+    {
+      "timeFraction": 0.060546875,
+      "positionFraction": 0.035816950516,
+      "normalizedVelocity": 0.592610512752
+    },
+    {
+      "timeFraction": 0.0625,
+      "positionFraction": 0.036974522476,
+      "normalizedVelocity": 0.592744435401
+    },
+    {
+      "timeFraction": 0.064453125,
+      "positionFraction": 0.038132363442,
+      "normalizedVelocity": 0.592886000075
+    },
+    {
+      "timeFraction": 0.06640625,
+      "positionFraction": 0.039290488486,
+      "normalizedVelocity": 0.593035356016
+    },
+    {
+      "timeFraction": 0.068359375,
+      "positionFraction": 0.040448912968,
+      "normalizedVelocity": 0.593192647487
+    },
+    {
+      "timeFraction": 0.0703125,
+      "positionFraction": 0.041607652523,
+      "normalizedVelocity": 0.593358013806
+    },
+    {
+      "timeFraction": 0.072265625,
+      "positionFraction": 0.042766723054,
+      "normalizedVelocity": 0.593531589395
+    },
+    {
+      "timeFraction": 0.07421875,
+      "positionFraction": 0.043926140723,
+      "normalizedVelocity": 0.59371350381
+    },
+    {
+      "timeFraction": 0.076171875,
+      "positionFraction": 0.045085921938,
+      "normalizedVelocity": 0.593903881787
+    },
+    {
+      "timeFraction": 0.078125,
+      "positionFraction": 0.046246083349,
+      "normalizedVelocity": 0.59410284328
+    },
+    {
+      "timeFraction": 0.080078125,
+      "positionFraction": 0.047406641833,
+      "normalizedVelocity": 0.594310503498
+    },
+    {
+      "timeFraction": 0.08203125,
+      "positionFraction": 0.048567614489,
+      "normalizedVelocity": 0.594526972949
+    },
+    {
+      "timeFraction": 0.083984375,
+      "positionFraction": 0.049729018626,
+      "normalizedVelocity": 0.594752357477
+    },
+    {
+      "timeFraction": 0.0859375,
+      "positionFraction": 0.050890871755,
+      "normalizedVelocity": 0.594986758299
+    },
+    {
+      "timeFraction": 0.087890625,
+      "positionFraction": 0.052053191583,
+      "normalizedVelocity": 0.595230272052
+    },
+    {
+      "timeFraction": 0.08984375,
+      "positionFraction": 0.053215995998,
+      "normalizedVelocity": 0.595482990826
+    },
+    {
+      "timeFraction": 0.091796875,
+      "positionFraction": 0.054379303066,
+      "normalizedVelocity": 0.595745002206
+    },
+    {
+      "timeFraction": 0.09375,
+      "positionFraction": 0.055543131017,
+      "normalizedVelocity": 0.596016389311
+    },
+    {
+      "timeFraction": 0.095703125,
+      "positionFraction": 0.056707498242,
+      "normalizedVelocity": 0.596297230835
+    },
+    {
+      "timeFraction": 0.09765625,
+      "positionFraction": 0.057872423279,
+      "normalizedVelocity": 0.596587601085
+    },
+    {
+      "timeFraction": 0.099609375,
+      "positionFraction": 0.059037924808,
+      "normalizedVelocity": 0.596887570022
+    },
+    {
+      "timeFraction": 0.1015625,
+      "positionFraction": 0.060204021641,
+      "normalizedVelocity": 0.597197203299
+    },
+    {
+      "timeFraction": 0.103515625,
+      "positionFraction": 0.061370732715,
+      "normalizedVelocity": 0.597516562302
+    },
+    {
+      "timeFraction": 0.10546875,
+      "positionFraction": 0.062538077082,
+      "normalizedVelocity": 0.59784570419
+    },
+    {
+      "timeFraction": 0.107421875,
+      "positionFraction": 0.063706073901,
+      "normalizedVelocity": 0.598184681932
+    },
+    {
+      "timeFraction": 0.109375,
+      "positionFraction": 0.064874742431,
+      "normalizedVelocity": 0.59853354435
+    },
+    {
+      "timeFraction": 0.111328125,
+      "positionFraction": 0.066044102023,
+      "normalizedVelocity": 0.598892336156
+    },
+    {
+      "timeFraction": 0.11328125,
+      "positionFraction": 0.06721417211,
+      "normalizedVelocity": 0.599261097993
+    },
+    {
+      "timeFraction": 0.115234375,
+      "positionFraction": 0.068384972202,
+      "normalizedVelocity": 0.599639866474
+    },
+    {
+      "timeFraction": 0.1171875,
+      "positionFraction": 0.069556521875,
+      "normalizedVelocity": 0.600028674223
+    },
+    {
+      "timeFraction": 0.119140625,
+      "positionFraction": 0.070728840765,
+      "normalizedVelocity": 0.600427549912
+    },
+    {
+      "timeFraction": 0.12109375,
+      "positionFraction": 0.071901948563,
+      "normalizedVelocity": 0.600836518302
+    },
+    {
+      "timeFraction": 0.123046875,
+      "positionFraction": 0.073075865,
+      "normalizedVelocity": 0.601255600284
+    },
+    {
+      "timeFraction": 0.125,
+      "positionFraction": 0.074250609847,
+      "normalizedVelocity": 0.601684812916
+    },
+    {
+      "timeFraction": 0.126953125,
+      "positionFraction": 0.075426202904,
+      "normalizedVelocity": 0.602124169465
+    },
+    {
+      "timeFraction": 0.12890625,
+      "positionFraction": 0.076602663994,
+      "normalizedVelocity": 0.602573679445
+    },
+    {
+      "timeFraction": 0.130859375,
+      "positionFraction": 0.077780012954,
+      "normalizedVelocity": 0.603033348657
+    },
+    {
+      "timeFraction": 0.1328125,
+      "positionFraction": 0.078958269628,
+      "normalizedVelocity": 0.603503179229
+    },
+    {
+      "timeFraction": 0.134765625,
+      "positionFraction": 0.080137453862,
+      "normalizedVelocity": 0.603983169657
+    },
+    {
+      "timeFraction": 0.13671875,
+      "positionFraction": 0.081317585496,
+      "normalizedVelocity": 0.604473314839
+    },
+    {
+      "timeFraction": 0.138671875,
+      "positionFraction": 0.082498684354,
+      "normalizedVelocity": 0.604973606122
+    },
+    {
+      "timeFraction": 0.140625,
+      "positionFraction": 0.083680770242,
+      "normalizedVelocity": 0.605484031338
+    },
+    {
+      "timeFraction": 0.142578125,
+      "positionFraction": 0.084863862939,
+      "normalizedVelocity": 0.606004574843
+    },
+    {
+      "timeFraction": 0.14453125,
+      "positionFraction": 0.086047982188,
+      "normalizedVelocity": 0.606535217557
+    },
+    {
+      "timeFraction": 0.146484375,
+      "positionFraction": 0.087233147693,
+      "normalizedVelocity": 0.607075937005
+    },
+    {
+      "timeFraction": 0.1484375,
+      "positionFraction": 0.08841937911,
+      "normalizedVelocity": 0.607626707355
+    },
+    {
+      "timeFraction": 0.150390625,
+      "positionFraction": 0.089606696043,
+      "normalizedVelocity": 0.60818749946
+    },
+    {
+      "timeFraction": 0.15234375,
+      "positionFraction": 0.090795118034,
+      "normalizedVelocity": 0.608758280894
+    },
+    {
+      "timeFraction": 0.154296875,
+      "positionFraction": 0.091984664558,
+      "normalizedVelocity": 0.609339015995
+    },
+    {
+      "timeFraction": 0.15625,
+      "positionFraction": 0.09317535502,
+      "normalizedVelocity": 0.609929665901
+    },
+    {
+      "timeFraction": 0.158203125,
+      "positionFraction": 0.094367208743,
+      "normalizedVelocity": 0.610530188594
+    },
+    {
+      "timeFraction": 0.16015625,
+      "positionFraction": 0.095560244967,
+      "normalizedVelocity": 0.611140538937
+    },
+    {
+      "timeFraction": 0.162109375,
+      "positionFraction": 0.09675448284,
+      "normalizedVelocity": 0.611760668713
+    },
+    {
+      "timeFraction": 0.1640625,
+      "positionFraction": 0.097949941413,
+      "normalizedVelocity": 0.612390526668
+    },
+    {
+      "timeFraction": 0.166015625,
+      "positionFraction": 0.099146639633,
+      "normalizedVelocity": 0.613030058544
+    },
+    {
+      "timeFraction": 0.16796875,
+      "positionFraction": 0.10034459634,
+      "normalizedVelocity": 0.613679207127
+    },
+    {
+      "timeFraction": 0.169921875,
+      "positionFraction": 0.101543830258,
+      "normalizedVelocity": 0.614337912281
+    },
+    {
+      "timeFraction": 0.171875,
+      "positionFraction": 0.102744359991,
+      "normalizedVelocity": 0.615006110989
+    },
+    {
+      "timeFraction": 0.173828125,
+      "positionFraction": 0.103946204017,
+      "normalizedVelocity": 0.615683737392
+    },
+    {
+      "timeFraction": 0.17578125,
+      "positionFraction": 0.105149380683,
+      "normalizedVelocity": 0.616370722831
+    },
+    {
+      "timeFraction": 0.177734375,
+      "positionFraction": 0.1063539082,
+      "normalizedVelocity": 0.617066995884
+    },
+    {
+      "timeFraction": 0.1796875,
+      "positionFraction": 0.107559804634,
+      "normalizedVelocity": 0.617772482406
+    },
+    {
+      "timeFraction": 0.181640625,
+      "positionFraction": 0.108767087907,
+      "normalizedVelocity": 0.61848710557
+    },
+    {
+      "timeFraction": 0.18359375,
+      "positionFraction": 0.109975775787,
+      "normalizedVelocity": 0.619210785906
+    },
+    {
+      "timeFraction": 0.185546875,
+      "positionFraction": 0.111185885883,
+      "normalizedVelocity": 0.61994344134
+    },
+    {
+      "timeFraction": 0.1875,
+      "positionFraction": 0.112397435643,
+      "normalizedVelocity": 0.620684987234
+    },
+    {
+      "timeFraction": 0.189453125,
+      "positionFraction": 0.113610442346,
+      "normalizedVelocity": 0.621435336426
+    },
+    {
+      "timeFraction": 0.19140625,
+      "positionFraction": 0.114824923099,
+      "normalizedVelocity": 0.622194399268
+    },
+    {
+      "timeFraction": 0.193359375,
+      "positionFraction": 0.116040894831,
+      "normalizedVelocity": 0.622962083668
+    },
+    {
+      "timeFraction": 0.1953125,
+      "positionFraction": 0.11725837429,
+      "normalizedVelocity": 0.62373829513
+    },
+    {
+      "timeFraction": 0.197265625,
+      "positionFraction": 0.118477378035,
+      "normalizedVelocity": 0.624522936789
+    },
+    {
+      "timeFraction": 0.19921875,
+      "positionFraction": 0.119697922435,
+      "normalizedVelocity": 0.625315909456
+    },
+    {
+      "timeFraction": 0.201171875,
+      "positionFraction": 0.120920023664,
+      "normalizedVelocity": 0.626117111654
+    },
+    {
+      "timeFraction": 0.203125,
+      "positionFraction": 0.122143697693,
+      "normalizedVelocity": 0.62692643966
+    },
+    {
+      "timeFraction": 0.205078125,
+      "positionFraction": 0.12336896029,
+      "normalizedVelocity": 0.627743787542
+    },
+    {
+      "timeFraction": 0.20703125,
+      "positionFraction": 0.124595827014,
+      "normalizedVelocity": 0.628569047203
+    },
+    {
+      "timeFraction": 0.208984375,
+      "positionFraction": 0.12582431321,
+      "normalizedVelocity": 0.629402108416
+    },
+    {
+      "timeFraction": 0.2109375,
+      "positionFraction": 0.127054434006,
+      "normalizedVelocity": 0.630242858864
+    },
+    {
+      "timeFraction": 0.212890625,
+      "positionFraction": 0.128286204309,
+      "normalizedVelocity": 0.631091184184
+    },
+    {
+      "timeFraction": 0.21484375,
+      "positionFraction": 0.1295196388,
+      "normalizedVelocity": 0.631946968002
+    },
+    {
+      "timeFraction": 0.216796875,
+      "positionFraction": 0.130754751932,
+      "normalizedVelocity": 0.632810091975
+    },
+    {
+      "timeFraction": 0.21875,
+      "positionFraction": 0.131991557922,
+      "normalizedVelocity": 0.633680435828
+    },
+    {
+      "timeFraction": 0.220703125,
+      "positionFraction": 0.133230070755,
+      "normalizedVelocity": 0.634557877398
+    },
+    {
+      "timeFraction": 0.22265625,
+      "positionFraction": 0.134470304171,
+      "normalizedVelocity": 0.63544229267
+    },
+    {
+      "timeFraction": 0.224609375,
+      "positionFraction": 0.135712271669,
+      "normalizedVelocity": 0.636333555818
+    },
+    {
+      "timeFraction": 0.2265625,
+      "positionFraction": 0.136955986499,
+      "normalizedVelocity": 0.637231539244
+    },
+    {
+      "timeFraction": 0.228515625,
+      "positionFraction": 0.13820146166,
+      "normalizedVelocity": 0.638136113618
+    },
+    {
+      "timeFraction": 0.23046875,
+      "positionFraction": 0.139448709898,
+      "normalizedVelocity": 0.639047147918
+    },
+    {
+      "timeFraction": 0.232421875,
+      "positionFraction": 0.140697743701,
+      "normalizedVelocity": 0.639964509469
+    },
+    {
+      "timeFraction": 0.234375,
+      "positionFraction": 0.141948575295,
+      "normalizedVelocity": 0.640888063983
+    },
+    {
+      "timeFraction": 0.236328125,
+      "positionFraction": 0.143201216644,
+      "normalizedVelocity": 0.641817675598
+    },
+    {
+      "timeFraction": 0.23828125,
+      "positionFraction": 0.144455679445,
+      "normalizedVelocity": 0.642753206919
+    },
+    {
+      "timeFraction": 0.240234375,
+      "positionFraction": 0.145711975123,
+      "normalizedVelocity": 0.643694519054
+    },
+    {
+      "timeFraction": 0.2421875,
+      "positionFraction": 0.146970114832,
+      "normalizedVelocity": 0.644641471661
+    },
+    {
+      "timeFraction": 0.244140625,
+      "positionFraction": 0.148230109451,
+      "normalizedVelocity": 0.645593922978
+    },
+    {
+      "timeFraction": 0.24609375,
+      "positionFraction": 0.14949196958,
+      "normalizedVelocity": 0.64655172987
+    },
+    {
+      "timeFraction": 0.248046875,
+      "positionFraction": 0.150755705539,
+      "normalizedVelocity": 0.647514747867
+    },
+    {
+      "timeFraction": 0.25,
+      "positionFraction": 0.152021327362,
+      "normalizedVelocity": 0.648482831201
+    },
+    {
+      "timeFraction": 0.251953125,
+      "positionFraction": 0.1532888448,
+      "normalizedVelocity": 0.649455832848
+    },
+    {
+      "timeFraction": 0.25390625,
+      "positionFraction": 0.154558267315,
+      "normalizedVelocity": 0.650433604566
+    },
+    {
+      "timeFraction": 0.255859375,
+      "positionFraction": 0.155829604076,
+      "normalizedVelocity": 0.651415996939
+    },
+    {
+      "timeFraction": 0.2578125,
+      "positionFraction": 0.157102863963,
+      "normalizedVelocity": 0.652402859408
+    },
+    {
+      "timeFraction": 0.259765625,
+      "positionFraction": 0.158378055557,
+      "normalizedVelocity": 0.65339404032
+    },
+    {
+      "timeFraction": 0.26171875,
+      "positionFraction": 0.159655187145,
+      "normalizedVelocity": 0.654389386962
+    },
+    {
+      "timeFraction": 0.263671875,
+      "positionFraction": 0.160934266712,
+      "normalizedVelocity": 0.655388745603
+    },
+    {
+      "timeFraction": 0.265625,
+      "positionFraction": 0.162215301944,
+      "normalizedVelocity": 0.65639196153
+    },
+    {
+      "timeFraction": 0.267578125,
+      "positionFraction": 0.163498300222,
+      "normalizedVelocity": 0.657398879093
+    },
+    {
+      "timeFraction": 0.26953125,
+      "positionFraction": 0.164783268623,
+      "normalizedVelocity": 0.658409341742
+    },
+    {
+      "timeFraction": 0.271484375,
+      "positionFraction": 0.166070213918,
+      "normalizedVelocity": 0.659423192064
+    },
+    {
+      "timeFraction": 0.2734375,
+      "positionFraction": 0.16735914257,
+      "normalizedVelocity": 0.660440271827
+    },
+    {
+      "timeFraction": 0.275390625,
+      "positionFraction": 0.168650060729,
+      "normalizedVelocity": 0.661460422019
+    },
+    {
+      "timeFraction": 0.27734375,
+      "positionFraction": 0.169942974238,
+      "normalizedVelocity": 0.662483482883
+    },
+    {
+      "timeFraction": 0.279296875,
+      "positionFraction": 0.171237888625,
+      "normalizedVelocity": 0.663509293964
+    },
+    {
+      "timeFraction": 0.28125,
+      "positionFraction": 0.172534809103,
+      "normalizedVelocity": 0.66453769414
+    },
+    {
+      "timeFraction": 0.283203125,
+      "positionFraction": 0.173833740573,
+      "normalizedVelocity": 0.665568521671
+    },
+    {
+      "timeFraction": 0.28515625,
+      "positionFraction": 0.175134687616,
+      "normalizedVelocity": 0.66660161423
+    },
+    {
+      "timeFraction": 0.287109375,
+      "positionFraction": 0.176437654497,
+      "normalizedVelocity": 0.667636808948
+    },
+    {
+      "timeFraction": 0.2890625,
+      "positionFraction": 0.177742645163,
+      "normalizedVelocity": 0.668673942454
+    },
+    {
+      "timeFraction": 0.291015625,
+      "positionFraction": 0.17904966324,
+      "normalizedVelocity": 0.669712850909
+    },
+    {
+      "timeFraction": 0.29296875,
+      "positionFraction": 0.180358712035,
+      "normalizedVelocity": 0.670753370052
+    },
+    {
+      "timeFraction": 0.294921875,
+      "positionFraction": 0.181669794534,
+      "normalizedVelocity": 0.671795335236
+    },
+    {
+      "timeFraction": 0.296875,
+      "positionFraction": 0.182982913398,
+      "normalizedVelocity": 0.672838581468
+    },
+    {
+      "timeFraction": 0.298828125,
+      "positionFraction": 0.184298070969,
+      "normalizedVelocity": 0.67388294345
+    },
+    {
+      "timeFraction": 0.30078125,
+      "positionFraction": 0.185615269264,
+      "normalizedVelocity": 0.674928255619
+    },
+    {
+      "timeFraction": 0.302734375,
+      "positionFraction": 0.186934509978,
+      "normalizedVelocity": 0.675974352182
+    },
+    {
+      "timeFraction": 0.3046875,
+      "positionFraction": 0.18825579448,
+      "normalizedVelocity": 0.677021067161
+    },
+    {
+      "timeFraction": 0.306640625,
+      "positionFraction": 0.189579123816,
+      "normalizedVelocity": 0.678068234433
+    },
+    {
+      "timeFraction": 0.30859375,
+      "positionFraction": 0.190904498707,
+      "normalizedVelocity": 0.679115687762
+    },
+    {
+      "timeFraction": 0.310546875,
+      "positionFraction": 0.192231919549,
+      "normalizedVelocity": 0.680163260848
+    },
+    {
+      "timeFraction": 0.3125,
+      "positionFraction": 0.193561386414,
+      "normalizedVelocity": 0.681210787361
+    },
+    {
+      "timeFraction": 0.314453125,
+      "positionFraction": 0.194892899049,
+      "normalizedVelocity": 0.682258100983
+    },
+    {
+      "timeFraction": 0.31640625,
+      "positionFraction": 0.196226456875,
+      "normalizedVelocity": 0.683305035445
+    },
+    {
+      "timeFraction": 0.318359375,
+      "positionFraction": 0.197562058989,
+      "normalizedVelocity": 0.684351424569
+    },
+    {
+      "timeFraction": 0.3203125,
+      "positionFraction": 0.198899704164,
+      "normalizedVelocity": 0.685397102309
+    },
+    {
+      "timeFraction": 0.322265625,
+      "positionFraction": 0.200239390848,
+      "normalizedVelocity": 0.686441902785
+    },
+    {
+      "timeFraction": 0.32421875,
+      "positionFraction": 0.201581117167,
+      "normalizedVelocity": 0.687485660329
+    },
+    {
+      "timeFraction": 0.326171875,
+      "positionFraction": 0.202924880922,
+      "normalizedVelocity": 0.68852820952
+    },
+    {
+      "timeFraction": 0.328125,
+      "positionFraction": 0.204270679592,
+      "normalizedVelocity": 0.689569385227
+    },
+    {
+      "timeFraction": 0.330078125,
+      "positionFraction": 0.205618510332,
+      "normalizedVelocity": 0.690609022645
+    },
+    {
+      "timeFraction": 0.33203125,
+      "positionFraction": 0.206968369978,
+      "normalizedVelocity": 0.691646957339
+    },
+    {
+      "timeFraction": 0.333984375,
+      "positionFraction": 0.208320255044,
+      "normalizedVelocity": 0.69268302528
+    },
+    {
+      "timeFraction": 0.3359375,
+      "positionFraction": 0.209674161723,
+      "normalizedVelocity": 0.693717062885
+    },
+    {
+      "timeFraction": 0.337890625,
+      "positionFraction": 0.211030085892,
+      "normalizedVelocity": 0.69474890706
+    },
+    {
+      "timeFraction": 0.33984375,
+      "positionFraction": 0.212388023108,
+      "normalizedVelocity": 0.695778395234
+    },
+    {
+      "timeFraction": 0.341796875,
+      "positionFraction": 0.213747968609,
+      "normalizedVelocity": 0.696805365405
+    },
+    {
+      "timeFraction": 0.34375,
+      "positionFraction": 0.215109917322,
+      "normalizedVelocity": 0.697829656172
+    },
+    {
+      "timeFraction": 0.345703125,
+      "positionFraction": 0.216473863855,
+      "normalizedVelocity": 0.698851106784
+    },
+    {
+      "timeFraction": 0.34765625,
+      "positionFraction": 0.217839802505,
+      "normalizedVelocity": 0.699869557171
+    },
+    {
+      "timeFraction": 0.349609375,
+      "positionFraction": 0.219207727256,
+      "normalizedVelocity": 0.700884847989
+    },
+    {
+      "timeFraction": 0.3515625,
+      "positionFraction": 0.220577631782,
+      "normalizedVelocity": 0.701896820657
+    },
+    {
+      "timeFraction": 0.353515625,
+      "positionFraction": 0.221949509448,
+      "normalizedVelocity": 0.702905317396
+    },
+    {
+      "timeFraction": 0.35546875,
+      "positionFraction": 0.223323353313,
+      "normalizedVelocity": 0.703910181274
+    },
+    {
+      "timeFraction": 0.357421875,
+      "positionFraction": 0.224699156127,
+      "normalizedVelocity": 0.704911256237
+    },
+    {
+      "timeFraction": 0.359375,
+      "positionFraction": 0.22607691034,
+      "normalizedVelocity": 0.705908387157
+    },
+    {
+      "timeFraction": 0.361328125,
+      "positionFraction": 0.227456608096,
+      "normalizedVelocity": 0.706901419866
+    },
+    {
+      "timeFraction": 0.36328125,
+      "positionFraction": 0.228838241243,
+      "normalizedVelocity": 0.707890201197
+    },
+    {
+      "timeFraction": 0.365234375,
+      "positionFraction": 0.230221801328,
+      "normalizedVelocity": 0.708874579027
+    },
+    {
+      "timeFraction": 0.3671875,
+      "positionFraction": 0.231607279602,
+      "normalizedVelocity": 0.709854402309
+    },
+    {
+      "timeFraction": 0.369140625,
+      "positionFraction": 0.232994667024,
+      "normalizedVelocity": 0.710829521122
+    },
+    {
+      "timeFraction": 0.37109375,
+      "positionFraction": 0.234383954259,
+      "normalizedVelocity": 0.711799786699
+    },
+    {
+      "timeFraction": 0.373046875,
+      "positionFraction": 0.235775131685,
+      "normalizedVelocity": 0.712765051478
+    },
+    {
+      "timeFraction": 0.375,
+      "positionFraction": 0.237168189391,
+      "normalizedVelocity": 0.713725169133
+    },
+    {
+      "timeFraction": 0.376953125,
+      "positionFraction": 0.238563117181,
+      "normalizedVelocity": 0.714679994618
+    },
+    {
+      "timeFraction": 0.37890625,
+      "positionFraction": 0.239959904581,
+      "normalizedVelocity": 0.715629384204
+    },
+    {
+      "timeFraction": 0.380859375,
+      "positionFraction": 0.241358540832,
+      "normalizedVelocity": 0.716573195522
+    },
+    {
+      "timeFraction": 0.3828125,
+      "positionFraction": 0.242759014902,
+      "normalizedVelocity": 0.717511287599
+    },
+    {
+      "timeFraction": 0.384765625,
+      "positionFraction": 0.244161315485,
+      "normalizedVelocity": 0.718443520901
+    },
+    {
+      "timeFraction": 0.38671875,
+      "positionFraction": 0.245565431001,
+      "normalizedVelocity": 0.719369757369
+    },
+    {
+      "timeFraction": 0.388671875,
+      "positionFraction": 0.246971349606,
+      "normalizedVelocity": 0.720289860462
+    },
+    {
+      "timeFraction": 0.390625,
+      "positionFraction": 0.248379059188,
+      "normalizedVelocity": 0.721203695194
+    },
+    {
+      "timeFraction": 0.392578125,
+      "positionFraction": 0.249788547373,
+      "normalizedVelocity": 0.722111128177
+    },
+    {
+      "timeFraction": 0.39453125,
+      "positionFraction": 0.251199801529,
+      "normalizedVelocity": 0.723012027654
+    },
+    {
+      "timeFraction": 0.396484375,
+      "positionFraction": 0.252612808767,
+      "normalizedVelocity": 0.723906263548
+    },
+    {
+      "timeFraction": 0.3984375,
+      "positionFraction": 0.254027555949,
+      "normalizedVelocity": 0.724793707493
+    },
+    {
+      "timeFraction": 0.400390625,
+      "positionFraction": 0.255444029683,
+      "normalizedVelocity": 0.725674232878
+    },
+    {
+      "timeFraction": 0.40234375,
+      "positionFraction": 0.256862216335,
+      "normalizedVelocity": 0.726547714888
+    },
+    {
+      "timeFraction": 0.404296875,
+      "positionFraction": 0.258282102029,
+      "normalizedVelocity": 0.727414030538
+    },
+    {
+      "timeFraction": 0.40625,
+      "positionFraction": 0.259703672648,
+      "normalizedVelocity": 0.728273058719
+    },
+    {
+      "timeFraction": 0.408203125,
+      "positionFraction": 0.261126913842,
+      "normalizedVelocity": 0.729124680233
+    },
+    {
+      "timeFraction": 0.41015625,
+      "positionFraction": 0.262551811031,
+      "normalizedVelocity": 0.729968777834
+    },
+    {
+      "timeFraction": 0.412109375,
+      "positionFraction": 0.263978349407,
+      "normalizedVelocity": 0.73080523627
+    },
+    {
+      "timeFraction": 0.4140625,
+      "positionFraction": 0.265406513938,
+      "normalizedVelocity": 0.731633942318
+    },
+    {
+      "timeFraction": 0.416015625,
+      "positionFraction": 0.266836289375,
+      "normalizedVelocity": 0.732454784828
+    },
+    {
+      "timeFraction": 0.41796875,
+      "positionFraction": 0.268267660251,
+      "normalizedVelocity": 0.733267654759
+    },
+    {
+      "timeFraction": 0.419921875,
+      "positionFraction": 0.269700610891,
+      "normalizedVelocity": 0.734072445223
+    },
+    {
+      "timeFraction": 0.421875,
+      "positionFraction": 0.271135125412,
+      "normalizedVelocity": 0.734869051519
+    },
+    {
+      "timeFraction": 0.423828125,
+      "positionFraction": 0.272571187729,
+      "normalizedVelocity": 0.735657371178
+    },
+    {
+      "timeFraction": 0.42578125,
+      "positionFraction": 0.274008781558,
+      "normalizedVelocity": 0.736437303998
+    },
+    {
+      "timeFraction": 0.427734375,
+      "positionFraction": 0.275447890423,
+      "normalizedVelocity": 0.737208752089
+    },
+    {
+      "timeFraction": 0.4296875,
+      "positionFraction": 0.27688849766,
+      "normalizedVelocity": 0.737971619906
+    },
+    {
+      "timeFraction": 0.431640625,
+      "positionFraction": 0.278330586417,
+      "normalizedVelocity": 0.738725814293
+    },
+    {
+      "timeFraction": 0.43359375,
+      "positionFraction": 0.279774139666,
+      "normalizedVelocity": 0.739471244524
+    },
+    {
+      "timeFraction": 0.435546875,
+      "positionFraction": 0.281219140202,
+      "normalizedVelocity": 0.740207822338
+    },
+    {
+      "timeFraction": 0.4375,
+      "positionFraction": 0.282665570653,
+      "normalizedVelocity": 0.740935461981
+    },
+    {
+      "timeFraction": 0.439453125,
+      "positionFraction": 0.284113413477,
+      "normalizedVelocity": 0.741654080247
+    },
+    {
+      "timeFraction": 0.44140625,
+      "positionFraction": 0.285562650978,
+      "normalizedVelocity": 0.742363596514
+    },
+    {
+      "timeFraction": 0.443359375,
+      "positionFraction": 0.2870132653,
+      "normalizedVelocity": 0.743063932787
+    },
+    {
+      "timeFraction": 0.4453125,
+      "positionFraction": 0.28846523844,
+      "normalizedVelocity": 0.743755013737
+    },
+    {
+      "timeFraction": 0.447265625,
+      "positionFraction": 0.289918552249,
+      "normalizedVelocity": 0.744436766739
+    },
+    {
+      "timeFraction": 0.44921875,
+      "positionFraction": 0.291373188441,
+      "normalizedVelocity": 0.745109121914
+    },
+    {
+      "timeFraction": 0.451171875,
+      "positionFraction": 0.292829128595,
+      "normalizedVelocity": 0.745772012164
+    },
+    {
+      "timeFraction": 0.453125,
+      "positionFraction": 0.29428635416,
+      "normalizedVelocity": 0.746425373218
+    },
+    {
+      "timeFraction": 0.455078125,
+      "positionFraction": 0.295744846465,
+      "normalizedVelocity": 0.747069143668
+    },
+    {
+      "timeFraction": 0.45703125,
+      "positionFraction": 0.29720458672,
+      "normalizedVelocity": 0.747703265008
+    },
+    {
+      "timeFraction": 0.458984375,
+      "positionFraction": 0.298665556025,
+      "normalizedVelocity": 0.748327681676
+    },
+    {
+      "timeFraction": 0.4609375,
+      "positionFraction": 0.300127735374,
+      "normalizedVelocity": 0.748942341091
+    },
+    {
+      "timeFraction": 0.462890625,
+      "positionFraction": 0.301591105661,
+      "normalizedVelocity": 0.749547193694
+    },
+    {
+      "timeFraction": 0.46484375,
+      "positionFraction": 0.303055647685,
+      "normalizedVelocity": 0.750142192988
+    },
+    {
+      "timeFraction": 0.466796875,
+      "positionFraction": 0.304521342159,
+      "normalizedVelocity": 0.750727295578
+    },
+    {
+      "timeFraction": 0.46875,
+      "positionFraction": 0.305988169714,
+      "normalizedVelocity": 0.751302461209
+    },
+    {
+      "timeFraction": 0.470703125,
+      "positionFraction": 0.307456110904,
+      "normalizedVelocity": 0.751867652806
+    },
+    {
+      "timeFraction": 0.47265625,
+      "positionFraction": 0.308925146217,
+      "normalizedVelocity": 0.752422836514
+    },
+    {
+      "timeFraction": 0.474609375,
+      "positionFraction": 0.310395256074,
+      "normalizedVelocity": 0.752967981739
+    },
+    {
+      "timeFraction": 0.4765625,
+      "positionFraction": 0.311866420842,
+      "normalizedVelocity": 0.753503061184
+    },
+    {
+      "timeFraction": 0.478515625,
+      "positionFraction": 0.313338620838,
+      "normalizedVelocity": 0.754028050893
+    },
+    {
+      "timeFraction": 0.48046875,
+      "positionFraction": 0.314811836334,
+      "normalizedVelocity": 0.754542930288
+    },
+    {
+      "timeFraction": 0.482421875,
+      "positionFraction": 0.316286047566,
+      "normalizedVelocity": 0.755047682207
+    },
+    {
+      "timeFraction": 0.484375,
+      "positionFraction": 0.31776123474,
+      "normalizedVelocity": 0.755542292949
+    },
+    {
+      "timeFraction": 0.486328125,
+      "positionFraction": 0.319237378038,
+      "normalizedVelocity": 0.756026752307
+    },
+    {
+      "timeFraction": 0.48828125,
+      "positionFraction": 0.320714457628,
+      "normalizedVelocity": 0.756501053615
+    },
+    {
+      "timeFraction": 0.490234375,
+      "positionFraction": 0.322192453664,
+      "normalizedVelocity": 0.756965193779
+    },
+    {
+      "timeFraction": 0.4921875,
+      "positionFraction": 0.323671346301,
+      "normalizedVelocity": 0.757419173325
+    },
+    {
+      "timeFraction": 0.494140625,
+      "positionFraction": 0.325151115697,
+      "normalizedVelocity": 0.757862996432
+    },
+    {
+      "timeFraction": 0.49609375,
+      "positionFraction": 0.326631742023,
+      "normalizedVelocity": 0.758296670976
+    },
+    {
+      "timeFraction": 0.498046875,
+      "positionFraction": 0.328113205469,
+      "normalizedVelocity": 0.758720208567
+    },
+    {
+      "timeFraction": 0.5,
+      "positionFraction": 0.329595486248,
+      "normalizedVelocity": 0.759133624591
+    },
+    {
+      "timeFraction": 0.501953125,
+      "positionFraction": 0.331078564612,
+      "normalizedVelocity": 0.759536938248
+    },
+    {
+      "timeFraction": 0.50390625,
+      "positionFraction": 0.332562420851,
+      "normalizedVelocity": 0.75993017259
+    },
+    {
+      "timeFraction": 0.505859375,
+      "positionFraction": 0.334047035305,
+      "normalizedVelocity": 0.760313354564
+    },
+    {
+      "timeFraction": 0.5078125,
+      "positionFraction": 0.335532388368,
+      "normalizedVelocity": 0.760686515051
+    },
+    {
+      "timeFraction": 0.509765625,
+      "positionFraction": 0.337018460502,
+      "normalizedVelocity": 0.761049688903
+    },
+    {
+      "timeFraction": 0.51171875,
+      "positionFraction": 0.338505232239,
+      "normalizedVelocity": 0.761402914985
+    },
+    {
+      "timeFraction": 0.513671875,
+      "positionFraction": 0.33999268419,
+      "normalizedVelocity": 0.761746236213
+    },
+    {
+      "timeFraction": 0.515625,
+      "positionFraction": 0.341480797056,
+      "normalizedVelocity": 0.762079699597
+    },
+    {
+      "timeFraction": 0.517578125,
+      "positionFraction": 0.342969551632,
+      "normalizedVelocity": 0.762403356276
+    },
+    {
+      "timeFraction": 0.51953125,
+      "positionFraction": 0.344458928818,
+      "normalizedVelocity": 0.762717261561
+    },
+    {
+      "timeFraction": 0.521484375,
+      "positionFraction": 0.345948909625,
+      "normalizedVelocity": 0.763021474972
+    },
+    {
+      "timeFraction": 0.5234375,
+      "positionFraction": 0.347439475186,
+      "normalizedVelocity": 0.763316060281
+    },
+    {
+      "timeFraction": 0.525390625,
+      "positionFraction": 0.348930606762,
+      "normalizedVelocity": 0.763601085548
+    },
+    {
+      "timeFraction": 0.52734375,
+      "positionFraction": 0.35042228575,
+      "normalizedVelocity": 0.763876623162
+    },
+    {
+      "timeFraction": 0.529296875,
+      "positionFraction": 0.351914493694,
+      "normalizedVelocity": 0.764142749883
+    },
+    {
+      "timeFraction": 0.53125,
+      "positionFraction": 0.353407212292,
+      "normalizedVelocity": 0.764399546878
+    },
+    {
+      "timeFraction": 0.533203125,
+      "positionFraction": 0.354900423405,
+      "normalizedVelocity": 0.764647099762
+    },
+    {
+      "timeFraction": 0.53515625,
+      "positionFraction": 0.356394109066,
+      "normalizedVelocity": 0.764885498639
+    },
+    {
+      "timeFraction": 0.537109375,
+      "positionFraction": 0.357888251486,
+      "normalizedVelocity": 0.765114838138
+    },
+    {
+      "timeFraction": 0.5390625,
+      "positionFraction": 0.359382833069,
+      "normalizedVelocity": 0.765335217457
+    },
+    {
+      "timeFraction": 0.541015625,
+      "positionFraction": 0.360877836414,
+      "normalizedVelocity": 0.7655467404
+    },
+    {
+      "timeFraction": 0.54296875,
+      "positionFraction": 0.362373244328,
+      "normalizedVelocity": 0.765749515417
+    },
+    {
+      "timeFraction": 0.544921875,
+      "positionFraction": 0.363869039836,
+      "normalizedVelocity": 0.765943655644
+    },
+    {
+      "timeFraction": 0.546875,
+      "positionFraction": 0.365365206188,
+      "normalizedVelocity": 0.766129278943
+    },
+    {
+      "timeFraction": 0.548828125,
+      "positionFraction": 0.366861726867,
+      "normalizedVelocity": 0.76630650794
+    },
+    {
+      "timeFraction": 0.55078125,
+      "positionFraction": 0.368358585602,
+      "normalizedVelocity": 0.766475470066
+    },
+    {
+      "timeFraction": 0.552734375,
+      "positionFraction": 0.369855766376,
+      "normalizedVelocity": 0.766636297596
+    },
+    {
+      "timeFraction": 0.5546875,
+      "positionFraction": 0.371353253433,
+      "normalizedVelocity": 0.76678912769
+    },
+    {
+      "timeFraction": 0.556640625,
+      "positionFraction": 0.372851031292,
+      "normalizedVelocity": 0.766934102431
+    },
+    {
+      "timeFraction": 0.55859375,
+      "positionFraction": 0.374349084752,
+      "normalizedVelocity": 0.767071368863
+    },
+    {
+      "timeFraction": 0.560546875,
+      "positionFraction": 0.375847398907,
+      "normalizedVelocity": 0.767201079037
+    },
+    {
+      "timeFraction": 0.5625,
+      "positionFraction": 0.37734595915,
+      "normalizedVelocity": 0.767323390043
+    },
+    {
+      "timeFraction": 0.564453125,
+      "positionFraction": 0.378844751188,
+      "normalizedVelocity": 0.767438464054
+    },
+    {
+      "timeFraction": 0.56640625,
+      "positionFraction": 0.380343761047,
+      "normalizedVelocity": 0.767546468365
+    },
+    {
+      "timeFraction": 0.568359375,
+      "positionFraction": 0.381842975089,
+      "normalizedVelocity": 0.767647575431
+    },
+    {
+      "timeFraction": 0.5703125,
+      "positionFraction": 0.383342380014,
+      "normalizedVelocity": 0.767741962909
+    },
+    {
+      "timeFraction": 0.572265625,
+      "positionFraction": 0.384841962876,
+      "normalizedVelocity": 0.767829813696
+    },
+    {
+      "timeFraction": 0.57421875,
+      "positionFraction": 0.386341711091,
+      "normalizedVelocity": 0.767911315969
+    },
+    {
+      "timeFraction": 0.576171875,
+      "positionFraction": 0.387841612447,
+      "normalizedVelocity": 0.767986663224
+    },
+    {
+      "timeFraction": 0.578125,
+      "positionFraction": 0.389341655116,
+      "normalizedVelocity": 0.768056054319
+    },
+    {
+      "timeFraction": 0.580078125,
+      "positionFraction": 0.390841827664,
+      "normalizedVelocity": 0.768119693508
+    },
+    {
+      "timeFraction": 0.58203125,
+      "positionFraction": 0.39234211906,
+      "normalizedVelocity": 0.768177790484
+    },
+    {
+      "timeFraction": 0.583984375,
+      "positionFraction": 0.39384251869,
+      "normalizedVelocity": 0.768230560418
+    },
+    {
+      "timeFraction": 0.5859375,
+      "positionFraction": 0.395343016362,
+      "normalizedVelocity": 0.768278224002
+    },
+    {
+      "timeFraction": 0.587890625,
+      "positionFraction": 0.396843602325,
+      "normalizedVelocity": 0.76832100748
+    },
+    {
+      "timeFraction": 0.58984375,
+      "positionFraction": 0.398344267272,
+      "normalizedVelocity": 0.768359142697
+    },
+    {
+      "timeFraction": 0.591796875,
+      "positionFraction": 0.399845002354,
+      "normalizedVelocity": 0.768392867133
+    },
+    {
+      "timeFraction": 0.59375,
+      "positionFraction": 0.401345799195,
+      "normalizedVelocity": 0.768422423944
+    },
+    {
+      "timeFraction": 0.595703125,
+      "positionFraction": 0.402846649897,
+      "normalizedVelocity": 0.768448062004
+    },
+    {
+      "timeFraction": 0.59765625,
+      "positionFraction": 0.404347547052,
+      "normalizedVelocity": 0.76847003594
+    },
+    {
+      "timeFraction": 0.599609375,
+      "positionFraction": 0.405848483758,
+      "normalizedVelocity": 0.768488606174
+    },
+    {
+      "timeFraction": 0.6015625,
+      "positionFraction": 0.407349453627,
+      "normalizedVelocity": 0.768504038964
+    },
+    {
+      "timeFraction": 0.603515625,
+      "positionFraction": 0.408850450795,
+      "normalizedVelocity": 0.768516606443
+    },
+    {
+      "timeFraction": 0.60546875,
+      "positionFraction": 0.410351469936,
+      "normalizedVelocity": 0.768526586656
+    },
+    {
+      "timeFraction": 0.607421875,
+      "positionFraction": 0.411852506275,
+      "normalizedVelocity": 0.768534263602
+    },
+    {
+      "timeFraction": 0.609375,
+      "positionFraction": 0.413353555593,
+      "normalizedVelocity": 0.768539927274
+    },
+    {
+      "timeFraction": 0.611328125,
+      "positionFraction": 0.414854614247,
+      "normalizedVelocity": 0.768543873696
+    },
+    {
+      "timeFraction": 0.61328125,
+      "positionFraction": 0.416355679178,
+      "normalizedVelocity": 0.768546404968
+    },
+    {
+      "timeFraction": 0.615234375,
+      "positionFraction": 0.417856747921,
+      "normalizedVelocity": 0.768547829297
+    },
+    {
+      "timeFraction": 0.6171875,
+      "positionFraction": 0.41935781862,
+      "normalizedVelocity": 0.768548461046
+    },
+    {
+      "timeFraction": 0.619140625,
+      "positionFraction": 0.420858890039,
+      "normalizedVelocity": 0.768548620767
+    },
+    {
+      "timeFraction": 0.62,
+      "positionFraction": 0.421519361513,
+      "normalizedVelocity": 0.76854862548
+    },
+    {
+      "timeFraction": 0.62109375,
+      "positionFraction": 0.422359961936,
+      "normalizedVelocity": 0.768549951088
+    },
+    {
+      "timeFraction": 0.623046875,
+      "positionFraction": 0.423861054744,
+      "normalizedVelocity": 0.768576917088
+    },
+    {
+      "timeFraction": 0.625,
+      "positionFraction": 0.425362259947,
+      "normalizedVelocity": 0.768672050514
+    },
+    {
+      "timeFraction": 0.626953125,
+      "positionFraction": 0.426863751007,
+      "normalizedVelocity": 0.7688762671
+    },
+    {
+      "timeFraction": 0.62890625,
+      "positionFraction": 0.428365779121,
+      "normalizedVelocity": 0.769228259506
+    },
+    {
+      "timeFraction": 0.630859375,
+      "positionFraction": 0.429868668919,
+      "normalizedVelocity": 0.769764536794
+    },
+    {
+      "timeFraction": 0.6328125,
+      "positionFraction": 0.431372814238,
+      "normalizedVelocity": 0.770519463899
+    },
+    {
+      "timeFraction": 0.634765625,
+      "positionFraction": 0.432878673973,
+      "normalizedVelocity": 0.771525301099
+    },
+    {
+      "timeFraction": 0.63671875,
+      "positionFraction": 0.434386768001,
+      "normalizedVelocity": 0.772812243492
+    },
+    {
+      "timeFraction": 0.638671875,
+      "positionFraction": 0.435897673193,
+      "normalizedVelocity": 0.774408460462
+    },
+    {
+      "timeFraction": 0.640625,
+      "positionFraction": 0.437412019489,
+      "normalizedVelocity": 0.776340135157
+    },
+    {
+      "timeFraction": 0.642578125,
+      "positionFraction": 0.438930486063,
+      "normalizedVelocity": 0.778631503956
+    },
+    {
+      "timeFraction": 0.64453125,
+      "positionFraction": 0.440453797555,
+      "normalizedVelocity": 0.781304895946
+    },
+    {
+      "timeFraction": 0.646484375,
+      "positionFraction": 0.441982720386,
+      "normalizedVelocity": 0.784380772389
+    },
+    {
+      "timeFraction": 0.6484375,
+      "positionFraction": 0.443518059151,
+      "normalizedVelocity": 0.7878777662
+    },
+    {
+      "timeFraction": 0.650390625,
+      "positionFraction": 0.44506065308,
+      "normalizedVelocity": 0.791812721414
+    },
+    {
+      "timeFraction": 0.65234375,
+      "positionFraction": 0.446611372589,
+      "normalizedVelocity": 0.796200732662
+    },
+    {
+      "timeFraction": 0.654296875,
+      "positionFraction": 0.4481711159,
+      "normalizedVelocity": 0.801055184638
+    },
+    {
+      "timeFraction": 0.65625,
+      "positionFraction": 0.449740805738,
+      "normalizedVelocity": 0.806387791579
+    },
+    {
+      "timeFraction": 0.658203125,
+      "positionFraction": 0.451321386109,
+      "normalizedVelocity": 0.812208636729
+    },
+    {
+      "timeFraction": 0.66015625,
+      "positionFraction": 0.452913819151,
+      "normalizedVelocity": 0.818526211816
+    },
+    {
+      "timeFraction": 0.662109375,
+      "positionFraction": 0.454519082067,
+      "normalizedVelocity": 0.825347456525
+    },
+    {
+      "timeFraction": 0.6640625,
+      "positionFraction": 0.456138164128,
+      "normalizedVelocity": 0.832677797964
+    },
+    {
+      "timeFraction": 0.666015625,
+      "positionFraction": 0.457772063764,
+      "normalizedVelocity": 0.840521190145
+    },
+    {
+      "timeFraction": 0.66796875,
+      "positionFraction": 0.459421785716,
+      "normalizedVelocity": 0.848880153448
+    },
+    {
+      "timeFraction": 0.669921875,
+      "positionFraction": 0.461088338284,
+      "normalizedVelocity": 0.857755814097
+    },
+    {
+      "timeFraction": 0.671875,
+      "positionFraction": 0.462772730636,
+      "normalizedVelocity": 0.867147943634
+    },
+    {
+      "timeFraction": 0.673828125,
+      "positionFraction": 0.464475970204,
+      "normalizedVelocity": 0.877054998386
+    },
+    {
+      "timeFraction": 0.67578125,
+      "positionFraction": 0.466199060153,
+      "normalizedVelocity": 0.887474158942
+    },
+    {
+      "timeFraction": 0.677734375,
+      "positionFraction": 0.467942996925,
+      "normalizedVelocity": 0.898401369623
+    },
+    {
+      "timeFraction": 0.6796875,
+      "positionFraction": 0.46970876787,
+      "normalizedVelocity": 0.909831377953
+    },
+    {
+      "timeFraction": 0.681640625,
+      "positionFraction": 0.471497348939,
+      "normalizedVelocity": 0.921757774134
+    },
+    {
+      "timeFraction": 0.68359375,
+      "positionFraction": 0.473309702467,
+      "normalizedVelocity": 0.934173030516
+    },
+    {
+      "timeFraction": 0.685546875,
+      "positionFraction": 0.475146775027,
+      "normalizedVelocity": 0.94706854107
+    },
+    {
+      "timeFraction": 0.6875,
+      "positionFraction": 0.477009495363,
+      "normalizedVelocity": 0.96043466086
+    },
+    {
+      "timeFraction": 0.689453125,
+      "positionFraction": 0.478898772398,
+      "normalizedVelocity": 0.974260745515
+    },
+    {
+      "timeFraction": 0.69140625,
+      "positionFraction": 0.480815493322,
+      "normalizedVelocity": 0.988535190701
+    },
+    {
+      "timeFraction": 0.693359375,
+      "positionFraction": 0.482760521753,
+      "normalizedVelocity": 1.003245471593
+    },
+    {
+      "timeFraction": 0.6953125,
+      "positionFraction": 0.484734695983,
+      "normalizedVelocity": 1.01837818235
+    },
+    {
+      "timeFraction": 0.697265625,
+      "positionFraction": 0.486738827289,
+      "normalizedVelocity": 1.033919075581
+    },
+    {
+      "timeFraction": 0.69921875,
+      "positionFraction": 0.488773698335,
+      "normalizedVelocity": 1.049853101824
+    },
+    {
+      "timeFraction": 0.701171875,
+      "positionFraction": 0.490840061636,
+      "normalizedVelocity": 1.066164449014
+    },
+    {
+      "timeFraction": 0.703125,
+      "positionFraction": 0.492938638115,
+      "normalizedVelocity": 1.082836581956
+    },
+    {
+      "timeFraction": 0.705078125,
+      "positionFraction": 0.495070115724,
+      "normalizedVelocity": 1.099852281796
+    },
+    {
+      "timeFraction": 0.70703125,
+      "positionFraction": 0.497235148151,
+      "normalizedVelocity": 1.117193685498
+    },
+    {
+      "timeFraction": 0.708984375,
+      "positionFraction": 0.499434353594,
+      "normalizedVelocity": 1.134842325308
+    },
+    {
+      "timeFraction": 0.7109375,
+      "positionFraction": 0.501668313628,
+      "normalizedVelocity": 1.152779168236
+    },
+    {
+      "timeFraction": 0.712890625,
+      "positionFraction": 0.503937572129,
+      "normalizedVelocity": 1.170984655518
+    },
+    {
+      "timeFraction": 0.71484375,
+      "positionFraction": 0.506242634296,
+      "normalizedVelocity": 1.189438742096
+    },
+    {
+      "timeFraction": 0.716796875,
+      "positionFraction": 0.508583965732,
+      "normalizedVelocity": 1.208120936087
+    },
+    {
+      "timeFraction": 0.71875,
+      "positionFraction": 0.510961991612,
+      "normalizedVelocity": 1.227010338254
+    },
+    {
+      "timeFraction": 0.720703125,
+      "positionFraction": 0.513377095928,
+      "normalizedVelocity": 1.246085681481
+    },
+    {
+      "timeFraction": 0.72265625,
+      "positionFraction": 0.515829620807,
+      "normalizedVelocity": 1.265325370243
+    },
+    {
+      "timeFraction": 0.724609375,
+      "positionFraction": 0.518319865909,
+      "normalizedVelocity": 1.284707520079
+    },
+    {
+      "timeFraction": 0.7265625,
+      "positionFraction": 0.5208480879,
+      "normalizedVelocity": 1.304209997064
+    },
+    {
+      "timeFraction": 0.728515625,
+      "positionFraction": 0.523414500005,
+      "normalizedVelocity": 1.323810457282
+    },
+    {
+      "timeFraction": 0.73046875,
+      "positionFraction": 0.526019271635,
+      "normalizedVelocity": 1.343486386295
+    },
+    {
+      "timeFraction": 0.732421875,
+      "positionFraction": 0.528662528094,
+      "normalizedVelocity": 1.36321513862
+    },
+    {
+      "timeFraction": 0.734375,
+      "positionFraction": 0.531344350359,
+      "normalizedVelocity": 1.382973977197
+    },
+    {
+      "timeFraction": 0.736328125,
+      "positionFraction": 0.534064774943,
+      "normalizedVelocity": 1.402740112863
+    },
+    {
+      "timeFraction": 0.73828125,
+      "positionFraction": 0.53682379383,
+      "normalizedVelocity": 1.422490743825
+    },
+    {
+      "timeFraction": 0.740234375,
+      "positionFraction": 0.539621354488,
+      "normalizedVelocity": 1.442203095129
+    },
+    {
+      "timeFraction": 0.7421875,
+      "positionFraction": 0.542457359962,
+      "normalizedVelocity": 1.461854458137
+    },
+    {
+      "timeFraction": 0.744140625,
+      "positionFraction": 0.545331669041,
+      "normalizedVelocity": 1.481422229994
+    },
+    {
+      "timeFraction": 0.74609375,
+      "positionFraction": 0.548244096502,
+      "normalizedVelocity": 1.500883953103
+    },
+    {
+      "timeFraction": 0.748046875,
+      "positionFraction": 0.551194413435,
+      "normalizedVelocity": 1.520217354598
+    },
+    {
+      "timeFraction": 0.75,
+      "positionFraction": 0.55418234764,
+      "normalizedVelocity": 1.539400385814
+    },
+    {
+      "timeFraction": 0.751953125,
+      "positionFraction": 0.557207584105,
+      "normalizedVelocity": 1.558411261758
+    },
+    {
+      "timeFraction": 0.75390625,
+      "positionFraction": 0.560269765558,
+      "normalizedVelocity": 1.577228500586
+    },
+    {
+      "timeFraction": 0.755859375,
+      "positionFraction": 0.563368493099,
+      "normalizedVelocity": 1.595830963072
+    },
+    {
+      "timeFraction": 0.7578125,
+      "positionFraction": 0.566503326906,
+      "normalizedVelocity": 1.614197892079
+    },
+    {
+      "timeFraction": 0.759765625,
+      "positionFraction": 0.569673787024,
+      "normalizedVelocity": 1.632308952033
+    },
+    {
+      "timeFraction": 0.76171875,
+      "positionFraction": 0.572879354219,
+      "normalizedVelocity": 1.650144268395
+    },
+    {
+      "timeFraction": 0.763671875,
+      "positionFraction": 0.576119470926,
+      "normalizedVelocity": 1.667684467133
+    },
+    {
+      "timeFraction": 0.765625,
+      "positionFraction": 0.57939354226,
+      "normalizedVelocity": 1.684910714194
+    },
+    {
+      "timeFraction": 0.767578125,
+      "positionFraction": 0.58270093711,
+      "normalizedVelocity": 1.701804754976
+    },
+    {
+      "timeFraction": 0.76953125,
+      "positionFraction": 0.586040989309,
+      "normalizedVelocity": 1.718348953801
+    },
+    {
+      "timeFraction": 0.771484375,
+      "positionFraction": 0.589412998881,
+      "normalizedVelocity": 1.734526333385
+    },
+    {
+      "timeFraction": 0.7734375,
+      "positionFraction": 0.592816233369,
+      "normalizedVelocity": 1.750320614313
+    },
+    {
+      "timeFraction": 0.775390625,
+      "positionFraction": 0.596249929232,
+      "normalizedVelocity": 1.765716254509
+    },
+    {
+      "timeFraction": 0.77734375,
+      "positionFraction": 0.599713293326,
+      "normalizedVelocity": 1.78069848871
+    },
+    {
+      "timeFraction": 0.779296875,
+      "positionFraction": 0.603205504459,
+      "normalizedVelocity": 1.795253367936
+    },
+    {
+      "timeFraction": 0.78125,
+      "positionFraction": 0.606725715025,
+      "normalizedVelocity": 1.809367798964
+    },
+    {
+      "timeFraction": 0.783203125,
+      "positionFraction": 0.610273052712,
+      "normalizedVelocity": 1.823029583798
+    },
+    {
+      "timeFraction": 0.78515625,
+      "positionFraction": 0.613846622291,
+      "normalizedVelocity": 1.836227459146
+    },
+    {
+      "timeFraction": 0.787109375,
+      "positionFraction": 0.617445507479,
+      "normalizedVelocity": 1.848951135884
+    },
+    {
+      "timeFraction": 0.7890625,
+      "positionFraction": 0.621068772881,
+      "normalizedVelocity": 1.861191338536
+    },
+    {
+      "timeFraction": 0.791015625,
+      "positionFraction": 0.624715466007,
+      "normalizedVelocity": 1.872939844743
+    },
+    {
+      "timeFraction": 0.79296875,
+      "positionFraction": 0.628384619368,
+      "normalizedVelocity": 1.884189524733
+    },
+    {
+      "timeFraction": 0.794921875,
+      "positionFraction": 0.632075252651,
+      "normalizedVelocity": 1.894934380798
+    },
+    {
+      "timeFraction": 0.796875,
+      "positionFraction": 0.635786374964,
+      "normalizedVelocity": 1.905169586761
+    },
+    {
+      "timeFraction": 0.798828125,
+      "positionFraction": 0.639516987165,
+      "normalizedVelocity": 1.914891527453
+    },
+    {
+      "timeFraction": 0.80078125,
+      "positionFraction": 0.643266084268,
+      "normalizedVelocity": 1.92409783818
+    },
+    {
+      "timeFraction": 0.802734375,
+      "positionFraction": 0.64703265792,
+      "normalizedVelocity": 1.932787444202
+    },
+    {
+      "timeFraction": 0.8046875,
+      "positionFraction": 0.650815698962,
+      "normalizedVelocity": 1.940960600196
+    },
+    {
+      "timeFraction": 0.806640625,
+      "positionFraction": 0.654614200061,
+      "normalizedVelocity": 1.948618929737
+    },
+    {
+      "timeFraction": 0.80859375,
+      "positionFraction": 0.658427158425,
+      "normalizedVelocity": 1.955765464766
+    },
+    {
+      "timeFraction": 0.810546875,
+      "positionFraction": 0.662253578592,
+      "normalizedVelocity": 1.96240468506
+    },
+    {
+      "timeFraction": 0.8125,
+      "positionFraction": 0.666092475295,
+      "normalizedVelocity": 1.96854255771
+    },
+    {
+      "timeFraction": 0.814453125,
+      "positionFraction": 0.669942876405,
+      "normalizedVelocity": 1.974186576587
+    },
+    {
+      "timeFraction": 0.81640625,
+      "positionFraction": 0.673803825954,
+      "normalizedVelocity": 1.979345801819
+    },
+    {
+      "timeFraction": 0.818359375,
+      "positionFraction": 0.677674387231,
+      "normalizedVelocity": 1.98403089926
+    },
+    {
+      "timeFraction": 0.8203125,
+      "positionFraction": 0.681553645956,
+      "normalizedVelocity": 1.988254179964
+    },
+    {
+      "timeFraction": 0.822265625,
+      "positionFraction": 0.685440713534,
+      "normalizedVelocity": 1.992029639656
+    },
+    {
+      "timeFraction": 0.82421875,
+      "positionFraction": 0.689334730382,
+      "normalizedVelocity": 1.995372998205
+    },
+    {
+      "timeFraction": 0.826171875,
+      "positionFraction": 0.693234869335,
+      "normalizedVelocity": 1.998301739095
+    },
+    {
+      "timeFraction": 0.828125,
+      "positionFraction": 0.697140339133,
+      "normalizedVelocity": 2.000835148898
+    },
+    {
+      "timeFraction": 0.830078125,
+      "positionFraction": 0.701050387974,
+      "normalizedVelocity": 2.002994356747
+    },
+    {
+      "timeFraction": 0.83203125,
+      "positionFraction": 0.704964307157,
+      "normalizedVelocity": 2.004802373807
+    },
+    {
+      "timeFraction": 0.833984375,
+      "positionFraction": 0.708881434796,
+      "normalizedVelocity": 2.006284132747
+    },
+    {
+      "timeFraction": 0.8359375,
+      "positionFraction": 0.712801159609,
+      "normalizedVelocity": 2.007466527212
+    },
+    {
+      "timeFraction": 0.837890625,
+      "positionFraction": 0.716722924787,
+      "normalizedVelocity": 2.008378451296
+    },
+    {
+      "timeFraction": 0.83984375,
+      "positionFraction": 0.720646231941,
+      "normalizedVelocity": 2.009050839014
+    },
+    {
+      "timeFraction": 0.841796875,
+      "positionFraction": 0.724570645125,
+      "normalizedVelocity": 2.009516703775
+    },
+    {
+      "timeFraction": 0.84375,
+      "positionFraction": 0.728495794936,
+      "normalizedVelocity": 2.00981117785
+    },
+    {
+      "timeFraction": 0.845703125,
+      "positionFraction": 0.732421382686,
+      "normalizedVelocity": 2.009971551852
+    },
+    {
+      "timeFraction": 0.84765625,
+      "positionFraction": 0.736347184665,
+      "normalizedVelocity": 2.010037314198
+    },
+    {
+      "timeFraction": 0.849609375,
+      "positionFraction": 0.740273056465,
+      "normalizedVelocity": 2.010050190591
+    },
+    {
+      "timeFraction": 0.85,
+      "positionFraction": 0.741058232338,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.8515625,
+      "positionFraction": 0.744198935856,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.853515625,
+      "positionFraction": 0.748124815253,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.85546875,
+      "positionFraction": 0.75205069465,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.857421875,
+      "positionFraction": 0.755976574047,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.859375,
+      "positionFraction": 0.759902453444,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.861328125,
+      "positionFraction": 0.763828332841,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.86328125,
+      "positionFraction": 0.767754212238,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.865234375,
+      "positionFraction": 0.771680091635,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.8671875,
+      "positionFraction": 0.775605971032,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.869140625,
+      "positionFraction": 0.779531850429,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.87109375,
+      "positionFraction": 0.783457729826,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.873046875,
+      "positionFraction": 0.787383609223,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.875,
+      "positionFraction": 0.79130948862,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.876953125,
+      "positionFraction": 0.795235368017,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.87890625,
+      "positionFraction": 0.799161247414,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.880859375,
+      "positionFraction": 0.803087126811,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.8828125,
+      "positionFraction": 0.807013006208,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.884765625,
+      "positionFraction": 0.810938885604,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.88671875,
+      "positionFraction": 0.814864765001,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.888671875,
+      "positionFraction": 0.818790644398,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.890625,
+      "positionFraction": 0.822716523795,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.892578125,
+      "positionFraction": 0.826642403192,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.89453125,
+      "positionFraction": 0.830568282589,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.896484375,
+      "positionFraction": 0.834494161986,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.8984375,
+      "positionFraction": 0.838420041383,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.900390625,
+      "positionFraction": 0.84234592078,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.90234375,
+      "positionFraction": 0.846271800177,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.904296875,
+      "positionFraction": 0.850197679574,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.90625,
+      "positionFraction": 0.854123558971,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.908203125,
+      "positionFraction": 0.858049438368,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.91015625,
+      "positionFraction": 0.861975317765,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.912109375,
+      "positionFraction": 0.865901197162,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.9140625,
+      "positionFraction": 0.869827076559,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.916015625,
+      "positionFraction": 0.873752955956,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.91796875,
+      "positionFraction": 0.877678835353,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.919921875,
+      "positionFraction": 0.88160471475,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.921875,
+      "positionFraction": 0.885530594147,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.923828125,
+      "positionFraction": 0.889456473544,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.92578125,
+      "positionFraction": 0.893382352941,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.927734375,
+      "positionFraction": 0.897308232338,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.9296875,
+      "positionFraction": 0.901234111735,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.931640625,
+      "positionFraction": 0.905159991132,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.93359375,
+      "positionFraction": 0.909085870529,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.935546875,
+      "positionFraction": 0.913011749926,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.9375,
+      "positionFraction": 0.916937629323,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.939453125,
+      "positionFraction": 0.92086350872,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.94,
+      "positionFraction": 0.921962754951,
+      "normalizedVelocity": 2.010050251256
+    },
+    {
+      "timeFraction": 0.94140625,
+      "positionFraction": 0.924789325688,
+      "normalizedVelocity": 2.009873940661
+    },
+    {
+      "timeFraction": 0.943359375,
+      "positionFraction": 0.928713313907,
+      "normalizedVelocity": 2.007764364708
+    },
+    {
+      "timeFraction": 0.9453125,
+      "positionFraction": 0.932629415279,
+      "normalizedVelocity": 2.001463188243
+    },
+    {
+      "timeFraction": 0.947265625,
+      "positionFraction": 0.936527644557,
+      "normalizedVelocity": 1.989210492568
+    },
+    {
+      "timeFraction": 0.94921875,
+      "positionFraction": 0.940395046137,
+      "normalizedVelocity": 1.969718327201
+    },
+    {
+      "timeFraction": 0.951171875,
+      "positionFraction": 0.944216579406,
+      "normalizedVelocity": 1.94213337062
+    },
+    {
+      "timeFraction": 0.953125,
+      "positionFraction": 0.947975931164,
+      "normalizedVelocity": 1.905999591003
+    },
+    {
+      "timeFraction": 0.955078125,
+      "positionFraction": 0.951656255115,
+      "normalizedVelocity": 1.861220906973
+    },
+    {
+      "timeFraction": 0.95703125,
+      "positionFraction": 0.955240838429,
+      "normalizedVelocity": 1.808023848338
+    },
+    {
+      "timeFraction": 0.958984375,
+      "positionFraction": 0.958713695383,
+      "normalizedVelocity": 1.746920216835
+    },
+    {
+      "timeFraction": 0.9609375,
+      "positionFraction": 0.962060088066,
+      "normalizedVelocity": 1.67866974687
+    },
+    {
+      "timeFraction": 0.962890625,
+      "positionFraction": 0.965266974156,
+      "normalizedVelocity": 1.604242766264
+    },
+    {
+      "timeFraction": 0.96484375,
+      "positionFraction": 0.968323381776,
+      "normalizedVelocity": 1.524782856993
+    },
+    {
+      "timeFraction": 0.966796875,
+      "positionFraction": 0.971220711412,
+      "normalizedVelocity": 1.44156951593
+    },
+    {
+      "timeFraction": 0.96875,
+      "positionFraction": 0.973952964911,
+      "normalizedVelocity": 1.355980815589
+    },
+    {
+      "timeFraction": 0.970703125,
+      "positionFraction": 0.976516901546,
+      "normalizedVelocity": 1.269456064867
+    },
+    {
+      "timeFraction": 0.97265625,
+      "positionFraction": 0.978912121156,
+      "normalizedVelocity": 1.183458469784
+    },
+    {
+      "timeFraction": 0.974609375,
+      "positionFraction": 0.981141074353,
+      "normalizedVelocity": 1.099437794228
+    },
+    {
+      "timeFraction": 0.9765625,
+      "positionFraction": 0.983208999805,
+      "normalizedVelocity": 1.018793020698
+    },
+    {
+      "timeFraction": 0.978515625,
+      "positionFraction": 0.985123788591,
+      "normalizedVelocity": 0.942835011044
+    },
+    {
+      "timeFraction": 0.98046875,
+      "positionFraction": 0.986895775625,
+      "normalizedVelocity": 0.872749167209
+    },
+    {
+      "timeFraction": 0.982421875,
+      "positionFraction": 0.988537458151,
+      "normalizedVelocity": 0.809558091975
+    },
+    {
+      "timeFraction": 0.984375,
+      "positionFraction": 0.990063141315,
+      "normalizedVelocity": 0.754084249702
+    },
+    {
+      "timeFraction": 0.986328125,
+      "positionFraction": 0.991488510806,
+      "normalizedVelocity": 0.706912627072
+    },
+    {
+      "timeFraction": 0.98828125,
+      "positionFraction": 0.992830132563,
+      "normalizedVelocity": 0.668353393829
+    },
+    {
+      "timeFraction": 0.990234375,
+      "positionFraction": 0.994104879566,
+      "normalizedVelocity": 0.638404563526
+    },
+    {
+      "timeFraction": 0.9921875,
+      "positionFraction": 0.995329285686,
+      "normalizedVelocity": 0.616714654262
+    },
+    {
+      "timeFraction": 0.994140625,
+      "positionFraction": 0.996518826616,
+      "normalizedVelocity": 0.602545349428
+    },
+    {
+      "timeFraction": 0.99609375,
+      "positionFraction": 0.99768712787,
+      "normalizedVelocity": 0.594734158448
+    },
+    {
+      "timeFraction": 0.998046875,
+      "positionFraction": 0.998845099851,
+      "normalizedVelocity": 0.591657077523
+    },
+    {
+      "timeFraction": 1,
+      "positionFraction": 1,
+      "normalizedVelocity": 0.591191250369
+    }
+  ],
+  "interpolation": "piecewise-linear-position",
+  "numericWitness": {
+    "sampleCount": 516,
+    "minSlope": 0.591191264256,
+    "maxSlope": 2.01005025152,
+    "maxPositionResidual": 0.00002113167,
+    "maxVelocitySlopeResidual": 0.000361507384,
+    "normalizedIntegral": 1.6915,
+    "seamVelocityDifference": 0
+  },
+  "witnessDigest": "a3764d0c95c8694caab6b44e98e86216d996f23a652ee3535b0344ffcf18b4c3",
+  "admission": "CANDIDATE",
+  "contentSha256": "4e8e198a80951add73cb69439cb47b493ed0f205be936f911689a17a2b9e896b"
+}

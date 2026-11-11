@@ -1,0 +1,405 @@
+--- a/wrangler.toml
++++ b/wrangler.toml
+@@ -8,10 +8,8 @@
+ directory = ".output/public"
+ binding = "ASSETS"
+ 
+-[[services]]
+-binding = "SMD_CORE"
+-service = "smd-core"
+-entrypoint = "PublicSurface"
++[vars]
++NUXT_PUBLIC_CONTENT_MODE = "standalone"
+ 
+ [observability]
+ enabled = true
+--- a/HERO_FILM_CF1_CF3.md
++++ b/HERO_FILM_CF1_CF3.md
+@@ -0,0 +1,35 @@
++# Hero film CF1–CF3
++
++Existing `/` layout binding only; no new page or route. No CF4 rolling timeline, autoplay, GPU focus or LUT is implemented in this delivery.
++
++## Changes
++- Explicit `runtimeConfig.public.contentMode`: standalone by default. CMS mode retains the original render envelope/identity validation. No automatic fallback and no fabricated publication.
++- Home renders its existing scene/semantic layout without CMS. Other CMS-dependent routes display a connection-pending state; privacy retains its static path. Footer contacts are unavailable rather than fabricated. Original CMS schema/server adapters remain.
++- Default wrangler config has ASSETS and no SMD_CORE. `wrangler.cms.toml` retains PublicSurface and sets mode=cms. Neither configuration was deployed. Original worker name `smd-web` is retained; verify deployment target before using it (user screenshot was smd-aca-pu).
++- Only top hero receives HomeHeroFilm. Frozen generated scene/text bytes untouched. Only hero background asset node-1:5 is suppressed in presentation. Hero CSS white; other sections unchanged.
++- Three original PNGs copied byte-for-byte with filenames preserved. No image editing, recompression or invented content.
++- Two slots below 2400 CSS container px; three at/above 2400; below 700 one 85%-width slot plus peek. 2400 is a local film breakpoint, not an existing global token.
++- contain sizing + actual DPR pixel ceiling. Existing hero outer geometry/sticky and intro timing preserved. White text is unchanged; contrast over white gaps is NOT visually qualified.
++- CF3 provides native horizontal overflow only; no new wheel handler or intro ownership changes. The existing intro may consume desktop wheel during its reveal. CF4 input arbitration remains pending.
++
++## Run
++```sh
++npm ci
++npm run typecheck
++npm run build
++npm run test:source
++node --experimental-strip-types --test scripts/tests/home-layout-r1.test.mjs scripts/tests/hero-film-cf1-cf3.test.mjs
++npm run dev
++```
++Browser qualification (Playwright + installed Chromium required):
++```sh
++node scripts/verify-hero-film-browser.mjs
++```
++CMS reconnection: set NUXT_PUBLIC_CONTENT_MODE=cms for development/build as appropriate, restore an actual SMD_CORE PublicSurface binding using wrangler.cms.toml, and validate genuine publication responses. No local contact data is substituted.
++
++## Evidence
++Typecheck/build and targeted tests are recorded under artifacts/hero-film-cf1-cf3. Browser verification did not run successfully: this host reported uv_interface_addresses errors; Chromium was absent and browser download failed. A temporary host-only network-interface shim was attempted and is not part of delivered product source.
++
++Old scripts/tests/cf03-interaction.test.mjs: 15 failures reproduced on the unmodified uploaded baseline (14 pass / 15 fail); same failures after this change. These historical tests were not rewritten to claim a clean full suite.
++
++No physical display, browser layout, hydration, Cloudflare deployment or performance PASS is claimed.
+--- a/nuxt.config.ts
++++ b/nuxt.config.ts
+@@ -19,7 +19,7 @@
+       ]
+     }
+   },
+-  runtimeConfig: { public: { turnstileSiteKey: process.env.NUXT_PUBLIC_TURNSTILE_SITE_KEY || '', privacyRevision: process.env.NUXT_PUBLIC_PRIVACY_REVISION || '', siteOrigin: process.env.NUXT_PUBLIC_SITE_ORIGIN || '' } },
++  runtimeConfig: { public: { contentMode: 'standalone', turnstileSiteKey: process.env.NUXT_PUBLIC_TURNSTILE_SITE_KEY || '', privacyRevision: process.env.NUXT_PUBLIC_PRIVACY_REVISION || '', siteOrigin: process.env.NUXT_PUBLIC_SITE_ORIGIN || '' } },
+   routeRules: {
+     '/api/inquiries': { headers: { 'cache-control': 'no-store' } },
+     '/api/bot/**': { headers: { 'cache-control': 'no-store' } }
+--- a/wrangler.cms.toml
++++ b/wrangler.cms.toml
+@@ -0,0 +1,20 @@
++name = "smd-web"
++main = ".output/server/index.mjs"
++compatibility_date = "2026-10-12"
++compatibility_flags = ["nodejs_compat"]
++workers_dev = true
++
++[assets]
++directory = ".output/public"
++binding = "ASSETS"
++
++[[services]]
++binding = "SMD_CORE"
++service = "smd-core"
++entrypoint = "PublicSurface"
++
++[observability]
++enabled = true
++
++[vars]
++NUXT_PUBLIC_CONTENT_MODE = "cms"
+--- a/app/app.vue
++++ b/app/app.vue
+@@ -8,6 +8,7 @@
+ } from '~/utils/homeR2ScaffoldAdmission';
+ 
+ const route = useRoute();
++const standalone = useContentMode() === 'standalone';
+ const requestEvent = import.meta.server ? useRequestEvent() : undefined;
+ const isStatic = computed(() => route.path === '/privacy');
+ const content = useSiteContent();
+@@ -22,6 +23,7 @@
+ });
+ type RootResult =
+   | { mode: 'static'; path: string }
++  | { mode: 'standalone'; path: string }
+   | { mode: 'public'; path: string; render: PublicRenderResult }
+   | { mode: 'redirect'; path: string; to: string }
+   | ScaffoldAdmission;
+@@ -31,6 +33,7 @@
+   if (path === '/admin' || path.startsWith('/admin/'))
+     throw createError({ statusCode: 404, statusMessage: 'PUBLIC_ADMIN_ROUTE_NOT_FOUND' });
+   if (path === '/privacy') return { mode: 'static', path };
++  if (standalone) return { mode: 'standalone', path };
+ 
+   const scaffold = resolveHomeScaffoldPath(path);
+   // A scaffold never fabricates a selected CMS page: its shared data is the *real* home publication.
+@@ -121,6 +124,7 @@
+   if (isStatic.value) return true;
+   const r = data.value;
+   switch (r?.mode) {
++    case 'standalone': return standalone && r.path === route.path && route.path === '/';
+     case 'public':
+       return Boolean(content.value && selected.value &&
+         r.path === route.path && selected.value.path === route.path &&
+@@ -139,8 +143,8 @@
+   <NuxtLayout>
+     <NuxtPage v-if="current" />
+     <section v-else class="container-x min-h-screen pt-40 pb-20" role="status">
+-      <h1 class="font-heading text-2xl">{{ pending ? '콘텐츠를 불러오는 중입니다.' : '콘텐츠를 불러오지 못했습니다.' }}</h1>
+-      <p v-if="!pending" class="mt-4 text-foreground-600">{{ error?.statusMessage || '공개 콘텐츠의 발행 상태를 확인해 주세요.' }}</p>
++      <h1 class="font-heading text-2xl">{{ standalone ? '이 페이지는 연결 준비 중입니다.' : pending ? '콘텐츠를 불러오는 중입니다.' : '콘텐츠를 불러오지 못했습니다.' }}</h1>
++      <p v-if="!pending && !standalone" class="mt-4 text-foreground-600">{{ error?.statusMessage || '공개 콘텐츠의 발행 상태를 확인해 주세요.' }}</p>
+     </section>
+   </NuxtLayout>
+ </template>
+--- a/scripts/verify-hero-film-browser.mjs
++++ b/scripts/verify-hero-film-browser.mjs
+@@ -0,0 +1,29 @@
++// Start `npm run dev` first. Install Playwright/Chromium in the verification environment.
++import { chromium } from 'playwright';
++import assert from 'node:assert/strict';
++const base = process.env.SMD_VERIFY_URL || 'http://localhost:3000';
++const browser = await chromium.launch();
++const results=[];
++try {
++ for (const [width,height,count] of [[1920,1080,2],[3440,1440,3],[390,844,1],[1099,900,2],[1100,900,2]]) {
++  const page=await browser.newPage({viewport:{width,height}});
++  const api=[],errors=[];
++  page.on('request',r=>{if(new URL(r.url()).pathname.startsWith('/api/'))api.push(r.url());});
++  page.on('pageerror',e=>errors.push(String(e)));
++  await page.goto(base,{waitUntil:'networkidle'});
++  const film=page.locator('.smd-hero-film:visible');
++  await film.locator('img').first().waitFor();
++  const result=await film.evaluate(async el=>{
++   await Promise.all([...el.querySelectorAll('img')].map(i=>i.decode()));
++   const track=el.firstElementChild, box=track.getBoundingClientRect();
++   const slots=[...track.children].map(s=>s.getBoundingClientRect());
++   return {background:getComputedStyle(el).backgroundColor,visible:slots.filter(s=>s.left>=box.left-1&&s.right<=box.right+1).length,
++     overflow:document.documentElement.scrollWidth>innerWidth,
++     images:[...el.querySelectorAll('img')].map(i=>{const r=i.getBoundingClientRect();const fit=Math.min(r.width/i.naturalWidth,r.height/i.naturalHeight);return {loaded:i.complete&&i.naturalWidth>0,scale:fit*devicePixelRatio,fit:getComputedStyle(i).objectFit};})};
++  });
++  assert.equal(result.visible,count);assert.equal(result.background,'rgb(255, 255, 255)');assert.equal(result.overflow,false);
++  for(const im of result.images){assert(im.loaded);assert(im.scale<=1.001);assert.equal(im.fit,'contain');}
++  assert.deepEqual(api,[]);assert.deepEqual(errors,[]);results.push({width,height,...result});await page.close();
++ }
++ console.log(JSON.stringify(results,null,2));
++} finally {await browser.close();}
+--- a/app/data/home-film.ts
++++ b/app/data/home-film.ts
+@@ -0,0 +1,24 @@
++/** Standalone assets; not a CMS publication. Originals are byte-preserved. */
++export const homeFilmAssets = [
++  {
++    "id": "hero-1",
++    "src": "/media/hero/아파트 복도 리모델링 현장.png",
++    "alt": "아파트 복도 리모델링 현장",
++    "width": 1536,
++    "height": 1024
++  },
++  {
++    "id": "hero-2",
++    "src": "/media/hero/유리 파티션에 우드 필름 시공하는 작업자.png",
++    "alt": "유리 파티션에 우드 필름 시공하는 작업자",
++    "width": 1672,
++    "height": 941
++  },
++  {
++    "id": "hero-3",
++    "src": "/media/hero/회색 벽을 다듬는 작업용 장갑과 흙손.png",
++    "alt": "회색 벽을 다듬는 작업용 장갑과 흙손",
++    "width": 1756,
++    "height": 896
++  }
++] as const;
+--- a/app/pages/index.vue
++++ b/app/pages/index.vue
+@@ -19,6 +19,7 @@
+ // The second scene arms only after the original Intro finishes normally.
+ const introCompleted = ref(false);
+ function onIntroCompleted(): void { introCompleted.value = true; }
++const standalone = useContentMode() === 'standalone';
+ const content = useSiteContent();
+ const legacyAdmission = computed(() => content.value ? examineHomeLegacySlots(content.value.pageSlots.home) : null);
+ // Historical CMS inserts are not silently dropped or assigned to arbitrary Figma sections.
+@@ -34,7 +35,7 @@
+ </script>
+ <template>
+   <!-- Exactly one visible paint owner per breakpoint. Desktop uses JSONL scene; tablet/mobile reflow keeps semantic DOM. -->
+-  <template v-if="legacyAdmission?.kind === 'empty'">
++  <template v-if="standalone || legacyAdmission?.kind === 'empty'">
+     <div class="smd-home smd-home--figma-scene" data-home-layout-contract="SMD_FIGMA_SCENE_VR1"
+       :data-figma-source-digest="figmaScene.sourceSnapshotDigest" data-original-render-qualification="BLOCKED">
+       <HomeIntroStage @completed="onIntroCompleted" />
+@@ -69,3 +70,5 @@
+ <style src="~/assets/css/home-methods-reveal.css"></style>
+ 
+ <style src="~/assets/css/home-faq.css"></style>
++
++<style src="~/assets/css/home-hero-film.css"></style>
+--- a/app/composables/useContentMode.ts
++++ b/app/composables/useContentMode.ts
+@@ -0,0 +1,7 @@
++export function useContentMode(): 'standalone' | 'cms' {
++  const mode = useRuntimeConfig().public.contentMode;
++  switch (mode) {
++    case 'standalone': case 'cms': return mode;
++    default: throw new Error('SMD_CONTENT_MODE_INVALID');
++  }
++}
+--- a/app/components/home/HomeHeroFilm.vue
++++ b/app/components/home/HomeHeroFilm.vue
+@@ -0,0 +1,36 @@
++<script setup lang="ts">
++import { onMounted, onBeforeUnmount, ref } from 'vue';
++import { homeFilmAssets } from '~/data/home-film';
++const root = ref<HTMLElement | null>(null);
++// Conservative SSR pixel ceiling; client follows actual DPR, including zoom changes.
++const dpr = ref(3);
++let observer: ResizeObserver | undefined;
++function update() { dpr.value = Math.max(1, window.devicePixelRatio || 1); }
++onMounted(() => {
++  update();
++  observer = new ResizeObserver(update);
++  if (root.value) observer.observe(root.value);
++  window.addEventListener('resize', update);
++});
++onBeforeUnmount(() => { observer?.disconnect(); window.removeEventListener('resize', update); });
++</script>
++<template>
++  <div ref="root" class="smd-hero-film" data-film-stage="CF3" :style="{'--film-dpr': dpr}">
++    <div class="smd-hero-film__track" tabindex="0" role="region" aria-label="시공 현장 사진, 가로 스크롤로 탐색">
++      <figure v-for="asset in homeFilmAssets" :key="asset.id" class="smd-hero-film__slot">
++        <img :src="asset.src" :alt="asset.alt" :width="asset.width" :height="asset.height"
++          :style="{maxWidth: `${asset.width / dpr}px`, maxHeight: `min(100%, ${asset.height / dpr}px)`}" decoding="async" />
++      </figure>
++    </div>
++  </div>
++</template>
++<style scoped>
++.smd-hero-film { position:absolute; inset:0; container-type:inline-size; background:#fff; --film-gap:clamp(12px,1.25vw,24px); }
++.smd-hero-film__track { display:flex; gap:var(--film-gap); height:100%; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; }
++.smd-hero-film__track:focus-visible { outline:3px solid #d95e22; outline-offset:-3px; }
++.smd-hero-film__slot { flex:0 0 calc((100% - var(--film-gap))/2); min-width:0; height:100%; margin:0; display:flex; align-items:center; justify-content:center; }
++.smd-hero-film__slot img { display:block; width:100%; height:auto; object-fit:contain; max-height:100%; flex-shrink:1; }
++/* Local film breakpoint, independent of scene/header breakpoints. */
++@container (min-width:2400px) { .smd-hero-film__slot { flex-basis:calc((100% - 2 * var(--film-gap))/3); } }
++@container (max-width:699px) { .smd-hero-film__slot { flex-basis:85%; } }
++</style>
+--- a/app/components/home/HeroSection.vue
++++ b/app/components/home/HeroSection.vue
+@@ -1,4 +1,5 @@
+ <script setup lang="ts">
++import HomeHeroFilm from './HomeHeroFilm.vue';
+ import HomeFigmaText from './HomeFigmaText.vue';
+ import { homeCopyRefs } from '~/data/home-r2-composition';
+ import { homeFigmaText } from '~/data/home-r2-copy';
+@@ -14,6 +15,7 @@
+ </script>
+ <template>
+   <section data-home-section="hero" data-figma-node="node-1:4" class="smd-home-section smd-home--hero">
++    <HomeHeroFilm />
+     <div class="smd-home__container">
+       <p class="font-label text-xs font-medium tracking-[0.16em] text-foreground-700"><HomeFigmaText :text-key="copy.eyebrow" /></p>
+       <h1 class="smd-home__hero-heading mt-6 max-w-4xl whitespace-pre-line font-heading text-4xl font-semibold leading-tight text-foreground-950 md:text-6xl">
+--- a/app/components/figma/FigmaSceneSection.vue
++++ b/app/components/figma/FigmaSceneSection.vue
+@@ -1,4 +1,5 @@
+ <script setup lang="ts">
++import HomeHeroFilm from '~/components/home/HomeHeroFilm.vue';
+ import FigmaR4UserFileIcon from './FigmaR4UserFileIcon.vue';
+ import {figmaScene} from '~/data/figma-r2-scene.generated';
+ import {useSiteContent} from '~/composables/useSiteContent';
+@@ -27,6 +28,7 @@
+ <template>
+   <section v-if="section" class="smd-figma-scene-section" :class="`smd-figma-scene-section--${sectionId}`"
+     :data-home-section="sectionId" :data-figma-section="root" :data-scene-mode="mode??'full'">
++    <HomeHeroFilm v-if="sectionId === 'hero' && mode !== 'decorative'" />
+     <svg xmlns="http://www.w3.org/2000/svg" class="smd-figma-scene-svg" :viewBox="viewBox"
+       preserveAspectRatio="xMidYMin meet" role="group" :aria-label="`Figma 원본 ${sectionId} 섹션 시각 레이어`">
+       <g :transform="`translate(0 ${-section.top})`">
+--- a/app/components/feature/SiteFooter.vue
++++ b/app/components/feature/SiteFooter.vue
+@@ -11,7 +11,7 @@
+ 
+ <template>
+   <footer class="smd-site-footer border-t border-background-200 bg-background-100">
+-    <div class="container-x py-12 md:py-16">
++    <div v-if="content" class="container-x py-12 md:py-16">
+       <div class="grid grid-cols-1 gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
+         <div>
+           <div class="flex items-center gap-2.5">
+@@ -69,5 +69,6 @@
+         <span>{{ pages?.shared.footer.locationTagline }}</span>
+       </div>
+     </div>
++    <div v-else class="container-x py-8"><p role="status">연락처 및 외부 채널 연결 준비 중입니다.</p></div>
+   </footer>
+ </template>
+--- a/app/components/feature/HeaderBrandSymbol.vue
++++ b/app/components/feature/HeaderBrandSymbol.vue
+@@ -7,7 +7,8 @@
+ const route=useRoute();
+ type PrivacyBrand={schema:'SMD_BRAND_CURRENT_V1';kind:'legacy'|'published-svg';
+   assetId?:string;width?:number;height?:number};
+-const isPrivacy=computed(()=>route.path==='/privacy');
++const standalone=useContentMode()==='standalone';
++const isPrivacy=computed(()=>!standalone && route.path==='/privacy');
+ const {data:privacyBrand,error:privacyFailure,refresh:refreshPrivacyBrand}=await useAsyncData<PrivacyBrand|null>(
+   'smd-header-brand-privacy',()=>useRequestFetch()<PrivacyBrand>('/api/brand/current',{cache:'no-store'}),
+   {immediate:isPrivacy.value,default:()=>null});
+@@ -34,7 +35,7 @@
+   id=>{if(id!==failedBrandId.value)failedBrandId.value=null;});
+ </script>
+ <template>
+-  <FigmaBrandMark v-if="route.path === '/'" />
++  <FigmaBrandMark v-if="standalone || route.path === '/'" />
+   <img v-else-if="brandSymbol.kind==='published-svg' && failedBrandId!==brandSymbol.assetId"
+     :src="brandSymbol.src" :width="brandSymbol.width" :height="brandSymbol.height"
+     class="block shrink-0 object-contain" alt="" decoding="async"
+--- a/app/assets/css/home-hero-film.css
++++ b/app/assets/css/home-hero-film.css
+@@ -0,0 +1,5 @@
++/* CF2: only the top hero background is replaced. Frozen scene remains intact. */
++.smd-figma-scene-section--hero, .smd-home--hero { background:#fff; }
++.smd-figma-scene-section--hero:has(> .smd-hero-film) [data-figma-node="node-1:5"] { display:none; }
++.smd-figma-scene-section--hero > .smd-figma-scene-svg { position:relative; z-index:1; pointer-events:none; }
++.smd-home--hero > .smd-home__container { position:relative; z-index:1; pointer-events:none; }
+--- a/server/middleware/content-mode.ts
++++ b/server/middleware/content-mode.ts
+@@ -0,0 +1,8 @@
++/** Disconnected APIs remain present for future CMS binding; never contact Core. */
++export default defineEventHandler((event) => {
++  const mode = useRuntimeConfig(event).public.contentMode;
++  if (mode !== 'standalone' && mode !== 'cms')
++    throw createError({ statusCode: 503, statusMessage: 'SMD_CONTENT_MODE_INVALID' });
++  if (mode === 'standalone' && getRequestURL(event).pathname.startsWith('/api/'))
++    throw createError({ statusCode: 503, statusMessage: 'SMD_CMS_DISCONNECTED' });
++});
+--- a/scripts/tests/r3-public-boundary.test.mjs
++++ b/scripts/tests/r3-public-boundary.test.mjs
+@@ -26,7 +26,12 @@
+   assert.equal(existsSync(resolve(root,'app/pages/admin')),false);
+   assert.equal(existsSync(resolve(root,'server/api/admin')),false);
+   const wr=read('wrangler.toml');
+-  assert.match(wr,/entrypoint = "PublicSurface"/);
++  assert.doesNotMatch(wr,/\[\[services\]\]|SMD_CORE/);
++  assert.match(wr,/NUXT_PUBLIC_CONTENT_MODE = "standalone"/);
++  const cms=read('wrangler.cms.toml');
++  assert.match(cms,/entrypoint = "PublicSurface"/);
++  assert.match(cms,/NUXT_PUBLIC_CONTENT_MODE = "cms"/);
++  assert.doesNotMatch(cms,/AdminSurface/);
+   assert.doesNotMatch(wr,/\[\[d1_databases\]\]|\[\[r2_buckets\]\]|AdminSurface/);
+   assert.doesNotMatch(read('nuxt.config.ts'),/['"]\/admin(?:\/\*\*)?['"]\s*:/);
+ });
+--- a/scripts/tests/hero-film-cf1-cf3.test.mjs
++++ b/scripts/tests/hero-film-cf1-cf3.test.mjs
+@@ -0,0 +1,31 @@
++import {test} from 'node:test';
++import assert from 'node:assert/strict';
++import {readFileSync} from 'node:fs';
++import vm from 'node:vm';
++import ts from 'typescript';
++const read=p=>readFileSync(new URL('../../'+p,import.meta.url),'utf8');
++// Execute the actual root loader with a counted network mock; no fake CMS response.
++function rootHarness(mode,path) {
++ let calls=0,loader;
++ let source=read('app/app.vue').split('<script setup lang="ts">')[1].split('</script>')[0];
++ source=source.replace(/import[\s\S]*?from\s*['"][^'"]+['"];?/g,'').replaceAll('import.meta.server','false').replaceAll('import.meta.client','false');
++ const state=()=>({value:null});
++ const ctx={useRoute:()=>({path}),useContentMode:()=>mode,useSiteContent:state,useHomeR2Published:state,useSelectedCategoryPage:state,
++ computed:f=>({get value(){return f()}}),resolveHomeScaffoldPath:()=>null,
++ useAsyncData:async(k,f)=>{loader=f;return {data:state(),error:state(),pending:{value:false}}},watch:()=>{},fetch:()=>{calls++;throw Error('NETWORK_SENTINEL')},createError:x=>Object.assign(Error(x.statusMessage),x),showError:()=>{},navigateTo:()=>{}};
++ const js=ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText;
++ return vm.runInNewContext(`(async()=>{${js}})()`,ctx).then(()=>({run:()=>loader(null,{signal:new AbortController().signal}),calls:()=>calls}));
++}
++test('standalone root never requests a CMS envelope',async()=>{
++ for(const path of ['/','/about','/contact']){const h=await rootHarness('standalone',path);assert.deepEqual(JSON.parse(JSON.stringify(await h.run())),{mode:'standalone',path});assert.equal(h.calls(),0);}
++});
++test('CMS mode still uses real transport, without automatic local fallback',async()=>{
++ const h=await rootHarness('cms','/');await assert.rejects(h.run(),/NETWORK_SENTINEL/);assert.equal(h.calls(),1);
++});
++test('admin stays rejected even when CMS is disconnected',async()=>{
++ const h=await rootHarness('standalone','/admin');await assert.rejects(h.run(),/PUBLIC_ADMIN_ROUTE_NOT_FOUND/);assert.equal(h.calls(),0);
++});
++test('white replacement is restricted to top hero and frozen background node',()=>{
++ const css=read('app/assets/css/home-hero-film.css');assert.match(css,/node-1:5/);assert.doesNotMatch(css,/info-bar|consultation-cta|body-stage/);
++ const film=read('app/components/home/HomeHeroFilm.vue');assert.doesNotMatch(film,/object-fit:\s*cover|requestAnimationFrame|\.animate\(/);assert.match(film,/2400px/);assert.match(film,/85%/);
++});

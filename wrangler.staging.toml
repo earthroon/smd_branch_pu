@@ -1,0 +1,24 @@
+# CF7 staging-only. Configure the staging D1/R2 bindings on smd-core-staging first.
+# Do not point this worker at smd-core production when staging is enabled.
+name = "smd-aca-pu-staging"
+main = ".output/server/index.mjs"
+compatibility_date = "2026-10-12"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[assets]
+directory = ".output/public"
+binding = "ASSETS"
+
+[[services]]
+binding = "SMD_CORE"
+service = "smd-core-staging"
+entrypoint = "PublicSurface"
+
+[vars]
+NUXT_PUBLIC_CONTENT_MODE = "standalone"
+NUXT_PUBLIC_STANDALONE_MEDIA_MODE = "local"
+NUXT_PUBLIC_STANDALONE_MEDIA_SOURCE_LOCK_DIGEST = ""
+
+[observability]
+enabled = true

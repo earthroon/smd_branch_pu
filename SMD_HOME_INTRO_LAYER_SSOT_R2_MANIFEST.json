@@ -1,0 +1,80 @@
+{
+  "contract": "SMD_HOME_INTRO_LAYER_SSOT_R2",
+  "parent": "SMD_HOME_INTRO_LAYOUT_REPAIR_R1_full_baked_unverified.zip",
+  "target": "SMD_HOME_INTERACTION_R1 viewport-scroll + overlay Info Bar",
+  "mode": "fail-closed-all-files-parent-sha",
+  "files": [
+    {
+      "path": "app/assets/css/home-hero-film.css",
+      "parentSha256": "28e43b1714f8eab4bc73d6146fd229156c9f3fb61f94f709dacde4d4ead775a9",
+      "targetSha256": "5e8348bdd84d6c1d5ea669a94a3181cec9af41f0fa91bd2afb04447e015aa403",
+      "bytes": 670
+    },
+    {
+      "path": "app/assets/css/home-r2-interaction.css",
+      "parentSha256": "98c6157f8eb284b794e58d8b2421b6a3ba0d3b00ea1e0d515b7e27e1891d192c",
+      "targetSha256": "c916ce63acdee5bf8444c31504ac56864c0547faa4a290ea96822766d975f3b4",
+      "bytes": 2284
+    },
+    {
+      "path": "app/components/home/HomeHeroFilm.vue",
+      "parentSha256": "324d9f1dacf8611f1d5d3a6d09dbac687b271a1d2caab80afe53d0764d315a56",
+      "targetSha256": "42405e7dff336a3854b627421de29fc66813eb8f3b8562da2638d8fa255f504e",
+      "bytes": 42836
+    },
+    {
+      "path": "app/components/home/HomeIntroStage.vue",
+      "parentSha256": "f26ab8166e11ca7ba1c91dcb7d4154447bf9f02f7bec683351365dcf47cde882",
+      "targetSha256": "f9984bf7391e4cbe60acfa73b54fa4d023fc04eabb6b9096ca300a2506efa904",
+      "bytes": 1554
+    },
+    {
+      "path": "app/composables/useHomeIntroReveal.ts",
+      "parentSha256": "07932e38142ba4e7239ded3abb8573e324a8f0a79c7e7f113c38b86b310da518",
+      "targetSha256": "b7581a5599aba84a364546978bc0c17c6d1cb7fd8c5fac904e167b3b3ebcfad4",
+      "bytes": 12708
+    },
+    {
+      "path": "scripts/figma-r2/verify-home-intro-browser.mjs",
+      "parentSha256": "6c7493e7aab4a29f8439c2f53a23d9f8f9510bc14158e906f850dedb18b63baa",
+      "targetSha256": "f3f39eae4dcdae90b1bb5b8b7340adf203245e96eb22c90960d3c86de6841ee0",
+      "bytes": 13426
+    },
+    {
+      "path": "scripts/tests/hero-film-cf1-cf3.test.mjs",
+      "parentSha256": "a5e1aecf725ef5a24149bd853fba197e5b858428dc137488f7e7d167683c8e80",
+      "targetSha256": "60e62f72be3f59982ec0b628ae3c0cda791761eb9391016a7c592062015321f0",
+      "bytes": 2929
+    },
+    {
+      "path": "scripts/tests/hero-film-cf4-cf6.test.mjs",
+      "parentSha256": "e9138a1ba9a2e36ab01daf59def8ccf5de457f9d942c2989543fc0c27c03bcd1",
+      "targetSha256": "19c16eaeb111f35be981385a95d848bb341f6ca88c2363c6bffa996a17267d7a",
+      "bytes": 6556
+    },
+    {
+      "path": "scripts/tests/hero-film-cf5-cf6.test.mjs",
+      "parentSha256": "a0b4ccf693570ea9721d8803830c7f115f2e651474490e9a59486f03b1cfd303",
+      "targetSha256": "5e56703f856102107d500288567cf87decad0d1d86301bb12d35718515793c0e",
+      "bytes": 13011
+    },
+    {
+      "path": "scripts/tests/hero-film-wind.test.mjs",
+      "parentSha256": "878be88109d51caa8616b81ba7383271a0cd49504303035e3f78426d55751a89",
+      "targetSha256": "48b4fe8efc48a7552c2228cd949b4398a7ce99879d5e735934f24cda3f13b1d0",
+      "bytes": 8000
+    },
+    {
+      "path": "scripts/tests/home-intro-compact-reveal.test.mjs",
+      "parentSha256": "7c6f039afccc14ff08f2c3d079506c03b25d021eae1e413d4a36fd445ac3ca99",
+      "targetSha256": "1df37630c9ed4ab8dde025e30137dc2a16600b50f8476b6a83bfc6174dab9548",
+      "bytes": 4796
+    },
+    {
+      "path": "scripts/tests/home-intro-scroll.test.mjs",
+      "parentSha256": "4cf7b4913bb6d33a76e199ce0b97aec7842b795fdc76c7db1029d5baef0abbc0",
+      "targetSha256": "d212fc7ad9b624dd37ffa942c1fa4996e3c33224a503ddad08eb7a05d7d531bf",
+      "bytes": 5156
+    }
+  ]
+}

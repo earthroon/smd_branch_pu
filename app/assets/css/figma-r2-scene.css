@@ -1,0 +1,53 @@
+/* V-R1~V-R5: Desktop is rendered from Schema9 source nodes, not reconstructed section paint. */
+.smd-home--figma-scene { display:block; }
+.smd-home--semantic-reflow { display:none; }
+.smd-figma-scene-section { position:relative; width:100%; min-width:0; overflow:hidden; }
+.smd-figma-scene-svg { display:block; width:100%; max-width:1920px; height:auto; margin-inline:auto; overflow:visible; }
+.smd-figma-native-text-foreign { overflow: visible; }
+.smd-figma-native-text, .smd-figma-native-text__runs {
+  font-family:'Pretendard Variable',Pretendard,sans-serif;
+  margin:0;padding:0;border:0;box-sizing:border-box;
+  white-space:pre-wrap;overflow-wrap:normal;word-break:keep-all;overflow:visible;
+}
+.smd-figma-native-text__runs { width:100%;max-width:100%; }
+.smd-scene-cta-hitbox { display:block; width:100%;height:100%;background:transparent;cursor:pointer; }
+.smd-scene-cta-hitbox:focus-visible { outline:4px solid #D95E22;outline-offset:-4px;border-radius:32px; }
+.smd-scene-faq { font-family:'Pretendard Variable',Pretendard,sans-serif;font-size:28px;color:#2f2f2f;position:relative; }
+.smd-scene-faq summary { cursor:pointer;list-style:none;font-weight:500;line-height:1.6; }
+.smd-scene-faq summary:focus-visible { outline:3px solid #d95e22;outline-offset:3px; }
+.smd-scene-faq summary::-webkit-details-marker {display:none;}
+.smd-scene-faq p {position:relative;margin:0;padding:12px 16px;font-size:20px;line-height:1.5;
+ background:rgba(255,255,255,.98);white-space:pre-wrap;word-break:keep-all;z-index:3;}
+/* Exact Figma backgrounds extend past the 1920px visual artboard for ultrawide viewports. */
+.smd-figma-scene-section--hero{background:#d9d9d9}
+.smd-figma-scene-section--info-bar{background:#f2f2f2}
+.smd-figma-scene-section--special-start{background:#fff}
+.smd-figma-scene-section--training-track{background:#323232}
+.smd-figma-scene-section--benefits{background:#fff}
+.smd-figma-scene-section--methods{background:#f2f2f2}
+.smd-figma-scene-section--location{background:#fff}
+.smd-figma-scene-section--faq{background:#f2f2f2}
+.smd-figma-scene-section--consultation-cta{background:#d9d9d9}
+.smd-figma-brand-mark{display:block;width:40px;height:40px;flex:none}
+@media (min-width:1380px) {.smd-site-header--home .smd-figma-brand-mark{width:80px;height:80px}}
+@media (max-width:1099px){
+ .smd-home--figma-scene{display:none}
+ .smd-home--semantic-reflow{display:block}
+ .smd-home--training-track{background:#323232;color:#fff}
+ .smd-home--training-track :is(.smd-home__section-heading, h2, .smd-home__training-intro){color:#fff}
+ .smd-home--benefits{background:#fff}
+ .smd-home__training-artwork{width:100%;max-width:100%;margin:16px auto 24px;overflow:hidden;pointer-events:none}
+ .smd-home__training-artwork .smd-figma-scene-section{background:transparent}
+ .smd-home__training-artwork .smd-figma-scene-svg{max-width:100%;}
+}
+
+/* Figma footer node-36:8 is an original black self-paint. Published CMS links/text
+   remain the semantic owner, but the Home route alone consumes its paint. */
+main:has(.smd-home--figma-scene) + footer {background:#000;color:#fff;border-color:#222;}
+main:has(.smd-home--figma-scene) + footer .text-foreground-950{color:#fff}
+main:has(.smd-home--figma-scene) + footer .text-foreground-700{color:#ddd}
+main:has(.smd-home--figma-scene) + footer .text-foreground-600{color:#c4c4c4}
+main:has(.smd-home--figma-scene) + footer .text-foreground-500{color:#aaa}
+main:has(.smd-home--figma-scene) + footer .border-background-200{border-color:#333}
+main:has(.smd-home--figma-scene) + footer .bg-foreground-950{background:#fff;color:#000}
+main:has(.smd-home--figma-scene) + footer .text-background-50{color:#111}

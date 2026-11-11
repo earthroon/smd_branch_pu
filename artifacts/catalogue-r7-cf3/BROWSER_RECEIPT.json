@@ -1,0 +1,14 @@
+{
+  "schema": "SMD_R7_CF3_BROWSER_RECEIPT_V1",
+  "status": "BROWSER_FAIL",
+  "time": "2026-11-10T14:22:46.037Z",
+  "gitHead": "8d92ae71baecf4118f2bd95b092a0a724e0284d7",
+  "originalIndexSha256": "7f6d9c5feb4a8551385121c317345915e37a845498695ba27d9316e2e81504b8",
+  "screens": [],
+  "ssr": "SSR_TWO_SHEETS_PRESENT",
+  "hydration": null,
+  "restore": "ISOLATED_WORKTREE_REMOVED",
+  "errors": [
+    "browserType.launch: Executable doesn't exist at C:\\Users\\main\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1254\\chrome-headless-shell-win64\\chrome-headless-shell.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝\n    at D:\\1111113232\\TE-PU\\smd-public-r7-origin\\scripts\\verify-catalogue-sheet-browser.mjs:140:26"
+  ]
+}

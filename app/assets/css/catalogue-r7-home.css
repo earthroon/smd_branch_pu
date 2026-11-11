@@ -1,0 +1,315 @@
+/* SMD R7 HOME INTEGRATION R1: actual Home renderer, not a standalone fixture.
+ * The source of content remains Home R2/Figma/CMS; only presentation owns geometry.
+ * CF5 owns wheel/spring. No global snap or wheel handlers here.
+ */
+.smd-site-shell[data-catalogue-ui="r7"] main:has(.smd-r7-home) {
+  background: var(--smd-warm-stone);
+  color: var(--smd-brand-navy);
+}
+.smd-r7-home {
+  --r7-bg: var(--smd-warm-stone);
+  --r7-ink: var(--smd-brand-navy);
+  --r7-accent: var(--smd-action-orange);
+  --r7-line: rgb(23 44 87 / 0.25);
+  --r7-line-soft: rgb(23 44 87 / 0.12);
+  background: var(--r7-bg);
+  color: var(--r7-ink);
+  font-family: var(--font-ui);
+  min-width: 0;
+}
+.smd-r7-home *, .smd-r7-home *::before, .smd-r7-home *::after { box-sizing: border-box; }
+.smd-r7-home h1, .smd-r7-home h2, .smd-r7-home h3,
+.smd-r7-home p, .smd-r7-home figure { margin: 0; }
+.smd-r7-home h1, .smd-r7-home h2, .smd-r7-home h3 { font-family: var(--font-ui); letter-spacing: -.055em; }
+.smd-r7-home a { color: inherit; text-decoration: none; }
+.smd-r7-home a:focus-visible, .smd-r7-home summary:focus-visible {
+  outline: 2px solid var(--r7-accent); outline-offset: 4px;
+}
+/* Inline source Figma style is not a visual owner in the R7 catalogue view.
+ * Keep actual characters and their source refs, override only presentation runs. */
+.smd-site-shell[data-catalogue-ui="r7"] .smd-r7-home .smd-home-figma-text > span {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  letter-spacing: inherit !important;
+  line-height: inherit !important;
+  color: inherit !important;
+  white-space: inherit !important;
+  opacity: 1 !important;
+}
+.smd-r7-home__light { font-weight: 360; }
+.smd-r7-home__kicker {
+  margin: 0 0 20px;
+  font: 660 12px/1.5 var(--font-ui);
+  letter-spacing: .14em;
+  color: var(--r7-accent);
+}
+.smd-r7-home__body {
+  font-size: clamp(15px, 1.1vw, 18px);
+  line-height: 1.7;
+  letter-spacing: -.022em;
+  white-space: pre-line;
+}
+.smd-r7-home__text-link {
+  display: inline-flex;
+  width: max-content;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 45px;
+  border-bottom: 1px solid currentColor;
+  font: 640 16px/1.3 var(--font-ui);
+  padding: 10px 0;
+  margin-top: 20px;
+  transition: gap .2s ease, color .2s ease;
+}
+.smd-r7-home__text-link:hover { gap: 56px; color: var(--r7-accent); }
+/* 00. The HomeHeroFilm component remains the actual bitmap owner. */
+.smd-site-shell[data-catalogue-ui="r7"] .smd-r7-home__cover {
+  position: relative;
+  width: 100%;
+  height: 100svh;
+  min-height: 650px;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--r7-bg);
+  color: var(--r7-ink);
+}
+.smd-r7-home__cover > .smd-hero-film { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; }
+.smd-r7-home__hero-fault {
+  position: absolute; z-index: 6; top: 110px; left: max(30px, calc((100vw - 1650px) / 2));
+  background: var(--r7-bg); color: var(--r7-ink); border: 1px solid var(--r7-accent);
+  padding: 12px 20px; font-size: 14px;
+}
+.smd-r7-home__cover-wash {
+  position: absolute; inset: 0; z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(90deg,
+    rgb(229 221 210 / .45), rgb(229 221 210 / .16) 36%, rgb(229 221 210 / 0) 68%);
+}
+.smd-r7-home__frame { width: min(calc(100% - 148px), 1650px); margin-inline: auto; }
+.smd-r7-home__cover-content { height: 100%; position: relative; z-index: 2; pointer-events: none; }
+.smd-r7-home__cover-copy {
+  position: absolute; top: 48%; left: 0;
+  transform: translateY(-30%);
+  width: min(45vw, 770px);
+  min-width: 0;
+  pointer-events: auto;
+}
+.smd-r7-home__cover-copy .smd-r7-home__kicker {
+  display: flex; align-items: center; gap: 14px;
+  color: var(--r7-ink);
+}
+.smd-r7-home__cover-copy .smd-r7-home__kicker::before {
+  display: inline-block; content: ''; width: 30px; height: 2px; background: var(--r7-accent);
+}
+.smd-r7-home__cover h1 {
+  max-width: 740px;
+  margin: 20px 0 22px;
+  font-weight: 670;
+  font-size: clamp(48px, 3.5vw, 75px);
+  line-height: 1.17;
+  letter-spacing: -.073em;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
+.smd-r7-home__cover-desc {
+  font-size: clamp(16px, 1.08vw, 19px);
+  line-height: 1.65;
+  max-width: 620px;
+  letter-spacing: -.035em;
+  white-space: pre-line;
+}
+.smd-r7-home__cover-foot {
+  position: absolute; bottom: 33px; left: 0; right: 0;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 20px;
+  font: 650 11px/1.4 var(--font-ui);
+  letter-spacing: .13em;
+}
+/* Same existing carousel caption-phase, but new editorial copy is the visual owner. */
+.smd-r7-home__cover-copy {
+  opacity: 1;
+  transition: opacity 420ms ease-out, transform 420ms ease-out;
+}
+.smd-r7-home__cover:has(.smd-hero-carousel[data-hero-caption-phase="hidden"])
+.smd-r7-home__cover-copy {
+  opacity: 0;
+}
+/* In R7, the pagination is visually above the page footer. */
+.smd-site-shell[data-catalogue-ui="r7"] .smd-r7-home .smd-hero-carousel__pagination { bottom: 68px; }
+.smd-site-shell[data-catalogue-ui="r7"] .smd-r7-home .smd-hero-carousel__slide > img { object-fit: cover; }
+/* Header: use the actual integrated 280x50 logo, not icon+duplicated text. */
+.smd-site-shell[data-catalogue-ui="r7"] .smd-site-header .smd-r7-brand-logo {
+  display: block;
+  width: 266px;
+  height: auto;
+  aspect-ratio: 280 / 50;
+  object-fit: contain;
+  filter: none !important;
+}
+.smd-site-shell[data-catalogue-ui="r7"]:has(.smd-r7-home) .smd-site-header {
+  height: 94px;
+  border-color: transparent;
+}
+.smd-site-shell[data-catalogue-ui="r7"]:has(:is(.smd-r7-home,.smd-r7-route)) .smd-site-header__inner {
+  width: min(calc(100% - 148px), 1650px);
+  max-width: none;
+  gap: 38px;
+  height: 100%;
+}
+.smd-site-shell[data-catalogue-ui="r7"]:has(.smd-r7-home)
+.smd-site-header--home[data-home-header-mode="top"] {
+  background: transparent !important;
+  box-shadow: none;
+}
+.smd-site-shell[data-catalogue-ui="r7"]:has(.smd-r7-home)
+.smd-site-header--home[data-home-header-mode="menu"] {
+  background: var(--r7-bg, var(--smd-warm-stone)) !important;
+  border-bottom: 1px solid rgb(23 44 87 / .18);
+}
+.smd-site-shell[data-catalogue-ui="r7"]:has(.smd-r7-home) .smd-site-header__cta {
+  min-width: 90px; width: auto; height: auto;
+  border-radius: 0; padding: 10px 0;
+  border: 0; border-bottom: 1px solid var(--smd-brand-navy);
+  background: transparent !important;
+  color: var(--smd-brand-navy) !important;
+  font: 640 15px/1.3 var(--font-ui);
+}
+.smd-site-shell[data-catalogue-ui="r7"]:has(.smd-r7-home) .smd-site-header__nav-link { font-weight: 580; font-size: 15px; }
+/* Shared sheet core and photos */
+.smd-r7-home .smd-r7-sheet__core { display: flex; flex-direction: column; justify-content: center; min-height: 0; padding-block: 20px 24px; }
+.smd-r7-home .smd-r7-sheet__core > :first-child { min-width: 0; }
+.smd-r7-home .smd-r7-sheet h2 { font-size: clamp(40px,3.5vw,68px); line-height: 1.2; font-weight: 650; white-space: pre-line; word-break: keep-all; }
+.smd-r7-home .smd-r7-sheet h3 { font-weight: 620; }
+.smd-r7-home .smd-r7-media,
+.smd-r7-home .smd-r7-media > .smd-home__media-frame { width: 100%; height: 100%; min-height: 0; }
+.smd-r7-home .smd-r7-media .smd-home__media-frame {
+  aspect-ratio: auto !important; border-radius: 0 !important;
+  background: rgb(23 44 87 / .10) !important;
+}
+.smd-r7-home .smd-r7-media .smd-home__media-frame img { width: 100%; height: 100%; object-fit: cover !important; }
+.smd-r7-home .smd-r7-media[data-media-state="unbound"] { border: 1px solid var(--r7-line-soft); }
+/* 01: index + original four fact values */
+.smd-r7-home__index-grid { height: 100%; display: grid; grid-template-columns: minmax(0,1.04fr) minmax(0,.96fr); gap: 105px; align-items: center; }
+.smd-r7-home__index-left h2 { margin-bottom: 30px; }
+.smd-r7-home__facts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 28px; border-top: 1px solid var(--r7-line); padding-top: 14px; }
+.smd-r7-home__fact { min-width:0; border-bottom: 1px solid var(--r7-line-soft); padding: 10px 0; }
+.smd-r7-home__fact-num { color: var(--r7-accent); font-size: 11px; font-weight: 650; }
+.smd-r7-home__fact-label { font-size: 13px; margin-top: 8px !important; line-height: 1.4; white-space: pre-line; }
+.smd-r7-home__fact strong { display:block; margin-top: 6px; font-size: 17px; font-weight: 620; line-height: 1.4; white-space: pre-line; }
+.smd-r7-home__index-links { display:flex; flex-direction:column; border-top:1px solid var(--r7-ink); }
+.smd-r7-home__index-links > a { display:grid; grid-template-columns:50px 1fr 22px; gap:10px; align-items:center; min-height:86px; border-bottom:1px solid var(--r7-line); }
+.smd-r7-home__index-links a:hover { padding-left: 10px; }
+.smd-r7-home__index-links span { color: var(--r7-accent); font-size: 12px; }
+.smd-r7-home__index-links span:last-child { text-align:right; color: var(--r7-ink); }
+.smd-r7-home__index-links strong { font-size: 26px; font-weight: 600; letter-spacing: -.04em; }
+/* 02: CF3 spread, preserve original 3 narrative points */
+.smd-r7-home .smd-r7-spread__copy { gap: 12px; }
+.smd-r7-home .smd-r7-spread__points { margin: 8px 0 0; padding: 0; list-style: none; border-top: 1px solid var(--r7-ink); }
+.smd-r7-home .smd-r7-spread__point { padding-block: 13px; }
+.smd-r7-home .smd-r7-proof__heading { max-width: 690px; }
+.smd-r7-home .smd-r7-spread__photo { height: min(100%,690px); }
+/* 03: technical catalogue */
+.smd-r7-home__training-grid { height:100%; min-height:0; display:grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap:100px; align-items:center; }
+.smd-r7-home__training-grid > div:first-child { display:flex; flex-direction:column; align-items:flex-start; gap:20px; }
+.smd-r7-home__training-grid .smd-r7-home__body { max-width:620px; }
+.smd-r7-home__training-facts { border-top: 1px solid var(--r7-ink); }
+.smd-r7-home__training-fact { display:grid; grid-template-columns:58px 1fr; align-items:center; gap:15px; min-height:93px; padding:14px 0; border-bottom:1px solid var(--r7-line); }
+.smd-r7-home__training-fact > span { color:var(--r7-accent); font-size:12px; font-weight:650; }
+.smd-r7-home__training-fact p { font-size:14px; line-height:1.35; white-space:pre-line; }
+.smd-r7-home__training-fact strong { display:block; margin-top:8px; font-size:21px; line-height:1.4; white-space:pre-line; }
+.smd-r7-home__training-period strong { margin:0 0 7px; }
+/* 04: benefits / field notes */
+.smd-r7-home .smd-r7-sheet__quartet { height:100%; min-height:0; grid-template-rows: minmax(140px, .30fr) minmax(0,1fr); }
+.smd-r7-home .smd-r7-quartet__intro { grid-template-columns:1fr auto; align-items:center; }
+.smd-r7-home .smd-r7-quartet__intro .smd-r7-proof__heading { font-size:clamp(35px,2.9vw,54px); }
+.smd-r7-home .smd-r7-quartet__item > .smd-r7-media { flex: 0 0 61%; height: 61%; }
+.smd-r7-home .smd-r7-quartet__copy { gap:5px; }
+.smd-r7-home .smd-r7-quartet__description { font-size:13px; line-height:1.45; white-space:pre-line; }
+/* 05: 3 original media slots */
+.smd-r7-home__methods { height:100%; display:grid; grid-template-rows: 145px minmax(0,1fr); gap:20px; }
+.smd-r7-home__method-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:17px; min-height:0; }
+.smd-r7-home__method { display:flex; flex-direction:column; min-height:0; }
+.smd-r7-home__method > .smd-r7-media { height:62%; flex:0 0 62%; }
+.smd-r7-home__method-info { padding-top:13px; }
+.smd-r7-home__method-info > span { color: var(--r7-accent); font-size:11px; letter-spacing:.1em; }
+.smd-r7-home__method-info h3 { font-size:19px; margin:7px 0 5px; white-space:pre-line; }
+.smd-r7-home__method-info p { font-size:13px; line-height:1.5; white-space:pre-line; }
+/* 06: location details without fabricated map/address */
+.smd-r7-home__location { height:100%; display:grid; grid-template-columns:1fr 1fr; gap:110px; align-items:center; }
+.smd-r7-home__location-detail { border-top:1px solid var(--r7-ink); padding-top:25px; }
+.smd-r7-home__location-detail p { font-size:22px; line-height:1.7; white-space:pre-line; padding:14px 0 18px; border-bottom:1px solid var(--r7-line); }
+/* 07: four admitted FAQ source rows */
+.smd-r7-home__faq { height:100%; display:grid; grid-template-columns: minmax(0,.9fr) minmax(0,1.1fr); gap:110px; align-items:center; }
+.smd-r7-home__faq-list { border-top:1px solid var(--r7-ink); }
+.smd-r7-home__faq-list details { border-bottom:1px solid var(--r7-line); }
+.smd-r7-home__faq-list summary { list-style:none; display:flex; justify-content:space-between; gap:18px; padding:22px 0; font-size:17px; cursor:pointer; }
+.smd-r7-home__faq-list summary::-webkit-details-marker { display:none; }
+.smd-r7-home__faq-list summary > span:last-child { color:var(--r7-accent); }
+.smd-r7-home__faq-answer { padding:0 24px 20px 0; font-size:14px; line-height:1.65; }
+.smd-r7-home__faq-answer p + p { margin-top:12px; }
+/* 08: final Navy sheet with Stone type */
+.smd-site-shell[data-catalogue-ui="r7"] .smd-r7-home .smd-r7-sheet[data-sheet-variant="closing"] {
+  background: var(--r7-ink);
+  color: var(--r7-bg);
+}
+.smd-r7-home .smd-r7-sheet[data-sheet-variant="closing"] .smd-r7-sheet-header__index { color: var(--r7-bg); }
+.smd-r7-home .smd-r7-sheet[data-sheet-variant="closing"] .smd-r7-sheet-header,
+.smd-r7-home .smd-r7-sheet[data-sheet-variant="closing"] .smd-r7-sheet__bottom { border-color: rgb(229 221 210 / .35); }
+.smd-r7-home .smd-r7-sheet[data-sheet-variant="closing"] .smd-r7-home__kicker { color:var(--r7-accent); }
+.smd-r7-home__closing { height:100%; display:grid; grid-template-columns:1.1fr .9fr; gap:100px; align-items:center; }
+.smd-r7-home__closing h2 { font-size:clamp(56px,4.8vw,93px) !important; }
+.smd-r7-home__closing-actions { display:flex; flex-direction:column; align-items:flex-start; gap:20px; }
+.smd-r7-home__closing-actions .smd-r7-home__text-link { font-size:24px; margin-top:0; }
+.smd-r7-home__closing-actions > a:last-child { border-bottom:1px solid currentColor; padding-bottom:8px; }
+/* R7 still owns only presentation; no scroll override until CF5. */
+@media (max-width:1599px), (max-height:899px) {
+  .smd-r7-home__frame { width:min(calc(100% - 88px),1350px); }
+  .smd-r7-home__index-grid,.smd-r7-home__training-grid,.smd-r7-home__location,.smd-r7-home__faq,.smd-r7-home__closing { gap:45px; }
+  .smd-r7-home .smd-r7-sheet__core > * { height:auto; min-height:0; }
+  .smd-r7-home__methods { height:auto; grid-template-rows:auto auto; gap:30px; }
+  .smd-r7-home__method > .smd-r7-media { height:270px; flex:none; }
+  .smd-r7-home .smd-r7-quartet__item > .smd-r7-media { height:260px; flex:none; }
+  .smd-r7-home .smd-r7-sheet__quartet { height:auto; grid-template-rows:auto auto; }
+  .smd-site-shell[data-catalogue-ui="r7"]:has(:is(.smd-r7-home,.smd-r7-route)) .smd-site-header__inner { width:min(calc(100% - 88px),1350px); }
+}
+@media (max-width:1099px) {
+  .smd-r7-home__frame { width:min(calc(100% - 52px),920px); }
+  .smd-r7-home__cover-copy { width:72%; top:49%; }
+  .smd-r7-home__index-grid,.smd-r7-home__training-grid,.smd-r7-home__location,.smd-r7-home__faq,.smd-r7-home__closing { grid-template-columns:1fr; gap:34px; }
+  .smd-r7-home__index-grid { padding:30px 0; }
+  .smd-r7-home__methods { grid-template-rows:auto auto; }
+  .smd-r7-home__method-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .smd-r7-home .smd-r7-quartet__intro { grid-template-columns:1fr; }
+  .smd-r7-home .smd-r7-sheet__core > * { height:auto; }
+  .smd-r7-home__cover-foot { font-size:10px; }
+  .smd-site-shell[data-catalogue-ui="r7"]:has(:is(.smd-r7-home,.smd-r7-route)) .smd-site-header__inner { width:min(calc(100% - 52px),920px); }
+}
+@media (max-width:680px) {
+  .smd-r7-home__frame { width:calc(100% - 40px); }
+  .smd-site-shell[data-catalogue-ui="r7"]:has(.smd-r7-home) .smd-site-header { height:68px; }
+  .smd-site-shell[data-catalogue-ui="r7"] .smd-site-header .smd-r7-brand-logo { width:190px; }
+  .smd-site-shell[data-catalogue-ui="r7"]:has(:is(.smd-r7-home,.smd-r7-route)) .smd-site-header__inner { width:calc(100% - 40px); gap:10px; }
+  .smd-r7-home__cover-wash { background:linear-gradient(90deg,rgb(229 221 210 / .9),rgb(229 221 210 / .42) 68%,rgb(229 221 210 / .10)); }
+  .smd-r7-home__cover-copy { top:44%; transform:translateY(-20%); width:94%; }
+  .smd-r7-home__cover h1 { font-size:clamp(31px,8.6vw,49px); line-height:1.22; }
+  .smd-r7-home__cover-desc { font-size:14px; max-width:310px; }
+  .smd-r7-home__cover-foot { bottom:20px; font-size:9px; }
+  .smd-r7-home__cover-foot span:last-child { display:none; }
+  .smd-r7-home .smd-hero-carousel__pagination { bottom:42px; }
+  .smd-r7-home__index-links > a { min-height:65px; }
+  .smd-r7-home__index-links strong { font-size:21px; }
+  .smd-r7-home__facts { gap:12px; }
+  .smd-r7-home__fact strong { font-size:15px; }
+  .smd-r7-home__training-fact { min-height:78px; }
+  .smd-r7-home__methods { grid-template-rows:auto auto; }
+  .smd-r7-home__method-grid { grid-template-columns:1fr; gap:28px; }
+  .smd-r7-home .smd-r7-quartet__item > .smd-r7-media { height:290px; }
+  .smd-r7-home__faq-list summary { padding:19px 0; font-size:15px; }
+  .smd-r7-home__closing h2 { font-size:clamp(40px,10vw,60px) !important; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .smd-r7-home__text-link, .smd-r7-home__cover-copy { transition:none; }
+}

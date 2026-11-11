@@ -1,0 +1,57 @@
+/* SMD_HOME_INTRO_VUE_PAINT_STACK_R3: Vue owns geometry and the reveal timeline.
+   CSS owns only paint stacking and the original item presentation primitives. */
+.smd-home-intro { position:relative; }
+/* Initial hydration/decoding gate: opacity never removes layout measurement boxes. */
+html[data-smd-intro-load-lock-owner] { overflow:hidden !important; scrollbar-gutter:stable; }
+.smd-home-intro { background:#fff; }
+.smd-home-intro__paint-stack { transition:opacity 220ms ease-out; }
+.smd-home-intro:not([data-intro-load-state="ready"]) .smd-home-intro__paint-stack {
+ opacity:0;pointer-events:none;
+}
+.smd-home-intro__load-fault {
+ position:absolute;z-index:10;left:50%;top:clamp(110px,20vh,240px);
+ transform:translateX(-50%);width:min(92%,560px);padding:18px 22px;
+ background:#fff;color:#8a2424;border:1px solid #d8aaaa;
+ font:500 15px/1.55 var(--font-ui),sans-serif;text-align:center;
+}
+@media (prefers-reduced-motion:reduce){
+ .smd-home-intro__paint-stack{transition:none;}
+}
+/* Vue calculates the actual paint height; svh is SSR-only before viewport measurement. */
+.smd-home-intro__paint-stack { position:relative; isolation:isolate; width:100%;
+ height:calc(100svh - var(--smd-header-height)); }
+
+/* The Base is the entire rolling-film viewport, not the source SVG's 815px box. */
+.smd-home-intro__base { position:relative; width:100%; height:100%; z-index:0; }
+.smd-home-intro__base > .smd-figma-scene-section--hero,
+.smd-home-intro__base > .smd-home--hero { height:100%; min-height:0; }
+
+.smd-home-intro__overlay {
+  position:absolute;
+  z-index:3;
+  pointer-events:none;
+  box-sizing:border-box;
+  opacity:0; /* SSR never displays info ahead of Vue's first admission */
+}
+.smd-home-intro__overlay > .smd-figma-scene-section--info-bar,
+.smd-home-intro__overlay > .smd-home--info-bar { width:100%; }
+.smd-home-intro__item[data-intro-icon-index="0"] {
+  opacity:var(--smd-intro-icon-0-opacity,0);
+  transform:translateY(var(--smd-intro-icon-0-y,24px));
+}
+.smd-home-intro__item[data-intro-icon-index="1"] {
+  opacity:var(--smd-intro-icon-1-opacity,0);
+  transform:translateY(var(--smd-intro-icon-1-y,24px));
+}
+.smd-home-intro__item[data-intro-icon-index="2"] {
+  opacity:var(--smd-intro-icon-2-opacity,0);
+  transform:translateY(var(--smd-intro-icon-2-y,24px));
+}
+.smd-home-intro__item[data-intro-icon-index="3"] {
+  opacity:var(--smd-intro-icon-3-opacity,0);
+  transform:translateY(var(--smd-intro-icon-3-y,24px));
+}
+@media (prefers-reduced-motion: reduce) {
+  .smd-home-intro__overlay[data-intro-overlay-admitted="true"] { opacity:1; transform:none; }
+  .smd-home-intro__item[data-intro-icon-index] { opacity:1; transform:none; }
+}

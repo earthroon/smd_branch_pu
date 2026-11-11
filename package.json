@@ -1,0 +1,45 @@
+{
+  "name": "smd-public",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "npm run verify:home-media && npm run test:hero-carousel && npm run verify:about && npm run verify:curriculum && node scripts/verify-contract-artifact.mjs && nuxt build",
+    "typecheck": "nuxt typecheck",
+    "preview": "nuxt preview",
+    "test:source": "node --experimental-strip-types --test scripts/tests/r3-public-boundary.test.mjs",
+    "test:boundary": "node --experimental-strip-types --test scripts/tests/r3-public-boundary.test.mjs",
+    "verify:contracts": "node scripts/verify-contract-artifact.mjs",
+    "deploy:staging": "npm run build && wrangler deploy --env staging",
+    "verify:about": "node --experimental-strip-types scripts/about-r1/verify-source.mjs",
+    "test:about": "node --experimental-strip-types --test scripts/about-r1/tests/*.test.mjs",
+    "verify:curriculum": "node --experimental-strip-types scripts/curriculum-r1/verify-source.mjs",
+    "test:curriculum": "node --experimental-strip-types --test scripts/curriculum-r1/tests/*.test.mjs",
+    "test:hero-film": "npm run test:hero-carousel",
+    "test:hero-carousel": "node --experimental-strip-types --test scripts/tests/hero-carousel-cf1-cf3.test.mjs scripts/tests/hero-dissolve-r2.test.mjs scripts/tests/hero-carousel-r1b-autoplay.test.mjs scripts/tests/hero-carousel-r1e-motion-controls.test.mjs scripts/tests/hero-carousel-r1g-typefix.test.mjs",
+    "verify:hero-film-browser": "npm run verify:hero-carousel-browser",
+    "verify:hero-carousel-browser": "node scripts/verify-hero-carousel-browser.mjs",
+    "verify:home-media": "node --experimental-strip-types scripts/verify-home-local-media.mjs"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^1.0.2",
+    "@smd/content-contracts": "file:./vendor/content-contracts/smd-content-contracts-0.7.0.tgz",
+    "@vue/devtools-api": "8.1.5",
+    "embla-carousel-autoplay": "8.6.0",
+    "embla-carousel-vue": "8.6.0",
+    "motion-v": "2.11.1",
+    "nuxt": "4.6.4",
+    "pinia": "4.0.3",
+    "vue": "3.5.43"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "autoprefixer": "^10.4.21",
+    "playwright": "1.65.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.8.3",
+    "vue-tsc": "^2.2.0",
+    "wrangler": "^4.0.0"
+  }
+}

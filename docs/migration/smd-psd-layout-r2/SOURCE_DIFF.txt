@@ -1,0 +1,148 @@
+--- SMD-CURRICULUM-R1/app/utils/aboutR1LayoutMath.ts
++++ app/utils/aboutR1LayoutMath.ts
+@@ -1,12 +1,13 @@
+-/** One display scale; normalized affine retains the PSD's rotation and crop. */
++import { aboutR1Source } from '../data/about-r1-manifest.ts';
++/** Source-artboard geometry only. Smaller screens use the CSS semantic reflow. */
+ export function aboutRenderedWidth(viewportWidth: number): number {
+   if (!Number.isFinite(viewportWidth) || viewportWidth <= 0) throw new Error('SMD_ABOUT_VIEWPORT_INVALID');
+-  return Math.min(viewportWidth, 1920) * .75;
++  return Math.min(viewportWidth, aboutR1Source.sourceWidth);
+ }
+ export function aboutWideGeometry(viewportWidth: number, top: number, height: number) {
+   if (!Number.isFinite(top) || !Number.isFinite(height) || height <= 0 || top < 124)
+     throw new Error('SMD_ABOUT_SECTION_GEOMETRY_INVALID');
+-  const scale = aboutRenderedWidth(viewportWidth) / 1920;
++  const scale = aboutRenderedWidth(viewportWidth) / aboutR1Source.sourceWidth;
+   return { scale, top: (top - 124) * scale, height: height * scale };
+ }
+ export function aboutMediaCss(photo: Readonly<{
+--- SMD-CURRICULUM-R1/app/utils/curriculumR1LayoutMath.ts
++++ app/utils/curriculumR1LayoutMath.ts
+@@ -1,14 +1,15 @@
+-import { HOME_WIDE_SOURCE_WIDTH, HOME_WIDE_BODY_SCALE } from './homeWideLayoutMath.ts';
+ import { curriculumR1Source } from '../data/curriculum-r1-manifest.ts';
+ import type { CurriculumSectionId } from '../data/curriculum-r1-types.ts';
++/** Page-authored geometry; the homepage's compaction policy has no consumer here. */
+ export const curriculumWideTokens = Object.freeze({
+-  '--curriculum-source-width': HOME_WIDE_SOURCE_WIDTH,
+-  '--curriculum-wide-width': HOME_WIDE_BODY_SCALE * 100 + '%',
+-  '--curriculum-wide-max': HOME_WIDE_SOURCE_WIDTH * HOME_WIDE_BODY_SCALE + 'px',
++  '--curriculum-source-width': curriculumR1Source.sourceWidth,
++  '--curriculum-wide-width': '100%',
++  '--curriculum-wide-max': curriculumR1Source.sourceWidth + 'px',
+ });
++/** Source-artboard geometry only. Smaller screens use the CSS semantic reflow. */
+ export function curriculumRenderedWidth(viewport: number): number {
+   if (!Number.isFinite(viewport) || viewport <= 0) throw new Error('SMD_CURRICULUM_VIEWPORT_INVALID');
+-  return Math.min(viewport, HOME_WIDE_SOURCE_WIDTH) * HOME_WIDE_BODY_SCALE;
++  return Math.min(viewport, curriculumR1Source.sourceWidth);
+ }
+ export function curriculumSection(id: CurriculumSectionId) {
+   const section = curriculumR1Source.sections.find(s => s.id === id);
+--- SMD-CURRICULUM-R1/app/assets/css/about-r1.css
++++ app/assets/css/about-r1.css
+@@ -97,14 +97,14 @@
+   .smd-about__cta-description { font-size:14px; }
+ }
+ 
+-/* The artboard itself sets layout height; no transform that leaves a second unscaled box. */
+-@media (min-width:1380px) and (hover:hover) and (pointer:fine) {
+-  .smd-about__artboard { position:relative; container-type:inline-size; width:75%; max-width:1440px; padding:0; aspect-ratio:1920 / var(--section-height); display:block !important; }
++/* PSD layout R2: retain semantic reflow below the source width; display the source at 1:1 above it. */
++@media (min-width:1920px) and (hover:hover) and (pointer:fine) {
++  .smd-about__artboard { position:relative; container-type:inline-size; width:100%; max-width:1920px; padding:0; aspect-ratio:1920 / var(--section-height); display:block !important; }
+   .smd-about__hero-content, .smd-about__heading, .smd-about__paragraphs, .smd-about__audience-copy,
+   .smd-about__split-copy, .smd-about__media-pair, .smd-about__facts, .smd-about__fact,
+   .smd-about__fact-copy, .smd-about__tags, .smd-about__tags li, .smd-about__steps,
+   .smd-about__steps li, .smd-about__career-cards, .smd-about__career-cards li, .smd-about__note { display:contents; }
+-  .smd-about-section[data-about-section=facts] .smd-about__artboard { max-width:1440px; padding:0; }
++  .smd-about-section[data-about-section=facts] .smd-about__artboard { max-width:1920px; padding:0; }
+   .smd-about__text { position:absolute; margin:0; padding:0; left:calc(var(--text-x) / 1920 * 100%); top:calc(var(--text-y) / var(--section-height) * 100%); width:calc(var(--text-width) / 1920 * 100%); max-width:none; white-space:pre; overflow-wrap:normal; font-size:calc(var(--text-size) / 1920 * 100cqw); line-height:var(--text-leading); letter-spacing:var(--text-tracking); }
+   .smd-about__media { position:absolute; left:calc(var(--media-x) / 1920 * 100%); top:calc(var(--media-y) / var(--section-height) * 100%); width:calc(var(--media-width) / 1920 * 100%); }
+   .smd-about__fact-icon { position:absolute; left:calc(var(--icon-x) / 1920 * 100%); top:calc(var(--icon-y) / var(--section-height) * 100%); width:calc(var(--icon-width) / 1920 * 100%); height:calc(var(--icon-height) / var(--section-height) * 100%); }
+--- SMD-CURRICULUM-R1/app/assets/css/curriculum-r1.css
++++ app/assets/css/curriculum-r1.css
+@@ -105,8 +105,8 @@
+   .smd-curriculum__week-note,.smd-curriculum__week-availability { font-size:11px; }
+   .smd-curriculum__information-details { margin-top:36px; }
+ }
+-/* The existing Header remains outside this one scaled body artboard. */
+-@media (min-width:1380px) and (hover:hover) and (pointer:fine) {
++/* PSD layout R2: source-sized artboards start at 1920px; smaller screens keep semantic reflow. */
++@media (min-width:1920px) and (hover:hover) and (pointer:fine) {
+   .smd-curriculum__artboard { position:relative; container-type:inline-size; width:var(--curriculum-wide-width); max-width:var(--curriculum-wide-max); padding:0 !important; display:block !important; aspect-ratio:var(--curriculum-source-width) / var(--section-height); }
+   .smd-curriculum__heading,.smd-curriculum__hero-copy,.smd-curriculum__paragraphs,.smd-curriculum__facts,
+   .smd-curriculum__fact,.smd-curriculum__fact dt,.smd-curriculum__fact dd,.smd-curriculum__daily-flow,
+--- SMD-CURRICULUM-R1/scripts/about-r1/tests/source-layout.test.mjs
++++ scripts/about-r1/tests/source-layout.test.mjs
+@@ -24,12 +24,13 @@
+     assert.throws(()=>verifyAboutAssets(tmp),/ASSET_BYTES_MISMATCH/);
+   } finally {rmSync(tmp,{recursive:true,force:true});}
+ });
+-test('wide height is scaled exactly once and caps at the 1920 source',()=>{
+-  assert.equal(aboutRenderedWidth(1920),1440);
+-  assert.equal(aboutRenderedWidth(2560),1440);
+-  assert.equal(aboutRenderedWidth(1440),1080);
+-  assert.deepEqual(aboutWideGeometry(1920,1650,300),{scale:.75,top:1144.5,height:225});
+-  assert.equal(aboutWideGeometry(1920,7750,720).top,5719.5);
++test('reference artboard preserves original PSD pixels and caps growth above 1920',()=>{
++  assert.equal(aboutRenderedWidth(1920),1920);
++  assert.equal(aboutRenderedWidth(2560),1920);
++  // This helper describes source coordinates; actual narrower screens use semantic CSS.
++  assert.equal(aboutRenderedWidth(1440),1440);
++  assert.deepEqual(aboutWideGeometry(1920,1650,300),{scale:1,top:1526,height:300});
++  assert.equal(aboutWideGeometry(1920,7750,720).top,7626);
+   for(const n of [0,-1,NaN,Infinity])assert.throws(()=>aboutRenderedWidth(n),/VIEWPORT_INVALID/);
+ });
+ test('rendered CSS maps all original PNG corners to the observed PSD transform, including rotation',()=>{
+--- SMD-CURRICULUM-R1/scripts/curriculum-r1/tests/curriculum.test.mjs
++++ scripts/curriculum-r1/tests/curriculum.test.mjs
+@@ -40,8 +40,10 @@
+   assert.throws(()=>curriculumMediaCss({...p,sourceToFrame}),/MEDIA_GEOMETRY_INVALID/);
+  for(const v of [0,-1,NaN,Infinity])assert.throws(()=>curriculumRenderedWidth(v),/VIEWPORT_INVALID/);
+ });
+-test('Wide width is scaled once and capped at the existing 1920 source',()=>{
+- for(const [v,w] of [[1380,1035],[1440,1080],[1920,1440],[2560,1440]])assert.equal(curriculumRenderedWidth(v),w);
++test('reference artboard retains PSD pixels independently of homepage compaction',()=>{
++ for(const [v,w] of [[1380,1380],[1440,1440],[1920,1920],[2560,1920]])assert.equal(curriculumRenderedWidth(v),w);
++ const photo=assets.photos['curriculum.hero.photo'];
++ assert.equal((photo.frame[2]-photo.frame[0])*curriculumRenderedWidth(1920)/source.sourceWidth,590);
+ });
+ const fixture=()=>{
+  const slots={afterTeach:[{id:'a'}],afterLearningPath:[{id:'b'}],beforeCta:[{id:'c'}]};
+--- SMD-CURRICULUM-R1/docs/migration/smd-about-r1/README.md
++++ docs/migration/smd-about-r1/README.md
+@@ -11,9 +11,12 @@
+ 사진·아이콘의 파일명과 원본 바이트를 유지하며 PSD transform, 회전, 둥근 clip frame을 반영한다.
+ Header와 Footer는 기존 default layout의 공통 컴포넌트를 각각 1회 사용한다.
+ 
+-Wide 조건은 1380px 이상, hover:hover, pointer:fine이다. 본문 artboard 폭은
+-min(viewportWidth,1920) × 0.75이며 높이는 같은 배율을 한 번 소비한다.
+-699px 이하, 700~1099px, 나머지 semantic desktop은 같은 컴포넌트의 CSS reflow를 사용한다.
++SMD-PSD-LAYOUT-R2에서 Wide 조건을 1920px 이상, hover:hover, pointer:fine으로 조정했다.
++본문 artboard 폭은 min(viewportWidth,1920)이며 1920px 기준 원본 크기로 표시한다.
++699px 이하, 700~1099px, 1100~1919px 및 coarse pointer는 기존 같은 컴포넌트의 CSS reflow를 사용한다.
++홈 전용 75% 배율과 공통 Header의 높이·메뉴·색상·서체 토큰은 각 기존 소유자에 유지한다.
++R1에서 도입했던 본문 75% 축소는 R2가 대체한다. 적용 순서는 About R1 → Curriculum R1 → PSD Layout R2이다.
++현재 레이아웃 계약과 검증 범위는 ../smd-psd-layout-r2/README.md를 참조한다.
+ 
+ ## 명세에서 조정한 발행 경계
+ 
+--- SMD-CURRICULUM-R1/docs/migration/smd-curriculum-r1/README.md
++++ docs/migration/smd-curriculum-r1/README.md
+@@ -16,7 +16,10 @@
+ - Header geometry, brand, menus and breakpoints remain in their existing owner.
+ - Curriculum uses the existing font and line-height roles. Wide authored text metrics
+   remain measured PSD geometry; semantic reflow uses the shared role defaults.
+-- Wide body width reuses HOME_WIDE_SOURCE_WIDTH and HOME_WIDE_BODY_SCALE; Header is outside it.
++- PSD Layout R2 replaces the R1 homepage-scale dependency: this page owns a 1920px
++  source artboard displayed at 1:1 for fine-pointer/hover viewports >=1920px.
++  Below 1920px and for coarse pointers, the existing semantic reflow remains active.
++  Header stays outside it and retains its existing geometry and token owners.
+ - Original photos retain their bytes, affine transforms, clip frames and radii.
+ - source-manifest.json keeps original IDs, order, strings, paint and source identity.
+   The proposed Virtual Tree is a separate approved application mapping, not a Photoshop parent tree.
+
+NEW DOCUMENTATION
+docs/migration/smd-psd-layout-r2/README.md

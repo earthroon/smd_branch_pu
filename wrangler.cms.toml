@@ -1,0 +1,20 @@
+name = "smd-web"
+main = ".output/server/index.mjs"
+compatibility_date = "2026-10-12"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[assets]
+directory = ".output/public"
+binding = "ASSETS"
+
+[[services]]
+binding = "SMD_CORE"
+service = "smd-core"
+entrypoint = "PublicSurface"
+
+[observability]
+enabled = true
+
+[vars]
+NUXT_PUBLIC_CONTENT_MODE = "cms"

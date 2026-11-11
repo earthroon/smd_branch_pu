@@ -1,0 +1,208 @@
+/* SMD-HOME-HERO-CAROUSEL-R1-CF1-CF3
+   The Figma source text remains at its original 1920px max-width.
+   The full-width Hero media is a separate paint owner, including ultrawide. */
+.smd-figma-scene-section--hero,
+.smd-home--hero { background: #fff; }
+.smd-figma-scene-section--hero:has(> .smd-hero-film) [data-figma-node="node-1:5"] { display: none; }
+.smd-figma-scene-section--hero > .smd-figma-scene-svg {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+.smd-home--hero > .smd-home__container {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+/* HomeIntroStage, not the 815px source Figma artboard, owns the Hero height. */
+.smd-hero-film {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+  z-index: 0;
+}
+/* R2: a stationary full-bleed two-layer dissolve. All three image elements
+   stay mounted so the existing decode/admission gate still sees every slide. */
+.smd-hero-carousel,
+.smd-hero-carousel__viewport,
+.smd-hero-carousel__container { height: 100%; }
+.smd-hero-carousel { position: relative; width: 100%; min-width: 0; overflow: hidden; }
+.smd-hero-carousel__viewport { width: 100%; overflow: hidden; touch-action: pan-y pinch-zoom; }
+.smd-hero-carousel__container { position: relative; width: 100%; overflow: hidden; }
+.smd-hero-carousel__slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  opacity: 0;
+  z-index: 0;
+  transition: none;
+  pointer-events: none;
+}
+.smd-hero-carousel__slide[data-hero-layer-state="active"] {
+  opacity: 1;
+  z-index: 2;
+}
+.smd-hero-carousel__slide[data-hero-layer-state="leaving"] {
+  opacity: 1;
+  z-index: 1;
+  will-change: opacity;
+}
+.smd-hero-carousel__slide[data-hero-layer-state="incoming"] {
+  opacity: 0;
+  z-index: 2;
+  will-change: opacity;
+}
+.smd-hero-carousel__slide[data-hero-layer-state="revealing"] {
+  opacity: 1;
+  z-index: 2;
+  will-change: opacity;
+  transition: opacity 700ms cubic-bezier(.22, .61, .36, 1);
+}
+.smd-hero-carousel__slide > img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: var(--hero-focal-x, 50%) var(--hero-focal-y, 50%);
+  user-select: none;
+}
+.smd-hero-carousel:focus-visible { outline: 3px solid var(--smd-action-orange); outline-offset: -4px; }
+/* Preserve existing keyboard/focus-visible arrow controls above the image stack. */
+.smd-hero-carousel__control {
+  position: absolute;
+  top: 50%;
+  z-index: 4;
+  display: grid;
+  place-items: center;
+  width: clamp(44px, 3.2vw, 58px);
+  height: clamp(44px, 3.2vw, 58px);
+  padding: 0;
+  border: 1px solid rgba(255,255,255,.85);
+  border-radius: 999px;
+  background: rgba(255,255,255,.86);
+  color: #242424;
+  box-shadow: 0 4px 20px rgba(0,0,0,.22);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transform: translateY(-50%);
+  transition: background-color 150ms ease, box-shadow 150ms ease;
+  cursor: pointer;
+  pointer-events: auto;
+  touch-action: manipulation;
+}
+.smd-hero-carousel__control--previous { left: clamp(12px, 2vw, 40px); }
+.smd-hero-carousel__control--next { right: clamp(12px, 2vw, 40px); }
+.smd-hero-carousel__control:hover:not(:disabled) {
+  background: #fff;
+  box-shadow: 0 6px 24px rgba(0,0,0,.28);
+}
+.smd-hero-carousel__control:focus-visible {
+  outline: 3px solid var(--smd-action-orange);
+  outline-offset: 3px;
+}
+.smd-hero-carousel__control:disabled { opacity: .45; cursor: not-allowed; }
+
+/* R2: captions remain in their original Figma/semantic paint owners.
+   The carousel's local phase is observed through :has(), which is already used
+   in this file. The foreignObject is translated as a whole so text-ink and
+   measurement bounds move together; source Text runs and X/Y remain immutable. */
+.smd-figma-scene-section--hero foreignObject:is(
+  [data-figma-text-instance="node-36:6"],
+  [data-figma-text-instance="node-35:5"],
+  [data-figma-text-instance="node-36:7"]
+),
+.smd-home--hero > .smd-home__container > :is(
+  .font-label, .smd-home__hero-heading, .smd-home__hero-intro
+) {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 420ms ease-out, transform 420ms ease-out;
+}
+.smd-figma-scene-section--hero:has(.smd-hero-carousel[data-hero-caption-phase="hidden"])
+foreignObject:is(
+  [data-figma-text-instance="node-36:6"],
+  [data-figma-text-instance="node-35:5"],
+  [data-figma-text-instance="node-36:7"]
+),
+.smd-home--hero:has(.smd-hero-carousel[data-hero-caption-phase="hidden"])
+> .smd-home__container > :is(
+  .font-label, .smd-home__hero-heading, .smd-home__hero-intro
+) {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .smd-hero-carousel__slide,
+  .smd-figma-scene-section--hero foreignObject[data-figma-text-instance],
+  .smd-home--hero > .smd-home__container > :is(.font-label,.smd-home__hero-heading,.smd-home__hero-intro),
+  .smd-hero-carousel__control { transition: none !important; }
+}
+
+/* HERO R2 · Bottom pagination */
+.smd-hero-carousel__pagination {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  z-index: 5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+
+  transform: translateX(-50%);
+  pointer-events: auto;
+}
+
+.smd-hero-carousel__dot {
+  display: grid;
+  place-items: center;
+
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.smd-hero-carousel__dot::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+
+  transition:
+    width 240ms ease,
+    background-color 240ms ease;
+}
+
+.smd-hero-carousel__dot.is-active::before {
+  width: 28px;
+  background: #fff;
+}
+
+.smd-hero-carousel__dot:focus-visible {
+  outline: 2px solid var(--smd-action-orange);
+  outline-offset: -2px;
+  border-radius: 999px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .smd-hero-carousel__dot::before {
+    transition: none;
+  }
+}

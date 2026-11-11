@@ -1,0 +1,30 @@
+/* SMD_HOME_SPECIAL_REVEAL_R1. The Title/Cards are presentation-only SVG wrappers.
+ * Do not introduce sticky/fixed positioning, alternate Figma geometry, or global locks. */
+@media (min-width:1380px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+  .smd-home-body-stage[data-special-phase="ready"] .smd-home-special__target,
+  .smd-home-body-stage[data-special-phase="entering"] .smd-home-special__target {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  .smd-home-body-stage[data-special-phase="ready"] .smd-home-special__target[data-special-item-index="0"],
+  .smd-home-body-stage[data-special-phase="entering"] .smd-home-special__target[data-special-item-index="0"] {
+    transform: translateY(24px);
+  }
+  .smd-home-body-stage[data-special-phase="revealing"] .smd-home-special__target {
+    will-change: opacity, transform;
+    opacity: var(--smd-special-1-opacity, 1);
+    transform: translateY(var(--smd-special-1-y, 0px));
+  }
+  .smd-home-body-stage[data-special-phase="revealing"] .smd-home-special__target[data-special-item-index="0"] {
+    opacity: var(--smd-special-0-opacity, 1);
+    transform: translateY(var(--smd-special-0-y, 0px));
+  }
+  .smd-home-body-stage[data-special-phase="revealing"] .smd-home-special__target[data-special-item-index="2"] {
+    opacity: var(--smd-special-2-opacity, 1);
+    transform: translateY(var(--smd-special-2-y, 0px));
+  }
+  .smd-home-body-stage[data-special-phase="revealing"] .smd-home-special__target[data-special-item-index="3"] {
+    opacity: var(--smd-special-3-opacity, 1);
+    transform: translateY(var(--smd-special-3-y, 0px));
+  }
+}

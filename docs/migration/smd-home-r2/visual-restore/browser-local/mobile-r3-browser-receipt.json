@@ -1,0 +1,1459 @@
+{
+  "contract": "SMD-HOME-R2-MOBILE-VUE3-R3-THREE-FACTS-ONLY",
+  "url": "http://127.0.0.1:3129/",
+  "results": [
+    {
+      "width": 360,
+      "viewport": 360,
+      "scrollWidth": 360,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "gridVisible": true,
+      "gridColumns": "103.688px 103.688px 103.688px",
+      "cards": [
+        {
+          "id": "node-1:102",
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 32.84375,
+            "y": 2017.09375,
+            "right": 106.84375,
+            "bottom": 2085.09375,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 18,
+            "y": 2005.09375,
+            "right": 121.6875,
+            "bottom": 2189.09375,
+            "w": 103.6875,
+            "h": 184
+          },
+          "labelBox": {
+            "x": 23,
+            "y": 2094.09375,
+            "right": 116.6875,
+            "bottom": 2114.09375,
+            "w": 93.6875,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 23,
+            "y": 2119.09375,
+            "right": 116.6875,
+            "bottom": 2147.09375,
+            "w": 93.6875,
+            "h": 28
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "id": "node-1:479",
+          "visible": true,
+          "icon": "field",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 143,
+            "y": 2017.09375,
+            "right": 217,
+            "bottom": 2085.09375,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 128.15625,
+            "y": 2005.09375,
+            "right": 231.84375,
+            "bottom": 2189.09375,
+            "w": 103.6875,
+            "h": 184
+          },
+          "labelBox": {
+            "x": 133.15625,
+            "y": 2094.09375,
+            "right": 226.84375,
+            "bottom": 2114.09375,
+            "w": 93.6875,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 133.15625,
+            "y": 2119.09375,
+            "right": 226.84375,
+            "bottom": 2175.09375,
+            "w": 93.6875,
+            "h": 56
+          },
+          "label": "교육분야",
+          "value": "인테리어· 유리 필름"
+        },
+        {
+          "id": "node-1:484",
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 253.15625,
+            "y": 2017.09375,
+            "right": 327.15625,
+            "bottom": 2085.09375,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 238.3125,
+            "y": 2005.09375,
+            "right": 342,
+            "bottom": 2189.09375,
+            "w": 103.6875,
+            "h": 184
+          },
+          "labelBox": {
+            "x": 243.3125,
+            "y": 2094.09375,
+            "right": 337,
+            "bottom": 2114.09375,
+            "w": 93.6875,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 243.3125,
+            "y": 2119.09375,
+            "right": 337,
+            "bottom": 2147.09375,
+            "w": 93.6875,
+            "h": 28
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "extraIcons": [],
+      "originalTimelineVisible": false,
+      "mobileTimelineVisible": false,
+      "mobileTimelineMounted": false,
+      "derivedSummaryMounted": false,
+      "specialPoints": 3,
+      "infoVisible": true,
+      "infoCards": 4,
+      "fontLoaded": true,
+      "errors": [],
+      "screenshot": "D:\\1111113232\\TE-PU\\smd-public (1)\\smd-public\\docs\\migration\\smd-home-r2\\visual-restore\\browser-local\\mobile-r3-screenshots\\mobile-r3-360.png"
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "gridVisible": true,
+      "gridColumns": "112.312px 112.328px 112.312px",
+      "cards": [
+        {
+          "id": "node-1:102",
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 38.65625,
+            "y": 2059.59375,
+            "right": 112.65625,
+            "bottom": 2127.59375,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 19.5,
+            "y": 2047.59375,
+            "right": 131.8125,
+            "bottom": 2203.59375,
+            "w": 112.3125,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 24.5,
+            "y": 2136.59375,
+            "right": 126.8125,
+            "bottom": 2156.59375,
+            "w": 102.3125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 24.5,
+            "y": 2161.59375,
+            "right": 126.8125,
+            "bottom": 2189.59375,
+            "w": 102.3125,
+            "h": 28
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "id": "node-1:479",
+          "visible": true,
+          "icon": "field",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 157.984375,
+            "y": 2059.59375,
+            "right": 231.984375,
+            "bottom": 2127.59375,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 138.828125,
+            "y": 2047.59375,
+            "right": 251.15625,
+            "bottom": 2203.59375,
+            "w": 112.328125,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 143.828125,
+            "y": 2136.59375,
+            "right": 246.15625,
+            "bottom": 2156.59375,
+            "w": 102.328125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 143.828125,
+            "y": 2161.59375,
+            "right": 246.15625,
+            "bottom": 2189.59375,
+            "w": 102.328125,
+            "h": 28
+          },
+          "label": "교육분야",
+          "value": "인테리어· 유리 필름"
+        },
+        {
+          "id": "node-1:484",
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 277.328125,
+            "y": 2059.59375,
+            "right": 351.328125,
+            "bottom": 2127.59375,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 258.171875,
+            "y": 2047.59375,
+            "right": 370.484375,
+            "bottom": 2203.59375,
+            "w": 112.3125,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 263.171875,
+            "y": 2136.59375,
+            "right": 365.484375,
+            "bottom": 2156.59375,
+            "w": 102.3125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 263.171875,
+            "y": 2161.59375,
+            "right": 365.484375,
+            "bottom": 2189.59375,
+            "w": 102.3125,
+            "h": 28
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "extraIcons": [],
+      "originalTimelineVisible": false,
+      "mobileTimelineVisible": false,
+      "mobileTimelineMounted": false,
+      "derivedSummaryMounted": false,
+      "specialPoints": 3,
+      "infoVisible": true,
+      "infoCards": 4,
+      "fontLoaded": true,
+      "errors": [],
+      "screenshot": "D:\\1111113232\\TE-PU\\smd-public (1)\\smd-public\\docs\\migration\\smd-home-r2\\visual-restore\\browser-local\\mobile-r3-screenshots\\mobile-r3-390.png"
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "scrollWidth": 430,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "gridVisible": true,
+      "gridColumns": "123.844px 123.844px 123.844px",
+      "cards": [
+        {
+          "id": "node-1:102",
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 46.421875,
+            "y": 2091.265625,
+            "right": 120.421875,
+            "bottom": 2159.265625,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 21.5,
+            "y": 2079.265625,
+            "right": 145.34375,
+            "bottom": 2235.265625,
+            "w": 123.84375,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 26.5,
+            "y": 2168.265625,
+            "right": 140.34375,
+            "bottom": 2188.265625,
+            "w": 113.84375,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 26.5,
+            "y": 2193.265625,
+            "right": 140.34375,
+            "bottom": 2221.265625,
+            "w": 113.84375,
+            "h": 28
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "id": "node-1:479",
+          "visible": true,
+          "icon": "field",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 178,
+            "y": 2091.265625,
+            "right": 252,
+            "bottom": 2159.265625,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 153.078125,
+            "y": 2079.265625,
+            "right": 276.921875,
+            "bottom": 2235.265625,
+            "w": 123.84375,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 158.078125,
+            "y": 2168.265625,
+            "right": 271.921875,
+            "bottom": 2188.265625,
+            "w": 113.84375,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 158.078125,
+            "y": 2193.265625,
+            "right": 271.921875,
+            "bottom": 2221.265625,
+            "w": 113.84375,
+            "h": 28
+          },
+          "label": "교육분야",
+          "value": "인테리어· 유리 필름"
+        },
+        {
+          "id": "node-1:484",
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 309.578125,
+            "y": 2091.265625,
+            "right": 383.578125,
+            "bottom": 2159.265625,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 284.65625,
+            "y": 2079.265625,
+            "right": 408.5,
+            "bottom": 2235.265625,
+            "w": 123.84375,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 289.65625,
+            "y": 2168.265625,
+            "right": 403.5,
+            "bottom": 2188.265625,
+            "w": 113.84375,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 289.65625,
+            "y": 2193.265625,
+            "right": 403.5,
+            "bottom": 2221.265625,
+            "w": 113.84375,
+            "h": 28
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "extraIcons": [],
+      "originalTimelineVisible": false,
+      "mobileTimelineVisible": false,
+      "mobileTimelineMounted": false,
+      "derivedSummaryMounted": false,
+      "specialPoints": 3,
+      "infoVisible": true,
+      "infoCards": 4,
+      "fontLoaded": true,
+      "errors": [],
+      "screenshot": "D:\\1111113232\\TE-PU\\smd-public (1)\\smd-public\\docs\\migration\\smd-home-r2\\visual-restore\\browser-local\\mobile-r3-screenshots\\mobile-r3-430.png"
+    },
+    {
+      "width": 600,
+      "viewport": 585,
+      "scrollWidth": 585,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "gridVisible": true,
+      "gridColumns": "172.328px 172.328px 172.328px",
+      "cards": [
+        {
+          "id": "node-1:102",
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 73.15625,
+            "y": 2191.8125,
+            "right": 147.15625,
+            "bottom": 2259.8125,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 24,
+            "y": 2179.8125,
+            "right": 196.328125,
+            "bottom": 2335.8125,
+            "w": 172.328125,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 29,
+            "y": 2268.8125,
+            "right": 191.328125,
+            "bottom": 2288.8125,
+            "w": 162.328125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 29,
+            "y": 2293.8125,
+            "right": 191.328125,
+            "bottom": 2321.8125,
+            "w": 162.328125,
+            "h": 28
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "id": "node-1:479",
+          "visible": true,
+          "icon": "field",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 255.484375,
+            "y": 2191.8125,
+            "right": 329.484375,
+            "bottom": 2259.8125,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 206.328125,
+            "y": 2179.8125,
+            "right": 378.65625,
+            "bottom": 2335.8125,
+            "w": 172.328125,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 211.328125,
+            "y": 2268.8125,
+            "right": 373.65625,
+            "bottom": 2288.8125,
+            "w": 162.328125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 211.328125,
+            "y": 2293.8125,
+            "right": 373.65625,
+            "bottom": 2321.8125,
+            "w": 162.328125,
+            "h": 28
+          },
+          "label": "교육분야",
+          "value": "인테리어· 유리 필름"
+        },
+        {
+          "id": "node-1:484",
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 437.8125,
+            "y": 2191.8125,
+            "right": 511.8125,
+            "bottom": 2259.8125,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 388.65625,
+            "y": 2179.8125,
+            "right": 560.984375,
+            "bottom": 2335.8125,
+            "w": 172.328125,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 393.65625,
+            "y": 2268.8125,
+            "right": 555.984375,
+            "bottom": 2288.8125,
+            "w": 162.328125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 393.65625,
+            "y": 2293.8125,
+            "right": 555.984375,
+            "bottom": 2321.8125,
+            "w": 162.328125,
+            "h": 28
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "extraIcons": [],
+      "originalTimelineVisible": false,
+      "mobileTimelineVisible": false,
+      "mobileTimelineMounted": false,
+      "derivedSummaryMounted": false,
+      "specialPoints": 3,
+      "infoVisible": true,
+      "infoCards": 4,
+      "fontLoaded": true,
+      "errors": [],
+      "screenshot": null
+    },
+    {
+      "width": 699,
+      "viewport": 684,
+      "scrollWidth": 684,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "gridVisible": true,
+      "gridColumns": "205.328px 205.328px 205.328px",
+      "cards": [
+        {
+          "id": "node-1:102",
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 89.65625,
+            "y": 2237.765625,
+            "right": 163.65625,
+            "bottom": 2305.765625,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 24,
+            "y": 2225.765625,
+            "right": 229.328125,
+            "bottom": 2381.765625,
+            "w": 205.328125,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 29,
+            "y": 2314.765625,
+            "right": 224.328125,
+            "bottom": 2334.765625,
+            "w": 195.328125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 29,
+            "y": 2339.765625,
+            "right": 224.328125,
+            "bottom": 2367.765625,
+            "w": 195.328125,
+            "h": 28
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "id": "node-1:479",
+          "visible": true,
+          "icon": "field",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 304.984375,
+            "y": 2237.765625,
+            "right": 378.984375,
+            "bottom": 2305.765625,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 239.328125,
+            "y": 2225.765625,
+            "right": 444.65625,
+            "bottom": 2381.765625,
+            "w": 205.328125,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 244.328125,
+            "y": 2314.765625,
+            "right": 439.65625,
+            "bottom": 2334.765625,
+            "w": 195.328125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 244.328125,
+            "y": 2339.765625,
+            "right": 439.65625,
+            "bottom": 2367.765625,
+            "w": 195.328125,
+            "h": 28
+          },
+          "label": "교육분야",
+          "value": "인테리어· 유리 필름"
+        },
+        {
+          "id": "node-1:484",
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 520.3125,
+            "y": 2237.765625,
+            "right": 594.3125,
+            "bottom": 2305.765625,
+            "w": 74,
+            "h": 68
+          },
+          "box": {
+            "x": 454.65625,
+            "y": 2225.765625,
+            "right": 659.984375,
+            "bottom": 2381.765625,
+            "w": 205.328125,
+            "h": 156
+          },
+          "labelBox": {
+            "x": 459.65625,
+            "y": 2314.765625,
+            "right": 654.984375,
+            "bottom": 2334.765625,
+            "w": 195.328125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 459.65625,
+            "y": 2339.765625,
+            "right": 654.984375,
+            "bottom": 2367.765625,
+            "w": 195.328125,
+            "h": 28
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "extraIcons": [],
+      "originalTimelineVisible": false,
+      "mobileTimelineVisible": false,
+      "mobileTimelineMounted": false,
+      "derivedSummaryMounted": false,
+      "specialPoints": 3,
+      "infoVisible": true,
+      "infoCards": 4,
+      "fontLoaded": true,
+      "errors": [],
+      "screenshot": null
+    },
+    {
+      "width": 768,
+      "viewport": 753,
+      "scrollWidth": 753,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "gridVisible": true,
+      "gridColumns": "217.172px 217.188px 217.188px",
+      "cards": [
+        {
+          "id": "node-1:102",
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 30.71875,
+            "y": 2003.234375,
+            "right": 247.890625,
+            "bottom": 2111.234375,
+            "w": 217.171875,
+            "h": 108
+          },
+          "labelBox": {
+            "x": 52.71875,
+            "y": 2025.234375,
+            "right": 225.890625,
+            "bottom": 2049.234375,
+            "w": 173.171875,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 52.71875,
+            "y": 2061.234375,
+            "right": 225.890625,
+            "bottom": 2089.234375,
+            "w": 173.171875,
+            "h": 28
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "id": "node-1:479",
+          "visible": true,
+          "icon": "field",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 267.890625,
+            "y": 2003.234375,
+            "right": 485.078125,
+            "bottom": 2111.234375,
+            "w": 217.1875,
+            "h": 108
+          },
+          "labelBox": {
+            "x": 289.890625,
+            "y": 2025.234375,
+            "right": 463.078125,
+            "bottom": 2049.234375,
+            "w": 173.1875,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 289.890625,
+            "y": 2061.234375,
+            "right": 463.078125,
+            "bottom": 2089.234375,
+            "w": 173.1875,
+            "h": 28
+          },
+          "label": "교육분야",
+          "value": "인테리어· 유리 필름"
+        },
+        {
+          "id": "node-1:484",
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 505.078125,
+            "y": 2003.234375,
+            "right": 722.265625,
+            "bottom": 2111.234375,
+            "w": 217.1875,
+            "h": 108
+          },
+          "labelBox": {
+            "x": 527.078125,
+            "y": 2025.234375,
+            "right": 700.265625,
+            "bottom": 2049.234375,
+            "w": 173.1875,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 527.078125,
+            "y": 2061.234375,
+            "right": 700.265625,
+            "bottom": 2089.234375,
+            "w": 173.1875,
+            "h": 28
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "extraIcons": [],
+      "originalTimelineVisible": true,
+      "mobileTimelineVisible": false,
+      "mobileTimelineMounted": false,
+      "derivedSummaryMounted": false,
+      "specialPoints": 3,
+      "infoVisible": true,
+      "infoCards": 4,
+      "fontLoaded": true,
+      "errors": [],
+      "screenshot": "D:\\1111113232\\TE-PU\\smd-public (1)\\smd-public\\docs\\migration\\smd-home-r2\\visual-restore\\browser-local\\mobile-r3-screenshots\\mobile-r3-768.png"
+    },
+    {
+      "width": 1024,
+      "viewport": 1009,
+      "scrollWidth": 1009,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "gridVisible": true,
+      "gridColumns": "295.688px 295.688px 295.703px",
+      "cards": [
+        {
+          "id": "node-1:102",
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 40.953125,
+            "y": 2228.375,
+            "right": 336.640625,
+            "bottom": 2336.375,
+            "w": 295.6875,
+            "h": 108
+          },
+          "labelBox": {
+            "x": 62.953125,
+            "y": 2250.375,
+            "right": 314.640625,
+            "bottom": 2274.375,
+            "w": 251.6875,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 62.953125,
+            "y": 2286.375,
+            "right": 314.640625,
+            "bottom": 2314.375,
+            "w": 251.6875,
+            "h": 28
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "id": "node-1:479",
+          "visible": true,
+          "icon": "field",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 356.640625,
+            "y": 2228.375,
+            "right": 652.328125,
+            "bottom": 2336.375,
+            "w": 295.6875,
+            "h": 108
+          },
+          "labelBox": {
+            "x": 378.640625,
+            "y": 2250.375,
+            "right": 630.328125,
+            "bottom": 2274.375,
+            "w": 251.6875,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 378.640625,
+            "y": 2286.375,
+            "right": 630.328125,
+            "bottom": 2314.375,
+            "w": 251.6875,
+            "h": 28
+          },
+          "label": "교육분야",
+          "value": "인테리어· 유리 필름"
+        },
+        {
+          "id": "node-1:484",
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 672.328125,
+            "y": 2228.375,
+            "right": 968.03125,
+            "bottom": 2336.375,
+            "w": 295.703125,
+            "h": 108
+          },
+          "labelBox": {
+            "x": 694.328125,
+            "y": 2250.375,
+            "right": 946.03125,
+            "bottom": 2274.375,
+            "w": 251.703125,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 694.328125,
+            "y": 2286.375,
+            "right": 946.03125,
+            "bottom": 2314.375,
+            "w": 251.703125,
+            "h": 28
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "extraIcons": [],
+      "originalTimelineVisible": true,
+      "mobileTimelineVisible": false,
+      "mobileTimelineMounted": false,
+      "derivedSummaryMounted": false,
+      "specialPoints": 3,
+      "infoVisible": true,
+      "infoCards": 4,
+      "fontLoaded": true,
+      "errors": [],
+      "screenshot": "D:\\1111113232\\TE-PU\\smd-public (1)\\smd-public\\docs\\migration\\smd-home-r2\\visual-restore\\browser-local\\mobile-r3-screenshots\\mobile-r3-1024.png"
+    },
+    {
+      "width": 1280,
+      "viewport": 1265,
+      "scrollWidth": 1265,
+      "sceneVisible": true,
+      "reflowVisible": false,
+      "gridVisible": false,
+      "gridColumns": "repeat(3, minmax(0px, 1fr))",
+      "cards": [
+        {
+          "id": "node-1:102",
+          "visible": false,
+          "icon": "duration",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "id": "node-1:479",
+          "visible": false,
+          "icon": "field",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "label": "교육분야",
+          "value": "인테리어· 유리 필름"
+        },
+        {
+          "id": "node-1:484",
+          "visible": false,
+          "icon": "experience",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "extraIcons": [],
+      "originalTimelineVisible": false,
+      "mobileTimelineVisible": false,
+      "mobileTimelineMounted": false,
+      "derivedSummaryMounted": false,
+      "specialPoints": 3,
+      "infoVisible": false,
+      "infoCards": 4,
+      "fontLoaded": true,
+      "errors": [],
+      "screenshot": null
+    },
+    {
+      "width": 1440,
+      "viewport": 1425,
+      "scrollWidth": 1425,
+      "sceneVisible": true,
+      "reflowVisible": false,
+      "gridVisible": false,
+      "gridColumns": "repeat(3, minmax(0px, 1fr))",
+      "cards": [
+        {
+          "id": "node-1:102",
+          "visible": false,
+          "icon": "duration",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "id": "node-1:479",
+          "visible": false,
+          "icon": "field",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "label": "교육분야",
+          "value": "인테리어· 유리 필름"
+        },
+        {
+          "id": "node-1:484",
+          "visible": false,
+          "icon": "experience",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "extraIcons": [],
+      "originalTimelineVisible": false,
+      "mobileTimelineVisible": false,
+      "mobileTimelineMounted": false,
+      "derivedSummaryMounted": false,
+      "specialPoints": 3,
+      "infoVisible": false,
+      "infoCards": 4,
+      "fontLoaded": true,
+      "errors": [],
+      "screenshot": null
+    },
+    {
+      "width": 1920,
+      "viewport": 1905,
+      "scrollWidth": 1905,
+      "sceneVisible": true,
+      "reflowVisible": false,
+      "gridVisible": false,
+      "gridColumns": "repeat(3, minmax(0px, 1fr))",
+      "cards": [
+        {
+          "id": "node-1:102",
+          "visible": false,
+          "icon": "duration",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "id": "node-1:479",
+          "visible": false,
+          "icon": "field",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "label": "교육분야",
+          "value": "인테리어· 유리 필름"
+        },
+        {
+          "id": "node-1:484",
+          "visible": false,
+          "icon": "experience",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "extraIcons": [],
+      "originalTimelineVisible": false,
+      "mobileTimelineVisible": false,
+      "mobileTimelineMounted": false,
+      "derivedSummaryMounted": false,
+      "specialPoints": 3,
+      "infoVisible": false,
+      "infoCards": 4,
+      "fontLoaded": true,
+      "errors": [],
+      "screenshot": "D:\\1111113232\\TE-PU\\smd-public (1)\\smd-public\\docs\\migration\\smd-home-r2\\visual-restore\\browser-local\\mobile-r3-screenshots\\mobile-r3-1920.png"
+    }
+  ],
+  "sourceQualification": "REQUIRES_STATIC_SCRIPT",
+  "figmaPixelParity": "NOT_RUN",
+  "productionPublication": "NOT_TESTED"
+}

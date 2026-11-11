@@ -1,0 +1,174 @@
+{
+  "contract": "SMD-NUXT-R2-CF00-HEAD-V1",
+  "sourceHtmlSha256": "365d946c66c50ebd7925dd835a721190225327b2c9064b8f8c62383890ee9afc",
+  "sourceTitle": "SMD 아카데미 | 인테리어필름 시공 실무 교육",
+  "headTags": [
+    {
+      "tag": "meta",
+      "attributes": {
+        "charset": "UTF-8"
+      },
+      "raw": "<meta charset=\"UTF-8\" />"
+    },
+    {
+      "tag": "link",
+      "attributes": {
+        "rel": "icon",
+        "type": "image/svg+xml",
+        "href": "/vite.svg"
+      },
+      "raw": "<link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      "raw": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "name": "description",
+        "content": "인테리어필름 시공을 현장 수준으로 가르치는 실습 중심 교육기관, SMD 아카데미. 문·문틀·샷시·가구 시공을 6주 48시간 소수정예로 배우고 창업까지 준비합니다."
+      },
+      "raw": "<meta name=\"description\" content=\"인테리어필름 시공을 현장 수준으로 가르치는 실습 중심 교육기관, SMD 아카데미. 문·문틀·샷시·가구 시공을 6주 48시간 소수정예로 배우고 창업까지 준비합니다.\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "name": "keywords",
+        "content": "인테리어필름, 인테리어필름학원, 필름시공교육, 샷시시공, SMD아카데미"
+      },
+      "raw": "<meta name=\"keywords\" content=\"인테리어필름, 인테리어필름학원, 필름시공교육, 샷시시공, SMD아카데미\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "name": "last-modified",
+        "content": "2026-09-14"
+      },
+      "raw": "<meta name=\"last-modified\" content=\"2026-09-14\" />"
+    },
+    {
+      "tag": "link",
+      "attributes": {
+        "rel": "canonical",
+        "href": "https://smd-2026.github.io/smdacademy/"
+      },
+      "raw": "<link rel=\"canonical\" href=\"https://smd-2026.github.io/smdacademy/\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "og:type",
+        "content": "website"
+      },
+      "raw": "<meta property=\"og:type\" content=\"website\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "og:site_name",
+        "content": "SMD 아카데미"
+      },
+      "raw": "<meta property=\"og:site_name\" content=\"SMD 아카데미\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "og:title",
+        "content": "SMD 아카데미 | 인테리어필름 시공 실무 교육"
+      },
+      "raw": "<meta property=\"og:title\" content=\"SMD 아카데미 | 인테리어필름 시공 실무 교육\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "og:description",
+        "content": "문·문틀·샷시·가구까지 직접 완성하며 현장에서 바로 쓰이는 인테리어필름 시공 기술을 익히는 실습 중심 교육기관."
+      },
+      "raw": "<meta property=\"og:description\" content=\"문·문틀·샷시·가구까지 직접 완성하며 현장에서 바로 쓰이는 인테리어필름 시공 기술을 익히는 실습 중심 교육기관.\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "og:url",
+        "content": "https://smd-2026.github.io/smdacademy/"
+      },
+      "raw": "<meta property=\"og:url\" content=\"https://smd-2026.github.io/smdacademy/\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      "raw": "<meta name=\"twitter:card\" content=\"summary_large_image\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "name": "twitter:title",
+        "content": "SMD 아카데미 | 인테리어필름 시공 실무 교육"
+      },
+      "raw": "<meta name=\"twitter:title\" content=\"SMD 아카데미 | 인테리어필름 시공 실무 교육\" />"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "name": "twitter:description",
+        "content": "문·문틀·샷시·가구까지 직접 완성하며 현장에서 쓰이는 인테리어필름 시공 기술을 익힙니다."
+      },
+      "raw": "<meta name=\"twitter:description\" content=\"문·문틀·샷시·가구까지 직접 완성하며 현장에서 쓰이는 인테리어필름 시공 기술을 익힙니다.\" />"
+    },
+    {
+      "tag": "link",
+      "attributes": {
+        "rel": "preconnect",
+        "href": "https://fonts.googleapis.com"
+      },
+      "raw": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">"
+    },
+    {
+      "tag": "link",
+      "attributes": {
+        "rel": "preconnect",
+        "href": "https://fonts.gstatic.com"
+      },
+      "raw": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>"
+    },
+    {
+      "tag": "link",
+      "attributes": {
+        "href": "https://fonts.googleapis.com/css2?family=Pacifico&display=swap",
+        "rel": "stylesheet"
+      },
+      "raw": "<link href=\"https://fonts.googleapis.com/css2?family=Pacifico&display=swap\" rel=\"stylesheet\">"
+    },
+    {
+      "tag": "link",
+      "attributes": {
+        "rel": "stylesheet",
+        "href": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      },
+      "raw": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">"
+    },
+    {
+      "tag": "link",
+      "attributes": {
+        "rel": "stylesheet",
+        "href": "https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css"
+      },
+      "raw": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css\">"
+    }
+  ],
+  "missingFavicon": {
+    "href": "/vite.svg",
+    "existsInOriginalArchive": false
+  },
+  "deploymentCanonicalStatus": "HISTORICAL_UNVERIFIED",
+  "lastModifiedStatus": "HISTORICAL_FIXED_VALUE_UNVERIFIED",
+  "promotionToNuxtHead": "CF10_DEFERRED"
+}

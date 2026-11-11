@@ -1,0 +1,177 @@
+{
+  "contract": "FILM-R13-RESTORE-CF3",
+  "revision": "FILM-R13-RESTORE-CF3-RATE-CANDIDATE-V1",
+  "parentSpeedRevision": "FILM-SPEED-R3",
+  "parentSpeedSha256": "d3ce450cabe2f3d959ce2685499d171ded14e4208e56d039805825504e423e33",
+  "unit": "css-px-per-second",
+  "status": "CANDIDATE_NOT_PHYSICALLY_ADMITTED",
+  "policy": {
+    "emaTauMs": 160,
+    "minDtMs": 4,
+    "maxDtMs": 160,
+    "idleResetMs": 240,
+    "coalesceMs": 16,
+    "hysteresisFraction": 0.08
+  },
+  "bins": [
+    {
+      "direction": 0,
+      "lower": 0,
+      "upper": 0,
+      "profileId": "pointer-idle",
+      "rate": 1
+    },
+    {
+      "direction": -1,
+      "lower": 0,
+      "upper": 24,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 0.84
+    },
+    {
+      "direction": -1,
+      "lower": 24,
+      "upper": 48,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 0.88
+    },
+    {
+      "direction": -1,
+      "lower": 48,
+      "upper": 96,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 0.92
+    },
+    {
+      "direction": -1,
+      "lower": 96,
+      "upper": 192,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 0.96
+    },
+    {
+      "direction": -1,
+      "lower": 192,
+      "upper": 384,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 1
+    },
+    {
+      "direction": -1,
+      "lower": 384,
+      "upper": 768,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 1.04
+    },
+    {
+      "direction": -1,
+      "lower": 768,
+      "upper": 1536,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 1.08
+    },
+    {
+      "direction": -1,
+      "lower": 1536,
+      "upper": 3072,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 1.12
+    },
+    {
+      "direction": -1,
+      "lower": 3072,
+      "upper": 1000000,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 1.16
+    },
+    {
+      "direction": 1,
+      "lower": 0,
+      "upper": 24,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 0.84
+    },
+    {
+      "direction": 1,
+      "lower": 24,
+      "upper": 48,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 0.88
+    },
+    {
+      "direction": 1,
+      "lower": 48,
+      "upper": 96,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 0.92
+    },
+    {
+      "direction": 1,
+      "lower": 96,
+      "upper": 192,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 0.96
+    },
+    {
+      "direction": 1,
+      "lower": 192,
+      "upper": 384,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 1
+    },
+    {
+      "direction": 1,
+      "lower": 384,
+      "upper": 768,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 1.04
+    },
+    {
+      "direction": 1,
+      "lower": 768,
+      "upper": 1536,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 1.08
+    },
+    {
+      "direction": 1,
+      "lower": 1536,
+      "upper": 3072,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 1.12
+    },
+    {
+      "direction": 1,
+      "lower": 3072,
+      "upper": 1000000,
+      "profileId": "pointer-rate-candidate-v1",
+      "rate": 1.16
+    }
+  ],
+  "hysteresis": {
+    "enter": [
+      24,
+      48,
+      96,
+      192,
+      384,
+      768,
+      1536,
+      3072,
+      1000000
+    ],
+    "leave": [
+      24,
+      48,
+      96,
+      192,
+      384,
+      768,
+      1536,
+      3072,
+      1000000
+    ]
+  },
+  "positionVelocityWitnessDigest": "cdf42403ba894d8dc1fa48444c8eb2314360667f8398a7b2541772cc36dab2b7",
+  "contentSha256": "242fcc24683a28ea9cb6a49c71f66e2c06f6b7324678d54cbad9382b6ee60725"
+}

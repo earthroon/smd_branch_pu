@@ -1,0 +1,113 @@
+/* Figma aVzrXSUp4FrQ1dp7nKrSVI / Gallery 1:2 / Frame3 1:84.
+   The 1920px artboard has Frame3 y=2461 and h=567. Header owns its own height.
+   All offsets below are Frame3-local, never 75% scaled. */
+.smd-gallery-cta-frame3 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 567px;
+  background: var(--smd-brand-navy, #172c57);
+  color: #fff;
+  font-family: var(--font-ui);
+}
+.smd-gallery-cta-frame3 *,
+.smd-gallery-cta-frame3 *::before,
+.smd-gallery-cta-frame3 *::after { box-sizing: border-box; }
+.smd-gallery-cta-frame3__inner {
+  position: relative;
+  width: calc(100% - 48px);
+  max-width: 1046px;
+  margin-inline: auto;
+  height: 100%;
+}
+.smd-gallery-cta-frame3__title {
+  position: absolute;
+  left: 0;
+  top: 174.71875px;
+  width: max-content;
+  max-width: 100%;
+  margin: 0;
+  font: 700 56.937px / 87.885px var(--font-ui);
+  letter-spacing: -3.4162px;
+  overflow-wrap: anywhere;
+}
+.smd-gallery-cta-frame3__description {
+  position: absolute;
+  left: 3px;
+  top: 258.71875px;
+  max-width: 100%;
+  margin: 0;
+  font: 400 21.525px / 33.922px var(--font-ui);
+  letter-spacing: -1.2915px;
+}
+.smd-gallery-cta-frame3__button {
+  position: absolute;
+  left: 1px;
+  top: 322.71875px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 236.992px;
+  height: 62.004px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 31px;
+  background: var(--smd-action-orange, #d95e22);
+  color: #fff;
+  font: 700 22.439px / 32.573px var(--font-ui);
+  letter-spacing: -1.3463px;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.smd-gallery-cta-frame3__button:hover { background: #bd4c19; }
+.smd-gallery-cta-frame3__button--unavailable { cursor: default; opacity: .75; }
+.smd-gallery-cta-frame3__button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+@media (max-width: 1099px) {
+  .smd-gallery-cta-frame3 { height: auto; min-height: 390px; }
+  .smd-gallery-cta-frame3__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    height: auto;
+    padding-block: 100px;
+  }
+  .smd-gallery-cta-frame3__title,
+  .smd-gallery-cta-frame3__description,
+  .smd-gallery-cta-frame3__button {
+    position: static;
+  }
+  .smd-gallery-cta-frame3__title {
+    width: auto;
+    font-size: clamp(30px, 4.1vw, 48px);
+    line-height: 1.3;
+    letter-spacing: -.05em;
+  }
+  .smd-gallery-cta-frame3__description {
+    font-size: clamp(16px, 2vw, 21px);
+    line-height: 1.6;
+    letter-spacing: -.04em;
+  }
+  .smd-gallery-cta-frame3__button { margin-top: 8px; }
+}
+@media (max-width: 699px) {
+  .smd-gallery-cta-frame3__inner {
+    width: calc(100% - 40px);
+    gap: 18px;
+    padding-block: 80px;
+  }
+  .smd-gallery-cta-frame3__title {
+    font-size: clamp(28px, 8vw, 37px);
+    line-height: 1.35;
+  }
+  .smd-gallery-cta-frame3__description { font-size: 15px; }
+  .smd-gallery-cta-frame3__button {
+    width: 204px;
+    height: 54px;
+    font-size: 18px;
+  }
+}

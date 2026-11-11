@@ -1,0 +1,285 @@
+/* SMD-HOME-R2-CF3: home-only derived layout. Frozen Figma geometry stays in CF1. */
+.smd-home {
+  --home-reference-viewport-width: 1920;
+  --home-reference-viewport-height: 1080;
+  --home-header-offset: 76px;
+  --home-gutter: clamp(18px, 4vw, 48px);
+  --home-hero-max: 1398px;
+  --home-info-max: 1061px;
+  --home-special-max: 1050px;
+  --home-training-max: 1586px;
+  --home-benefits-max: 1050px;
+  --home-methods-max: 1516px;
+  --home-location-max: 833px;
+  --home-faq-max: 1510px;
+  --home-cta-max: 799px;
+  padding-top: var(--home-header-offset);
+  font-family: var(--font-ui);
+  color: #2f2f2f;
+}
+.smd-home *, .smd-home *::before, .smd-home *::after {box-sizing: border-box;}
+.smd-home-section {width: 100%; min-width: 0; position: relative;}
+.smd-home__container {
+  width: calc(100% - 2 * var(--home-gutter));
+  max-width: var(--home-section-max, 1516px);
+  min-width: 0; margin-inline: auto;
+}
+.smd-home :is(.smd-home__grid, .smd-home__grid > *) {min-width: 0;}
+.smd-home-figma-text {white-space: pre-line; overflow-wrap: break-word;}
+.smd-home--hero {--home-section-max: var(--home-hero-max); background: #d9d9d9;}
+.smd-home--info-bar {--home-section-max: var(--home-info-max); background: #f2f2f2;}
+.smd-home--special-start {--home-section-max: var(--home-special-max); background: #fff;}
+.smd-home--training-track {--home-section-max: var(--home-training-max); background: #f2f2f2;}
+.smd-home--benefits {--home-section-max: var(--home-benefits-max); background: #fff; color: #2f2f2f;}
+.smd-home--methods {--home-section-max: var(--home-methods-max); background: #f2f2f2;}
+.smd-home--location {--home-section-max: var(--home-location-max); background: #fff;}
+.smd-home--faq {--home-section-max: var(--home-faq-max); background: #f2f2f2;}
+.smd-home--consultation-cta {--home-section-max: var(--home-cta-max); background: #d9d9d9; color: #2f2f2f;}
+.smd-home__section-heading {max-width: 100%; overflow-wrap: break-word;}
+.smd-home__copy-block {min-width: 0;}
+.smd-home__media {width: 100%; max-width: 100%;}
+.smd-home__media > [data-media-slot] {display: block; max-width: 100%;}
+.smd-home--hero .smd-home__container {padding-block: 115px 120px;}
+.smd-home--hero h1 {max-width: 767px; margin-top: 26px;}
+.smd-home--hero .smd-home__hero-intro {max-width: 650px; margin-top: 28px;}
+.smd-home--info-bar .smd-home__container {padding-block: 48px 48px;}
+.smd-home__facts {display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: clamp(14px,2vw,28px); align-items: center;}
+.smd-home__fact {min-width: 0; text-align: center;}
+.smd-home__fact-value {margin-top: 14px;}
+.smd-home--special-start .smd-home__container {padding-block: 100px;}
+.smd-home__special-layout {display:grid; grid-template-columns: minmax(0,1fr) minmax(0,484px); align-items:center; gap: clamp(24px,4vw,80px);}
+.smd-home__special-points {margin-top: 34px; display:flex; flex-direction:column; gap: 24px;}
+.smd-home__special-point {display:flex; align-items:flex-start; gap: 20px;}
+.smd-home--training-track .smd-home__container {padding-block: 100px; text-align: center;}
+.smd-home__training-intro {margin-top: 24px;}
+.smd-home__training-facts {display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap: 20px; margin-top: 50px;}
+.smd-home__training-fact {background:#fff; padding:22px; border-radius:16px;}
+.smd-home__training-fact-value {margin-top:12px;}
+.smd-home__training-tracks {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:34px;}
+.smd-home__training-track {display:flex;align-items:center;justify-content:center;gap:clamp(20px,3vw,52px); min-height:110px; min-width:0;}
+.smd-home__training-track > .smd-home__track-line {width:44px;max-width:100%;flex:none;}
+.smd-home--benefits .smd-home__container {padding-block: 92px;}
+.smd-home--benefits .smd-home__section-heading {text-align:center; margin-inline:auto;}
+.smd-home__benefits-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,2vw,22px);margin-top:60px;}
+.smd-home__benefit-body {display:flex;align-items:flex-start;gap:15px;margin-top:20px;}
+.smd-home__benefit-copy {min-width:0;}
+.smd-home__benefit-description {margin-top:10px;}
+.smd-home--methods .smd-home__container {padding-block: 80px;}
+.smd-home--methods .smd-home__section-heading {text-align:center; margin-inline:auto;}
+.smd-home__methods-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,1.15vw,22px);margin-top:58px;}
+.smd-home__method {text-align:center;}
+.smd-home__method-title {margin-top:24px;}
+.smd-home__method-description {margin-top:10px;}
+.smd-home--location .smd-home__container {padding-block: 100px; text-align:center;}
+.smd-home__location-intro {margin-top:32px;}
+.smd-home__location-note {margin-top:30px;}
+.smd-home--faq .smd-home__container {padding-block:110px;}
+.smd-home--faq .smd-home__section-heading {text-align:center;}
+.smd-home__faq-layout {margin-top:52px;}
+.smd-home__faq-row {min-height:150px; display:flex; align-items:center; justify-content:flex-end;}
+.smd-home__faq-unfilled {width: 100%; height: 100%;}
+.smd-home-line-candidate {display:block; width:100%;height:2px;overflow:visible;}
+.smd-home__faq-icon {
+  width:44px;height:44px;position:relative;flex:none;margin-right:44px;
+}
+.smd-home--consultation-cta .smd-home__container {padding-block: 120px; text-align:center;}
+.smd-home__consultation-link {display:inline-flex;align-items:center;justify-content:center;max-width:100%;padding:16px 36px;background:#d95e22;color:white;margin-top:58px;text-decoration:none;min-height:75px;}
+.smd-home__consultation-link:focus-visible {outline:3px solid #ad511e;outline-offset:4px;}
+
+@media (min-width:1600px) {
+  .smd-home {--home-header-offset:var(--smd-desktop-header-height);}
+  .smd-home--hero {min-height:815px;}
+  .smd-home--hero .smd-home__container {padding-top:259px;}
+  .smd-home--info-bar {min-height:310px;}
+  .smd-home--special-start {min-height:1067px;}
+  .smd-home--special-start .smd-home__container {padding-top:221px;}
+  .smd-home--training-track {min-height:891px;}
+  .smd-home--training-track .smd-home__container {padding-top:184px;}
+  .smd-home--benefits {min-height:1422px;}
+  .smd-home--benefits .smd-home__container {padding-top:187px;}
+  .smd-home--methods {min-height:1200px;}
+  .smd-home--methods .smd-home__container {padding-top:165px;}
+  .smd-home--location {min-height:1346px;}
+  .smd-home--location .smd-home__container {padding-top:168px;}
+  .smd-home--faq {min-height:1199px;}
+  .smd-home--faq .smd-home__container {padding-top:183px;}
+  .smd-home--consultation-cta {min-height:860px;}
+  .smd-home--consultation-cta .smd-home__container {padding-top:234px;}
+}
+@media (min-width:600px) and (max-width:1599px) {
+  .smd-home {--home-header-offset:80px;}
+  .smd-home .smd-home__container {padding-block: clamp(68px,7vw,115px);}
+}
+/* At desktop widths, the Home top offset tracks the same compact Header SSOT. */
+@media (min-width:1380px) and (max-width:1599px) {
+  .smd-home {--home-header-offset:var(--smd-desktop-header-height);}
+}
+@media (min-width:600px) and (max-width:1099px) {
+  .smd-home__facts {grid-template-columns:repeat(2,minmax(0,1fr));}
+  .smd-home__special-layout {grid-template-columns:repeat(2,minmax(0,1fr));}
+  .smd-home__methods-grid {grid-template-columns:repeat(2,minmax(0,1fr));}
+  .smd-home__training-tracks {grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@media (max-width:699px) {
+  .smd-home {--home-header-offset:76px;--home-gutter:clamp(18px,5vw,24px);}
+  .smd-home .smd-home__container {padding-block: 64px;}
+  /* SMD-MOBILE-SPACING-R1: block spacing only, no text/asset edits. */
+  .smd-home--hero .smd-home__container {padding-block:92px 52px;}
+  .smd-home--special-start .smd-home__container {padding-top:40px;}
+  .smd-home--training-track .smd-home__container {padding-block:44px 48px;}
+  .smd-home__facts,.smd-home__benefits-grid,.smd-home__methods-grid,
+  .smd-home__training-facts,.smd-home__training-tracks,.smd-home__special-layout {grid-template-columns: minmax(0,1fr);}
+  .smd-home__special-layout {gap:36px;}
+  .smd-home__special-layout .smd-home__media {max-width:484px; margin-inline:auto;}
+  .smd-home__benefits-grid {gap:36px;}
+  .smd-home__methods-grid {gap:48px;}
+  .smd-home__training-track {flex-wrap:wrap;gap:12px;}
+  .smd-home__faq-row {min-height:108px;}
+  .smd-home__faq-icon {width:26px;height:26px;margin-right:8px;}
+  .smd-home__consultation-link {width:100%;font-size:18px;}
+}
+@media (min-width:700px) and (max-width:1099px) {
+  .smd-home__facts {grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@media (min-width:600px) and (max-width:699px) {.smd-home {--home-header-offset:80px;}}
+
+/* M4: native accessible FAQ disclosure, original Figma ROW/LINE geometry retained. */
+.smd-home__faq-disclosure { display:block; }
+.smd-home__faq-summary { display:flex;align-items:center;justify-content:space-between;gap:1.25rem;cursor:pointer;list-style:none;min-width:0;width:100%; }
+.smd-home__faq-summary::-webkit-details-marker{display:none}
+.smd-home__faq-summary:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+.smd-home__faq-disclosure[open] .smd-home__faq-icon{transform:rotate(45deg)}
+.smd-home__faq-answer{white-space:pre-line;line-height:1.75;max-width:75ch;margin:1rem 0 0;overflow-wrap:anywhere;}
+
+/* SMD-HOME-R2-MOBILE-BENEFITS-R1 BEGIN: Vue3 Semantic Reflow only */
+/* R3-LINEBOX supersession: parent paragraph owns font size and line box, Figma runs inherit. */
+@media (max-width: 699px) {
+  /* Preserve the 400/600 Figma run weights; present each authored run on one line. */
+  .smd-home--benefits h2 [data-figma-text="node-1:92"] {
+    display: block;
+    white-space: normal;
+    max-width: 100%;
+  }
+  .smd-home--benefits h2 [data-figma-text="node-1:92"] > span {
+    display: block;
+    white-space: nowrap !important;
+    font-size: clamp(18px, 5.2vw, 23px) !important;
+    line-height: 1.35 !important;
+  }
+  .smd-home--benefits .smd-home__benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    align-items: stretch;
+    margin-top: clamp(30px, 8vw, 52px);
+  }
+  .smd-home--benefits .smd-home__benefit-card {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    height: auto;
+    padding: 12px 12px 14px;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+  /* Existing HomeMediaFrame remains the unique media/placeholder owner. */
+  .smd-home--benefits .smd-home__benefit-card > .smd-home__media-frame {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+  .smd-home--benefits .smd-home__benefit-body {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 0;
+    margin: 0;
+    gap: 0;
+  }
+  .smd-home--benefits .smd-home__benefit-body > span {
+    display: block;
+    flex: none;
+    align-self: flex-end;
+    white-space: nowrap;
+    line-height: 1.15;
+  }
+  .smd-home--benefits .smd-home__benefit-body > span .smd-home-figma-text > span {
+    font-family: var(--font-ui) !important;
+    font-weight: 600 !important;
+    font-size: clamp(22px, 6.2vw, 24px) !important;
+    line-height: 1.15 !important;
+  }
+  .smd-home--benefits .smd-home__benefit-copy {
+    min-width: 0;
+    margin-top: 8px;
+    flex: 0 1 auto;
+  }
+  /* R4: h3 owns line box, wrapper and Figma runs inherit exactly. */
+  .smd-home--benefits .smd-home__benefit-copy h3 {
+    margin: 0 0 6px;
+    min-width: 0;
+    font-size: clamp(13px, 3.5vw, 14px);
+    line-height: 1.35;
+    font-weight: 600;
+    white-space: normal !important;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  .smd-home--benefits .smd-home__benefit-copy h3 .smd-home-figma-text,
+  .smd-home--benefits .smd-home__benefit-copy h3 .smd-home-figma-text > span {
+    white-space: normal !important;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-weight: inherit !important;
+  }
+  .smd-home--benefits .smd-home__benefit-description {
+    min-width: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    white-space: normal !important;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    /* R3: text paragraph is the single font-size/line-box authority. */
+    font-size: clamp(11px, 3vw, 12px);
+    line-height: 1.5;
+  }
+  .smd-home--benefits .smd-home__benefit-description .smd-home-figma-text,
+  .smd-home--benefits .smd-home__benefit-description .smd-home-figma-text > span {
+    white-space: normal !important;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-weight: 400 !important;
+  }
+  /* R2 image remains fully visible (contain), while mobile copy is readable. */
+  .smd-home--benefits .smd-home__benefit-card > [data-media-state="published"] + .smd-home__benefit-body .smd-home__benefit-copy {
+    background: rgba(232, 239, 255, 0.92);
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .smd-home--benefits .smd-home__benefit-card > [data-media-state="published"] + .smd-home__benefit-body > span {
+    background: rgba(232, 239, 255, 0.92);
+    padding-inline: 3px;
+    border-radius: 6px;
+  }
+}
+/* SMD-HOME-R2-MOBILE-BENEFITS-R1 END */
+
+/* Homepage only: Hero begins at viewport Y=0 */
+.smd-home--figma-scene,
+.smd-home--semantic-reflow {
+  --home-header-offset: 0px;
+}

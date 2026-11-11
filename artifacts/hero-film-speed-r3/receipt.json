@@ -1,0 +1,11 @@
+{
+  "base": 193.2,
+  "hoverTarget": 0,
+  "stopMs": 600,
+  "exitMs": 1400,
+  "pauseButton": false,
+  "typecheck": "PASS",
+  "build": "PASS",
+  "tests": 24,
+  "browser": "NOT_RUN"
+}

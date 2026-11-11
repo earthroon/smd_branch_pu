@@ -1,0 +1,162 @@
+[
+  {
+    "nodeKey": "node-18:25",
+    "reasonCode": "FNS_CLIP_WITNESS_MISSING",
+    "clipCase": "mask"
+  },
+  {
+    "nodeKey": "node-18:23",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "mask"
+  },
+  {
+    "nodeKey": "node-18:24",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:57",
+    "reasonCode": "FNS_CLIP_WITNESS_MISSING",
+    "clipCase": "mask"
+  },
+  {
+    "nodeKey": "node-18:55",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "mask"
+  },
+  {
+    "nodeKey": "node-18:56",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:29",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:30",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:31",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:32",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:33",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:34",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:35",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:36",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:37",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:38",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:39",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:40",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:41",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:42",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:43",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:44",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:45",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:46",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:47",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:48",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:49",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:50",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:51",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:52",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:53",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  },
+  {
+    "nodeKey": "node-18:54",
+    "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+    "clipCase": "none"
+  }
+]

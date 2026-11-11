@@ -1,0 +1,257 @@
+/* SMD-HOME-TABLET-VUE3-PARITY-R1
+ * Authority: existing semantic Vue3 nodes + tablet layout spacing, 700..1099 CSS px.
+ * No new Figma content/asset, no Scene edits, no CMS changes.
+ * Responsive boundary: mobile <=699 unchanged; desktop >=1100 unchanged.
+ * This explicitly supersedes tablet spacing-only R1: CSS layout parity is required.
+ */
+@media (min-width: 700px) and (max-width: 1099px) {
+  .smd-home--semantic-reflow {
+    --smd-tablet-section-space: 64px;
+    --smd-tablet-training-title-description-gap: 20px;
+    --smd-tablet-training-description-cards-gap: 40px;
+    --smd-tablet-training-card-gap: 16px;
+    --smd-tablet-training-cards-flow-gap: 32px;
+    --smd-tablet-training-icon-size: clamp(40px, 5.8vw, 64px);
+    --smd-tablet-training-optical-gap: clamp(8px, 1.1vw, 14px);
+    --smd-tablet-training-flow-item-gap: clamp(4px, .75vw, 10px);
+    --smd-tablet-training-badge-size: clamp(48px, 5.7vw, 70px);
+    --smd-tablet-benefits-heading-grid-gap: 48px;
+    --smd-tablet-benefits-card-gap: 16px;
+    --smd-tablet-benefits-inner-padding: clamp(16px, 2.35vw, 24px);
+    --smd-tablet-benefits-card-min-height: clamp(240px, 30vw, 320px);
+  }
+
+  /* Teaching: reuse the existing three source pictograms in horizontal desktop order. */
+  .smd-home--semantic-reflow .smd-home--training-track > .smd-home__container,
+  .smd-home--semantic-reflow .smd-home--benefits > .smd-home__container {
+    padding-block: var(--smd-tablet-section-space);
+  }
+  .smd-home--semantic-reflow .smd-home--training-track > .smd-home__container > h2 + p {
+    margin-top: var(--smd-tablet-training-title-description-gap);
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-home__training-facts {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: var(--smd-tablet-training-description-cards-gap);
+    gap: var(--smd-tablet-training-card-gap);
+    align-items: stretch;
+  }
+  /* Icon + (label,value) is ONE intrinsic optical group, centered as a unit.
+   * Multi-line middle card expands the copy but never splits group alignment.
+   * Desktop source assets/fonts remain unchanged. */
+  .smd-home--semantic-reflow .smd-home--training-track .smd-home__training-fact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    min-height: clamp(104px, 13vw, 146px);
+    padding: clamp(12px, 1.55vw, 20px);
+    text-align: left;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-fact-r2__optical-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--smd-tablet-training-optical-gap);
+    width: max-content;
+    max-width: 100%;
+    min-width: 0;
+    margin-inline: auto;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-fact-r2__copy {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    min-width: 0;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-icon-r2 {
+    display: grid;
+    place-items: center;
+    flex: 0 0 var(--smd-tablet-training-icon-size);
+    width: var(--smd-tablet-training-icon-size);
+    height: var(--smd-tablet-training-icon-size);
+    margin: 0;
+    min-width: 0;
+  }
+  /* SMD-TABLET-ICON-OPTICAL-R2A: tablet-only optical offset candidates, no source asset mutation. */
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-icon-r2--duration {
+    transform: translateY(-10px);
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-icon-r2--field {
+    transform: translate(-10px, -8px);
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-icon-r2--experience {
+    transform: translateX(-7px);
+  }
+
+  /* Reuse user-approved Vue3 mobile text. Keep '유리필름' an unbroken token. */
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-fact-r2__value .smd-training-field-original-r4a {
+    display: none;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-fact-r2__value .smd-training-field-mobile-r4a {
+    display: inline;
+    font-family: var(--font-ui), Pretendard, sans-serif;
+    font-size: clamp(15px, 1.85vw, 16px); /* SMD-TABLET-ICON-TEXT-R2C */
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    color: #142b57; /* SMD-TABLET-FIELD-COLOR-R2B */
+    white-space: normal;
+    word-break: keep-all;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-fact-r2__value .smd-training-nobreak-r4a {
+    display: inline-block;
+    white-space: nowrap;
+    word-break: normal;
+  }
+
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-icon-r2 > img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-fact-r2__label,
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-fact-r2__value {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    text-align: left;
+    font-family: var(--font-ui), Pretendard, sans-serif;
+    font-size: clamp(15px, 1.85vw, 16px);
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    color: #142b57;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-fact-r2__value {
+    overflow-wrap: break-word;
+    word-break: keep-all;
+  }
+
+  /* The original semantic two-row timeline omits desktop's middle work stage.
+   * Use the already mounted R4A source-node sequence as one seven-slot tablet row.
+   * Old two-row owner is hidden ONLY inside semantic tablet Training. */
+  .smd-home--semantic-reflow .smd-home--training-track .smd-home__training-tracks-original-r2 {
+    display: none;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a {
+    display: block;
+    width: min(100%, 1030px);
+    max-width: 100%;
+    margin: var(--smd-tablet-training-cards-flow-gap) auto 0;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__grid {
+    display: grid;
+    grid-template-columns: var(--smd-tablet-training-badge-size) minmax(0, 1fr) 18px minmax(0, 1fr) 18px var(--smd-tablet-training-badge-size) minmax(0, 1fr);
+    grid-template-rows: auto;
+    column-gap: var(--smd-tablet-training-flow-item-gap);
+    align-items: center;
+    min-width: 0;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__badge {
+    display: grid;
+    place-items: center;
+    width: var(--smd-tablet-training-badge-size);
+    height: var(--smd-tablet-training-badge-size);
+    min-width: 0;
+    border-radius: 50%;
+    background: #d95e22;
+    color: #fff;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__step,
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__bottom {
+    display: grid;
+    place-items: center;
+    min-width: 0;
+    margin: 0;
+    padding: 8px 4px;
+    min-height: 36px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__arrow {
+    display: block;
+    width: 18px;
+    height: 28px;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__morning { grid-column: 1; grid-row: 1; }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__bottom-morning { grid-column: 2; grid-row: 1; }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__arrow-first { grid-column: 3; grid-row: 1; }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__step { grid-column: 4; grid-row: 1; }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__arrow-second { grid-column: 5; grid-row: 1; }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__afternoon { grid-column: 6; grid-row: 1; }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__bottom-afternoon { grid-column: 7; grid-row: 1; }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__afternoon-mobile-text { display: none; }
+  .smd-home--semantic-reflow .smd-home--training-track .smd-training-flow-r4a__afternoon-source-text { display: inline; }
+
+  /* Benefits: source HomeMediaFrame remains the unique original background/media owner.
+   * Make its EXISTING sibling text a single layered card, not a separate row below it. */
+  .smd-home--semantic-reflow .smd-home--benefits .smd-home__benefits-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: var(--smd-tablet-benefits-heading-grid-gap);
+    gap: var(--smd-tablet-benefits-card-gap);
+    align-items: stretch;
+  }
+  .smd-home--semantic-reflow .smd-home--benefits .smd-home__benefit-card {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: var(--smd-tablet-benefits-card-min-height);
+  }
+  .smd-home--semantic-reflow .smd-home--benefits .smd-home__benefit-card > .smd-home__media-frame {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .smd-home--semantic-reflow .smd-home--benefits .smd-home__benefit-card > .smd-home__benefit-body {
+    position: relative;
+    z-index: 1;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 0;
+    margin: 0;
+    padding: var(--smd-tablet-benefits-inner-padding);
+    gap: 0;
+  }
+  .smd-home--semantic-reflow .smd-home--benefits .smd-home__benefit-body > span {
+    flex: none;
+    align-self: flex-end;
+    white-space: nowrap;
+  }
+  .smd-home--semantic-reflow .smd-home--benefits .smd-home__benefit-copy {
+    min-width: 0;
+    margin-top: clamp(24px, 3.5vw, 44px);
+    overflow-wrap: break-word;
+  }
+  .smd-home--semantic-reflow .smd-home--benefits .smd-home__benefit-description {
+    overflow-wrap: break-word;
+  }
+
+  /* SMD-TABLET-FACT-VALUE-R2E: replaces R2D size-only override; run inherits unified parent typography. */
+.smd-home--semantic-reflow .smd-home--training-track .smd-home__training-fact[data-mobile-training-fact="node-1:102"] .smd-training-fact-r2__value .smd-home-figma-text > span,
+  .smd-home--semantic-reflow .smd-home--training-track .smd-home__training-fact[data-mobile-training-fact="node-1:484"] .smd-training-fact-r2__value .smd-home-figma-text > span {
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    letter-spacing: inherit !important;
+    color: inherit !important;
+  }
+}

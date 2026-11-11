@@ -1,0 +1,15 @@
+{
+  "typecheck": "PASS",
+  "build": "PASS",
+  "tests": 19,
+  "sourceAssetByteParity": "PASS",
+  "browser": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "semanticChanges": [
+    "autoplay infinite ON",
+    "Y height binding with original aspect ratio",
+    "gap 0",
+    "assets 1(1).jpg 2.jpg 3.jpg",
+    "visible count is geometry-derived"
+  ]
+}

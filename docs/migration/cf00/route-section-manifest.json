@@ -1,0 +1,506 @@
+{
+  "contract": "SMD-NUXT-R2-CF00-ROUTES-V1",
+  "sourceRouteConfigSha256": "86b9a687a685b71af0cab3b70b05187335fc64ada805ceed47c3bfaf417dae46",
+  "routeCount": 8,
+  "sourceRoutes": [
+    {
+      "path": "/",
+      "source": "src/pages/home/page.tsx",
+      "target": "app/pages/index.vue",
+      "originalSha256": "1ed605fa69699ca9f9c9296ac287b79e9f8d9105d36515e79ac3ce4151c1a4d2",
+      "sectionsAndHeadingsInSourceOrder": [
+        {
+          "tag": "HeroSection",
+          "line": 11
+        },
+        {
+          "tag": "StatementSection",
+          "line": 12
+        },
+        {
+          "tag": "TeachSection",
+          "line": 13
+        },
+        {
+          "tag": "PracticeBlock",
+          "line": 14
+        },
+        {
+          "tag": "ArchiveGallery",
+          "line": 15
+        },
+        {
+          "tag": "CtaBand",
+          "line": 16
+        }
+      ],
+      "sourceTextLines": [
+        {
+          "line": 17,
+          "text": "title=\"정원 5명, 그중 얼리버드는 2자리.\""
+        },
+        {
+          "line": 18,
+          "text": "linkLabel=\"상담 신청하기\""
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "source": "src/pages/about/page.tsx",
+      "target": "app/pages/about.vue",
+      "originalSha256": "e4a595f513898bd7f7b2f8cfb47a577e3502c612f00ad8574c65d45679b01711",
+      "sectionsAndHeadingsInSourceOrder": [
+        {
+          "tag": "PageHero",
+          "line": 9
+        },
+        {
+          "tag": "section",
+          "line": 30
+        },
+        {
+          "tag": "h2",
+          "line": 34
+        },
+        {
+          "tag": "h3",
+          "line": 44
+        },
+        {
+          "tag": "section",
+          "line": 55
+        },
+        {
+          "tag": "h2",
+          "line": 70
+        },
+        {
+          "tag": "CtaBand",
+          "line": 89
+        }
+      ],
+      "sourceTextLines": [
+        {
+          "line": 13,
+          "text": "설명이 아니라,"
+        },
+        {
+          "line": 15,
+          "text": "손으로 증명하는 교육을 만듭니다."
+        },
+        {
+          "line": 18,
+          "text": "lede=\"SMD 아카데미는 인테리어필름 시공을 현장 수준으로 가르치는 실습 중심 교육기관입니다. 문, 문틀, 샷시, 가구까지 직접 완성해보며 현장에서 바로 쓰이는 기술을 익힙니다.\""
+        },
+        {
+          "line": 23,
+          "text": "alt=\"SMD 아카데미 현장 실무 교육\""
+        },
+        {
+          "line": 24,
+          "text": "title=\"인테리어필름 현장 실무 교육\""
+        },
+        {
+          "line": 35,
+          "text": "세 가지 원칙으로 가르칩니다."
+        },
+        {
+          "line": 61,
+          "text": "alt=\"SMD 아카데미 대표 강사 교육 현장\""
+        },
+        {
+          "line": 62,
+          "text": "title=\"SMD 아카데미 대표 강사\""
+        },
+        {
+          "line": 71,
+          "text": "대표 강사"
+        },
+        {
+          "line": 74,
+          "text": "현장에서 쌓은 시공 경험을 그대로 수업으로 옮깁니다. 이론보다 손이 먼저 기억하도록,"
+        },
+        {
+          "line": 75,
+          "text": "매 과제마다 직접 시범을 보이고 개인별로 교정합니다."
+        },
+        {
+          "line": 89,
+          "text": "<CtaBand title=\"지금 교육과정을 확인해보세요.\" to=\"/curriculum\" linkLabel=\"교육과정 보기\" />"
+        }
+      ]
+    },
+    {
+      "path": "/curriculum",
+      "source": "src/pages/curriculum/page.tsx",
+      "target": "app/pages/curriculum.vue",
+      "originalSha256": "b444d8fd09dce795887f05604fb65b5506c09f7cb523371457100d654a3ec506",
+      "sectionsAndHeadingsInSourceOrder": [
+        {
+          "tag": "PageHero",
+          "line": 16
+        },
+        {
+          "tag": "section",
+          "line": 28
+        },
+        {
+          "tag": "TeachGrid",
+          "line": 30
+        },
+        {
+          "tag": "section",
+          "line": 34
+        },
+        {
+          "tag": "h2",
+          "line": 38
+        },
+        {
+          "tag": "h3",
+          "line": 49
+        },
+        {
+          "tag": "CtaBand",
+          "line": 58
+        }
+      ],
+      "sourceTextLines": [
+        {
+          "line": 7,
+          "text": "{ step: '01', title: '기초 다지기', desc: '공구 사용법과 필름 재단, 면 정리부터 시작합니다.' },"
+        },
+        {
+          "line": 8,
+          "text": "{ step: '02', title: '구조물 시공', desc: '문, 문틀, 샷시 등 실제 구조물에 필름을 시공합니다.' },"
+        },
+        {
+          "line": 9,
+          "text": "{ step: '03', title: '마감 디테일', desc: '몰딩과 모서리, 걸레받이 마감까지 완성도를 높입니다.' },"
+        },
+        {
+          "line": 10,
+          "text": "{ step: '04', title: '현장 실무', desc: '현장 관찰과 고객 상담, 창업 준비까지 이어갑니다.' },"
+        },
+        {
+          "line": 20,
+          "text": "기초부터 현장 실무까지,"
+        },
+        {
+          "line": 22,
+          "text": "실제 쓰이는 기술."
+        },
+        {
+          "line": 25,
+          "text": "lede=\"6주 48시간 동안 공구 사용부터 문·문틀·샷시·가구 시공, 현장 실무까지 단계적으로 익힙니다. 각 단계는 시범 후 반복 실습으로 진행됩니다.\""
+        },
+        {
+          "line": 39,
+          "text": "배우는 순서."
+        },
+        {
+          "line": 58,
+          "text": "<CtaBand title=\"과정이 궁금하신가요? 상담으로 확인하세요.\" linkLabel=\"상담 신청하기\" external />"
+        }
+      ]
+    },
+    {
+      "path": "/practice",
+      "source": "src/pages/practice/page.tsx",
+      "target": "app/pages/practice.vue",
+      "originalSha256": "179c627fee9cc669e8531d53cc189b877163e27df251e52204277ad99c6b50ae",
+      "sectionsAndHeadingsInSourceOrder": [
+        {
+          "tag": "PageHero",
+          "line": 15
+        },
+        {
+          "tag": "section",
+          "line": 27
+        },
+        {
+          "tag": "h3",
+          "line": 47
+        },
+        {
+          "tag": "CtaBand",
+          "line": 58
+        }
+      ],
+      "sourceTextLines": [
+        {
+          "line": 6,
+          "text": "{ icon: 'ri-layout-grid-line', title: '넓은 실습 데스크', desc: '개인별 작업 공간에서 충분한 간격을 두고 실습합니다.' },"
+        },
+        {
+          "line": 7,
+          "text": "{ icon: 'ri-stack-line', title: '다양한 자재 샘플', desc: '실제 시공에 쓰이는 다양한 필름과 자재를 직접 다뤄봅니다.' },"
+        },
+        {
+          "line": 8,
+          "text": "{ icon: 'ri-door-open-line', title: '실제 구조물', desc: '문, 문틀, 샷시, 가구 등 현장과 유사한 구조물에서 연습합니다.' },"
+        },
+        {
+          "line": 9,
+          "text": "{ icon: 'ri-tools-line', title: '전문 공구 대여', desc: '커터칼, 스퀴지 등 실습에 필요한 공구를 모두 제공합니다.' },"
+        },
+        {
+          "line": 19,
+          "text": "실제와 같은 환경에서"
+        },
+        {
+          "line": 21,
+          "text": "반복해서 연습합니다."
+        },
+        {
+          "line": 24,
+          "text": "lede=\"다양한 자재와 구조, 실제 현장과 유사한 작업 환경에서 충분히 연습할 수 있습니다. 손이 먼저 기억할 때까지 같은 동작을 반복합니다.\""
+        },
+        {
+          "line": 33,
+          "text": "alt=\"SMD 아카데미 실습공간\""
+        },
+        {
+          "line": 34,
+          "text": "title=\"인테리어필름 실습공간\""
+        },
+        {
+          "line": 58,
+          "text": "<CtaBand title=\"직접 보고 결정하세요. 실습공간 상담 가능.\" linkLabel=\"상담 신청하기\" external />"
+        }
+      ]
+    },
+    {
+      "path": "/archive",
+      "source": "src/pages/archive/page.tsx",
+      "target": "app/pages/archive.vue",
+      "originalSha256": "97efd69e3801b75444338cc109a70471aa0ef4329101645064acc23079eee6e9",
+      "sectionsAndHeadingsInSourceOrder": [
+        {
+          "tag": "PageHero",
+          "line": 8
+        },
+        {
+          "tag": "ArchiveGallery",
+          "line": 19
+        },
+        {
+          "tag": "CtaBand",
+          "line": 20
+        }
+      ],
+      "sourceTextLines": [
+        {
+          "line": 12,
+          "text": "수강생들의 손끝에서"
+        },
+        {
+          "line": 14,
+          "text": "완성된 결과물."
+        },
+        {
+          "line": 17,
+          "text": "lede=\"기초 연습부터 문·문틀·샷시·가구 시공까지, 과정별 작업물을 모아 정리했습니다. 카테고리를 선택해 확인해보세요.\""
+        },
+        {
+          "line": 20,
+          "text": "<CtaBand title=\"다음 작업물의 주인공이 되어보세요.\" linkLabel=\"상담 신청하기\" external />"
+        }
+      ]
+    },
+    {
+      "path": "/promotion",
+      "source": "src/pages/promotion/page.tsx",
+      "target": "app/pages/promotion.vue",
+      "originalSha256": "d23d19e8f66400f15fffca83deb23926224ac355f65bd4cdb8a93aa439677973",
+      "sectionsAndHeadingsInSourceOrder": [
+        {
+          "tag": "PageHero",
+          "line": 11
+        },
+        {
+          "tag": "section",
+          "line": 33
+        },
+        {
+          "tag": "h2",
+          "line": 37
+        },
+        {
+          "tag": "section",
+          "line": 108
+        },
+        {
+          "tag": "h2",
+          "line": 112
+        },
+        {
+          "tag": "h3",
+          "line": 123
+        },
+        {
+          "tag": "CtaBand",
+          "line": 134
+        }
+      ],
+      "sourceTextLines": [
+        {
+          "line": 15,
+          "text": "10월 프로모션"
+        },
+        {
+          "line": 16,
+          "text": "<br />2기 모집"
+        },
+        {
+          "line": 19,
+          "text": "lede=\"정원 단 5명, 얼리버드는 2자리뿐입니다. 예약금 20만원으로 자리를 확정하고, 잔금은 개강 7일 전에 결제합니다.\""
+        },
+        {
+          "line": 38,
+          "text": "얼리버드는 2자리뿐입니다."
+        },
+        {
+          "line": 53,
+          "text": "얼리버드 2석 · 일반 3석 · 총 정원 5명"
+        },
+        {
+          "line": 82,
+          "text": "<span className=\"pb-1.5 font-heading text-lg text-foreground-700\">만원</span>"
+        },
+        {
+          "line": 100,
+          "text": "<strong className=\"font-semibold text-foreground-900\">얼리버드 운영 기준</strong> · 예약금"
+        },
+        {
+          "line": 101,
+          "text": "20만원 입금 시 자리 확정 · 잔금은 개강 7일 전 결제 · 얼리버드와 동반 신청 할인은 중복"
+        },
+        {
+          "line": 102,
+          "text": "적용되지 않습니다."
+        },
+        {
+          "line": 113,
+          "text": "등록하면 함께 드리는 것들."
+        },
+        {
+          "line": 134,
+          "text": "<CtaBand title=\"정원 5명, 그중 얼리버드는 2자리.\" linkLabel=\"상담 신청하기\" external />"
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "source": "src/pages/contact/page.tsx",
+      "target": "app/pages/contact.vue",
+      "originalSha256": "abb37ff0563444b53aba81f1187844149d26ca4fe0ed25d2477fef738a869a3d",
+      "sectionsAndHeadingsInSourceOrder": [
+        {
+          "tag": "PageHero",
+          "line": 36
+        },
+        {
+          "tag": "section",
+          "line": 48
+        },
+        {
+          "tag": "h2",
+          "line": 52
+        },
+        {
+          "tag": "ContactForm",
+          "line": 93
+        }
+      ],
+      "sourceTextLines": [
+        {
+          "line": 9,
+          "text": "label: '카카오톡 채널',"
+        },
+        {
+          "line": 10,
+          "text": "value: '가장 빠른 상담',"
+        },
+        {
+          "line": 15,
+          "text": "label: '전화 상담',"
+        },
+        {
+          "line": 21,
+          "text": "label: '인스타그램',"
+        },
+        {
+          "line": 27,
+          "text": "label: '유튜브',"
+        },
+        {
+          "line": 40,
+          "text": "상담 문의"
+        },
+        {
+          "line": 42,
+          "text": "편하게 남겨주세요."
+        },
+        {
+          "line": 45,
+          "text": "lede=\"과정, 일정, 비용 등 궁금한 점을 남겨주시면 확인 후 순차적으로 연락드립니다. 급하신 경우 카카오톡 채널을 이용해 주세요.\""
+        },
+        {
+          "line": 53,
+          "text": "바로 연결되는 상담 채널."
+        },
+        {
+          "line": 82,
+          "text": "상담 운영 시간"
+        },
+        {
+          "line": 85,
+          "text": "평일 10:00 – 18:00"
+        },
+        {
+          "line": 87,
+          "text": "주말 · 공휴일은 카카오톡 채널로 문의해 주세요."
+        }
+      ]
+    },
+    {
+      "path": "*",
+      "source": "src/pages/NotFound.tsx",
+      "target": "app/error.vue",
+      "originalSha256": "9d190b03f7ed53155f8dbc442b3315edd3222a161da898f6dedf4101c83841b0",
+      "sectionsAndHeadingsInSourceOrder": [
+        {
+          "tag": "section",
+          "line": 5
+        },
+        {
+          "tag": "h1",
+          "line": 8
+        }
+      ],
+      "sourceTextLines": [
+        {
+          "line": 9,
+          "text": "페이지를 찾을 수 없습니다."
+        },
+        {
+          "line": 12,
+          "text": "요청하신 페이지가 이동되었거나 주소가 변경되었을 수 있습니다. 홈으로 돌아가 다시 확인해 주세요."
+        },
+        {
+          "line": 16,
+          "text": "홈으로 가기 <i className=\"ri-arrow-right-line\"></i>"
+        },
+        {
+          "line": 19,
+          "text": "상담 문의하기 <i className=\"ri-arrow-right-line\"></i>"
+        }
+      ]
+    }
+  ],
+  "originalBasePathAuthority": "VITE_BASE_PATH_OR_DEFAULT_SLASH",
+  "effectiveReferenceBasePath": "NOT_PHYSICALLY_RESOLVED",
+  "browserRouteParity": "UNKNOWN"
+}

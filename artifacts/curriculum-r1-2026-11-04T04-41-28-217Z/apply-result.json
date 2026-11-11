@@ -1,0 +1,26 @@
+{
+  "schema": "SMD_CURRICULUM_OVERLAY_APPLY_V1",
+  "baseCommit": "d49395f0bef0dbe1f1b424a34766f4933b3bd750",
+  "files": [
+    {
+      "path": "app/components/figma/FigmaNativeText.vue",
+      "beforeSha256": "638ffb22a79f87fc2f5554f196b58874472e6d959cb38e98c62eb090d7b9d0f4",
+      "sha256": "b2b63df342018243c566a68d1a28d5f9ee2f83a7fad319b23964105ea6d74e87"
+    },
+    {
+      "path": "app/components/home/HeroSection.vue",
+      "beforeSha256": "7449d210f89cfa327f2f83a1cd57954312c4d39c2a58a5281b837bec158a10a4",
+      "sha256": "3ca9e7f7ea553787e4f7b606fa28ac8d427e9d1982fa76e4126f78639412e6b4"
+    },
+    {
+      "path": "app/components/home/HomeFigmaText.vue",
+      "beforeSha256": "f4855943c5c42d209f0c1a3159c2cbc5a348608a13ad9df5de5209ae2bfb2508",
+      "sha256": "264b11fe3fe23c5acbf996986e56264ac1d5eb19861901e40e5e57a31dfb47fd"
+    },
+    {
+      "path": "app/utils/homeFilmCopyPresentation.ts",
+      "beforeSha256": null,
+      "sha256": "0df244f97cd0f8a9cda10e64e872d4941f2096183d2935cc5810f8de9fbc71aa"
+    }
+  ]
+}

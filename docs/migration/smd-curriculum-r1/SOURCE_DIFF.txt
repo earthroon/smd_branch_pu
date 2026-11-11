@@ -1,0 +1,163 @@
+--- parent/app/assets/css/about-r1.css
++++ app/assets/css/about-r1.css
+@@ -55,11 +55,7 @@
+ .smd-about__cta-unavailable-label { font-size:12px; color:#fff; }
+ .smd-about__cms-insert { width:100%; }
+ 
+-/* Only this route consumes the PSD footer surface. Existing footer content is reused. */
+-.smd-site-shell[data-page-skin=about] .smd-site-footer { background:#2e2e2e; color:#fff; border-color:rgba(255,255,255,.18); }
+-.smd-site-shell[data-page-skin=about] .smd-site-footer :is(p,li,a,span,div) { color:inherit; }
+-.smd-site-shell[data-page-skin=about] .smd-site-footer :is(.border-t,.btn-ghost) { border-color:rgba(255,255,255,.3); }
+-.smd-site-shell[data-page-skin=about] .smd-site-footer a:hover { color:var(--smd-action-orange); }
++/* Footer surface is owned by the shared shell selectors in main.css. */
+ 
+ @media (min-width:700px) and (max-width:1099px) {
+   .smd-about__artboard { padding-block:64px; }
+--- parent/app/assets/css/main.css
++++ app/assets/css/main.css
+@@ -6,6 +6,11 @@
+ 
+ :root {
+   --smd-action-orange: #D95E22;
++  /* Shared PSD-authored surfaces, reused by About and Curriculum. */
++  --smd-brand-navy: #172C57;
++  --smd-surface-panel: #F2F6FF;
++  --smd-surface-alternate: #F2F2F2;
++  --smd-footer-background: #2E2E2E;
+   --font-ui: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+   --font-heading: var(--font-ui);
+   --font-body: var(--font-ui);
+@@ -177,6 +182,12 @@
+   }
+ }
+ 
++/* One shared Footer surface for the two PSD-backed pages. Other routes keep their surface. */
++.smd-site-shell:is([data-page-skin=about],[data-page-skin=curriculum]) .smd-site-footer { background:var(--smd-footer-background); color:#fff; border-color:rgba(255,255,255,.18); }
++.smd-site-shell:is([data-page-skin=about],[data-page-skin=curriculum]) .smd-site-footer :is(p,li,a,span,div) { color:inherit; }
++.smd-site-shell:is([data-page-skin=about],[data-page-skin=curriculum]) .smd-site-footer :is(.border-t,.btn-ghost) { border-color:rgba(255,255,255,.3); }
++.smd-site-shell:is([data-page-skin=about],[data-page-skin=curriculum]) .smd-site-footer a:hover { color:var(--smd-action-orange); }
++
+ /* anti-spam honeypot: legit-looking field, visually removed without obvious utility classes */
+ .form-hp-field {
+   position: absolute !important;
+@@ -187,4 +198,4 @@
+   overflow: hidden !important;
+   opacity: 0 !important;
+   pointer-events: none !important;
+-}+}
+--- parent/app/components/about/AboutBodyStage.vue
++++ app/components/about/AboutBodyStage.vue
+@@ -17,8 +17,8 @@
+ const components = { hero: AboutHero, facts: AboutFacts, audience: AboutAudience,
+   'field-experience': AboutFieldExperience, 'learn-by-doing': AboutLearnByDoing,
+   'practice-feedback': AboutPracticeFeedback, career: AboutCareer } as const;
+-const tokens = { '--about-navy': aboutR1Source.tokens.navy, '--about-panel': aboutR1Source.tokens.panel,
+-  '--about-alternate': aboutR1Source.tokens.alternate, '--about-hero': aboutR1Source.tokens.hero,
++const tokens = { '--about-navy': 'var(--smd-brand-navy)', '--about-panel': 'var(--smd-surface-panel)',
++  '--about-alternate': 'var(--smd-surface-alternate)', '--about-hero': aboutR1Source.tokens.hero,
+   '--about-hero-opacity': aboutR1Source.tokens.heroOpacity };
+ </script>
+ <template>
+--- parent/app/layouts/default.vue
++++ app/layouts/default.vue
+@@ -5,7 +5,7 @@
+ </script>
+ 
+ <template>
+-  <div class="smd-site-shell flex min-h-screen flex-col bg-background-50" :data-page-skin="route.path === '/about' ? 'about' : undefined">
++  <div class="smd-site-shell flex min-h-screen flex-col bg-background-50" :data-page-skin="route.path === '/about' ? 'about' : route.path === '/curriculum' ? 'curriculum' : undefined">
+     <SiteHeader />
+     <main class="flex-1">
+       <slot />
+--- parent/app/pages/curriculum.vue
++++ app/pages/curriculum.vue
+@@ -1,21 +1,12 @@
+ <script setup lang="ts">
+-import {useSiteContent} from '~/composables/useSiteContent';
+-import CmsSlot from '~/components/cms/CmsSlot.vue';
+-const c=useSiteContent();
+-const pages=computed(()=>c.value?.pages);
+-import PageHero from '~/components/feature/PageHero.vue';
+-import TeachGrid from '~/components/feature/TeachGrid.vue';
+-import Reveal from '~/components/feature/Reveal.vue';
+-import CtaBand from '~/components/feature/CtaBand.vue';
+-const process=computed(()=>pages.value?.curriculum.learningPath.steps??[]);
++import CurriculumBodyStage from '~/components/curriculum/CurriculumBodyStage.vue';
++import { useCurriculumR1 } from '~/composables/useCurriculumR1';
++const operational=useCurriculumR1();
+ useSeoMeta({title:'교육과정 | SMD 아카데미'});
+ </script>
+ <template>
+-  <PageHero :eyebrow="pages?.curriculum.hero.eyebrow??''" :lede="pages?.curriculum.hero.ledeSegments.join(' ')"><template #title>{{ pages?.curriculum.hero.titleLines[0] }}<br />{{ pages?.curriculum.hero.titleLines[1] }}</template></PageHero>
+-  <section class="py-16 md:py-24"><div class="container-x"><TeachGrid /></div></section>
+-  <CmsSlot :nodes="c?.pageSlots.curriculum.afterTeach??[]" />
+-  <section class="border-t border-background-200 bg-background-100 py-16 md:py-24"><div class="container-x"><Reveal><span class="eyebrow">{{ pages?.curriculum.learningPath.eyebrow }}</span><h2 class="mt-5 font-heading text-3xl font-semibold tracking-tight text-foreground-950 md:text-4xl">{{ pages?.curriculum.learningPath.heading }}</h2></Reveal><div class="mt-12 grid grid-cols-1 gap-px overflow-hidden rounded-lg border border-background-200 bg-background-200 sm:grid-cols-2 lg:grid-cols-4"><div v-for="item in process" :key="item.step" class="bg-background-50 p-6"><div class="flex items-center gap-3"><span class="grid h-8 w-8 place-items-center rounded-full bg-primary-100 font-label text-xs text-primary-700">{{ item.step }}</span><h3 class="font-heading text-base font-semibold text-foreground-950">{{ item.title }}</h3></div><p class="mt-4 text-sm leading-relaxed text-foreground-600">{{ item.desc }}</p></div></div></div></section>
+-  <CmsSlot :nodes="c?.pageSlots.curriculum.afterLearningPath??[]" />
+-  <CmsSlot :nodes="c?.pageSlots.curriculum.beforeCta??[]" />
+-  <CtaBand :title="pages?.curriculum.cta.title??''" :link-label="pages?.curriculum.cta.label" external />
++  <CurriculumBodyStage v-if="operational" :key="operational.publicationKey" :operational="operational" />
++  <section v-else class="container-x min-h-screen pt-40 pb-20" role="status">
++    <h1 class="font-heading text-2xl">교육과정의 발행 상태를 확인하고 있습니다.</h1>
++  </section>
+ </template>
+--- parent/package.json
++++ package.json
+@@ -4,7 +4,7 @@
+   "type": "module",
+   "scripts": {
+     "dev": "nuxt dev",
+-    "build": "npm run verify:about && node scripts/verify-contract-artifact.mjs && nuxt build",
++    "build": "npm run verify:about && npm run verify:curriculum && node scripts/verify-contract-artifact.mjs && nuxt build",
+     "typecheck": "nuxt typecheck",
+     "preview": "nuxt preview",
+     "test:source": "node --experimental-strip-types --test scripts/tests/r3-public-boundary.test.mjs",
+@@ -12,7 +12,9 @@
+     "verify:contracts": "node scripts/verify-contract-artifact.mjs",
+     "deploy:staging": "npm run build && wrangler deploy --env staging",
+     "verify:about": "node --experimental-strip-types scripts/about-r1/verify-source.mjs",
+-    "test:about": "node --experimental-strip-types --test scripts/about-r1/tests/*.test.mjs"
++    "test:about": "node --experimental-strip-types --test scripts/about-r1/tests/*.test.mjs",
++    "verify:curriculum": "node --experimental-strip-types scripts/curriculum-r1/verify-source.mjs",
++    "test:curriculum": "node --experimental-strip-types --test scripts/curriculum-r1/tests/*.test.mjs"
+   },
+   "dependencies": {
+     "@pinia/nuxt": "^1.0.2",
+
+NEW FILES
+app/assets/css/curriculum-r1.css
+app/components/curriculum/CurriculumAction.vue
+app/components/curriculum/CurriculumBodyStage.vue
+app/components/curriculum/CurriculumConsultationCta.vue
+app/components/curriculum/CurriculumCourseInformation.vue
+app/components/curriculum/CurriculumDailyFlow.vue
+app/components/curriculum/CurriculumFacts.vue
+app/components/curriculum/CurriculumHero.vue
+app/components/curriculum/CurriculumIntroduction.vue
+app/components/curriculum/CurriculumMediaFrame.vue
+app/components/curriculum/CurriculumPracticalTraining.vue
+app/components/curriculum/CurriculumSectionHeading.vue
+app/components/curriculum/CurriculumSourceShapes.vue
+app/components/curriculum/CurriculumSourceText.vue
+app/components/curriculum/CurriculumWeekProgram.vue
+app/composables/useCurriculumR1.ts
+app/data/curriculum-r1-assets.generated.ts
+app/data/curriculum-r1-copy.generated.ts
+app/data/curriculum-r1-manifest.ts
+app/data/curriculum-r1-shapes.generated.ts
+app/data/curriculum-r1-types.ts
+app/utils/curriculumR1Admission.ts
+app/utils/curriculumR1LayoutMath.ts
+app/utils/curriculumR1Operational.ts
+docs/migration/smd-curriculum-r1/README.md
+docs/migration/smd-curriculum-r1/source-manifest.json
+public/curriculum/curriculum-class-flow.svg
+public/curriculum/도시 전망 속 창문 필름 시공.png
+public/curriculum/인테리어 필름 시공 교육 현장.png
+public/curriculum/창가에서 완성하는 우드 필름 시공.png
+public/curriculum/창틀 보수와 도장 작업 과정.png
+public/curriculum/취업·창업 컨설팅 상담실.png
+scripts/curriculum-r1/apply-overlay.mjs
+scripts/curriculum-r1/extract-source.py
+scripts/curriculum-r1/tests/apply-overlay.test.mjs
+scripts/curriculum-r1/tests/curriculum.test.mjs
+scripts/curriculum-r1/verify-source.mjs

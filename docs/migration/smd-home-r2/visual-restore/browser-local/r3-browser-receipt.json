@@ -1,0 +1,782 @@
+{
+  "contract": "SMD_HOME_R2_VISUAL_REPAIR_R3",
+  "url": "http://127.0.0.1:3129/Continue",
+  "results": [
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "sceneVisible": false,
+      "fontLoaded": false,
+      "texts": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:115",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-1:62",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-18:117",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        }
+      ],
+      "svg": [
+        {
+          "key": "node-1:52",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:482",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:501",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:555",
+          "visible": false,
+          "href": null,
+          "box": null
+        }
+      ],
+      "cf7": "BLOCKED_SOURCE_WITNESS",
+      "pixelParity": "NOT_RUN",
+      "errors": [
+        "PRETENDARD_MISSING"
+      ]
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "sceneVisible": false,
+      "fontLoaded": false,
+      "texts": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:115",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-1:62",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-18:117",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        }
+      ],
+      "svg": [
+        {
+          "key": "node-1:52",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:482",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:501",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:555",
+          "visible": false,
+          "href": null,
+          "box": null
+        }
+      ],
+      "cf7": "BLOCKED_SOURCE_WITNESS",
+      "pixelParity": "NOT_RUN",
+      "errors": [
+        "PRETENDARD_MISSING"
+      ]
+    },
+    {
+      "width": 430,
+      "documentWidth": 430,
+      "sceneVisible": false,
+      "fontLoaded": false,
+      "texts": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:115",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-1:62",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-18:117",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        }
+      ],
+      "svg": [
+        {
+          "key": "node-1:52",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:482",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:501",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:555",
+          "visible": false,
+          "href": null,
+          "box": null
+        }
+      ],
+      "cf7": "BLOCKED_SOURCE_WITNESS",
+      "pixelParity": "NOT_RUN",
+      "errors": [
+        "PRETENDARD_MISSING"
+      ]
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "sceneVisible": false,
+      "fontLoaded": false,
+      "texts": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:115",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-1:62",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-18:117",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        }
+      ],
+      "svg": [
+        {
+          "key": "node-1:52",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:482",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:501",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:555",
+          "visible": false,
+          "href": null,
+          "box": null
+        }
+      ],
+      "cf7": "BLOCKED_SOURCE_WITNESS",
+      "pixelParity": "NOT_RUN",
+      "errors": [
+        "PRETENDARD_MISSING"
+      ]
+    },
+    {
+      "width": 1024,
+      "documentWidth": 1024,
+      "sceneVisible": false,
+      "fontLoaded": false,
+      "texts": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:115",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-1:62",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-18:117",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        }
+      ],
+      "svg": [
+        {
+          "key": "node-1:52",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:482",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:501",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:555",
+          "visible": false,
+          "href": null,
+          "box": null
+        }
+      ],
+      "cf7": "BLOCKED_SOURCE_WITNESS",
+      "pixelParity": "NOT_RUN",
+      "errors": [
+        "PRETENDARD_MISSING"
+      ]
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "sceneVisible": false,
+      "fontLoaded": false,
+      "texts": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:115",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-1:62",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-18:117",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        }
+      ],
+      "svg": [
+        {
+          "key": "node-1:52",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:482",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:501",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:555",
+          "visible": false,
+          "href": null,
+          "box": null
+        }
+      ],
+      "cf7": "BLOCKED_SOURCE_WITNESS",
+      "pixelParity": "NOT_RUN",
+      "errors": [
+        "PRETENDARD_MISSING",
+        "DESKTOP_SCENE_MISSING",
+        "TEXT_node-18:114",
+        "TEXT_node-1:61",
+        "TEXT_node-18:116",
+        "TEXT_node-18:115",
+        "TEXT_node-1:62",
+        "TEXT_node-18:117",
+        "SVG_node-1:52",
+        "SVG_node-1:482",
+        "SVG_node-1:501",
+        "SVG_node-1:555"
+      ]
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "sceneVisible": false,
+      "fontLoaded": false,
+      "texts": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:115",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-1:62",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-18:117",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        }
+      ],
+      "svg": [
+        {
+          "key": "node-1:52",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:482",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:501",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:555",
+          "visible": false,
+          "href": null,
+          "box": null
+        }
+      ],
+      "cf7": "BLOCKED_SOURCE_WITNESS",
+      "pixelParity": "NOT_RUN",
+      "errors": [
+        "PRETENDARD_MISSING",
+        "DESKTOP_SCENE_MISSING",
+        "TEXT_node-18:114",
+        "TEXT_node-1:61",
+        "TEXT_node-18:116",
+        "TEXT_node-18:115",
+        "TEXT_node-1:62",
+        "TEXT_node-18:117",
+        "SVG_node-1:52",
+        "SVG_node-1:482",
+        "SVG_node-1:501",
+        "SVG_node-1:555"
+      ]
+    },
+    {
+      "width": 1920,
+      "documentWidth": 1920,
+      "sceneVisible": false,
+      "fontLoaded": false,
+      "texts": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:115",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-1:62",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-18:117",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        }
+      ],
+      "svg": [
+        {
+          "key": "node-1:52",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:482",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:501",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:555",
+          "visible": false,
+          "href": null,
+          "box": null
+        }
+      ],
+      "cf7": "BLOCKED_SOURCE_WITNESS",
+      "pixelParity": "NOT_RUN",
+      "errors": [
+        "PRETENDARD_MISSING",
+        "DESKTOP_SCENE_MISSING",
+        "TEXT_node-18:114",
+        "TEXT_node-1:61",
+        "TEXT_node-18:116",
+        "TEXT_node-18:115",
+        "TEXT_node-1:62",
+        "TEXT_node-18:117",
+        "SVG_node-1:52",
+        "SVG_node-1:482",
+        "SVG_node-1:501",
+        "SVG_node-1:555"
+      ]
+    },
+    {
+      "width": 2560,
+      "documentWidth": 2560,
+      "sceneVisible": false,
+      "fontLoaded": false,
+      "texts": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "36px"
+        },
+        {
+          "key": "node-18:115",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-1:62",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        },
+        {
+          "key": "node-18:117",
+          "visible": false,
+          "size": null,
+          "text": null,
+          "expected": "24px"
+        }
+      ],
+      "svg": [
+        {
+          "key": "node-1:52",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:482",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:501",
+          "visible": false,
+          "href": null,
+          "box": null
+        },
+        {
+          "key": "node-1:555",
+          "visible": false,
+          "href": null,
+          "box": null
+        }
+      ],
+      "cf7": "BLOCKED_SOURCE_WITNESS",
+      "pixelParity": "NOT_RUN",
+      "errors": [
+        "PRETENDARD_MISSING",
+        "DESKTOP_SCENE_MISSING",
+        "TEXT_node-18:114",
+        "TEXT_node-1:61",
+        "TEXT_node-18:116",
+        "TEXT_node-18:115",
+        "TEXT_node-1:62",
+        "TEXT_node-18:117",
+        "SVG_node-1:52",
+        "SVG_node-1:482",
+        "SVG_node-1:501",
+        "SVG_node-1:555"
+      ]
+    }
+  ],
+  "sourceClipWitness": "BLOCKED",
+  "originalFigmaPixelParity": "NOT_RUN",
+  "promotable": false
+}

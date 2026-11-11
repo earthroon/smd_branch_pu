@@ -1,0 +1,489 @@
+{
+  "contract": "SMD-NUXT-R2-CF02-REFERENCE",
+  "originalArchiveSha256": "dafe2bf558842066ec5dd0aa1234005880a0ad303575ae08e964a263b80ccfe3",
+  "parentArchiveSha256": "3778ba4205573c2e78dd173c21e1c95e79aeb07fd5f672866bb680619d7ead20",
+  "parentFileHashes": {
+    ".env.example": "69623c25db0e795c50289060f8ea1217ad2486dbe2b3786dde8c4a783c7f3211",
+    ".gitignore": "64e5d8a8b4062b2100ff11548765c59c0113783c7a0f3824992c7f0fd59b0192",
+    "README.md": "e6b048e3dc681a7d5b64b4d154fa549bd33cea6d198eaf91eddb095986813b35",
+    "app/app.vue": "9bfe5a009c8c6236f41363e2132171ec7e343093d039f5c5282316857311325a",
+    "app/assets/css/main.css": "e695e2bb90ffeb2f3b8ec5ace7ed18c20cf73362ecbccd95ac3b3ef5363054d6",
+    "app/components/bot/InquiryBot.vue": "a7bfb0686319342696592d238c241ad5fde0b1e3164c5174bfda764cf53bccdb",
+    "app/components/contact/ContactForm.vue": "f02931ae566fd1bfcaceb086ee4b12f25403f4675da8e7b07f4d39bd4dd92035",
+    "app/components/contact/TurnstileWidget.vue": "26ffa565784e093467787cc1a4b5e70369f4d70cad149cfe9121a057c9d9f2a8",
+    "app/components/feature/ArchiveGallery.vue": "207a7aaf844cff12f7cdeb3c3d9e71f3868bc0baaa25f0d6880a93f316c43bee",
+    "app/components/feature/CtaBand.vue": "71623081deb4792e8f75c2475223b4f1eb3fb293a793680e8fd5e57216df81cb",
+    "app/components/feature/PageHero.vue": "eb818e8cf2d8896993df13ec91205c1477662ed4dda4c13281aa19f53e907050",
+    "app/components/feature/PracticeBlock.vue": "3acc1e07860e54bf2c0900783046ac52473866f317fe82dc6c4ece53ae001e58",
+    "app/components/feature/Reveal.vue": "f42e5fd9a8a3eab9a37a4c2b076ba596e8e29d827c90c263cc9859039d8e171e",
+    "app/components/feature/SiteFooter.vue": "5295afc80c1872da36765193167e666c8075585ae76b257860c2a4a5d4c24dc0",
+    "app/components/feature/SiteHeader.vue": "f43bc14a0238efad4332fe9d758372d2611fee53b7876fae2255c328a2ce7cdf",
+    "app/components/feature/TeachGrid.vue": "7dabf696bfba41f6431d7497a989de7c6b218024f099a2d87ee3b9b5ea7bc27b",
+    "app/components/home/HeroSection.vue": "62093e16abbbf9d6cf380ce76cb14c34b486507826e35167620133e5c0249f4c",
+    "app/components/home/StatementSection.vue": "0c0a28e9e4ccef5183f521797a1b32b7194a7f17ebb300251a6b1d6276b98f59",
+    "app/components/home/TeachSection.vue": "4e33e818e4bab112228acdcf1c69aed9031eab0d443ed229f2c3fc6d45582d1a",
+    "app/composables/useSiteContent.ts": "fa30b67330ea9f712eaa25e89b3fd90c3b7ee6c7bb41ef5d994779a5e90ecc6d",
+    "app/error.vue": "046199ac29705b6aa45a0853b8e325c285fda321de62f66feb97fbf45a9f1686",
+    "app/layouts/default.vue": "c6464eac00479624068533ea8593c302aa86450a0a04733b3ba045fe47a3ac77",
+    "app/pages/about.vue": "99fbf32abf5cc24292b802b25d7bb2e5b63266f6b161b8dec0cc38e4db50a8be",
+    "app/pages/admin/index.vue": "f85654e0a5964e300acc816eb1c9420b27fd96e5d411818311e8f460057fb1de",
+    "app/pages/archive.vue": "d92cc3db223e5cc10177b9dc814a2063d434072a2feb11c33aadc0f00f3c9d70",
+    "app/pages/contact.vue": "42b80234194136a3e955103fb41a1ae228398b41d4b8b4cc25bfec8de139dda9",
+    "app/pages/curriculum.vue": "b0efb7e58a912cbf27061526f608e2dfcfba977a0e26b6830f86a296995e9f47",
+    "app/pages/index.vue": "e6d72bb7ead7a36e3b08e2342c2f40f7f2cb337eff6af2451a21171bb762db14",
+    "app/pages/practice.vue": "22734e3b9ea1b267aa2161a3a3a1249f83f2b4a6ed46b993271eaab25bfc0822",
+    "app/pages/privacy.vue": "f8681fc149123377d40b6f03a20a072740e093e6dbadb9beb347087a1bb280a1",
+    "app/pages/promotion.vue": "14ee35139f7c629584b719226fbef60e25b50fbb00e775523db166a218c64a09",
+    "app/stores/inquiryBot.ts": "c76f527fea56e6ed37d3900b7d1040a21e8ae87ad28d38d4b74555aec1aeb570",
+    "docs/deployment.md": "a8f14cf5bd3c1baeab597045eca5726a4d787d1fe42d32a501af6281e20fede2",
+    "docs/migration/cf00/USAGE.md": "db18f937504738587edd9aa8e0e4aa83dfe6b993ebc84deb1772c9d2f458ab3c",
+    "docs/migration/cf00/content-baseline.json": "ae19354f4675f13037a824df36a9bf79d79c3192fbfe0b8ed877e2af17eb94b1",
+    "docs/migration/cf00/head-manifest.json": "29d21243c759646c3a48e2937c7a24552dc4988e36b5c749753d2c99c807e860",
+    "docs/migration/cf00/receipt.json": "bd5f76cea1ae92ee8ef95719087828b4831e4bf243f64682f8e2251a6ed50d30",
+    "docs/migration/cf00/route-section-manifest.json": "453749f9f4c1d5e38f3761d6541631350d016dc020bca498cf6f7dd2695a2b25",
+    "docs/migration/cf00/source-manifest.json": "4092236cb2b66699416d530c01b2a88329060b6ea422dcce2ecfec509eebd809",
+    "docs/migration/cf00/style-asset-manifest.json": "25c4aced9e655b3f12b870630c859181732702f7c9d68e4dbf96ad2a91cb47c3",
+    "docs/partition-plan.md": "24e6d7005ebc175634b08c2abe99bbee657509882bba79d5d4278656c271db6c",
+    "docs/receipt.json": "a33f893ededb5b3bcfb70e5f27456fd6db10810bcb6d7a0729c9ffb4a25f339c",
+    "docs/source-audit.md": "59cf573089ccf1655486e9d3e6d8e6053ef6ac4d6b218bd79a6653f4e401df01",
+    "docs/verification.md": "1554d318e87cb7ade94d0b0c453500dff9612b01048dcac96bdda7e00ed6e428",
+    "nuxt.config.ts": "f8dcf860e0bf2a116681ac9591e53ccd56e71beee11d2c38475fc70beebc03a4",
+    "package.json": "7f13a01449855671f87156230f8ebc30e1b5cc67191721b5290a45e8c5d191d8",
+    "scripts/cf00-freeze.mjs": "325668e5a498b938f2ddb5929a69bc9480168a0a532f130800bde167514a2447",
+    "scripts/cf00-verify.mjs": "413a53c30496229b2b1dc9c7644ec545d1c7a2642b4cd9c602b1c4bbd3254d1f",
+    "scripts/cf01-layout-static.mjs": "7c4616b87ed7cef9e2bdbae7cee75fc794bdc13af9b4439b08c9e11eab874be5",
+    "scripts/lib/cf00-archive.mjs": "494c34a5ab2746156bbf7434f38834910c4db06c310607d48f2fb32c2713569d",
+    "scripts/lib/cf00-manifest.mjs": "fdffb754366d34a96e7ae3c58bddfd2f8369bdf50db552ad50d9a4c2e2cde5eb",
+    "scripts/lib/cf00-reference.mjs": "5d1f72a48c33d9187276a001c5fc22b0d5fb05eb26044cab246ac2a4bf2dde9f",
+    "scripts/tests/cf00-cf01.test.mjs": "5ea838c4dd1fd356c1094052577ceff29f0f4b4089c54076b2adbe5ed70f2048",
+    "server/api/admin/content/[key].put.ts": "d7a52f72e67befe29de6fc42a7494785e4b294588264518139d0cf9d3600885f",
+    "server/api/admin/content.get.ts": "dfaac27e0314358e183c9cbcab4858a306a61e89e7d141aadfef878a8b962710",
+    "server/api/admin/inquiries.get.ts": "76b2cc9f879a42875d56fc3638f09b06415fcb54575247db52685b729b5436ca",
+    "server/api/admin/notifications.get.ts": "6f9b5af81e33f89c30e99129df6f05d14a4b22b425d0aff39b8916cf8a90349a",
+    "server/api/admin/publish/[key].post.ts": "d216321614c3b3ff5145217d71d070183d07c86b2929b9854c67041c60bd9bc3",
+    "server/api/bot/ask.post.ts": "4fd9d09ed8cb1609615f70cf07ac3d27471dda5f018a6d593b33c943f529ffaf",
+    "server/api/bot/webhook.post.ts": "0cc42797c74b169885b1fccc8759378a3215d237c7d530399de13252b18b7a44",
+    "server/api/content.get.ts": "d9fa54ea0bfaffca58c9715f0d554e4365328c115c0e186a4abbc608240c0d59",
+    "server/api/inquiries.post.ts": "21751874643f04aae6ce484ef3cbf5d76f4d536eb838e64c3d4ca9e214eac547",
+    "server/utils/core.ts": "9957b008f72813145ed16040b134b358b6159627985d10525ca6650a54a11d03",
+    "shared/contracts.ts": "891f5a637b29c6c05f4ac7748e421e874ef6471c4611aa2d4aa938fb6d79eb4c",
+    "shared/seed-content.json": "2478217cdbd61efa52ae970fedaa984dae19583b37551ef9a6a699ad8836e2fd",
+    "tailwind.config.ts": "2d2146a2ba778ae373d70e70fb1d5e7b4816649573defaa2cda2b15c4d7d3200",
+    "workers/smd-core/.dev.vars.example": "ac6268f98dcb706a08cfd532995faeedc706fca455d16ef7f71967174aab8bfd",
+    "workers/smd-core/migrations/0001_base.sql": "74b445d4e79a73fbeafcd3fdf776256feeb7b60b5410a88d37fe191930a7b378",
+    "workers/smd-core/migrations/0002_seed.sql": "b1e0573ced71dd0fdd118717d514432b6bb640348af641f767a9dacbece686dc",
+    "workers/smd-core/package.json": "8e7d4f44d4d9d1b536cc76f65f095c01050f32065019a3a26a9f8c41ee99383a",
+    "workers/smd-core/src/access.ts": "de4083b19e97db9fdf47c899d63a654082804b8b5ab7309debc9f4f3b3dc636e",
+    "workers/smd-core/src/content.ts": "71ebbc0684a12972daff2468ae6606d5f5a0e09f682b1027624cb8ef11eaa0c2",
+    "workers/smd-core/src/index.ts": "ab81c8731376d2cbcc4657b2cad6e4da5668fc3d1a339f1621601323a56c2b24",
+    "workers/smd-core/src/lookup.ts": "14efd462056bed73ee430654fa78fc4b4495a25c11373141d29760494143ec42",
+    "workers/smd-core/tests/content.test.mjs": "31de7d21a5fcdc7476f520848b855076a32e6dd5113ac8ee47d1c55893fb3770",
+    "workers/smd-core/tests/lookup.test.mjs": "8ff506697527ab0250d33e8de349afe5d439501a69c94a230b746815da854661",
+    "workers/smd-core/tests/migrations.test.mjs": "b528d4f3d9072b7e0160b73f5e36e60ece9abe38f772f1ae1ecbf7982122fbcb",
+    "workers/smd-core/wrangler.toml": "915deb58027e5bbb1e663f4f64d6249082815c1a3057b82685b14bba0f1e449c",
+    "wrangler.toml": "14ff91c0dcd7e54ecc19919682ded9a88c8a83688b7900eee8c35fb929a34a1e"
+  },
+  "allowChangedPaths": [
+    "app/components/feature/ArchiveGallery.vue",
+    "app/components/feature/PracticeBlock.vue",
+    "app/components/feature/TeachGrid.vue",
+    "app/components/home/HeroSection.vue",
+    "app/components/home/StatementSection.vue",
+    "app/pages/about.vue",
+    "app/pages/contact.vue",
+    "app/pages/curriculum.vue",
+    "app/pages/practice.vue",
+    "app/pages/promotion.vue"
+  ],
+  "routes": [
+    "/",
+    "/about",
+    "/curriculum",
+    "/practice",
+    "/archive",
+    "/promotion",
+    "/contact"
+  ],
+  "pageLocal": {
+    "process": [
+      {
+        "step": "01",
+        "title": "기초 다지기",
+        "desc": "공구 사용법과 필름 재단, 면 정리부터 시작합니다."
+      },
+      {
+        "step": "02",
+        "title": "구조물 시공",
+        "desc": "문, 문틀, 샷시 등 실제 구조물에 필름을 시공합니다."
+      },
+      {
+        "step": "03",
+        "title": "마감 디테일",
+        "desc": "몰딩과 모서리, 걸레받이 마감까지 완성도를 높입니다."
+      },
+      {
+        "step": "04",
+        "title": "현장 실무",
+        "desc": "현장 관찰과 고객 상담, 창업 준비까지 이어갑니다."
+      }
+    ],
+    "facilities": [
+      {
+        "icon": "ri-layout-grid-line",
+        "title": "넓은 실습 데스크",
+        "desc": "개인별 작업 공간에서 충분한 간격을 두고 실습합니다."
+      },
+      {
+        "icon": "ri-stack-line",
+        "title": "다양한 자재 샘플",
+        "desc": "실제 시공에 쓰이는 다양한 필름과 자재를 직접 다뤄봅니다."
+      },
+      {
+        "icon": "ri-door-open-line",
+        "title": "실제 구조물",
+        "desc": "문, 문틀, 샷시, 가구 등 현장과 유사한 구조물에서 연습합니다."
+      },
+      {
+        "icon": "ri-tools-line",
+        "title": "전문 공구 대여",
+        "desc": "커터칼, 스퀴지 등 실습에 필요한 공구를 모두 제공합니다."
+      }
+    ]
+  },
+  "sourceImages": {
+    "app/components/home/HeroSection.vue": [
+      {
+        "url": "hero.jpg",
+        "alt": "SMD 아카데미 인테리어필름 실습 현장",
+        "title": "인테리어필름 시공 실습",
+        "ratio": "aspect-[4/3]"
+      }
+    ],
+    "app/components/home/StatementSection.vue": [
+      {
+        "url": "statement.png",
+        "alt": "SMD 아카데미 매장 입구",
+        "title": "SMD 아카데미 교육 현장",
+        "ratio": "aspect-[4/3]"
+      }
+    ],
+    "app/components/feature/PracticeBlock.vue": [
+      {
+        "url": "hero.jpg",
+        "alt": "SMD 아카데미 실습공간",
+        "title": "인테리어필름 실습공간",
+        "ratio": "aspect-[16/10]"
+      },
+      {
+        "url": "statement.png",
+        "alt": "SMD 아카데미 매장 입구",
+        "title": "SMD 아카데미 교육 현장",
+        "ratio": "aspect-[4/3]"
+      }
+    ],
+    "app/pages/about.vue": [
+      {
+        "url": "teach-04.jpg",
+        "alt": "SMD 아카데미 현장 실무 교육",
+        "title": "인테리어필름 현장 실무 교육",
+        "ratio": "aspect-[16/7]"
+      },
+      {
+        "url": "statement.png",
+        "alt": "SMD 아카데미 대표 강사 교육 현장",
+        "title": "SMD 아카데미 대표 강사",
+        "ratio": "aspect-[4/3]"
+      }
+    ],
+    "app/pages/practice.vue": [
+      {
+        "url": "teach-03.jpg",
+        "alt": "SMD 아카데미 실습공간",
+        "title": "인테리어필름 실습공간",
+        "ratio": "aspect-[16/8]"
+      }
+    ]
+  },
+  "originalPageCopy": {
+    "heroHeading": [
+      "인테리어필름 시공의",
+      "기본부터 실전까지."
+    ],
+    "statementParagraph": "SMD ACADEMY는 단순히 시공 방법을 설명하는 데 그치지 않고, 수강생이 스스로 작업할 수 있는 수준까지 교육하는 것을 목표로 합니다.",
+    "practiceHeadline": [
+      "실제와 같은 환경에서",
+      "반복해서 연습합니다."
+    ],
+    "curriculumHeadline": [
+      "기초부터 현장 실무까지,",
+      "실제 쓰이는 기술."
+    ],
+    "promotionHeadline": [
+      "10월 프로모션",
+      "2기 모집"
+    ],
+    "promotionSeatLabel": "얼리버드 2석 · 일반 3석 · 총 정원 5명",
+    "promotionDepositHeader": "얼리버드 운영 기준",
+    "contactHours": [
+      "평일 10:00 – 18:00",
+      "주말 · 공휴일은 카카오톡 채널로 문의해 주세요."
+    ]
+  },
+  "knownDrift": {
+    "path": "promotionBenefits[0].desc",
+    "source": "커터칼, 스퀴지, 프라이머·퍼티 샘플 등 정가 10만원 상당의 실전 공구를 수업 첫날부터 씁니다.",
+    "current": "실습에 필요한 기본 준비물을 수업 첫날부터 사용합니다.",
+    "owner": "CF04",
+    "status": "BLOCKED_CF04_SEED_DRIFT"
+  },
+  "sourceLiterals": {
+    "app/pages/index.vue": [],
+    "app/components/home/HeroSection.vue": [
+      {
+        "text": "SMD Academy · Interior Film Training",
+        "owner": "inline"
+      },
+      {
+        "text": "인테리어필름 시공의",
+        "owner": "inline"
+      },
+      {
+        "text": "기본부터 실전까지.",
+        "owner": "inline"
+      },
+      {
+        "text": "기초 작업부터 다양한 현장 시공까지,",
+        "owner": "inline"
+      },
+      {
+        "text": "직접 반복하며 기술을 익힙니다.",
+        "owner": "inline"
+      },
+      {
+        "text": "교육과정 보기",
+        "owner": "inline"
+      },
+      {
+        "text": "상담하기",
+        "owner": "inline"
+      }
+    ],
+    "app/components/home/StatementSection.vue": [
+      {
+        "text": "What We Stand For",
+        "owner": "inline"
+      },
+      {
+        "text": "SMD ACADEMY는 단순히 시공 방법을 설명하는 데 그치지 않고, 수강생이 스스로 작업할 수 있는 수준까지 교육하는 것을 목표로 합니다.",
+        "owner": "inline"
+      },
+      {
+        "text": "SMD Academy",
+        "owner": "inline"
+      }
+    ],
+    "app/components/home/TeachSection.vue": [
+      {
+        "text": "What We Teach",
+        "owner": "inline"
+      },
+      {
+        "text": "어떤 것을 배울 수 있나요.",
+        "owner": "inline"
+      },
+      {
+        "text": "기초부터 현장 실무까지,",
+        "owner": "inline"
+      },
+      {
+        "text": "실제 쓰이는 기술을 배웁니다.",
+        "owner": "inline"
+      }
+    ],
+    "app/components/feature/PracticeBlock.vue": [
+      {
+        "text": "Practice Space",
+        "owner": "inline"
+      },
+      {
+        "text": "실제와 같은 환경에서",
+        "owner": "inline"
+      },
+      {
+        "text": "반복해서 연습합니다.",
+        "owner": "inline"
+      },
+      {
+        "text": "다양한 자재와 구조, 실제 현장과 유사한 작업 환경에서 충분히 연습할 수 있습니다. 손이 먼저 기억할 때까지 같은 동작을 반복합니다.",
+        "owner": "inline"
+      },
+      {
+        "text": "실습공간 보기",
+        "owner": "inline"
+      },
+      {
+        "text": "상담하기",
+        "owner": "inline"
+      },
+      {
+        "text": "48시간",
+        "owner": "inline"
+      },
+      {
+        "text": "6주 정규 실습 과정",
+        "owner": "inline"
+      }
+    ],
+    "app/components/feature/TeachGrid.vue": [],
+    "app/components/feature/ArchiveGallery.vue": [
+      {
+        "text": "Archive",
+        "owner": "inline"
+      },
+      {
+        "text": "SMD ARCHIVE",
+        "owner": "inline"
+      },
+      {
+        "text": "해당 카테고리의 작업물이 아직 없습니다.",
+        "owner": "inline"
+      }
+    ],
+    "app/pages/about.vue": [
+      {
+        "text": "설명이 아니라,",
+        "owner": "inline"
+      },
+      {
+        "text": "손으로 증명하는 교육을 만듭니다.",
+        "owner": "inline"
+      },
+      {
+        "text": "Why SMD",
+        "owner": "inline"
+      },
+      {
+        "text": "세 가지 원칙으로 가르칩니다.",
+        "owner": "inline"
+      },
+      {
+        "text": "Instructor",
+        "owner": "inline"
+      },
+      {
+        "text": "대표 강사",
+        "owner": "inline"
+      },
+      {
+        "text": "현장에서 쌓은 시공 경험을 그대로 수업으로 옮깁니다. 이론보다 손이 먼저 기억하도록, 매 과제마다 직접 시범을 보이고 개인별로 교정합니다.",
+        "owner": "inline"
+      }
+    ],
+    "app/pages/curriculum.vue": [
+      {
+        "text": "기초부터 현장 실무까지,",
+        "owner": "inline"
+      },
+      {
+        "text": "실제 쓰이는 기술.",
+        "owner": "inline"
+      },
+      {
+        "text": "Learning Path",
+        "owner": "inline"
+      },
+      {
+        "text": "배우는 순서.",
+        "owner": "inline"
+      }
+    ],
+    "app/pages/practice.vue": [
+      {
+        "text": "실제와 같은 환경에서",
+        "owner": "inline"
+      },
+      {
+        "text": "반복해서 연습합니다.",
+        "owner": "inline"
+      }
+    ],
+    "app/pages/archive.vue": [
+      {
+        "text": "수강생들의 손끝에서",
+        "owner": "inline"
+      },
+      {
+        "text": "완성된 결과물.",
+        "owner": "inline"
+      }
+    ],
+    "app/pages/promotion.vue": [
+      {
+        "text": "10월 프로모션",
+        "owner": "promotion.headline"
+      },
+      {
+        "text": "2기 모집",
+        "owner": "promotion.headline"
+      },
+      {
+        "text": "Seats &amp; Pricing",
+        "owner": "inline"
+      },
+      {
+        "text": "얼리버드는 2자리뿐입니다.",
+        "owner": "promotion.seatHeadline"
+      },
+      {
+        "text": "얼리버드 2석 · 일반 3석 · 총 정원 5명",
+        "owner": "inline"
+      },
+      {
+        "text": "얼리버드 운영 기준",
+        "owner": "inline"
+      },
+      {
+        "text": "· 예약금 20만원 입금 시 자리 확정 · 잔금은 개강 7일 전 결제 · 얼리버드와 동반 신청 할인은 중복 적용되지 않습니다.",
+        "owner": "promotion.depositTerms"
+      },
+      {
+        "text": "Benefits",
+        "owner": "inline"
+      },
+      {
+        "text": "등록하면 함께 드리는 것들.",
+        "owner": "inline"
+      }
+    ],
+    "app/pages/contact.vue": [
+      {
+        "text": "상담 문의",
+        "owner": "inline"
+      },
+      {
+        "text": "편하게 남겨주세요.",
+        "owner": "inline"
+      },
+      {
+        "text": "Channels",
+        "owner": "inline"
+      },
+      {
+        "text": "바로 연결되는 상담 채널.",
+        "owner": "inline"
+      },
+      {
+        "text": "상담 운영 시간",
+        "owner": "inline"
+      },
+      {
+        "text": "평일 10:00 – 18:00",
+        "owner": "inline"
+      },
+      {
+        "text": "주말 · 공휴일은 카카오톡 채널로 문의해 주세요.",
+        "owner": "inline"
+      }
+    ]
+  }
+}

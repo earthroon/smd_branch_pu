@@ -1,0 +1,155 @@
+/* SMD_HOME_FAQ_R1. Local presentation override only, no Figma source-coordinate copying.
+ * Global Home tokens and Wide-Y generated section geometry remain authoritative. */
+.smd-home--faq {
+  --smd-faq-separator: oklch(var(--foreground-400) / 0.72);
+  background: oklch(var(--background-100));
+  color: oklch(var(--foreground-950));
+  min-width: 0;
+}
+.smd-home--faq .smd-home__container {
+  /* Existing .smd-home__container owns --home-gutter and --home-faq-max. */
+  min-width: 0;
+}
+.smd-home--faq .smd-home__faq-heading {
+  margin: 0;
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: clamp(28px, 3.2vw, 46px);
+  font-weight: 600;
+  line-height: var(--type-title-leading);
+  letter-spacing: -0.025em;
+}
+.smd-home--faq .smd-home__faq-heading .smd-home-figma-text,
+.smd-home--faq .smd-home__faq-heading .smd-home-figma-text > span {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  color: inherit !important;
+}
+.smd-home--faq .smd-home__faq-list {
+  margin-top: clamp(32px, 4vw, 56px);
+  border-top: 1px solid var(--smd-faq-separator);
+  width: 100%;
+}
+.smd-home--faq .smd-home__faq-item {
+  min-width: 0;
+  border-bottom: 1px solid var(--smd-faq-separator);
+  background: transparent;
+}
+.smd-home--faq .smd-home__faq-question {
+  margin: 0;
+  font-weight: 500;
+  min-width: 0;
+}
+.smd-home--faq .smd-home__faq-trigger {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(12px, 3vw, 40px);
+  width: 100%;
+  min-height: clamp(78px, 7vw, 112px);
+  padding: clamp(16px, 2vw, 24px) clamp(12px, 1.5vw, 24px);
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+.smd-home--faq .smd-home__faq-trigger:focus-visible {
+  outline: 3px solid oklch(var(--primary-600));
+  outline-offset: -3px;
+}
+.smd-home--faq .smd-home__faq-question-text {
+  min-width: 0;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: clamp(18px, 2vw, 29px);
+  line-height: var(--type-subtitle-leading);
+  letter-spacing: -0.04em;
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
+.smd-home--faq .smd-home__faq-plus {
+  position: relative;
+  display: block;
+  flex: none;
+  width: clamp(26px, 2.5vw, 44px);
+  height: clamp(26px, 2.5vw, 44px);
+  color: currentColor;
+}
+.smd-home--faq .smd-home__faq-plus::before,
+.smd-home--faq .smd-home__faq-plus::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 64%;
+  height: 2px;
+  background: currentColor;
+  transform: translate(-50%, -50%);
+}
+.smd-home--faq .smd-home__faq-plus::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+  transition: opacity 140ms ease;
+}
+.smd-home--faq .smd-home__faq-item[data-faq-open='true'] .smd-home__faq-plus::after { opacity: 0; }
+.smd-home--faq .smd-home__faq-answer-panel {
+  padding: 0 clamp(55px, 5.5vw, 90px) clamp(22px, 3vw, 42px) clamp(12px, 1.5vw, 24px);
+  min-width: 0;
+}
+.smd-home--faq .smd-home__faq-answer-paragraph {
+  margin: 0;
+  max-width: 90ch;
+  font-family: var(--font-body);
+  font-size: clamp(16px, 1.6vw, 22px);
+  font-weight: 400;
+  line-height: var(--type-body-leading);
+  letter-spacing: -0.015em;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
+.smd-home--faq .smd-home__faq-answer-paragraph + .smd-home__faq-answer-paragraph { margin-top: 1em; }
+
+/* Desktop uses the semantic FAQ as the sole paint owner inside the existing Wide-Y row.
+ * Source-derived section heights are minimums, allowing expanded answers to push CTA down. */
+@media (min-width: 1100px) and (max-width: 1379px) {
+  .smd-home-body-stage__row[data-wide-section='faq'] > .smd-home--faq {
+    min-height: var(--smd-faq-scene-height-desktop);
+  }
+  .smd-home-body-stage__row[data-wide-section='faq'] > .smd-home--faq .smd-home__container {
+    padding-block: clamp(64px, 7vw, 112px);
+  }
+}
+@media (min-width: 1380px) {
+  .smd-home-body-stage__row[data-wide-section='faq'] > .smd-home--faq {
+    min-height: var(--smd-faq-scene-height-wide);
+  }
+  .smd-home-body-stage__row[data-wide-section='faq'] > .smd-home--faq .smd-home__container {
+    max-width: calc(var(--home-faq-max) * 0.75);
+    padding-block: clamp(72px, 6.5vw, 138px) clamp(64px, 6vw, 120px);
+  }
+}
+/* Tablet/mobile retain global gutter and one-column flow; no absolute Figma coordinates. */
+@media (max-width: 1099px) {
+  .smd-home--semantic-reflow .smd-home--faq .smd-home__container {
+    padding-block: clamp(64px, 7vw, 100px);
+  }
+  .smd-home--faq .smd-home__faq-question-text { font-size: clamp(17px, 2.4vw, 24px); }
+  .smd-home--faq .smd-home__faq-answer-paragraph { font-size: clamp(15px, 1.9vw, 19px); }
+}
+@media (max-width: 699px) {
+  .smd-home--semantic-reflow .smd-home--faq .smd-home__container { padding-block: 60px; }
+  .smd-home--faq .smd-home__faq-list { margin-top: 28px; }
+  .smd-home--faq .smd-home__faq-trigger { min-height: 76px; padding: 16px 4px; }
+  .smd-home--faq .smd-home__faq-plus { width: 28px; height: 28px; }
+  .smd-home--faq .smd-home__faq-answer-panel { padding: 0 34px 24px 4px; }
+  .smd-home--faq .smd-home__faq-question-text { font-size: clamp(16px, 4.2vw, 19px); }
+  .smd-home--faq .smd-home__faq-answer-paragraph { font-size: 15px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .smd-home--faq .smd-home__faq-plus::after { transition: none; }
+}

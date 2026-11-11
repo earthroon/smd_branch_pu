@@ -1,0 +1,469 @@
+{
+  "contract": "SMD_HOME_R2_VISUAL_REPAIR_R4",
+  "source": "LOCAL_DEV_FIXTURE",
+  "url": "http://127.0.0.1:3129/",
+  "results": [
+    {
+      "width": 360,
+      "viewportWidth": 360,
+      "documentWidth": 360,
+      "methodsVisible": false,
+      "infoVisible": false,
+      "titleText": "SMD 아카데미 필름 학원의 특별한 교육 방법",
+      "titleWeight": "600",
+      "titleFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "body": [
+        {
+          "key": "node-18:115",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-1:62",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-18:117",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        }
+      ],
+      "icon": {
+        "visible": false,
+        "src": "/figma-r2/user/file-01.svg",
+        "source": "node-18:26",
+        "bytesSha256": "a4f843efe53f1ceb8c6ef7276a6a2d51388b13f23588ca3662444c79054533cc",
+        "originalClip": "BLOCKED_SOURCE_WITNESS",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "fontLoaded": true,
+      "originalClipWitness": "BLOCKED_SOURCE_WITNESS",
+      "originalPixelParity": "NOT_RUN",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "methodsVisible": false,
+      "infoVisible": false,
+      "titleText": "SMD 아카데미 필름 학원의 특별한 교육 방법",
+      "titleWeight": "600",
+      "titleFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "body": [
+        {
+          "key": "node-18:115",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-1:62",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-18:117",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        }
+      ],
+      "icon": {
+        "visible": false,
+        "src": "/figma-r2/user/file-01.svg",
+        "source": "node-18:26",
+        "bytesSha256": "a4f843efe53f1ceb8c6ef7276a6a2d51388b13f23588ca3662444c79054533cc",
+        "originalClip": "BLOCKED_SOURCE_WITNESS",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "fontLoaded": true,
+      "originalClipWitness": "BLOCKED_SOURCE_WITNESS",
+      "originalPixelParity": "NOT_RUN",
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewportWidth": 430,
+      "documentWidth": 430,
+      "methodsVisible": false,
+      "infoVisible": false,
+      "titleText": "SMD 아카데미 필름 학원의 특별한 교육 방법",
+      "titleWeight": "600",
+      "titleFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "body": [
+        {
+          "key": "node-18:115",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-1:62",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-18:117",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        }
+      ],
+      "icon": {
+        "visible": false,
+        "src": "/figma-r2/user/file-01.svg",
+        "source": "node-18:26",
+        "bytesSha256": "a4f843efe53f1ceb8c6ef7276a6a2d51388b13f23588ca3662444c79054533cc",
+        "originalClip": "BLOCKED_SOURCE_WITNESS",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "fontLoaded": true,
+      "originalClipWitness": "BLOCKED_SOURCE_WITNESS",
+      "originalPixelParity": "NOT_RUN",
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewportWidth": 753,
+      "documentWidth": 753,
+      "methodsVisible": false,
+      "infoVisible": false,
+      "titleText": "SMD 아카데미 필름 학원의 특별한 교육 방법",
+      "titleWeight": "600",
+      "titleFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "body": [
+        {
+          "key": "node-18:115",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-1:62",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-18:117",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        }
+      ],
+      "icon": {
+        "visible": false,
+        "src": "/figma-r2/user/file-01.svg",
+        "source": "node-18:26",
+        "bytesSha256": "a4f843efe53f1ceb8c6ef7276a6a2d51388b13f23588ca3662444c79054533cc",
+        "originalClip": "BLOCKED_SOURCE_WITNESS",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "fontLoaded": true,
+      "originalClipWitness": "BLOCKED_SOURCE_WITNESS",
+      "originalPixelParity": "NOT_RUN",
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "viewportWidth": 1009,
+      "documentWidth": 1009,
+      "methodsVisible": false,
+      "infoVisible": false,
+      "titleText": "SMD 아카데미 필름 학원의 특별한 교육 방법",
+      "titleWeight": "600",
+      "titleFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "body": [
+        {
+          "key": "node-18:115",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-1:62",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-18:117",
+          "exists": true,
+          "visible": false,
+          "transform": "none",
+          "offsetY": null,
+          "fontLoaded": true
+        }
+      ],
+      "icon": {
+        "visible": false,
+        "src": "/figma-r2/user/file-01.svg",
+        "source": "node-18:26",
+        "bytesSha256": "a4f843efe53f1ceb8c6ef7276a6a2d51388b13f23588ca3662444c79054533cc",
+        "originalClip": "BLOCKED_SOURCE_WITNESS",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "fontLoaded": true,
+      "originalClipWitness": "BLOCKED_SOURCE_WITNESS",
+      "originalPixelParity": "NOT_RUN",
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "viewportWidth": 1265,
+      "documentWidth": 1265,
+      "methodsVisible": true,
+      "infoVisible": true,
+      "titleText": "SMD 아카데미 필름 학원의 특별한 교육 방법",
+      "titleWeight": "600",
+      "titleFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "body": [
+        {
+          "key": "node-18:115",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-1:62",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-18:117",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        }
+      ],
+      "icon": {
+        "visible": true,
+        "src": "/figma-r2/user/file-01.svg",
+        "source": "node-18:26",
+        "bytesSha256": "a4f843efe53f1ceb8c6ef7276a6a2d51388b13f23588ca3662444c79054533cc",
+        "originalClip": "BLOCKED_SOURCE_WITNESS",
+        "x": 870.334228515625,
+        "y": 668.3411254882812,
+        "width": 64.56439208984375,
+        "height": 64.56439208984375
+      },
+      "fontLoaded": true,
+      "originalClipWitness": "BLOCKED_SOURCE_WITNESS",
+      "originalPixelParity": "NOT_RUN",
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewportWidth": 1425,
+      "documentWidth": 1425,
+      "methodsVisible": true,
+      "infoVisible": true,
+      "titleText": "SMD 아카데미 필름 학원의 특별한 교육 방법",
+      "titleWeight": "600",
+      "titleFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "body": [
+        {
+          "key": "node-18:115",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-1:62",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-18:117",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        }
+      ],
+      "icon": {
+        "visible": true,
+        "src": "/figma-r2/user/file-01.svg",
+        "source": "node-18:26",
+        "bytesSha256": "a4f843efe53f1ceb8c6ef7276a6a2d51388b13f23588ca3662444c79054533cc",
+        "originalClip": "BLOCKED_SOURCE_WITNESS",
+        "x": 980.4296875,
+        "y": 787.765625,
+        "width": 72.734375,
+        "height": 72.734375
+      },
+      "fontLoaded": true,
+      "originalClipWitness": "BLOCKED_SOURCE_WITNESS",
+      "originalPixelParity": "NOT_RUN",
+      "errors": []
+    },
+    {
+      "width": 1920,
+      "viewportWidth": 1905,
+      "documentWidth": 1905,
+      "methodsVisible": true,
+      "infoVisible": true,
+      "titleText": "SMD 아카데미 필름 학원의 특별한 교육 방법",
+      "titleWeight": "600",
+      "titleFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "body": [
+        {
+          "key": "node-18:115",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-1:62",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-18:117",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        }
+      ],
+      "icon": {
+        "visible": true,
+        "src": "/figma-r2/user/file-01.svg",
+        "source": "node-18:26",
+        "bytesSha256": "a4f843efe53f1ceb8c6ef7276a6a2d51388b13f23588ca3662444c79054533cc",
+        "originalClip": "BLOCKED_SOURCE_WITNESS",
+        "x": 1310.6796875,
+        "y": 1011.015625,
+        "width": 97.234375,
+        "height": 97.234375
+      },
+      "fontLoaded": true,
+      "originalClipWitness": "BLOCKED_SOURCE_WITNESS",
+      "originalPixelParity": "NOT_RUN",
+      "errors": []
+    },
+    {
+      "width": 2560,
+      "viewportWidth": 2545,
+      "documentWidth": 2545,
+      "methodsVisible": true,
+      "infoVisible": true,
+      "titleText": "SMD 아카데미 필름 학원의 특별한 교육 방법",
+      "titleWeight": "600",
+      "titleFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "body": [
+        {
+          "key": "node-18:115",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-1:62",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        },
+        {
+          "key": "node-18:117",
+          "exists": true,
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, -28)",
+          "offsetY": -28,
+          "fontLoaded": true
+        }
+      ],
+      "icon": {
+        "visible": true,
+        "src": "/figma-r2/user/file-01.svg",
+        "source": "node-18:26",
+        "bytesSha256": "a4f843efe53f1ceb8c6ef7276a6a2d51388b13f23588ca3662444c79054533cc",
+        "originalClip": "BLOCKED_SOURCE_WITNESS",
+        "x": 1633.5,
+        "y": 1018,
+        "width": 98,
+        "height": 98
+      },
+      "fontLoaded": true,
+      "originalClipWitness": "BLOCKED_SOURCE_WITNESS",
+      "originalPixelParity": "NOT_RUN",
+      "errors": []
+    }
+  ],
+  "originalClipQualification": "BLOCKED_SOURCE_WITNESS",
+  "originalPixelParity": "NOT_RUN",
+  "productionQualified": false
+}

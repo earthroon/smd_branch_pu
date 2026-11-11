@@ -1,0 +1,1809 @@
+{
+  "contract": "SMD_HOME_R2_MOBILE_R4A_TRACK_OPTICAL_FIX",
+  "url": "http://127.0.0.1:3129/",
+  "results": [
+    {
+      "width": 360,
+      "viewport": 360,
+      "scrollWidth": 360,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "originalTimelineVisible": false,
+      "flowVisible": true,
+      "cards": [
+        {
+          "key": "node-1:102",
+          "visible": true,
+          "box": {
+            "x": 18,
+            "y": 2005.09375,
+            "right": 121.6875,
+            "bottom": 2147.09375,
+            "width": 103.6875,
+            "height": 142
+          },
+          "icon": "duration",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 46.84375,
+            "y": 2021.09375,
+            "right": 92.84375,
+            "bottom": 2067.09375,
+            "width": 46,
+            "height": 46
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "key": "node-1:479",
+          "visible": true,
+          "box": {
+            "x": 128.15625,
+            "y": 2005.09375,
+            "right": 231.84375,
+            "bottom": 2147.09375,
+            "width": 103.6875,
+            "height": 142
+          },
+          "icon": "field",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 155.5,
+            "y": 2019.59375,
+            "right": 204.5,
+            "bottom": 2068.59375,
+            "width": 49,
+            "height": 49
+          },
+          "label": "교육분야",
+          "value": "인테리어·유리필름인테리어· 유리 필름"
+        },
+        {
+          "key": "node-1:484",
+          "visible": true,
+          "box": {
+            "x": 238.3125,
+            "y": 2005.09375,
+            "right": 342,
+            "bottom": 2147.09375,
+            "width": 103.6875,
+            "height": 142
+          },
+          "icon": "experience",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 262.65625,
+            "y": 2027.171875,
+            "right": 317.65625,
+            "bottom": 2061.015625,
+            "width": 55,
+            "height": 33.84375
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "steps": [
+        {
+          "id": "morning",
+          "text": "오전",
+          "visible": true,
+          "source": "node-1:492",
+          "box": {
+            "x": 20,
+            "y": 2201.09375,
+            "right": 78,
+            "bottom": 2259.09375,
+            "width": 58,
+            "height": 58
+          }
+        },
+        {
+          "id": "center",
+          "text": "밑작업",
+          "visible": true,
+          "source": "node-1:499",
+          "box": {
+            "x": 148,
+            "y": 2215.296875,
+            "right": 212,
+            "bottom": 2244.890625,
+            "width": 64,
+            "height": 29.59375
+          }
+        },
+        {
+          "id": "afternoon",
+          "text": "오후",
+          "visible": true,
+          "source": "node-1:498",
+          "box": {
+            "x": 282,
+            "y": 2201.09375,
+            "right": 340,
+            "bottom": 2259.09375,
+            "width": 58,
+            "height": 58
+          }
+        },
+        {
+          "id": "morning-bottom",
+          "text": "밑작업",
+          "visible": true,
+          "source": "node-1:493",
+          "box": {
+            "x": 27.671875,
+            "y": 2289.796875,
+            "right": 70.3125,
+            "bottom": 2319.390625,
+            "width": 42.640625,
+            "height": 29.59375
+          }
+        },
+        {
+          "id": "afternoon-bottom",
+          "text": "필름래핑",
+          "visible": true,
+          "source": "node-1:494",
+          "box": {
+            "x": 284.5625,
+            "y": 2289.796875,
+            "right": 337.421875,
+            "bottom": 2319.390625,
+            "width": 52.859375,
+            "height": 29.59375
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "id": "first",
+          "source": "node-1:501",
+          "visible": true,
+          "loaded": true,
+          "box": {
+            "x": 104,
+            "y": 2215.09375,
+            "right": 121,
+            "bottom": 2245.09375,
+            "width": 17,
+            "height": 30
+          }
+        },
+        {
+          "id": "second",
+          "source": "node-1:555",
+          "visible": true,
+          "loaded": true,
+          "box": {
+            "x": 239,
+            "y": 2215.09375,
+            "right": 256,
+            "bottom": 2245.09375,
+            "width": 17,
+            "height": 30
+          }
+        }
+      ],
+      "fieldMobileVisible": true,
+      "fieldOriginalVisible": false,
+      "fieldMobileText": "인테리어·유리필름",
+      "fieldTokenText": "유리필름",
+      "fieldTokenRectCount": 1,
+      "fieldTokenWhiteSpace": "nowrap",
+      "extraIcons": 0,
+      "fontLoaded": true,
+      "obsoleteSummary": false,
+      "obsoleteR2Timeline": false,
+      "errors": [],
+      "screenshot": "D:\\1111113232\\TE-PU\\smd-public (1)\\smd-public\\docs\\migration\\smd-home-r2\\visual-restore\\browser-local\\mobile-r4a-screenshots\\mobile-r4a-360.png"
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "originalTimelineVisible": false,
+      "flowVisible": true,
+      "cards": [
+        {
+          "key": "node-1:102",
+          "visible": true,
+          "box": {
+            "x": 19.5,
+            "y": 2047.59375,
+            "right": 131.8125,
+            "bottom": 2189.59375,
+            "width": 112.3125,
+            "height": 142
+          },
+          "icon": "duration",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 52.65625,
+            "y": 2063.59375,
+            "right": 98.65625,
+            "bottom": 2109.59375,
+            "width": 46,
+            "height": 46
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "key": "node-1:479",
+          "visible": true,
+          "box": {
+            "x": 138.828125,
+            "y": 2047.59375,
+            "right": 251.15625,
+            "bottom": 2189.59375,
+            "width": 112.328125,
+            "height": 142
+          },
+          "icon": "field",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 170.484375,
+            "y": 2062.09375,
+            "right": 219.484375,
+            "bottom": 2111.09375,
+            "width": 49,
+            "height": 49
+          },
+          "label": "교육분야",
+          "value": "인테리어·유리필름인테리어· 유리 필름"
+        },
+        {
+          "key": "node-1:484",
+          "visible": true,
+          "box": {
+            "x": 258.171875,
+            "y": 2047.59375,
+            "right": 370.484375,
+            "bottom": 2189.59375,
+            "width": 112.3125,
+            "height": 142
+          },
+          "icon": "experience",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 286.828125,
+            "y": 2069.671875,
+            "right": 341.828125,
+            "bottom": 2103.515625,
+            "width": 55,
+            "height": 33.84375
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "steps": [
+        {
+          "id": "morning",
+          "text": "오전",
+          "visible": true,
+          "source": "node-1:492",
+          "box": {
+            "x": 35,
+            "y": 2243.59375,
+            "right": 93,
+            "bottom": 2301.59375,
+            "width": 58,
+            "height": 58
+          }
+        },
+        {
+          "id": "center",
+          "text": "밑작업",
+          "visible": true,
+          "source": "node-1:499",
+          "box": {
+            "x": 163,
+            "y": 2257.796875,
+            "right": 227,
+            "bottom": 2287.390625,
+            "width": 64,
+            "height": 29.59375
+          }
+        },
+        {
+          "id": "afternoon",
+          "text": "오후",
+          "visible": true,
+          "source": "node-1:498",
+          "box": {
+            "x": 297,
+            "y": 2243.59375,
+            "right": 355,
+            "bottom": 2301.59375,
+            "width": 58,
+            "height": 58
+          }
+        },
+        {
+          "id": "morning-bottom",
+          "text": "밑작업",
+          "visible": true,
+          "source": "node-1:493",
+          "box": {
+            "x": 42.671875,
+            "y": 2332.296875,
+            "right": 85.3125,
+            "bottom": 2361.890625,
+            "width": 42.640625,
+            "height": 29.59375
+          }
+        },
+        {
+          "id": "afternoon-bottom",
+          "text": "필름래핑",
+          "visible": true,
+          "source": "node-1:494",
+          "box": {
+            "x": 299.5625,
+            "y": 2332.296875,
+            "right": 352.421875,
+            "bottom": 2361.890625,
+            "width": 52.859375,
+            "height": 29.59375
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "id": "first",
+          "source": "node-1:501",
+          "visible": true,
+          "loaded": true,
+          "box": {
+            "x": 119,
+            "y": 2257.59375,
+            "right": 136,
+            "bottom": 2287.59375,
+            "width": 17,
+            "height": 30
+          }
+        },
+        {
+          "id": "second",
+          "source": "node-1:555",
+          "visible": true,
+          "loaded": true,
+          "box": {
+            "x": 254,
+            "y": 2257.59375,
+            "right": 271,
+            "bottom": 2287.59375,
+            "width": 17,
+            "height": 30
+          }
+        }
+      ],
+      "fieldMobileVisible": true,
+      "fieldOriginalVisible": false,
+      "fieldMobileText": "인테리어·유리필름",
+      "fieldTokenText": "유리필름",
+      "fieldTokenRectCount": 1,
+      "fieldTokenWhiteSpace": "nowrap",
+      "extraIcons": 0,
+      "fontLoaded": true,
+      "obsoleteSummary": false,
+      "obsoleteR2Timeline": false,
+      "errors": [],
+      "screenshot": "D:\\1111113232\\TE-PU\\smd-public (1)\\smd-public\\docs\\migration\\smd-home-r2\\visual-restore\\browser-local\\mobile-r4a-screenshots\\mobile-r4a-390.png"
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "scrollWidth": 430,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "originalTimelineVisible": false,
+      "flowVisible": true,
+      "cards": [
+        {
+          "key": "node-1:102",
+          "visible": true,
+          "box": {
+            "x": 21.5,
+            "y": 2079.265625,
+            "right": 145.34375,
+            "bottom": 2221.265625,
+            "width": 123.84375,
+            "height": 142
+          },
+          "icon": "duration",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 60.421875,
+            "y": 2095.265625,
+            "right": 106.421875,
+            "bottom": 2141.265625,
+            "width": 46,
+            "height": 46
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "key": "node-1:479",
+          "visible": true,
+          "box": {
+            "x": 153.078125,
+            "y": 2079.265625,
+            "right": 276.921875,
+            "bottom": 2221.265625,
+            "width": 123.84375,
+            "height": 142
+          },
+          "icon": "field",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 190.5,
+            "y": 2093.765625,
+            "right": 239.5,
+            "bottom": 2142.765625,
+            "width": 49,
+            "height": 49
+          },
+          "label": "교육분야",
+          "value": "인테리어·유리필름인테리어· 유리 필름"
+        },
+        {
+          "key": "node-1:484",
+          "visible": true,
+          "box": {
+            "x": 284.65625,
+            "y": 2079.265625,
+            "right": 408.5,
+            "bottom": 2221.265625,
+            "width": 123.84375,
+            "height": 142
+          },
+          "icon": "experience",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 319.078125,
+            "y": 2101.34375,
+            "right": 374.078125,
+            "bottom": 2135.1875,
+            "width": 55,
+            "height": 33.84375
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "steps": [
+        {
+          "id": "morning",
+          "text": "오전",
+          "visible": true,
+          "source": "node-1:492",
+          "box": {
+            "x": 55,
+            "y": 2275.265625,
+            "right": 113,
+            "bottom": 2333.265625,
+            "width": 58,
+            "height": 58
+          }
+        },
+        {
+          "id": "center",
+          "text": "밑작업",
+          "visible": true,
+          "source": "node-1:499",
+          "box": {
+            "x": 183,
+            "y": 2289.46875,
+            "right": 247,
+            "bottom": 2319.0625,
+            "width": 64,
+            "height": 29.59375
+          }
+        },
+        {
+          "id": "afternoon",
+          "text": "오후",
+          "visible": true,
+          "source": "node-1:498",
+          "box": {
+            "x": 317,
+            "y": 2275.265625,
+            "right": 375,
+            "bottom": 2333.265625,
+            "width": 58,
+            "height": 58
+          }
+        },
+        {
+          "id": "morning-bottom",
+          "text": "밑작업",
+          "visible": true,
+          "source": "node-1:493",
+          "box": {
+            "x": 62.671875,
+            "y": 2363.96875,
+            "right": 105.3125,
+            "bottom": 2393.5625,
+            "width": 42.640625,
+            "height": 29.59375
+          }
+        },
+        {
+          "id": "afternoon-bottom",
+          "text": "필름래핑",
+          "visible": true,
+          "source": "node-1:494",
+          "box": {
+            "x": 319.5625,
+            "y": 2363.96875,
+            "right": 372.421875,
+            "bottom": 2393.5625,
+            "width": 52.859375,
+            "height": 29.59375
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "id": "first",
+          "source": "node-1:501",
+          "visible": true,
+          "loaded": true,
+          "box": {
+            "x": 139,
+            "y": 2289.265625,
+            "right": 156,
+            "bottom": 2319.265625,
+            "width": 17,
+            "height": 30
+          }
+        },
+        {
+          "id": "second",
+          "source": "node-1:555",
+          "visible": true,
+          "loaded": true,
+          "box": {
+            "x": 274,
+            "y": 2289.265625,
+            "right": 291,
+            "bottom": 2319.265625,
+            "width": 17,
+            "height": 30
+          }
+        }
+      ],
+      "fieldMobileVisible": true,
+      "fieldOriginalVisible": false,
+      "fieldMobileText": "인테리어·유리필름",
+      "fieldTokenText": "유리필름",
+      "fieldTokenRectCount": 1,
+      "fieldTokenWhiteSpace": "nowrap",
+      "extraIcons": 0,
+      "fontLoaded": true,
+      "obsoleteSummary": false,
+      "obsoleteR2Timeline": false,
+      "errors": [],
+      "screenshot": "D:\\1111113232\\TE-PU\\smd-public (1)\\smd-public\\docs\\migration\\smd-home-r2\\visual-restore\\browser-local\\mobile-r4a-screenshots\\mobile-r4a-430.png"
+    },
+    {
+      "width": 600,
+      "viewport": 585,
+      "scrollWidth": 585,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "originalTimelineVisible": false,
+      "flowVisible": true,
+      "cards": [
+        {
+          "key": "node-1:102",
+          "visible": true,
+          "box": {
+            "x": 24,
+            "y": 2179.8125,
+            "right": 196.328125,
+            "bottom": 2321.8125,
+            "width": 172.328125,
+            "height": 142
+          },
+          "icon": "duration",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 87.15625,
+            "y": 2195.8125,
+            "right": 133.15625,
+            "bottom": 2241.8125,
+            "width": 46,
+            "height": 46
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "key": "node-1:479",
+          "visible": true,
+          "box": {
+            "x": 206.328125,
+            "y": 2179.8125,
+            "right": 378.65625,
+            "bottom": 2321.8125,
+            "width": 172.328125,
+            "height": 142
+          },
+          "icon": "field",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 267.984375,
+            "y": 2194.3125,
+            "right": 316.984375,
+            "bottom": 2243.3125,
+            "width": 49,
+            "height": 49
+          },
+          "label": "교육분야",
+          "value": "인테리어·유리필름인테리어· 유리 필름"
+        },
+        {
+          "key": "node-1:484",
+          "visible": true,
+          "box": {
+            "x": 388.65625,
+            "y": 2179.8125,
+            "right": 560.984375,
+            "bottom": 2321.8125,
+            "width": 172.328125,
+            "height": 142
+          },
+          "icon": "experience",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 447.3125,
+            "y": 2201.890625,
+            "right": 502.3125,
+            "bottom": 2235.734375,
+            "width": 55,
+            "height": 33.84375
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "steps": [
+        {
+          "id": "morning",
+          "text": "오전",
+          "visible": true,
+          "source": "node-1:492",
+          "box": {
+            "x": 132.5,
+            "y": 2375.8125,
+            "right": 190.5,
+            "bottom": 2433.8125,
+            "width": 58,
+            "height": 58
+          }
+        },
+        {
+          "id": "center",
+          "text": "밑작업",
+          "visible": true,
+          "source": "node-1:499",
+          "box": {
+            "x": 260.5,
+            "y": 2390.015625,
+            "right": 324.5,
+            "bottom": 2419.609375,
+            "width": 64,
+            "height": 29.59375
+          }
+        },
+        {
+          "id": "afternoon",
+          "text": "오후",
+          "visible": true,
+          "source": "node-1:498",
+          "box": {
+            "x": 394.5,
+            "y": 2375.8125,
+            "right": 452.5,
+            "bottom": 2433.8125,
+            "width": 58,
+            "height": 58
+          }
+        },
+        {
+          "id": "morning-bottom",
+          "text": "밑작업",
+          "visible": true,
+          "source": "node-1:493",
+          "box": {
+            "x": 140.171875,
+            "y": 2464.515625,
+            "right": 182.8125,
+            "bottom": 2494.109375,
+            "width": 42.640625,
+            "height": 29.59375
+          }
+        },
+        {
+          "id": "afternoon-bottom",
+          "text": "필름래핑",
+          "visible": true,
+          "source": "node-1:494",
+          "box": {
+            "x": 397.0625,
+            "y": 2464.515625,
+            "right": 449.921875,
+            "bottom": 2494.109375,
+            "width": 52.859375,
+            "height": 29.59375
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "id": "first",
+          "source": "node-1:501",
+          "visible": true,
+          "loaded": true,
+          "box": {
+            "x": 216.5,
+            "y": 2389.8125,
+            "right": 233.5,
+            "bottom": 2419.8125,
+            "width": 17,
+            "height": 30
+          }
+        },
+        {
+          "id": "second",
+          "source": "node-1:555",
+          "visible": true,
+          "loaded": true,
+          "box": {
+            "x": 351.5,
+            "y": 2389.8125,
+            "right": 368.5,
+            "bottom": 2419.8125,
+            "width": 17,
+            "height": 30
+          }
+        }
+      ],
+      "fieldMobileVisible": true,
+      "fieldOriginalVisible": false,
+      "fieldMobileText": "인테리어·유리필름",
+      "fieldTokenText": "유리필름",
+      "fieldTokenRectCount": 1,
+      "fieldTokenWhiteSpace": "nowrap",
+      "extraIcons": 0,
+      "fontLoaded": true,
+      "obsoleteSummary": false,
+      "obsoleteR2Timeline": false,
+      "errors": [],
+      "screenshot": null
+    },
+    {
+      "width": 699,
+      "viewport": 684,
+      "scrollWidth": 684,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "originalTimelineVisible": false,
+      "flowVisible": true,
+      "cards": [
+        {
+          "key": "node-1:102",
+          "visible": true,
+          "box": {
+            "x": 24,
+            "y": 2225.765625,
+            "right": 229.328125,
+            "bottom": 2367.765625,
+            "width": 205.328125,
+            "height": 142
+          },
+          "icon": "duration",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 103.65625,
+            "y": 2241.765625,
+            "right": 149.65625,
+            "bottom": 2287.765625,
+            "width": 46,
+            "height": 46
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "key": "node-1:479",
+          "visible": true,
+          "box": {
+            "x": 239.328125,
+            "y": 2225.765625,
+            "right": 444.65625,
+            "bottom": 2367.765625,
+            "width": 205.328125,
+            "height": 142
+          },
+          "icon": "field",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 317.484375,
+            "y": 2240.265625,
+            "right": 366.484375,
+            "bottom": 2289.265625,
+            "width": 49,
+            "height": 49
+          },
+          "label": "교육분야",
+          "value": "인테리어·유리필름인테리어· 유리 필름"
+        },
+        {
+          "key": "node-1:484",
+          "visible": true,
+          "box": {
+            "x": 454.65625,
+            "y": 2225.765625,
+            "right": 659.984375,
+            "bottom": 2367.765625,
+            "width": 205.328125,
+            "height": 142
+          },
+          "icon": "experience",
+          "iconVisible": true,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 529.8125,
+            "y": 2247.84375,
+            "right": 584.8125,
+            "bottom": 2281.6875,
+            "width": 55,
+            "height": 33.84375
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "steps": [
+        {
+          "id": "morning",
+          "text": "오전",
+          "visible": true,
+          "source": "node-1:492",
+          "box": {
+            "x": 182,
+            "y": 2421.765625,
+            "right": 240,
+            "bottom": 2479.765625,
+            "width": 58,
+            "height": 58
+          }
+        },
+        {
+          "id": "center",
+          "text": "밑작업",
+          "visible": true,
+          "source": "node-1:499",
+          "box": {
+            "x": 310,
+            "y": 2435.96875,
+            "right": 374,
+            "bottom": 2465.5625,
+            "width": 64,
+            "height": 29.59375
+          }
+        },
+        {
+          "id": "afternoon",
+          "text": "오후",
+          "visible": true,
+          "source": "node-1:498",
+          "box": {
+            "x": 444,
+            "y": 2421.765625,
+            "right": 502,
+            "bottom": 2479.765625,
+            "width": 58,
+            "height": 58
+          }
+        },
+        {
+          "id": "morning-bottom",
+          "text": "밑작업",
+          "visible": true,
+          "source": "node-1:493",
+          "box": {
+            "x": 189.671875,
+            "y": 2510.46875,
+            "right": 232.3125,
+            "bottom": 2540.0625,
+            "width": 42.640625,
+            "height": 29.59375
+          }
+        },
+        {
+          "id": "afternoon-bottom",
+          "text": "필름래핑",
+          "visible": true,
+          "source": "node-1:494",
+          "box": {
+            "x": 446.5625,
+            "y": 2510.46875,
+            "right": 499.421875,
+            "bottom": 2540.0625,
+            "width": 52.859375,
+            "height": 29.59375
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "id": "first",
+          "source": "node-1:501",
+          "visible": true,
+          "loaded": true,
+          "box": {
+            "x": 266,
+            "y": 2435.765625,
+            "right": 283,
+            "bottom": 2465.765625,
+            "width": 17,
+            "height": 30
+          }
+        },
+        {
+          "id": "second",
+          "source": "node-1:555",
+          "visible": true,
+          "loaded": true,
+          "box": {
+            "x": 401,
+            "y": 2435.765625,
+            "right": 418,
+            "bottom": 2465.765625,
+            "width": 17,
+            "height": 30
+          }
+        }
+      ],
+      "fieldMobileVisible": true,
+      "fieldOriginalVisible": false,
+      "fieldMobileText": "인테리어·유리필름",
+      "fieldTokenText": "유리필름",
+      "fieldTokenRectCount": 1,
+      "fieldTokenWhiteSpace": "nowrap",
+      "extraIcons": 0,
+      "fontLoaded": true,
+      "obsoleteSummary": false,
+      "obsoleteR2Timeline": false,
+      "errors": [],
+      "screenshot": null
+    },
+    {
+      "width": 768,
+      "viewport": 753,
+      "scrollWidth": 753,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "originalTimelineVisible": true,
+      "flowVisible": false,
+      "cards": [
+        {
+          "key": "node-1:102",
+          "visible": true,
+          "box": {
+            "x": 30.71875,
+            "y": 2003.234375,
+            "right": 247.890625,
+            "bottom": 2111.234375,
+            "width": 217.171875,
+            "height": 108
+          },
+          "icon": "duration",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "key": "node-1:479",
+          "visible": true,
+          "box": {
+            "x": 267.890625,
+            "y": 2003.234375,
+            "right": 485.078125,
+            "bottom": 2111.234375,
+            "width": 217.1875,
+            "height": 108
+          },
+          "icon": "field",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "교육분야",
+          "value": "인테리어·유리필름인테리어· 유리 필름"
+        },
+        {
+          "key": "node-1:484",
+          "visible": true,
+          "box": {
+            "x": 505.078125,
+            "y": 2003.234375,
+            "right": 722.265625,
+            "bottom": 2111.234375,
+            "width": 217.1875,
+            "height": 108
+          },
+          "icon": "experience",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "steps": [
+        {
+          "id": "morning",
+          "text": "오전",
+          "visible": false,
+          "source": "node-1:492",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "center",
+          "text": "밑작업",
+          "visible": false,
+          "source": "node-1:499",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "afternoon",
+          "text": "오후",
+          "visible": false,
+          "source": "node-1:498",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "morning-bottom",
+          "text": "밑작업",
+          "visible": false,
+          "source": "node-1:493",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "afternoon-bottom",
+          "text": "필름래핑",
+          "visible": false,
+          "source": "node-1:494",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "id": "first",
+          "source": "node-1:501",
+          "visible": false,
+          "loaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "second",
+          "source": "node-1:555",
+          "visible": false,
+          "loaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "fieldMobileVisible": false,
+      "fieldOriginalVisible": true,
+      "fieldMobileText": "인테리어·유리필름",
+      "fieldTokenText": "유리필름",
+      "fieldTokenRectCount": 0,
+      "fieldTokenWhiteSpace": "pre-line",
+      "extraIcons": 0,
+      "fontLoaded": true,
+      "obsoleteSummary": false,
+      "obsoleteR2Timeline": false,
+      "errors": [],
+      "screenshot": "D:\\1111113232\\TE-PU\\smd-public (1)\\smd-public\\docs\\migration\\smd-home-r2\\visual-restore\\browser-local\\mobile-r4a-screenshots\\mobile-r4a-768.png"
+    },
+    {
+      "width": 1024,
+      "viewport": 1009,
+      "scrollWidth": 1009,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "originalTimelineVisible": true,
+      "flowVisible": false,
+      "cards": [
+        {
+          "key": "node-1:102",
+          "visible": true,
+          "box": {
+            "x": 40.953125,
+            "y": 2228.375,
+            "right": 336.640625,
+            "bottom": 2336.375,
+            "width": 295.6875,
+            "height": 108
+          },
+          "icon": "duration",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "key": "node-1:479",
+          "visible": true,
+          "box": {
+            "x": 356.640625,
+            "y": 2228.375,
+            "right": 652.328125,
+            "bottom": 2336.375,
+            "width": 295.6875,
+            "height": 108
+          },
+          "icon": "field",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "교육분야",
+          "value": "인테리어·유리필름인테리어· 유리 필름"
+        },
+        {
+          "key": "node-1:484",
+          "visible": true,
+          "box": {
+            "x": 672.328125,
+            "y": 2228.375,
+            "right": 968.03125,
+            "bottom": 2336.375,
+            "width": 295.703125,
+            "height": 108
+          },
+          "icon": "experience",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "steps": [
+        {
+          "id": "morning",
+          "text": "오전",
+          "visible": false,
+          "source": "node-1:492",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "center",
+          "text": "밑작업",
+          "visible": false,
+          "source": "node-1:499",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "afternoon",
+          "text": "오후",
+          "visible": false,
+          "source": "node-1:498",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "morning-bottom",
+          "text": "밑작업",
+          "visible": false,
+          "source": "node-1:493",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "afternoon-bottom",
+          "text": "필름래핑",
+          "visible": false,
+          "source": "node-1:494",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "id": "first",
+          "source": "node-1:501",
+          "visible": false,
+          "loaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "second",
+          "source": "node-1:555",
+          "visible": false,
+          "loaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "fieldMobileVisible": false,
+      "fieldOriginalVisible": true,
+      "fieldMobileText": "인테리어·유리필름",
+      "fieldTokenText": "유리필름",
+      "fieldTokenRectCount": 0,
+      "fieldTokenWhiteSpace": "pre-line",
+      "extraIcons": 0,
+      "fontLoaded": true,
+      "obsoleteSummary": false,
+      "obsoleteR2Timeline": false,
+      "errors": [],
+      "screenshot": null
+    },
+    {
+      "width": 1280,
+      "viewport": 1265,
+      "scrollWidth": 1265,
+      "sceneVisible": true,
+      "reflowVisible": false,
+      "originalTimelineVisible": false,
+      "flowVisible": false,
+      "cards": [
+        {
+          "key": "node-1:102",
+          "visible": false,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "icon": "duration",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "key": "node-1:479",
+          "visible": false,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "icon": "field",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "교육분야",
+          "value": "인테리어·유리필름인테리어· 유리 필름"
+        },
+        {
+          "key": "node-1:484",
+          "visible": false,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "icon": "experience",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "steps": [
+        {
+          "id": "morning",
+          "text": "오전",
+          "visible": false,
+          "source": "node-1:492",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "center",
+          "text": "밑작업",
+          "visible": false,
+          "source": "node-1:499",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "afternoon",
+          "text": "오후",
+          "visible": false,
+          "source": "node-1:498",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "morning-bottom",
+          "text": "밑작업",
+          "visible": false,
+          "source": "node-1:493",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "afternoon-bottom",
+          "text": "필름래핑",
+          "visible": false,
+          "source": "node-1:494",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "id": "first",
+          "source": "node-1:501",
+          "visible": false,
+          "loaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "second",
+          "source": "node-1:555",
+          "visible": false,
+          "loaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "fieldMobileVisible": false,
+      "fieldOriginalVisible": false,
+      "fieldMobileText": "인테리어·유리필름",
+      "fieldTokenText": "유리필름",
+      "fieldTokenRectCount": 0,
+      "fieldTokenWhiteSpace": "pre-line",
+      "extraIcons": 0,
+      "fontLoaded": true,
+      "obsoleteSummary": false,
+      "obsoleteR2Timeline": false,
+      "errors": [],
+      "screenshot": null
+    },
+    {
+      "width": 1920,
+      "viewport": 1905,
+      "scrollWidth": 1905,
+      "sceneVisible": true,
+      "reflowVisible": false,
+      "originalTimelineVisible": false,
+      "flowVisible": false,
+      "cards": [
+        {
+          "key": "node-1:102",
+          "visible": false,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "icon": "duration",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "교육기간",
+          "value": "6주· 총 42시간"
+        },
+        {
+          "key": "node-1:479",
+          "visible": false,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "icon": "field",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "교육분야",
+          "value": "인테리어·유리필름인테리어· 유리 필름"
+        },
+        {
+          "key": "node-1:484",
+          "visible": false,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "icon": "experience",
+          "iconVisible": false,
+          "imgLoaded": true,
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "label": "현장 경험",
+          "value": "2회 이상"
+        }
+      ],
+      "steps": [
+        {
+          "id": "morning",
+          "text": "오전",
+          "visible": false,
+          "source": "node-1:492",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "center",
+          "text": "밑작업",
+          "visible": false,
+          "source": "node-1:499",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "afternoon",
+          "text": "오후",
+          "visible": false,
+          "source": "node-1:498",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "morning-bottom",
+          "text": "밑작업",
+          "visible": false,
+          "source": "node-1:493",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "afternoon-bottom",
+          "text": "필름래핑",
+          "visible": false,
+          "source": "node-1:494",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "id": "first",
+          "source": "node-1:501",
+          "visible": false,
+          "loaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "id": "second",
+          "source": "node-1:555",
+          "visible": false,
+          "loaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "fieldMobileVisible": false,
+      "fieldOriginalVisible": false,
+      "fieldMobileText": "인테리어·유리필름",
+      "fieldTokenText": "유리필름",
+      "fieldTokenRectCount": 0,
+      "fieldTokenWhiteSpace": "pre-line",
+      "extraIcons": 0,
+      "fontLoaded": true,
+      "obsoleteSummary": false,
+      "obsoleteR2Timeline": false,
+      "errors": [],
+      "screenshot": "D:\\1111113232\\TE-PU\\smd-public (1)\\smd-public\\docs\\migration\\smd-home-r2\\visual-restore\\browser-local\\mobile-r4a-screenshots\\mobile-r4a-1920.png"
+    }
+  ],
+  "figmaPixelParity": "NOT_RUN",
+  "publicationAuthority": "DEV_FIXTURE_ONLY_EXPECTED",
+  "productionQualified": false
+}

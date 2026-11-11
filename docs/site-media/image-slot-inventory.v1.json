@@ -1,0 +1,20 @@
+{
+  "schema": "SMD_SITE_MEDIA_R1_CF1_INVENTORY_V1",
+  "sourceBaseline": "smd-public(1).zip / source-only Vue app",
+  "legacyRenderingPreserved": true,
+  "cf5RendererPromotion": false,
+  "entries": [
+    {"file":"app/pages/practice.vue","ordinal":0,"slotId":"practice.image","sourceExpression":"pages?.practice.image.src","legacyDisplay":"cover","v5DefaultDisplay":"natural","bindingEligibility":"fixed"},
+    {"file":"app/pages/about.vue","ordinal":0,"slotId":"about.heroImage","sourceExpression":"pages?.about.heroImage.src","legacyDisplay":"cover","v5DefaultDisplay":"natural","bindingEligibility":"fixed"},
+    {"file":"app/pages/about.vue","ordinal":1,"slotId":"about.instructor.image","sourceExpression":"pages?.about.instructor.image.src","legacyDisplay":"cover","v5DefaultDisplay":"natural","bindingEligibility":"fixed"},
+    {"file":"app/components/archive/ArchiveCard.vue","ordinal":0,"slotId":"archive.items[].image","sourceExpression":"src","legacyDisplay":"cover","v5DefaultDisplay":"contain","bindingEligibility":"existing-archive-authority"},
+    {"file":"app/components/archive/ArchiveYoutubePlayer.vue","ordinal":0,"slotId":"archive.youtube.poster","sourceExpression":"poster","legacyDisplay":"cover","v5DefaultDisplay":"contain","bindingEligibility":"existing-archive-authority"},
+    {"file":"app/components/home/HeroSection.vue","ordinal":0,"slotId":"home.hero.image","sourceExpression":"pages?.home.hero.image.src","legacyDisplay":"cover","v5DefaultDisplay":"natural","bindingEligibility":"fixed"},
+    {"file":"app/components/home/StatementSection.vue","ordinal":0,"slotId":"home.statement.image","sourceExpression":"pages?.home.statement.image.src","legacyDisplay":"cover","v5DefaultDisplay":"natural","bindingEligibility":"fixed"},
+    {"file":"app/components/feature/PracticeBlock.vue","ordinal":0,"slotId":"home.practiceTeaser.mainImage","sourceExpression":"pages?.home.practiceTeaser.mainImage.src","legacyDisplay":"cover","v5DefaultDisplay":"natural","bindingEligibility":"fixed"},
+    {"file":"app/components/feature/PracticeBlock.vue","ordinal":1,"slotId":"home.practiceTeaser.secondaryImage","sourceExpression":"pages?.home.practiceTeaser.secondaryImage.src","legacyDisplay":"cover","v5DefaultDisplay":"natural","bindingEligibility":"fixed"},
+    {"file":"app/components/feature/TeachGrid.vue","ordinal":0,"slotId":"training.teachItems[].image","sourceExpression":"item.image","legacyDisplay":"cover","v5DefaultDisplay":"natural","bindingEligibility":"deferred-stable-item-id"},
+    {"file":"app/components/pages/ArchiveCategoryPage.vue","ordinal":0,"slotId":"category.archiveItems[].image","sourceExpression":"item.image","legacyDisplay":"cover","v5DefaultDisplay":"contain","bindingEligibility":"deferred-v3-category-compat"},
+    {"file":"app/components/cms/ImageCardBlock.vue","ordinal":0,"slotId":"cms.image-card[blockId]","sourceExpression":"node.props.image.src","legacyDisplay":"cover","v5DefaultDisplay":"contain","bindingEligibility":"deferred-v3-tree-compat"}
+  ]
+}

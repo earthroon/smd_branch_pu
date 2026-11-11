@@ -1,0 +1,811 @@
+# SMD_HOME_INTRO_LAYOUT_REPAIR_R1 SOURCE DIFF
+# parent archive FILM_R13_NONLINEAR_WIND_R1_full_baked_unverified.zip
+--- a/app/assets/css/home-hero-film.css
++++ b/app/assets/css/home-hero-film.css
+@@ -46,10 +46,3 @@
+   position:absolute;inset:0;z-index:1;pointer-events:none;
+   height:100%;
+ }
+-/* The desktop Intro's 100svh sticky minimum otherwise recreates the empty band.
+-   The sticky behavior remains, its vertical extent follows the film presentation. */
+-@media (min-width:1380px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+- .smd-home-intro > .smd-figma-scene-section--hero:has(> .smd-hero-film) {
+-   min-height:0;height:var(--film-painted-height,637.5px);
+- }
+-}
+
+--- a/app/assets/css/home-r2-interaction.css
++++ b/app/assets/css/home-r2-interaction.css
+@@ -1,41 +1,80 @@
+-/* SMD_HOME_INTERACTION_R1. Presentation wrappers only. Header and Figma source untouched.
+-   The desktop hero begins at document y=0 under the existing fixed Header.
+-   A full-viewport hero slot, not viewport minus Header, keeps the info bar below fold. */
++/* Historical SMD_HOME_INTERACTION_R1 timeline is frozen. The Wind product uses
++   SMD_HOME_INTRO_LAYOUT_REPAIR_R1 compact-reveal as a separate presentation route.
++   SSR route/visual attributes prevent a pre-hydration bar flash. */
+ @media (min-width:1380px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+-  .smd-home-intro {
+-    position: relative;
+-    overflow: visible;
+-    isolation: isolate;
++  .smd-home-intro { position:relative; isolation:isolate; overflow:visible; }
++
++  /* Historical viewport-only presentation, retained but not Wind-product promoted. */
++  .smd-home-intro[data-intro-route="viewport-scroll"] > .smd-figma-scene-section--hero {
++    min-height:100svh;
++    position:sticky;
++    top:0;
++    z-index:0;
+   }
+-  .smd-home-intro > .smd-figma-scene-section--hero {
+-    min-height: 100svh;
+-    position: sticky;
+-    top: 0;
+-    z-index: 0;
++  .smd-home-intro[data-intro-route="viewport-scroll"] > .smd-figma-scene-section--info-bar {
++    position:relative;
++    z-index:1;
++    opacity:var(--smd-intro-bar-opacity,1);
++    transform:translate3d(0,var(--smd-intro-bar-y,0px),0);
+   }
+-  .smd-home-intro > .smd-figma-scene-section--info-bar {
+-    position: relative;
+-    z-index: 1;
+-    opacity: var(--smd-intro-bar-opacity, 1);
+-    transform: translate3d(0, var(--smd-intro-bar-y, 0px), 0);
++
++  /* Compact: one true owner for the film height (Wind layout plan), and one for
++     info-bar extent (Intro). The info SVG keeps its intrinsic aspect and source nodes. */
++  .smd-home-intro[data-intro-route="compact-reveal"] > .smd-figma-scene-section--hero {
++    position:relative;
++    top:auto;
++    z-index:0;
+   }
+-  .smd-home-intro .smd-home-intro__item {
+-    will-change: opacity, transform;
++  .smd-home-intro[data-intro-route="compact-reveal"]:not([data-intro-visual="static"])
++      > .smd-figma-scene-section--info-bar {
++    position:relative;
++    z-index:1;
++    min-height:0;
++    height:var(--smd-intro-bar-height,0px);
++    overflow:hidden;
++    opacity:var(--smd-intro-bar-opacity,0);
++    transform:translate3d(0,var(--smd-intro-bar-y,18px),0);
+   }
+-  .smd-home-intro .smd-home-intro__item[data-intro-icon-index="0"] {
+-    opacity: var(--smd-intro-icon-0-opacity, 1);
+-    transform: translateY(var(--smd-intro-icon-0-y, 0px));
++  .smd-home-intro[data-intro-route="compact-reveal"][data-intro-phase="revealing"] {
++    overflow-anchor:none;
+   }
+-  .smd-home-intro .smd-home-intro__item[data-intro-icon-index="1"] {
+-    opacity: var(--smd-intro-icon-1-opacity, 1);
+-    transform: translateY(var(--smd-intro-icon-1-y, 0px));
++
++  .smd-home-intro .smd-home-intro__item { will-change:opacity,transform; }
++  .smd-home-intro[data-intro-route="viewport-scroll"] .smd-home-intro__item[data-intro-icon-index="0"] {
++    opacity:var(--smd-intro-icon-0-opacity,1);
++    transform:translateY(var(--smd-intro-icon-0-y,0px));
+   }
+-  .smd-home-intro .smd-home-intro__item[data-intro-icon-index="2"] {
+-    opacity: var(--smd-intro-icon-2-opacity, 1);
+-    transform: translateY(var(--smd-intro-icon-2-y, 0px));
++  .smd-home-intro[data-intro-route="viewport-scroll"] .smd-home-intro__item[data-intro-icon-index="1"] {
++    opacity:var(--smd-intro-icon-1-opacity,1);
++    transform:translateY(var(--smd-intro-icon-1-y,0px));
+   }
+-  .smd-home-intro .smd-home-intro__item[data-intro-icon-index="3"] {
+-    opacity: var(--smd-intro-icon-3-opacity, 1);
+-    transform: translateY(var(--smd-intro-icon-3-y, 0px));
++  .smd-home-intro[data-intro-route="viewport-scroll"] .smd-home-intro__item[data-intro-icon-index="2"] {
++    opacity:var(--smd-intro-icon-2-opacity,1);
++    transform:translateY(var(--smd-intro-icon-2-y,0px));
++  }
++  .smd-home-intro[data-intro-route="viewport-scroll"] .smd-home-intro__item[data-intro-icon-index="3"] {
++    opacity:var(--smd-intro-icon-3-opacity,1);
++    transform:translateY(var(--smd-intro-icon-3-y,0px));
++  }
++  /* No opacity:1 defaults on the approved compact route. */
++  .smd-home-intro[data-intro-route="compact-reveal"]:not([data-intro-visual="static"])
++      .smd-home-intro__item[data-intro-icon-index="0"] {
++    opacity:var(--smd-intro-icon-0-opacity,0);
++    transform:translateY(var(--smd-intro-icon-0-y,24px));
++  }
++  .smd-home-intro[data-intro-route="compact-reveal"]:not([data-intro-visual="static"])
++      .smd-home-intro__item[data-intro-icon-index="1"] {
++    opacity:var(--smd-intro-icon-1-opacity,0);
++    transform:translateY(var(--smd-intro-icon-1-y,24px));
++  }
++  .smd-home-intro[data-intro-route="compact-reveal"]:not([data-intro-visual="static"])
++      .smd-home-intro__item[data-intro-icon-index="2"] {
++    opacity:var(--smd-intro-icon-2-opacity,0);
++    transform:translateY(var(--smd-intro-icon-2-y,24px));
++  }
++  .smd-home-intro[data-intro-route="compact-reveal"]:not([data-intro-visual="static"])
++      .smd-home-intro__item[data-intro-icon-index="3"] {
++    opacity:var(--smd-intro-icon-3-opacity,0);
++    transform:translateY(var(--smd-intro-icon-3-y,24px));
+   }
+ }
+
+--- a/app/components/home/HomeIntroStage.vue
++++ b/app/components/home/HomeIntroStage.vue
+@@ -4,7 +4,10 @@
+ import { useHomeIntroReveal } from '~/composables/useHomeIntroReveal';
+ 
+ const root = ref<HTMLElement | null>(null);
+-const { phase, admitted, admissionReason, releaseReason, ignoredWheelEvents, animationStarts } = useHomeIntroReveal(root);
++// Wind R1 uses a compact presentation. The historical viewport-scroll route is not rewritten.
++const introRoute = 'compact-reveal' as const;
++const { phase, admitted, admissionReason, releaseReason, ignoredWheelEvents, animationStarts,
++  visualState, layoutGeneration, measuredBarHeight, firstIntent } = useHomeIntroReveal(root, introRoute);
+ const emit = defineEmits<{ completed: [] }>();
+ let completionEmitted = false;
+ // Read-only handoff. The first Intro's wheel ownership and animation math are untouched.
+@@ -18,6 +21,9 @@
+ 
+ <template>
+   <div ref="root" class="smd-home-intro" data-intro-contract="SMD_HOME_INTERACTION_R1"
++    :data-intro-route="introRoute" :data-intro-visual="visualState"
++    :data-intro-layout-generation="layoutGeneration" :data-intro-measured-bar-height="measuredBarHeight"
++    :data-intro-first-intent="firstIntent || undefined"
+     :data-intro-phase="phase" :data-intro-admitted="admitted ? 'true' : 'false'"
+     :data-intro-admission-reason="admissionReason" :data-intro-release-reason="releaseReason || undefined"
+     :data-intro-animation-starts="animationStarts" :data-intro-ignored-wheel="ignoredWheelEvents">
+
+--- a/app/composables/useHomeIntroReveal.ts
++++ b/app/composables/useHomeIntroReveal.ts
+@@ -12,22 +12,29 @@
+ } from '~/utils/homeIntroTimeline';
+ 
+ export type HomeIntroPhase = 'disabled' | 'idle' | 'revealing' | 'settling' | 'released';
++export type HomeIntroRoute = 'viewport-scroll' | 'compact-reveal';
++export type IntroVisualState = 'pending' | 'managed' | 'static';
+ type ReleaseReason =
+   | 'completed' | 'viewport-changed' | 'media-changed' | 'page-hidden'
+-  | 'keyboard-scroll' | 'unmounted';
++  | 'keyboard-scroll' | 'external-scroll' | 'unmounted';
+ 
+ /** Home-only, single-owner wheel and RAF coordinator. Does not mutate Header or Figma source. */
+-export function useHomeIntroReveal(stageRef: Ref<HTMLElement | null>) {
++export function useHomeIntroReveal(stageRef: Ref<HTMLElement | null>, routeKind: HomeIntroRoute = 'compact-reveal') {
+   const phase = ref<HomeIntroPhase>('disabled');
+   const admitted = ref(false);
+   const admissionReason = ref('NOT_MOUNTED');
+   const releaseReason = ref<ReleaseReason | null>(null);
+   const ignoredWheelEvents = ref(0);
+   const animationStarts = ref(0);
++  const visualState = ref<IntroVisualState>('pending');
++  const layoutGeneration = ref(0);
++  const measuredBarHeight = ref<number | null>(null);
++  const firstIntent = ref<'wheel' | 'keyboard' | null>(null);
+ 
+   let media: MediaQueryList | null = null;
+   let rafId: number | null = null;
+   let startedAt = 0;
++  let lastBarProgress = 0;
+   let lastWheelAt = 0;
+   let startScrollY = 0;
+   let targetScrollY = 0;
+@@ -35,6 +42,9 @@
+   let mounted = false;
+   let scrollingElement: HTMLElement | null = null;
+   let originalScrollBehavior: { value: string; priority: string } | null = null;
++  let anchorElement: HTMLElement | null = null;
++  let originalOverflowAnchor: { value: string; priority: string } | null = null;
++  let barObserver: ResizeObserver | null = null;
+ 
+   const setVar = (name: string, value: number, unit = '') => {
+     stageRef.value?.style.setProperty(name, `${value.toFixed(6)}${unit}`);
+@@ -43,6 +53,11 @@
+   function present(elapsedMs: number, updateScroll: boolean): void {
+     const bar = barProgress(elapsedMs);
+     setVar('--smd-intro-bar-opacity', bar);
++    setVar('--smd-intro-bar-progress', bar);
++    lastBarProgress = bar;
++    if (routeKind === 'compact-reveal') {
++      setVar('--smd-intro-bar-height', (measuredBarHeight.value ?? 0) * bar, 'px');
++    }
+     setVar('--smd-intro-bar-y', HOME_INTRO_TIMING.barEntryOffsetPx * (1 - bar), 'px');
+     for (let i = 0; i < HOME_INTRO_TIMING.iconCount; i++) {
+       const p = iconProgress(elapsedMs, i);
+@@ -54,6 +69,48 @@
+       const current = startScrollY + (targetScrollY - startScrollY) * bar;
+       window.scrollTo({ top: current, behavior: 'auto' });
+     }
++  }
++
++  /** The SVG is not rescaled. Its actual rendered height is observed even while
++   *  the zero-height section clips the paint. No guessed 253.8px viewport constant. */
++  function measureCompactBar(): void {
++    const svg = stageRef.value?.querySelector<SVGSVGElement>(
++      '.smd-figma-scene-section--info-bar > .smd-figma-scene-svg',
++    );
++    const height = svg?.getBoundingClientRect().height;
++    if (!Number.isFinite(height) || !height || height <= 0) {
++      throw new Error('SMD_INTRO_COMPACT_BAR_GEOMETRY_UNAVAILABLE');
++    }
++    if (measuredBarHeight.value === null || Math.abs(measuredBarHeight.value - height) > 0.05) {
++      measuredBarHeight.value = height;
++      layoutGeneration.value += 1;
++    }
++    setVar('--smd-intro-info-full-height', height, 'px');
++    setVar('--smd-intro-bar-height', height * lastBarProgress, 'px');
++  }
++
++  /** Prevent browser scroll anchoring from moving the page while the compact
++   *  bar grows. Restore exactly the inline declaration we replaced. */
++  function ownCompactAnchor(): void {
++    const el = document.scrollingElement;
++    if (!(el instanceof HTMLElement)) throw new Error('SMD_INTRO_SCROLLING_ELEMENT_UNAVAILABLE');
++    anchorElement = el;
++    originalOverflowAnchor = {
++      value: el.style.getPropertyValue('overflow-anchor'),
++      priority: el.style.getPropertyPriority('overflow-anchor'),
++    };
++    el.style.setProperty('overflow-anchor', 'none', 'important');
++  }
++
++  function restoreCompactAnchor(): void {
++    const el = anchorElement, previous = originalOverflowAnchor;
++    anchorElement = null;
++    originalOverflowAnchor = null;
++    if (!el || !previous) return;
++    if (el.style.getPropertyValue('overflow-anchor') !== 'none' ||
++        el.style.getPropertyPriority('overflow-anchor') !== 'important') return;
++    if (previous.value) el.style.setProperty('overflow-anchor', previous.value, previous.priority);
++    else el.style.removeProperty('overflow-anchor');
+   }
+ 
+   function ownScrollBehavior(): void {
+@@ -91,8 +148,7 @@
+     // Browser restoration, scrollbar drag, and non-wheel scrolling must not be reinterpreted as an intro.
+     if (phase.value !== 'idle' || window.scrollY <= 2) return;
+     admissionReason.value = 'RESTORED_OR_EXTERNAL_SCROLL';
+-    removeWheel();
+-    phase.value = 'released';
++    release('external-scroll', true, false);
+   }
+ 
+   function release(reason: ReleaseReason, completeVisual: boolean, snapToTarget: boolean): void {
+@@ -100,21 +156,24 @@
+     rafId = null;
+     if (completeVisual) present(HOME_INTRO_REVEAL_COMPLETE_MS, false);
+     // Never replay suppressed wheel deltas. Snap only for a completed or interrupted intro.
+-    if (snapToTarget && originalScrollBehavior !== null) {
++    if (routeKind === 'viewport-scroll' && snapToTarget && originalScrollBehavior !== null) {
+       window.scrollTo({ top: targetScrollY, behavior: 'auto' });
+     }
+     restoreScrollBehavior();
++    restoreCompactAnchor();
+     removeWheel();
+     window.removeEventListener('scroll', onIdleScroll);
+     releaseReason.value = reason;
+     phase.value = 'released';
++    // All terminal paths are visible, even when the compact route was interrupted.
++    visualState.value = reason === 'completed' ? 'managed' : 'static';
+   }
+ 
+   function tick(now: number): void {
+     rafId = null;
+     if (!mounted || phase.value === 'released' || phase.value === 'disabled') return;
+     const elapsed = Math.max(0, now - startedAt);
+-    present(elapsed, true);
++    present(elapsed, routeKind === 'viewport-scroll');
+     if (elapsed >= HOME_INTRO_REVEAL_COMPLETE_MS && phase.value === 'revealing') {
+       phase.value = 'settling';
+     }
+@@ -125,21 +184,33 @@
+     rafId = window.requestAnimationFrame(tick);
+   }
+ 
+-  function startFirstWheel(now: number): void {
++  function startFirstWheel(now: number, intent: 'wheel' | 'keyboard'): void {
+     const stage = stageRef.value;
+     if (!stage) throw new Error('SMD_INTRO_STAGE_MISSING');
+     const info = stage.querySelector<HTMLElement>('.smd-figma-scene-section--info-bar');
+     if (!info) throw new Error('SMD_INTRO_INFO_BAR_MISSING');
+     startScrollY = window.scrollY;
+-    targetScrollY = introTargetScrollY(
+-      stage.getBoundingClientRect().bottom + startScrollY,
+-      window.innerHeight,
+-    );
+-    if (targetScrollY <= startScrollY + 1 || info.getBoundingClientRect().height <= 0) {
+-      throw new Error('SMD_INTRO_TARGET_GEOMETRY_INVALID');
+-    }
+-    ownScrollBehavior();
++    switch (routeKind) {
++      case 'compact-reveal': {
++        measureCompactBar();
++        // A zero-height info section is *expected* at idle; it is not a geometry fault.
++        ownCompactAnchor();
++        targetScrollY = startScrollY;
++        break;
++      }
++      case 'viewport-scroll': {
++        targetScrollY = introTargetScrollY(
++          stage.getBoundingClientRect().bottom + startScrollY, window.innerHeight,
++        );
++        if (targetScrollY <= startScrollY + 1 || info.getBoundingClientRect().height <= 0) {
++          throw new Error('SMD_INTRO_TARGET_GEOMETRY_INVALID');
++        }
++        ownScrollBehavior();
++        break;
++      }
++    }
+     animationStarts.value += 1;
++    firstIntent.value = intent;
+     startedAt = now;
+     lastWheelAt = now;
+     phase.value = 'revealing';
+@@ -159,7 +230,7 @@
+         if (event.target instanceof Element && event.target.closest('.smd-site-header')) return;
+         event.preventDefault();
+         try {
+-          startFirstWheel(performance.now());
++          startFirstWheel(performance.now(), 'wheel');
+         } catch (error) {
+           release('viewport-changed', true, false);
+           console.error('SMD_INTRO_FIRST_WHEEL_FAILED', error);
+@@ -183,39 +254,89 @@
+     const stage = stageRef.value;
+     if (!stage || !stage.isConnected) return 'INTRO_NOT_CURRENT';
+     if (!media?.matches) return 'NON_DESKTOP_VIEWPORT_OR_REDUCED_MOTION';
+-    if (navigator.maxTouchPoints > 0) return 'TOUCH_CAPABLE_DEVICE';
++    // Touch-capable laptops with a fine pointer and hover still qualify.
+     const heroSvg = stage.querySelector<SVGSVGElement>('.smd-figma-scene-section--hero svg');
+-    const info = stage.querySelector<HTMLElement>('.smd-figma-scene-section--info-bar');
+-    if (!heroSvg || !info || info.getBoundingClientRect().height <= 0) return 'GEOMETRY_UNAVAILABLE';
++    const infoSvg = stage.querySelector<SVGSVGElement>('.smd-figma-scene-section--info-bar > svg');
++    if (!heroSvg || !infoSvg || infoSvg.getBoundingClientRect().height <= 0) return 'GEOMETRY_UNAVAILABLE';
+     if (heroSvg.getBoundingClientRect().height > window.innerHeight) return 'HERO_EXCEEDS_AVAILABLE_VIEWPORT';
+     return null;
++  }
++
++  function installWheel(): void {
++    if (wheelInstalled) return;
++    window.addEventListener('wheel', onWheel, { passive: false, capture: true });
++    wheelInstalled = true;
++    window.addEventListener('scroll', onIdleScroll);
++  }
++
++  function attemptAdmission(): void {
++    const reason = validDesktop() ?? (window.scrollY > 2 ? 'RESTORED_SCROLL_POSITION' : null);
++    if (reason) {
++      admitted.value = false;
++      admissionReason.value = reason;
++      visualState.value = 'static';
++      phase.value = 'disabled';
++      removeWheel();
++      window.removeEventListener('scroll', onIdleScroll);
++      return;
++    }
++    if (routeKind === 'compact-reveal') {
++      try { measureCompactBar(); }
++      catch (error) {
++        console.error('SMD_INTRO_COMPACT_ADMISSION_FAILED', error);
++        admitted.value = false;
++        admissionReason.value = 'SMD_INTRO_COMPACT_BAR_GEOMETRY_UNAVAILABLE';
++        visualState.value = 'static';
++        phase.value = 'disabled';
++        return;
++      }
++    }
++    admitted.value = true;
++    admissionReason.value = routeKind === 'compact-reveal' ? 'ADMITTED_COMPACT_REVEAL' : 'ADMITTED';
++    visualState.value = 'managed';
++    phase.value = 'idle';
++    present(0, false);
++    installWheel();
+   }
+ 
+   function onEnvironmentChange(): void {
+     if (!mounted) return;
+     const invalid = validDesktop();
+-    if (!invalid) return;
+-    admissionReason.value = invalid;
+-    switch (phase.value) {
+-      case 'revealing':
+-      case 'settling':
+-        release('media-changed', true, true);
+-        break;
+-      case 'idle':
+-        removeWheel();
+-        window.removeEventListener('scroll', onIdleScroll);
+-        phase.value = 'disabled';
+-        break;
+-      default:
+-        break;
+-    }
+-    admitted.value = false;
++    if (invalid) {
++      admissionReason.value = invalid;
++      admitted.value = false;
++      switch (phase.value) {
++        case 'revealing':
++        case 'settling':
++          release('media-changed', true, routeKind === 'viewport-scroll');
++          break;
++        case 'idle':
++          removeWheel();
++          window.removeEventListener('scroll', onIdleScroll);
++          phase.value = 'disabled';
++          visualState.value = 'static';
++          break;
++        default: break;
++      }
++      return;
++    }
++    if (phase.value === 'disabled' && window.scrollY <= 2) attemptAdmission();
+   }
+ 
+   function onResize(): void {
+     onEnvironmentChange();
++    if (routeKind === 'compact-reveal') {
++      if (!admitted.value || phase.value === 'released' || phase.value === 'disabled') return;
++      try { measureCompactBar(); }
++      catch (error) {
++        console.error('SMD_INTRO_RESIZE_GEOMETRY_FAILED', error);
++        admissionReason.value = 'SMD_INTRO_COMPACT_BAR_GEOMETRY_UNAVAILABLE';
++        admitted.value = false;
++        release('viewport-changed', true, false);
++      }
++      return;
++    }
+     if (phase.value !== 'revealing' && phase.value !== 'settling') return;
+-    // A resize changes the exact destination. Finish using the new DOM boundary; never use stale Y.
+     const stage = stageRef.value;
+     if (stage) {
+       try {
+@@ -236,48 +357,69 @@
+     switch (phase.value) {
+       case 'revealing':
+       case 'settling':
+-        release('page-hidden', true, true);
+-        break;
+-      default:
+-        break;
++        release('page-hidden', true, routeKind === 'viewport-scroll');
++        break;
++      default: break;
+     }
+   }
+ 
+   function onKeyDown(event: KeyboardEvent): void {
+     if (event.altKey || event.ctrlKey || event.metaKey) return;
+     if (!['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', ' ', 'Home', 'End'].includes(event.key)) return;
+-    if (event.target instanceof Element && event.target.closest('input,textarea,select,[contenteditable]')) return;
++    if (event.target instanceof Element && event.target.closest('input,textarea,select,[contenteditable],button,a')) return;
+     switch (phase.value) {
++      case 'idle': {
++        if (!admitted.value || !['ArrowDown','PageDown',' '].includes(event.key) ||
++            !event.cancelable || window.scrollY > 2) return;
++        event.preventDefault();
++        try { startFirstWheel(performance.now(), 'keyboard'); }
++        catch (error) {
++          release('viewport-changed', true, false);
++          console.error('SMD_INTRO_FIRST_KEY_FAILED', error);
++        }
++        break;
++      }
+       case 'revealing':
+-      case 'settling':
+-        // Explicit keyboard navigation completes the intro and then remains native.
+-        release('keyboard-scroll', true, true);
+-        break;
+-      default:
+-        break;
++      case 'settling': {
++        if (['ArrowDown','PageDown',' '].includes(event.key)) {
++          if (event.cancelable) event.preventDefault();
++          break;
++        }
++        // Escape from a reveal on explicit reverse/navigation keys shows the real bar.
++        release('keyboard-scroll', true, routeKind === 'viewport-scroll');
++        break;
++      }
++      default: break;
+     }
+   }
+ 
+   onMounted(() => {
+     mounted = true;
+     media = window.matchMedia(HOME_INTRO_DESKTOP_MEDIA);
+-    const reason = validDesktop()
+-      ?? (window.scrollY > 2 ? 'RESTORED_SCROLL_POSITION' : null);
+-    if (reason) {
+-      admissionReason.value = reason;
+-      phase.value = 'disabled';
+-      return;
+-    }
+-    admitted.value = true;
+-    admissionReason.value = 'ADMITTED';
+-    phase.value = 'idle';
+-    window.addEventListener('wheel', onWheel, { passive: false, capture: true });
+-    wheelInstalled = true;
++    // Environmental listeners remain installed for a later resize into the eligible desktop.
+     window.addEventListener('resize', onResize);
+-    window.addEventListener('scroll', onIdleScroll);
+     document.addEventListener('visibilitychange', onVisibilityChange);
+     window.addEventListener('keydown', onKeyDown, true);
+     media.addEventListener('change', onEnvironmentChange);
++    attemptAdmission();
++    if (routeKind === 'compact-reveal' && typeof ResizeObserver !== 'undefined') {
++      const infoSvg = stageRef.value?.querySelector<SVGSVGElement>(
++        '.smd-figma-scene-section--info-bar > .smd-figma-scene-svg',
++      );
++      if (infoSvg) {
++        barObserver = new ResizeObserver(() => {
++          if (!mounted || !admitted.value || phase.value === 'released') return;
++          try { measureCompactBar(); }
++          catch (error) {
++            console.error('SMD_INTRO_BAR_RESIZE_FAILED', error);
++            admitted.value = false;
++            admissionReason.value = 'SMD_INTRO_COMPACT_BAR_GEOMETRY_UNAVAILABLE';
++            release('viewport-changed', true, false);
++          }
++        });
++        barObserver.observe(infoSvg);
++      }
++    }
+   });
+ 
+   onBeforeUnmount(() => {
+@@ -286,8 +428,11 @@
+       release('unmounted', false, false);
+     }
+     if (rafId !== null) window.cancelAnimationFrame(rafId);
++    barObserver?.disconnect();
++    barObserver = null;
+     removeWheel();
+     restoreScrollBehavior();
++    restoreCompactAnchor();
+     window.removeEventListener('resize', onResize);
+     window.removeEventListener('scroll', onIdleScroll);
+     window.removeEventListener('keydown', onKeyDown, true);
+@@ -296,5 +441,6 @@
+     media = null;
+   });
+ 
+-  return { phase, admitted, admissionReason, releaseReason, ignoredWheelEvents, animationStarts };
++  return { phase, admitted, admissionReason, releaseReason, ignoredWheelEvents, animationStarts,
++    visualState, layoutGeneration, measuredBarHeight, firstIntent };
+ }
+
+--- a/scripts/figma-r2/verify-home-intro-browser.mjs
++++ b/scripts/figma-r2/verify-home-intro-browser.mjs
+@@ -1,4 +1,5 @@
+-/** SMD_HOME_INTERACTION_R1 physical browser witness.
++/** SMD_HOME_INTRO_LAYOUT_REPAIR_R1 product browser witness.
++ * The historical timing contract remains SMD_HOME_INTERACTION_R1.
+  * Run against an already-started local Nuxt server. No deployment or page mutation.
+  * Node 22+; Chrome / Edge headless with CDP over native WebSocket.
+  */
+@@ -14,7 +15,7 @@
+ const arg = (key, otherwise) => { const i = args.indexOf(key); return i >= 0 ? args[i + 1] : otherwise; };
+ const url = arg('--url', 'http://127.0.0.1:3000/');
+ const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
+-const out = resolve(arg('--out', join(root, 'artifacts/smd-home-interaction-r1/browser-receipt.json')));
++const out = resolve(arg('--out', join(root, 'artifacts/smd-home-intro-layout-repair-r1/browser-receipt.json')));
+ if (!/^https?:\/\/(?:127\.0\.0\.1|localhost)(?::\d+)?\/$/.test(url)) {
+   throw new Error('SMD_INTRO_BROWSER_LOCAL_URL_ONLY');
+ }
+@@ -72,18 +73,33 @@
+     const root=document.querySelector('[data-intro-contract="SMD_HOME_INTERACTION_R1"]');
+     const hero=root?.querySelector('.smd-figma-scene-section--hero');
+     const bar=root?.querySelector('.smd-figma-scene-section--info-bar');
+-    const items=[...document.querySelectorAll('.smd-home-intro__item')];
++    const items=[...root?.querySelectorAll('.smd-home-intro__item')??[]];
++    const body=document.querySelector('.smd-home--figma-scene .smd-home-body-stage');
++    const firstRow=body?.querySelector('.smd-home-body-stage__row');
+     const rect=e=>e ? ({top:e.getBoundingClientRect().top,bottom:e.getBoundingClientRect().bottom,
+        height:e.getBoundingClientRect().height}) : null;
++    const barSvg=bar?.querySelector('svg');
++    const gap=bar&&body ? body.getBoundingClientRect().top-bar.getBoundingClientRect().bottom : null;
++    const bodyGap=body&&firstRow ? firstRow.getBoundingClientRect().top-body.getBoundingClientRect().top : null;
++    const boundary={introHeroInfoLayoutGapPx:hero&&bar ? bar.offsetTop-(hero.offsetTop+hero.offsetHeight) : null,
++      infoToBodyGapPx:gap,bodyToFirstRowGapPx:bodyGap,
++      infoBackground:bar?getComputedStyle(bar).backgroundColor:null,
++      bodyBackground:body?getComputedStyle(body).backgroundColor:null,
++      firstRowBackground:firstRow?getComputedStyle(firstRow).backgroundColor:null,
++      attribution:gap===null?'UNKNOWN':Math.abs(gap)>1?'INTER_SECTION_GEOMETRY_GAP':
++        bodyGap!==null&&Math.abs(bodyGap)>1?'BODY_FIRST_ROW_GAP':'NO_DOM_SECTION_GAP_PAINT_OWNER_PENDING'};
+     return { phase:root?.dataset.introPhase??null, admitted:root?.dataset.introAdmitted??null,
++      route:root?.dataset.introRoute??null, visual:root?.dataset.introVisual??null,
+       admissionReason:root?.dataset.introAdmissionReason??null,
+       releaseReason:root?.dataset.introReleaseReason??null,
++      firstIntent:root?.dataset.introFirstIntent??null,
+       starts:Number(root?.dataset.introAnimationStarts??0), ignored:Number(root?.dataset.introIgnoredWheel??0),
+       viewport:[innerWidth,innerHeight], scrollY:window.scrollY,
+-      hero:rect(hero), bar:rect(bar), intro:rect(root),
++      hero:rect(hero), bar:rect(bar), barSvg:rect(barSvg), intro:rect(root),body:rect(body), firstRow:rect(firstRow),
+       barOpacity:bar?Number(getComputedStyle(bar).opacity):null,
+       items:items.map(item=>({index:Number(item.dataset.introIconIndex),opacity:Number(getComputedStyle(item).opacity)})),
+       headerHeight:document.querySelector('.smd-site-header')?.getBoundingClientRect().height??null,
++      boundary,
+       media:matchMedia('(min-width: 1380px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)').matches
+     };
+   })()`);
+@@ -120,12 +136,18 @@
+   });
+   await cdp('Page.enable');
+   await cdp('Runtime.enable');
+-  for (const [width,height] of [[1920,1080],[2560,1080],[3440,1440],[3840,1080]]) {
++  for (const [width,height] of [[1920,1080],[2560,1080],[3440,1440],[3840,1080],[2048,688]]) {
+     await navigate(width,height,false);
+     const initial = await measure();
+     const errors = [];
+     if (initial.phase !== 'idle' || initial.admitted !== 'true') errors.push(`ADMISSION_${initial.admissionReason}`);
+-    if ((initial.bar?.top??0)<height-1) errors.push('INFO_BAR_VISIBLE_BEFORE_FIRST_WHEEL');
++    if (initial.route !== 'compact-reveal') errors.push('WRONG_PRESENTATION_ROUTE');
++    if (initial.barOpacity === null || initial.barOpacity > .01 || (initial.bar?.height??1)>1)
++      errors.push('INFO_BAR_VISIBLE_BEFORE_FIRST_WHEEL');
++    if (initial.items.some(item=>item.opacity>.01)) errors.push('PICTOGRAM_VISIBLE_BEFORE_FIRST_WHEEL');
++    if (initial.boundary.introHeroInfoLayoutGapPx!==null &&
++        Math.abs(initial.boundary.introHeroInfoLayoutGapPx)>1.1)
++      errors.push('INTRO_HERO_BAR_LAYOUT_GAP');
+     if (initial.items.length !== 8) errors.push(`MOTION_NODE_COUNT_${initial.items.length}`);
+     if (errors.length === 0) {
+       await wheel(width,height);
+@@ -140,13 +162,17 @@
+       if (released.phase !== 'released') errors.push('RELEASE_NOT_COMPLETED');
+       if (released.barOpacity === null || released.barOpacity < .999) errors.push('BAR_NOT_VISIBLE');
+       if (released.items.some(item => item.opacity < .999)) errors.push('ICON_NOT_VISIBLE');
+-      if (Math.abs((released.bar?.bottom??0)-height)>2) errors.push('INFO_BAR_FINAL_BOUNDARY_DRIFT');
++      if (Math.abs((released.bar?.height??0)-(released.barSvg?.height??-10))>2)
++        errors.push('INFO_BAR_FULL_EXTENT_MISMATCH');
++      if (released.boundary?.infoToBodyGapPx!==null && Math.abs(released.boundary.infoToBodyGapPx)>1)
++        errors.push('UNAPPROVED_INTRO_TO_BODY_GEOMETRY_GAP');
++      if (released.firstIntent!=='wheel') errors.push('FIRST_INTENT_NOT_WHEEL');
+       if (released.starts !== 1) errors.push('DUPLICATE_ANIMATION_START');
+       await wheel(width,height);
+       await sleep(550);
+       const next = await measure();
+       if (next.scrollY <= released.scrollY + 2) errors.push('NATIVE_SCROLL_NOT_RELEASED');
+-      if ((next.hero?.top??0) >= (released.hero?.top??0)-2) errors.push('STICKY_HERO_DID_NOT_EXIT');
++      if ((next.hero?.top??0) >= (released.hero?.top??0)-2) errors.push('PAGE_DID_NOT_ADVANCE');
+       results.push({ width,height,initial,burst,released,next,errors });
+     } else results.push({width,height,initial,errors});
+     console.log(`SMD INTRO ${width}x${height}: ${errors.length ? 'FAIL '+errors.join(',') : 'BROWSER_OK'}`);
+@@ -156,6 +182,7 @@
+     const initial = await measure();
+     const errors = [];
+     if (initial.phase !== 'disabled' || initial.admitted !== 'false') errors.push('MOBILE_TABLET_ADMISSION_NOT_DISABLED');
++    if (initial.bar?.height===0 || initial.barOpacity===0) errors.push('MOBILE_STATIC_BAR_HIDDEN');
+     await wheel(width,height);
+     await sleep(1100);
+     const after = await measure();
+@@ -167,7 +194,7 @@
+   failure = String(error?.stack ?? error);
+   console.error('SMD_INTRO_BROWSER_BLOCKED_OR_FAILED', failure);
+ } finally {
+-  const report = { contract: 'SMD_HOME_INTERACTION_R1', url,
++  const report = { contract: 'SMD_HOME_INTRO_LAYOUT_REPAIR_R1', parentTimeline: 'SMD_HOME_INTERACTION_R1', url,
+     status: failure ? 'BLOCKED' : results.some(r=>r.errors.length) ? 'FAIL' : 'PASS',
+     failure, originalFigmaPixelParity: 'NOT_RUN', results };
+   mkdirSync(dirname(out), {recursive:true});
+
+--- /dev/null
++++ b/scripts/tests/home-intro-compact-reveal.test.mjs
+@@ -0,0 +1,85 @@
++import { test } from 'node:test';
++import assert from 'node:assert/strict';
++import { readFileSync } from 'node:fs';
++import { dirname, resolve } from 'node:path';
++import { fileURLToPath } from 'node:url';
++import {
++  HOME_INTRO_TIMING, HOME_INTRO_REVEAL_COMPLETE_MS, HOME_INTRO_MIN_RELEASE_MS,
++  iconStartMs, iconProgress, barProgress,
++} from '../../app/utils/homeIntroTimeline.ts';
++const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
++const text = path => readFileSync(resolve(root,path),'utf8');
++const controller = text('app/composables/useHomeIntroReveal.ts');
++const css = text('app/assets/css/home-r2-interaction.css');
++const windCss = text('app/assets/css/home-hero-film.css');
++const host = text('app/components/home/HomeIntroStage.vue');
++
++test('R1-CF1: compact presentation is explicit without replacing historical timeline', () => {
++  assert.match(host, /introRoute\s*=\s*'compact-reveal'/);
++  assert.match(host, /:data-intro-route="introRoute"/);
++  assert.match(host, /data-intro-contract="SMD_HOME_INTERACTION_R1"/);
++  assert.match(css, /data-intro-route="viewport-scroll"[^}]*min-height:100svh;[^}]*position:sticky/s);
++  assert.match(css, /data-intro-route="compact-reveal"[^}]*position:relative;[^}]*top:auto/s);
++  assert.doesNotMatch(windCss, /\.smd-home-intro\s*>\s*\.smd-figma-scene-section--hero:has/);
++});
++
++test('R1-CF2: SSR default hides bar/8 icon paints without relying on mount', () => {
++  assert.match(host, /visualState/);
++  assert.match(controller, /ref<IntroVisualState>\('pending'\)/);
++  assert.match(css,/data-intro-route="compact-reveal"\]:not\(\[data-intro-visual="static"\]\)/);
++  assert.match(css, /height:var\(--smd-intro-bar-height,0px\)/);
++  assert.match(css, /opacity:var\(--smd-intro-bar-opacity,0\)/);
++  for (let i=0;i<4;i++) {
++    assert.match(css,new RegExp(`data-intro-icon-index="${i}"\\] \\{\\s*opacity:var\\(--smd-intro-icon-${i}-opacity,0\\)`));
++  }
++});
++
++test('R1-CF3: height derives from actual SVG, never 253.8 magic', () => {
++  assert.match(controller, /\.smd-figma-scene-section--info-bar > \.smd-figma-scene-svg/);
++  assert.match(controller, /svg\?\.getBoundingClientRect\(\)\.height/);
++  assert.match(controller, /height \* lastBarProgress/);
++  assert.match(controller, /measuredBarHeight\.value \?\? 0\) \* bar/);
++  assert.doesNotMatch(controller, /\b253\.8\b/);
++  assert.match(controller, /SMD_INTRO_COMPACT_BAR_GEOMETRY_UNAVAILABLE/);
++});
++
++test('R1-CF3: compact wheel consumes without requiring positive scroll target or moving viewport', () => {
++  const compact = controller.match(/case 'compact-reveal':\s*\{([\s\S]*?)\n\s*break;/)?.[1];
++  assert.ok(compact);
++  assert.match(compact,/measureCompactBar\(\)/);
++  assert.match(compact,/ownCompactAnchor\(\)/);
++  assert.match(compact,/targetScrollY = startScrollY/);
++  assert.doesNotMatch(compact,/introTargetScrollY\(/);
++  assert.match(controller,/present\(elapsed, routeKind === 'viewport-scroll'\)/);
++  assert.match(controller,/restoreCompactAnchor\(\)/);
++  assert.match(controller,/lastWheelAt = performance\.now\(\)/);
++});
++
++test('R1-CF2: original exact timing and monotone progress remain frozen', () => {
++  assert.equal(HOME_INTRO_TIMING.barDurationMs,430);
++  assert.deepEqual([0,1,2,3].map(iconStartMs),[460,520,580,640]);
++  assert.equal(HOME_INTRO_REVEAL_COMPLETE_MS,990);
++  assert.equal(HOME_INTRO_MIN_RELEASE_MS,1110);
++  for (const time of [0,10,95,230,300,429,430,460,530,650,989,990,1110]) {
++    const p=barProgress(time);
++    assert.ok(p>=0 && p<=1);
++    for (let i=0;i<4;i++) assert.ok(iconProgress(time,i)>=0 && iconProgress(time,i)<=1);
++  }
++});
++
++test('R1-CF3: keyboard and touch-capable fine mouse remain eligible; terminal release is explicit', () => {
++  assert.doesNotMatch(controller,/navigator\.maxTouchPoints\s*>\s*0/);
++  assert.match(controller,/startFirstWheel\(performance\.now\(\), 'keyboard'\)/);
++  assert.match(controller,/release\('external-scroll', true, false\)/);
++  assert.match(controller,/restoreCompactAnchor\(\)/);
++  assert.match(controller,/visualState\.value = reason === 'completed' \? 'managed' : 'static'/);
++  assert.match(controller,/barObserver\?\.disconnect\(\)/);
++});
++
++test('R1-CF4: no guessed negative margin or edits to Figma/layout source', () => {
++  assert.doesNotMatch(css,/margin-(top|block-start):\s*-/);
++  assert.doesNotMatch(css,/translateY\(-\d+px\)/);
++  assert.doesNotMatch(windCss,/\.smd-home-intro\s*>/);
++  const c=text('app/utils/homeInfoLayoutMath.ts');
++  assert.match(c,/HOME_INFO_BOTTOM_PADDING = 45/);
++});
+
+--- a/scripts/tests/home-intro-scroll.test.mjs
++++ b/scripts/tests/home-intro-scroll.test.mjs
+@@ -22,11 +22,14 @@
+   assert.equal((intro.match(/section-id="info-bar"/g)??[]).length, 1);
+ });
+ 
+-test('CF1 sticky belongs to hero, never info-bar; viewport slot includes fixed header overlap', () => {
++test('CF1 historical viewport sticky and compact presentation are separate route contracts', () => {
+   const css = source('app/assets/css/home-r2-interaction.css');
+   assert.match(css, /min-height:\s*100svh/);
+   assert.match(css, /position:\s*sticky/);
+-  assert.match(css, /\.smd-home-intro\s*>\s*\.smd-figma-scene-section--info-bar\s*\{[^}]*position:\s*relative/s);
++  assert.match(css, /data-intro-route=\"viewport-scroll\"[^}]*position:sticky/s);
++  assert.match(css, /data-intro-route=\"compact-reveal\"[^}]*position:relative/s);
++  assert.match(css, /height:var\(--smd-intro-bar-height,0px\)/);
++  assert.doesNotMatch(source('app/assets/css/home-hero-film.css'), /\.smd-home-intro\s*>\s*\.smd-figma-scene-section--hero:has/);
+   assert.equal(introTargetScrollY(1390,1080),310);
+   assert.equal(introTargetScrollY(1750,1440),310);
+ });
+@@ -85,9 +88,11 @@
+   assert.equal(canReleaseIntro(2220,220),true);
+ });
+ 
+-test('CF6 mobile / tablet and reduced motion admission are disabled in source', () => {
++test('CF6 coarse/mobile and reduced motion remain static, but fine-pointer touch laptops can admit', () => {
+   const controller=source('app/composables/useHomeIntroReveal.ts');
+-  assert.match(controller,/navigator\.maxTouchPoints\s*>\s*0/);
++  assert.doesNotMatch(controller,/navigator\.maxTouchPoints\s*>\s*0/);
++  assert.match(controller,/case 'compact-reveal'/);
++  assert.match(controller,/startFirstWheel\(performance\.now\(\), 'keyboard'\)/);
+   assert.match(source('app/utils/homeIntroTimeline.ts'),/prefers-reduced-motion:\s*no-preference/);
+   assert.match(source('app/assets/css/home-r2-interaction.css'),/min-width:1380px/);
+   assert.match(controller,/window\.scrollY\s*>\s*2/);
+

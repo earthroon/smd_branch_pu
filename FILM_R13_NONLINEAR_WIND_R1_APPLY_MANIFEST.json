@@ -1,0 +1,106 @@
+{
+  "contract": "FILM-R13-NONLINEAR-WIND-R1",
+  "parentBundle": "FILM_R13_RESTORE_CF5_CF6_WINDOWS_R1_full_baked_unverified.zip",
+  "parentBundleSha256": "a43195def5a2ede9e4ca14e05559661b5b42138c4ee90cb9cca2b0a64e43861c",
+  "changedCount": 16,
+  "addedCount": 4,
+  "modifiedCount": 12,
+  "files": [
+    {
+      "path": "app/assets/css/home-hero-film.css",
+      "action": "MODIFY",
+      "parentSha256": "8f210572058ecdd2e85df2b223d03b1d7990a29cf8a016f0faa3afd5e8119b18",
+      "bakedSha256": "9ec5e3590b94f025c88ff12f82119fececcf1ce2c686bff595566d6f260d360d"
+    },
+    {
+      "path": "app/components/home/HomeHeroFilm.vue",
+      "action": "MODIFY",
+      "parentSha256": "eb11618d3cf292ec30a1ff65d3d4021cd87e242e66aad4fa14892531f0f9b35c",
+      "bakedSha256": "324d9f1dacf8611f1d5d3a6d09dbac687b271a1d2caab80afe53d0764d315a56"
+    },
+    {
+      "path": "app/data/home-film-wind-lut.json",
+      "action": "ADD",
+      "parentSha256": null,
+      "bakedSha256": "352a821d71706362ccdec3b825c8b38e46ed438e0c37d93e8527efb98e5269fd"
+    },
+    {
+      "path": "app/utils/homeFilmLayout.ts",
+      "action": "MODIFY",
+      "parentSha256": "afa202cc36d3caad86473f5ced190445c88392cb92c2d9a38111828c9d9531b4",
+      "bakedSha256": "11a1d0005cc0a5ac29c33994637452fe079bcee98e0d5c3540a2c7e060f804c6"
+    },
+    {
+      "path": "app/utils/homeFilmMotion.ts",
+      "action": "MODIFY",
+      "parentSha256": "0409344f835df981c16d4c41d0f98cd92d76753ee97a569d8c83ac577cad2cbd",
+      "bakedSha256": "6b8f214101329cc39ffe0a4bff3c5fb445c4c11b40266902dda74e42d4fdfe73"
+    },
+    {
+      "path": "app/utils/homeFilmWind.ts",
+      "action": "ADD",
+      "parentSha256": null,
+      "bakedSha256": "0bff2055d500a9afbcc78a09a274fb4e09eb8feecb054c333535cc8e6c82344f"
+    },
+    {
+      "path": "package.json",
+      "action": "MODIFY",
+      "parentSha256": "7e278974227b5cf003853d1ce7176d6f75084a79e12222dd386ef052b8f64ed3",
+      "bakedSha256": "2feca0a8399de8ea8349fb178fca8a34ab159fff40f107b473e8ade634cba936"
+    },
+    {
+      "path": "scripts/film/bake-nonlinear-loop.mjs",
+      "action": "ADD",
+      "parentSha256": null,
+      "bakedSha256": "cbaf709a33475841bb5459ecbbaaa32de34c15e521d542f49dca466f2fe4febe"
+    },
+    {
+      "path": "scripts/tests/hero-film-cf1-cf3.test.mjs",
+      "action": "MODIFY",
+      "parentSha256": "60e62f72be3f59982ec0b628ae3c0cda791761eb9391016a7c592062015321f0",
+      "bakedSha256": "a5e1aecf725ef5a24149bd853fba197e5b858428dc137488f7e7d167683c8e80"
+    },
+    {
+      "path": "scripts/tests/hero-film-cf3-cf4.test.mjs",
+      "action": "MODIFY",
+      "parentSha256": "d771c1cfe355624212c1aebcdf9e4e3412d6c89dd4e88a2c79e16a7781c5beb8",
+      "bakedSha256": "e2d86835279c6f27332bbbb44b5841eaff6a5846fb8e8506b6a1b7bbb7a34917"
+    },
+    {
+      "path": "scripts/tests/hero-film-cf4-cf6.test.mjs",
+      "action": "MODIFY",
+      "parentSha256": "19c16eaeb111f35be981385a95d848bb341f6ca88c2363c6bffa996a17267d7a",
+      "bakedSha256": "e9138a1ba9a2e36ab01daf59def8ccf5de457f9d942c2989543fc0c27c03bcd1"
+    },
+    {
+      "path": "scripts/tests/hero-film-cf5-cf6.test.mjs",
+      "action": "MODIFY",
+      "parentSha256": "846af63437d0cb39a6255d9a958144355ff3b6bb982ff529d6fe278dde9f9476",
+      "bakedSha256": "a0b4ccf693570ea9721d8803830c7f115f2e651474490e9a59486f03b1cfd303"
+    },
+    {
+      "path": "scripts/tests/hero-film-runtime-harness.mjs",
+      "action": "MODIFY",
+      "parentSha256": "e9cb81eb8f5038d479feb47a2f0fce3c2774c2ba69d3f2cba9884b205a752ca1",
+      "bakedSha256": "904297bcab8b103a8a7251c7a4cf8e4cbf7c5ca1dd5a6fff059af6a61d0d1eae"
+    },
+    {
+      "path": "scripts/tests/hero-film-speed.test.mjs",
+      "action": "MODIFY",
+      "parentSha256": "9101df05c3f7c5b3f74e6cac43314124e3b95669bb9346d83397d814f501be03",
+      "bakedSha256": "08f544c7276b6f119675c50d5cd94268094d3109bf2a9f74c8a6d46118b13006"
+    },
+    {
+      "path": "scripts/tests/hero-film-wind.test.mjs",
+      "action": "ADD",
+      "parentSha256": null,
+      "bakedSha256": "878be88109d51caa8616b81ba7383271a0cd49504303035e3f78426d55751a89"
+    },
+    {
+      "path": "scripts/verify-hero-film-browser.mjs",
+      "action": "MODIFY",
+      "parentSha256": "68a4ae54d8ba00ed8d2c51565fae86624e3584ef4cb9d3f36eb29fcac1a4771a",
+      "bakedSha256": "04675fb855d65e5cb4ca9bae310f06cd797bfbf07e826445f2ab3ce87d087c12"
+    }
+  ]
+}

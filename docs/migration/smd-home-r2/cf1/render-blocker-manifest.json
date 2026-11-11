@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "sourceSnapshotDigest": "5e877e46cc1bad3e7985a553163120c59c9b9d0f731a66d575e781fa5c60146f",
+  "generatedFrom": "docs/migration/smd-home-r2/cf1/figma-source",
+  "generatorVersion": "SMD_HOME_R2_CF1_GEN_V1",
+  "renderCounts": {
+    "candidate": 182,
+    "admitted": 58,
+    "blocked": 32
+  },
+  "knownDirectBlockers": [
+    "node-18:25",
+    "node-18:57"
+  ],
+  "blockedCases": [
+    {
+      "target": "node-18:25",
+      "reasonCode": "FNS_CLIP_WITNESS_MISSING",
+      "blockedBy": null
+    },
+    {
+      "target": "node-18:23",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:25"
+    },
+    {
+      "target": "node-18:24",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:23"
+    },
+    {
+      "target": "node-18:57",
+      "reasonCode": "FNS_CLIP_WITNESS_MISSING",
+      "blockedBy": null
+    },
+    {
+      "target": "node-18:55",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:57"
+    },
+    {
+      "target": "node-18:56",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:55"
+    },
+    {
+      "target": "node-18:29",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:57"
+    },
+    {
+      "target": "node-18:30",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:29"
+    },
+    {
+      "target": "node-18:31",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:30"
+    },
+    {
+      "target": "node-18:32",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:31"
+    },
+    {
+      "target": "node-18:33",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:32"
+    },
+    {
+      "target": "node-18:34",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:30"
+    },
+    {
+      "target": "node-18:35",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:34"
+    },
+    {
+      "target": "node-18:36",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:35"
+    },
+    {
+      "target": "node-18:37",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:30"
+    },
+    {
+      "target": "node-18:38",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:37"
+    },
+    {
+      "target": "node-18:39",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:38"
+    },
+    {
+      "target": "node-18:40",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:30"
+    },
+    {
+      "target": "node-18:41",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:40"
+    },
+    {
+      "target": "node-18:42",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:41"
+    },
+    {
+      "target": "node-18:43",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:30"
+    },
+    {
+      "target": "node-18:44",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:43"
+    },
+    {
+      "target": "node-18:45",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:44"
+    },
+    {
+      "target": "node-18:46",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:30"
+    },
+    {
+      "target": "node-18:47",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:46"
+    },
+    {
+      "target": "node-18:48",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:47"
+    },
+    {
+      "target": "node-18:49",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:30"
+    },
+    {
+      "target": "node-18:50",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:49"
+    },
+    {
+      "target": "node-18:51",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:50"
+    },
+    {
+      "target": "node-18:52",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:30"
+    },
+    {
+      "target": "node-18:53",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:52"
+    },
+    {
+      "target": "node-18:54",
+      "reasonCode": "FNS_SCHEMA9_ANCESTOR_RENDER_BLOCKED",
+      "blockedBy": "node-18:53"
+    }
+  ],
+  "qualification": "STRUCTURAL_VALIDATED_RENDER_BLOCKED",
+  "productCommitAllowed": false
+}

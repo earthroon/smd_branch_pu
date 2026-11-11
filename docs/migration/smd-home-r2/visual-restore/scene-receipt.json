@@ -1,0 +1,29 @@
+{
+  "contract": "SMD_FIGMA_SCENE_VR1_RECEIPT",
+  "sourceSnapshotDigest": "5e877e46cc1bad3e7985a553163120c59c9b9d0f731a66d575e781fa5c60146f",
+  "sourceWitnessDigest": "b81daf175c8ee9e590b1bc0b87cd74dbe7d0c75e121c412fc0cfa16367127cc1",
+  "sourceOriginalsChanged": false,
+  "nodes": 272,
+  "cases": 272,
+  "paints": 165,
+  "ownerCounts": {
+    "semantic-footer": 1,
+    "figma-scene": 149,
+    "cms-faq-pending": 4,
+    "semantic-header": 11
+  },
+  "assets": 31,
+  "svgInstanceCount": 68,
+  "nativeTextCount": 76,
+  "nativeTextRunCount": 89,
+  "frameShapeCount": 38,
+  "childClipCount": 38,
+  "blockedCount": 32,
+  "blockedRootKeys": [
+    "node-18:25",
+    "node-18:57"
+  ],
+  "physicalParity": "NOT_RUN",
+  "renderQualification": "BLOCKED",
+  "productCommitAllowed": false
+}

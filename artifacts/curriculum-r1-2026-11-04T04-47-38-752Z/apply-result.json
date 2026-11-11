@@ -1,0 +1,21 @@
+{
+  "schema": "SMD_CURRICULUM_OVERLAY_APPLY_V1",
+  "baseCommit": "d49395f0bef0dbe1f1b424a34766f4933b3bd750",
+  "files": [
+    {
+      "path": "app/assets/css/about-r1.css",
+      "beforeSha256": "fc1e6b40ac60e4d524c2ad7ab1ae56f7961ecc4326937f31b8aeb99996767541",
+      "sha256": "4a30671007556e16d4e8a2ef920c0173c589ff102956847f03269822a00f3c1a"
+    },
+    {
+      "path": "app/assets/css/curriculum-r1.css",
+      "beforeSha256": "ddcdb435bea8c79c193c48e645a4af00a398ff107e48cc64c5090a560b9a352b",
+      "sha256": "c4ff7cb84d3f335715dd41e3dd284c764915ee753cc5573d5d3a9f5699741ae0"
+    },
+    {
+      "path": "app/components/about/AboutAudience.vue",
+      "beforeSha256": "b753987bba49a2b00a4356fdef8e4bc938c535e3ff08fb430401a8406876637f",
+      "sha256": "b3a323fc8d3ea1c61d93808423b605e3df72106f03e9d5464c1d0c495fbe4cb8"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "contract": "SMD-NUXT-R2-CF03",
+  "source": "CF00_ORIGINAL_LEFT_RIGHT_NAV",
+  "paths": [
+    "/",
+    "/about",
+    "/curriculum",
+    "/practice",
+    "/archive",
+    "/promotion",
+    "/contact"
+  ],
+  "navigation": {
+    "left": [
+      {
+        "label": "아카데미 소개",
+        "to": "/about"
+      },
+      {
+        "label": "교육과정",
+        "to": "/curriculum"
+      },
+      {
+        "label": "10월 프로모션",
+        "to": "/promotion"
+      }
+    ],
+    "right": [
+      {
+        "label": "실습공간",
+        "to": "/practice"
+      },
+      {
+        "label": "수강후기",
+        "to": "/archive"
+      },
+      {
+        "label": "문의",
+        "to": "/contact"
+      }
+    ]
+  },
+  "notFound": {
+    "path": "*",
+    "expectedHttpStatus": 404,
+    "returnTo": [
+      "/",
+      "/contact"
+    ]
+  },
+  "external": {
+    "kakao": "https://open.kakao.com/o/sNY9dDwi",
+    "instagram": "https://www.instagram.com/smdlab2026",
+    "youtube": "https://youtube.com/@smdlabtv"
+  },
+  "phone": {
+    "display": "0505-738-2101",
+    "href": "tel:05057382101",
+    "target": "_blank",
+    "rel": "noopener noreferrer"
+  },
+  "status": "STATIC_REFERENCE_ONLY"
+}

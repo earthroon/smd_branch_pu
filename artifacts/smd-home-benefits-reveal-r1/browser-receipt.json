@@ -1,0 +1,1998 @@
+{
+  "contract": "SMD_HOME_BENEFITS_REVEAL_R1",
+  "url": "http://127.0.0.1:3000/",
+  "status": "PASS",
+  "failure": null,
+  "results": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "variant": "completed",
+      "initial": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 0,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "idle",
+        "introRelease": null,
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "trainingPhase": "unarmed",
+        "trainingReason": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 0,
+        "benefits": {
+          "top": 2882.5625,
+          "bottom": 3940.71875,
+          "height": 1058.15625
+        },
+        "training": {
+          "top": 2219.546875,
+          "bottom": 2882.5625,
+          "height": 663.015625
+        },
+        "methods": {
+          "top": 3940.71875,
+          "bottom": 4833.6875,
+          "height": 892.96875
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -26)"
+          }
+        ]
+      },
+      "trainingDone": {
+        "phase": "ready",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 0,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 2126,
+        "benefits": {
+          "top": 756.5625,
+          "bottom": 1814.71875,
+          "height": 1058.15625
+        },
+        "training": {
+          "top": 93.546875,
+          "bottom": 756.5625,
+          "height": 663.015625
+        },
+        "methods": {
+          "top": 1814.71875,
+          "bottom": 2707.6875,
+          "height": 892.96875
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -26)"
+          }
+        ]
+      },
+      "mid": {
+        "phase": "revealing",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 2789,
+        "benefits": {
+          "top": 93.5625,
+          "bottom": 1151.71875,
+          "height": 1058.15625
+        },
+        "training": {
+          "top": -569.453125,
+          "bottom": 93.5625,
+          "height": 663.015625
+        },
+        "methods": {
+          "top": 1151.71875,
+          "bottom": 2044.6875,
+          "height": 892.96875
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0.983743,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.422677)"
+          }
+        ]
+      },
+      "done": {
+        "phase": "completed",
+        "outcome": "completed",
+        "prepared": "false",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 2789,
+        "benefits": {
+          "top": 93.5625,
+          "bottom": 1151.71875,
+          "height": 1058.15625
+        },
+        "training": {
+          "top": -569.453125,
+          "bottom": 93.5625,
+          "height": 663.015625
+        },
+        "methods": {
+          "top": 1151.71875,
+          "bottom": 2044.6875,
+          "height": 892.96875
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "replay": {
+        "phase": "completed",
+        "outcome": "completed",
+        "prepared": "false",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 2089,
+        "benefits": {
+          "top": 793.5625,
+          "bottom": 1851.71875,
+          "height": 1058.15625
+        },
+        "training": {
+          "top": 130.546875,
+          "bottom": 793.5625,
+          "height": 663.015625
+        },
+        "methods": {
+          "top": 1851.71875,
+          "bottom": 2744.6875,
+          "height": 892.96875
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        2560,
+        1080
+      ],
+      "variant": "completed",
+      "initial": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 0,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "idle",
+        "introRelease": null,
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "trainingPhase": "unarmed",
+        "trainingReason": null,
+        "viewport": [
+          2560,
+          1080
+        ],
+        "scrollY": 0,
+        "benefits": {
+          "top": 2896.046875,
+          "bottom": 3962.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": 2227.796875,
+          "bottom": 2896.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 3962.546875,
+          "bottom": 4862.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -26)"
+          }
+        ]
+      },
+      "trainingDone": {
+        "phase": "ready",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 0,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          2560,
+          1080
+        ],
+        "scrollY": 2134,
+        "benefits": {
+          "top": 762.046875,
+          "bottom": 1828.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": 93.796875,
+          "bottom": 762.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1828.546875,
+          "bottom": 2728.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -26)"
+          }
+        ]
+      },
+      "mid": {
+        "phase": "revealing",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          2560,
+          1080
+        ],
+        "scrollY": 2802,
+        "benefits": {
+          "top": 94.046875,
+          "bottom": 1160.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": -574.203125,
+          "bottom": 94.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1160.546875,
+          "bottom": 2060.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0.983884,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.41901)"
+          }
+        ]
+      },
+      "done": {
+        "phase": "completed",
+        "outcome": "completed",
+        "prepared": "false",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          2560,
+          1080
+        ],
+        "scrollY": 2802,
+        "benefits": {
+          "top": 94.046875,
+          "bottom": 1160.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": -574.203125,
+          "bottom": 94.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1160.546875,
+          "bottom": 2060.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "replay": {
+        "phase": "completed",
+        "outcome": "completed",
+        "prepared": "false",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          2560,
+          1080
+        ],
+        "scrollY": 2102,
+        "benefits": {
+          "top": 794.046875,
+          "bottom": 1860.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": 125.796875,
+          "bottom": 794.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1860.546875,
+          "bottom": 2760.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "variant": "completed",
+      "initial": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 0,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "idle",
+        "introRelease": null,
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "trainingPhase": "unarmed",
+        "trainingReason": null,
+        "viewport": [
+          3440,
+          1440
+        ],
+        "scrollY": 0,
+        "benefits": {
+          "top": 3256.046875,
+          "bottom": 4322.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": 2587.796875,
+          "bottom": 3256.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 4322.546875,
+          "bottom": 5222.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -26)"
+          }
+        ]
+      },
+      "trainingDone": {
+        "phase": "ready",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 0,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          3440,
+          1440
+        ],
+        "scrollY": 2494,
+        "benefits": {
+          "top": 762.046875,
+          "bottom": 1828.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": 93.796875,
+          "bottom": 762.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1828.546875,
+          "bottom": 2728.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -26)"
+          }
+        ]
+      },
+      "mid": {
+        "phase": "revealing",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          3440,
+          1440
+        ],
+        "scrollY": 3162,
+        "benefits": {
+          "top": 94.046875,
+          "bottom": 1160.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": -574.203125,
+          "bottom": 94.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1160.546875,
+          "bottom": 2060.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0.978484,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.559425)"
+          }
+        ]
+      },
+      "done": {
+        "phase": "completed",
+        "outcome": "completed",
+        "prepared": "false",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          3440,
+          1440
+        ],
+        "scrollY": 3162,
+        "benefits": {
+          "top": 94.046875,
+          "bottom": 1160.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": -574.203125,
+          "bottom": 94.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1160.546875,
+          "bottom": 2060.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "replay": {
+        "phase": "completed",
+        "outcome": "completed",
+        "prepared": "false",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          3440,
+          1440
+        ],
+        "scrollY": 2462,
+        "benefits": {
+          "top": 794.046875,
+          "bottom": 1860.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": 125.796875,
+          "bottom": 794.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1860.546875,
+          "bottom": 2760.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        3840,
+        1080
+      ],
+      "variant": "completed",
+      "initial": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 0,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "idle",
+        "introRelease": null,
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "trainingPhase": "unarmed",
+        "trainingReason": null,
+        "viewport": [
+          3840,
+          1080
+        ],
+        "scrollY": 0,
+        "benefits": {
+          "top": 2896.046875,
+          "bottom": 3962.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": 2227.796875,
+          "bottom": 2896.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 3962.546875,
+          "bottom": 4862.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -26)"
+          }
+        ]
+      },
+      "trainingDone": {
+        "phase": "ready",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 0,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          3840,
+          1080
+        ],
+        "scrollY": 2134,
+        "benefits": {
+          "top": 762.046875,
+          "bottom": 1828.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": 93.796875,
+          "bottom": 762.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1828.546875,
+          "bottom": 2728.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, -26)"
+          }
+        ]
+      },
+      "mid": {
+        "phase": "revealing",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          3840,
+          1080
+        ],
+        "scrollY": 2802,
+        "benefits": {
+          "top": 94.046875,
+          "bottom": 1160.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": -574.203125,
+          "bottom": 94.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1160.546875,
+          "bottom": 2060.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0.9838,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.421207)"
+          }
+        ]
+      },
+      "done": {
+        "phase": "completed",
+        "outcome": "completed",
+        "prepared": "false",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          3840,
+          1080
+        ],
+        "scrollY": 2802,
+        "benefits": {
+          "top": 94.046875,
+          "bottom": 1160.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": -574.203125,
+          "bottom": 94.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1160.546875,
+          "bottom": 2060.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "replay": {
+        "phase": "completed",
+        "outcome": "completed",
+        "prepared": "false",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          3840,
+          1080
+        ],
+        "scrollY": 2102,
+        "benefits": {
+          "top": 794.046875,
+          "bottom": 1860.546875,
+          "height": 1066.5
+        },
+        "training": {
+          "top": 125.796875,
+          "bottom": 794.046875,
+          "height": 668.25
+        },
+        "methods": {
+          "top": 1860.546875,
+          "bottom": 2760.546875,
+          "height": 900
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "variant": "skip",
+      "mid": {
+        "phase": "revealing",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 2789,
+        "benefits": {
+          "top": 93.5625,
+          "bottom": 1151.71875,
+          "height": 1058.15625
+        },
+        "training": {
+          "top": -569.453125,
+          "bottom": 93.5625,
+          "height": 663.015625
+        },
+        "methods": {
+          "top": 1151.71875,
+          "bottom": 2044.6875,
+          "height": 892.96875
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          }
+        ]
+      },
+      "skipped": {
+        "phase": "skipped",
+        "outcome": "skipped",
+        "prepared": "false",
+        "starts": 1,
+        "skips": 1,
+        "reason": "WHEEL_DOWN",
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 3847,
+        "benefits": {
+          "top": -964.4375,
+          "bottom": 93.71875,
+          "height": 1058.15625
+        },
+        "training": {
+          "top": -1627.453125,
+          "bottom": -964.4375,
+          "height": 663.015625
+        },
+        "methods": {
+          "top": 93.71875,
+          "bottom": 986.6875,
+          "height": 892.96875
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "replay": {
+        "phase": "skipped",
+        "outcome": "skipped",
+        "prepared": "false",
+        "starts": 1,
+        "skips": 1,
+        "reason": "WHEEL_DOWN",
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "completed",
+        "trainingReason": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 2947,
+        "benefits": {
+          "top": -64.4375,
+          "bottom": 993.71875,
+          "height": 1058.15625
+        },
+        "training": {
+          "top": -727.453125,
+          "bottom": -64.4375,
+          "height": 663.015625
+        },
+        "methods": {
+          "top": 993.71875,
+          "bottom": 1886.6875,
+          "height": 892.96875
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "variant": "training-skip-handoff",
+      "handoff": {
+        "phase": "revealing",
+        "outcome": "not-started",
+        "prepared": "true",
+        "starts": 1,
+        "skips": 0,
+        "reason": null,
+        "introPhase": "released",
+        "introRelease": "completed",
+        "introAdmission": "ADMITTED",
+        "desktopMedia": true,
+        "touchPoints": 0,
+        "specialPhase": "completed",
+        "specialReason": null,
+        "trainingPhase": "skipped",
+        "trainingReason": "WHEEL_DOWN",
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 2789,
+        "benefits": {
+          "top": 93.5625,
+          "bottom": 1151.71875,
+          "height": 1058.15625
+        },
+        "training": {
+          "top": -569.453125,
+          "bottom": 93.5625,
+          "height": 663.015625
+        },
+        "methods": {
+          "top": 1151.71875,
+          "bottom": 2044.6875,
+          "height": 892.96875
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 30)"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 0.966917,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.860146)"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "variant": "touch",
+      "initial": {
+        "phase": "disabled",
+        "outcome": "disabled",
+        "prepared": "false",
+        "starts": 0,
+        "skips": 0,
+        "reason": "NON_DESKTOP_OR_REDUCED_MOTION",
+        "introPhase": "disabled",
+        "introRelease": null,
+        "introAdmission": "NON_DESKTOP_VIEWPORT_OR_REDUCED_MOTION",
+        "desktopMedia": false,
+        "touchPoints": 5,
+        "specialPhase": "disabled",
+        "specialReason": "NON_DESKTOP_OR_REDUCED_MOTION",
+        "trainingPhase": "disabled",
+        "trainingReason": "NON_DESKTOP_OR_REDUCED_MOTION",
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollY": 0,
+        "benefits": {
+          "top": 0,
+          "bottom": 0,
+          "height": 0
+        },
+        "training": {
+          "top": 0,
+          "bottom": 0,
+          "height": 0
+        },
+        "methods": {
+          "top": 0,
+          "bottom": 0,
+          "height": 0
+        },
+        "header": {
+          "top": 0,
+          "bottom": 76,
+          "height": 76
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "variant": "touch",
+      "initial": {
+        "phase": "disabled",
+        "outcome": "disabled",
+        "prepared": "false",
+        "starts": 0,
+        "skips": 0,
+        "reason": "NON_DESKTOP_OR_REDUCED_MOTION",
+        "introPhase": "disabled",
+        "introRelease": null,
+        "introAdmission": "NON_DESKTOP_VIEWPORT_OR_REDUCED_MOTION",
+        "desktopMedia": false,
+        "touchPoints": 5,
+        "specialPhase": "disabled",
+        "specialReason": "NON_DESKTOP_OR_REDUCED_MOTION",
+        "trainingPhase": "disabled",
+        "trainingReason": "NON_DESKTOP_OR_REDUCED_MOTION",
+        "viewport": [
+          1024,
+          768
+        ],
+        "scrollY": 0,
+        "benefits": {
+          "top": 0,
+          "bottom": 0,
+          "height": 0
+        },
+        "training": {
+          "top": 0,
+          "bottom": 0,
+          "height": 0
+        },
+        "methods": {
+          "top": 0,
+          "bottom": 0,
+          "height": 0
+        },
+        "header": {
+          "top": 0,
+          "bottom": 80,
+          "height": 80
+        },
+        "targets": [
+          {
+            "index": 1,
+            "source": "node-1:85",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 2,
+            "source": "node-18:144",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 3,
+            "source": "node-18:86",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 4,
+            "source": "node-18:131",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "index": 0,
+            "source": "node-1:92",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "figmaPixelParity": "NOT_RUN",
+  "performance": "NOT_MEASURED"
+}

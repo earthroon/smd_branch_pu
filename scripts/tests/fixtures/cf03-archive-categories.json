@@ -1,0 +1,56 @@
+{
+  "contract": "SMD-NUXT-R2-CF03",
+  "source": "CF00_ORIGINAL_ARCHIVE_FILTERS_AND_ITEMS",
+  "filters": [
+    "ALL",
+    "문과문틀",
+    "몰딩류",
+    "샷시",
+    "싱크대·가구",
+    "수강생 작업"
+  ],
+  "sourceItems": [
+    {
+      "title": "기초부터 탄탄하게",
+      "sub": "필름 재단과 면 정리 연습",
+      "category": "수강생 작업"
+    },
+    {
+      "title": "문과 문틀 시공 실습",
+      "sub": "다양한 구조와 문틀 마감",
+      "category": "문과문틀"
+    },
+    {
+      "title": "샷시 시공 집중 과정",
+      "sub": "실무에 바로 쓰이는 노하우",
+      "category": "샷시"
+    },
+    {
+      "title": "싱크대·가구 시공 프로젝트",
+      "sub": "수강생 작품 모음",
+      "category": "싱크대·가구"
+    },
+    {
+      "title": "몰딩 마감 디테일",
+      "sub": "천장 몰딩과 걸레받이 마감",
+      "category": "몰딩류"
+    },
+    {
+      "title": "붙박이장 리폼 실습",
+      "sub": "수납장 도어 필름 시공",
+      "category": "수강생 작업"
+    }
+  ],
+  "frozenCountByFilter": {
+    "ALL": 6,
+    "문과문틀": 1,
+    "몰딩류": 1,
+    "샷시": 1,
+    "싱크대·가구": 1,
+    "수강생 작업": 2
+  },
+  "comparison": "item.category === active",
+  "activeInitial": "ALL",
+  "emptyMessage": "해당 카테고리의 작업물이 아직 없습니다.",
+  "status": "STATIC_REFERENCE_ONLY"
+}

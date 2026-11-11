@@ -1,0 +1,19 @@
+import {selectVisibleArchive,validateArchiveCollectionV2,
+  type ArchiveCollectionV2} from '@smd/content-contracts/archive-contracts';
+import type {ArchiveItem} from '@smd/content-contracts/contracts';
+export type ArchiveCardView = Readonly<{
+  id:string;title:string;description:string;media:
+  |{kind:'image';assetKey:string;alt:string}
+  |{kind:'youtube';youtubeId:string;posterKey:string|null}
+  |{kind:'legacy-image';src:string;alt:string}
+  |{kind:'placeholder'};
+}>;
+export function archiveView(value:ArchiveCollectionV2|{filters:string[];items:ArchiveItem[]}):ArchiveCardView[]{
+  if(value&&'kind' in value&&value.kind==='archive-collection'){
+    const items=selectVisibleArchive(validateArchiveCollectionV2(value));
+    return items.map(item=>({id:item.id,title:item.title,description:item.description,
+      media:item.media??{kind:'placeholder' as const}}));
+  }
+  return value.items.map((item,index)=>({id:`legacy-${index}-${item.title}`,title:item.title,
+    description:item.sub,media:item.image?{kind:'legacy-image' as const,src:item.image,alt:item.title}: {kind:'placeholder' as const}}));
+}

@@ -1,0 +1,34 @@
+{
+  "figmaZip": {
+    "name": "리팩토링 프레임.zip",
+    "sha256": "c12c8946a7f75f3b1f91f42bdbd755f3c3758c18757553c40b42cf31d296cada"
+  },
+  "parentZip": {
+    "name": "smd-public (2).zip",
+    "sha256": "05fe22f0f11a07e361b5181252a8dc7905010af1d82d852ce0b1b6ee72ed1de9"
+  },
+  "schemaVersion": 1,
+  "unchangedFiles": {
+    "app/app.vue": "796d36190c60821656ec8107524ffa7d1b1f89ba73a63c4dd3a5994813a01512",
+    "app/components/feature/ArchiveGallery.vue": "c17216552fd4078bca0c5b862b8cec78ebcd421207de5a3263c3ba9866ceceb0",
+    "app/components/feature/CtaBand.vue": "7081e81b00c0ac4dc5d7acd11f4107d21ab1a7290f4a6ad420d9f8f777f82e9a",
+    "app/components/feature/PracticeBlock.vue": "1a0b0e1121241d24934f6f2db1a61ca8a23844bd2aeab70a2fa57d6403d6000e",
+    "app/components/feature/SiteFooter.vue": "4c16d1691deaa0130dcc4aa551c5f5be0ba3e871c22c5ec84c863e501efc1ce0",
+    "app/components/feature/SiteHeader.vue": "9080236ab3f51731657bdab8e283a598e0a5c21f572a5b1f34c2a93d0e5df8c9",
+    "app/components/media/SiteImage.vue": "f12f38d98c256d399d8af8fa008ea159c2035bbec90293374f17d550c331275b",
+    "app/composables/useSelectedCategoryPage.ts": "e992b998709abc0349e797af4f04049802e2f3fc5f149600833ad8694f7d7114",
+    "app/composables/useSiteContent.ts": "c8815ded33a8b58911f34044f7abc142d5483757c10ab734bfc876f92ebbbb5b",
+    "app/layouts/default.vue": "c6464eac00479624068533ea8593c302aa86450a0a04733b3ba045fe47a3ac77",
+    "app/pages/about.vue": "36ce34a1cd700c219a7d7e6ed135d9e3dbe2691ab1af9c3c6e691d50dde49c29",
+    "app/pages/archive.vue": "10030d5f08f1fc88850116bdb636f32711ae150a4f3622195d4aab580d7372ff",
+    "app/pages/contact.vue": "2364128fa7aca22eac064b599ae8a680c3bb8887bc49fe14efa50963f366b5d9",
+    "app/pages/curriculum.vue": "ac69c8f8a6a97282e288483a879d9dfce616c586ffc217ceed5a682aab888757",
+    "app/pages/practice.vue": "dddb03959a3acf430590210d845f4aed5bbc4eae468c5f4ae3ea6e548c2735d3",
+    "app/pages/promotion.vue": "4d911ff16b1934f83548f0320af378d43ee44bb2d8d4500924ab67fac436dbf0",
+    "nuxt.config.ts": "3c4d607983aa35e8757aa91eb5f5eeac20971d0e57b692dd4bf3ad6b59fec37b",
+    "package.json": "e0534eff3bd36d276cf477bd8911f662840b085d34d2c39cf41476d1c94ca3b9",
+    "tailwind.config.ts": "2912b13afe64326d5095f6068a9b257061dc402f434466ba937f41dd05cae87f",
+    "vendor/content-contracts/smd-content-contracts-0.7.0.tgz": "a3c7a2743aff98ccc82554e6a3ce397ef5a26693b0d97d2869f08a6b12add8f1",
+    "wrangler.toml": "f129a9ab7756192904f4380ab284376dfe756afaab839f42336db0b77d56a2c5"
+  }
+}

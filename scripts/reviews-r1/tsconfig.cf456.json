@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true,
+    "types": []
+  },
+  "include": [
+    "../../app/utils/reviews-contract.ts",
+    "../../app/utils/reviews-sha256.ts",
+    "../../app/utils/reviews-view.ts",
+    "../../app/data/reviews-r1-source.ts",
+    "../../app/data/reviews-r1-card-figma.ts",
+    "../../app/data/reviews-r1-figma.ts",
+    "../../app/data/reviews-r1-manifest.ts",
+    "../../app/data/home-r2-navigation.ts"
+  ]
+}

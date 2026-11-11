@@ -1,0 +1,113 @@
+{
+  "scope": "CF1-CF3 existing homepage binding",
+  "sourceZipSHA256": "9d355f4b4f41ea090b64d027974dbfb2866d780e5bdcc07b886fd07b29cf1210",
+  "changes": [
+    {
+      "path": "wrangler.toml",
+      "sha256": "5c69496536e8bc0b46f366c16b3d203350b6693f642f3c1964bcc260086074df"
+    },
+    {
+      "path": "HERO_FILM_CF1_CF3.md",
+      "sha256": "34b063c6cb846ca41fdd0abdbcdd8427d4f36f225750793d7c951ca94ca5bf1a"
+    },
+    {
+      "path": "nuxt.config.ts",
+      "sha256": "b85adb133664adc19e3009135e5c444f14462b3edc395932f30537c56f858484"
+    },
+    {
+      "path": "wrangler.cms.toml",
+      "sha256": "4c82321cde72ee4a268ff0b64340e7e385a02f13c9e1a77b71df12dc93a0773d"
+    },
+    {
+      "path": "app/app.vue",
+      "sha256": "11bc10bad66d6ba15d729a3c5cc098da83b1786d72eb8bc75d94324161c7f86d"
+    },
+    {
+      "path": "scripts/verify-hero-film-browser.mjs",
+      "sha256": "0d2549976b93f9e8c341851172e6a048ab926488ba198a4934ed1dce9956dddb"
+    },
+    {
+      "path": "app/data/home-film.ts",
+      "sha256": "655f995688386f1c614d41ab21c3c4a09387664fa07bfdb4dbdfcb015e8f600d"
+    },
+    {
+      "path": "app/pages/index.vue",
+      "sha256": "8fd43e1d6787d7943dba90614468dcbf82ab87560b23571e204a40cf3873b818"
+    },
+    {
+      "path": "app/composables/useContentMode.ts",
+      "sha256": "392e01f908080f1fa3d283f9582063166b8995d787d297618ea29380e2f6aab3"
+    },
+    {
+      "path": "app/components/home/HomeHeroFilm.vue",
+      "sha256": "8bb06d3af0a33e79a9f43ce2a85050beb1c5b70dadfe73abced46d0a8152b2ad"
+    },
+    {
+      "path": "app/components/home/HeroSection.vue",
+      "sha256": "5fc9c2b0a95ecb1c6c206b735d1ec9a3da50fd0f7660114e682ed24010dd0aa8"
+    },
+    {
+      "path": "app/components/figma/FigmaSceneSection.vue",
+      "sha256": "eec9f6ed71b8e77fc69ac1e75c45a1b67962acf2a0f1a6881e1ec71256b97bf0"
+    },
+    {
+      "path": "app/components/feature/SiteFooter.vue",
+      "sha256": "be6bba660baa49b8a5051dab6720456d0a1c1557485896bae796da403983c88b"
+    },
+    {
+      "path": "app/components/feature/HeaderBrandSymbol.vue",
+      "sha256": "9d97dbf8b4266870c22d4ec582bb757d176e48ab273d6a87855522cf147effa7"
+    },
+    {
+      "path": "app/assets/css/home-hero-film.css",
+      "sha256": "ff734d4b8348931a80a0f29881e121c6fcee3fc48a3db420f52d435167984e3c"
+    },
+    {
+      "path": "server/middleware/content-mode.ts",
+      "sha256": "014628fbc34521c8866c47e6eb1d2932c991a1dbeeb49ac933eda2003172e83d"
+    },
+    {
+      "path": "scripts/tests/r3-public-boundary.test.mjs",
+      "sha256": "563a22915ce3106ecaefe55954e88974305b48030d9cd8dbe92abd7a66bce06c"
+    },
+    {
+      "path": "scripts/tests/hero-film-cf1-cf3.test.mjs",
+      "sha256": "370f7d931b5234656e296ff2c7d9bbac1b3f52cf250b45ac5c5d30c9af735cf6"
+    },
+    {
+      "path": "public/media/hero/\uc544\ud30c\ud2b8 \ubcf5\ub3c4 \ub9ac\ubaa8\ub378\ub9c1 \ud604\uc7a5.png",
+      "sha256": "125dc9aaac0584811e7a2008232ddb78a21ad9b141fa4e768c938ea6955ace9e"
+    },
+    {
+      "path": "public/media/hero/\uc720\ub9ac \ud30c\ud2f0\uc158\uc5d0 \uc6b0\ub4dc \ud544\ub984 \uc2dc\uacf5\ud558\ub294 \uc791\uc5c5\uc790.png",
+      "sha256": "1bc3129fb413dbaf819362f56958d69f0b57a04b3a7a17297a2506473ee5eb63"
+    },
+    {
+      "path": "public/media/hero/\ud68c\uc0c9 \ubcbd\uc744 \ub2e4\ub4ec\ub294 \uc791\uc5c5\uc6a9 \uc7a5\uac11\uacfc \ud759\uc190.png",
+      "sha256": "1e26ef5c80ce4f76418bc5e4bbfd2e3e808f8f11d118f8db164367a79101c0e2"
+    }
+  ],
+  "typecheck": "PASS",
+  "build": "PASS",
+  "targetedTests": {
+    "pass": 4,
+    "fail": 0
+  },
+  "boundaryTests": {
+    "pass": 8,
+    "fail": 0
+  },
+  "layoutTests": {
+    "pass": 8,
+    "fail": 0
+  },
+  "legacyCF03": {
+    "baselineFail": 15,
+    "candidateFail": 15
+  },
+  "originalAssetBytes": "PASS",
+  "browser": "BLOCKED_ENVIRONMENT",
+  "physical": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "rollingMotion": "CF4_NOT_IMPLEMENTED"
+}

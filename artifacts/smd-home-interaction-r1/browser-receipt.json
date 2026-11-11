@@ -1,0 +1,8 @@
+{
+  "contract": "SMD_HOME_INTERACTION_R1",
+  "url": "http://127.0.0.1:3000/",
+  "status": "BLOCKED",
+  "failure": "Error: SMD_INTRO_NAVIGATION_FAILED net::ERR_CONNECTION_REFUSED\n    at navigate (file:///C:/SMD_pu/SMD_NUXT_R3_S1_S2_PUBLIC_FULL_BAKED_UNVERIFIED/smd-public/scripts/figma-r2/verify-home-intro-browser.mjs:95:43)\n    at async file:///C:/SMD_pu/SMD_NUXT_R3_S1_S2_PUBLIC_FULL_BAKED_UNVERIFIED/smd-public/scripts/figma-r2/verify-home-intro-browser.mjs:124:5",
+  "originalFigmaPixelParity": "NOT_RUN",
+  "results": []
+}

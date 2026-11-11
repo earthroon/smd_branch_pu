@@ -1,0 +1,28 @@
+{
+  "parent": "SMD_ACA_PU_INFINITE_R1.zip",
+  "speedCSSpxPerSecond": 483,
+  "hoverMin": 347.76,
+  "hoverMiddle": 410.55,
+  "enterMs": 950,
+  "leaveMs": 1400,
+  "startMs": 1100,
+  "curve": "quintic velocity blend; baked integrated position 97 samples",
+  "typecheck": "PASS",
+  "build": "PASS",
+  "tests": {
+    "pass": 24,
+    "fail": 0,
+    "execution": "Node model/static, not browser GPU"
+  },
+  "browser": "NOT_RUN",
+  "fatigue": "UNKNOWN; UX candidate, not measured",
+  "deployment": "NOT_RUN",
+  "changes": [
+    "app/components/home/HomeHeroFilm.vue",
+    "app/data/home-film-speed.json",
+    "scripts/film/bake-speed-curve.mjs",
+    "scripts/tests/hero-film-speed.test.mjs",
+    "scripts/tests/hero-film-cf4-cf6.test.mjs",
+    "package.json"
+  ]
+}

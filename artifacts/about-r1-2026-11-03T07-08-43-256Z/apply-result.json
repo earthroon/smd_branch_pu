@@ -1,0 +1,326 @@
+{
+  "schema": "SMD_ABOUT_OVERLAY_APPLY_V1",
+  "baseCommit": "d9e3568089e20bbe4dc8893337f483e2539effd9",
+  "files": [
+    {
+      "path": "app/assets/css/about-r1.css",
+      "beforeSha256": null,
+      "sha256": "5b36b523fd5a0d7d3d57711a20947f289d744c72b2b8ed966e3529049e54b706"
+    },
+    {
+      "path": "app/assets/css/home-r2-header.css",
+      "beforeSha256": "656f2d1ff30ce114ad604f4ff7b68633de2ea7a84a8c13b35b5fe739cd80d314",
+      "sha256": "614a941e4896a0c8903fdb5ece5db53934549c79f9732270d07154ae3c1cdf02"
+    },
+    {
+      "path": "app/assets/css/main.css",
+      "beforeSha256": "5921fce056816b7a3dc7baf8adbd3fd3b064edb1a6c2c64cb84903985641726a",
+      "sha256": "046333d8a926341f23be1698b2b2251539a0010be80d7f468993dadb4907aac7"
+    },
+    {
+      "path": "app/components/about/AboutAudience.vue",
+      "beforeSha256": null,
+      "sha256": "b753987bba49a2b00a4356fdef8e4bc938c535e3ff08fb430401a8406876637f"
+    },
+    {
+      "path": "app/components/about/AboutBodyStage.vue",
+      "beforeSha256": null,
+      "sha256": "3d7af6804f54d07644d7737a3afd6452856c279b3ab2db137d6f1a6d027c1614"
+    },
+    {
+      "path": "app/components/about/AboutCareer.vue",
+      "beforeSha256": null,
+      "sha256": "36686e9c190fce267d2d730a6d79091c895c265f333efa34b3bcd3a4f50b0857"
+    },
+    {
+      "path": "app/components/about/AboutConsultationCta.vue",
+      "beforeSha256": null,
+      "sha256": "fda94f1e5a81c3d754539464f0a3520616ada6157c04073a137c714d8998f16c"
+    },
+    {
+      "path": "app/components/about/AboutFacts.vue",
+      "beforeSha256": null,
+      "sha256": "7c61abb8f0609270879724ca6fc67b1f8bb815a739b248e9ff2a88fc09c1bbfa"
+    },
+    {
+      "path": "app/components/about/AboutFieldExperience.vue",
+      "beforeSha256": null,
+      "sha256": "f0b71ad892086dfcbfeb3e2aba307531cbe68a621c0f2b0627127f3b8b4c2c61"
+    },
+    {
+      "path": "app/components/about/AboutHero.vue",
+      "beforeSha256": null,
+      "sha256": "b43383cb153af6f5c565902aa48518b80a4fa15e0c2532e49fc96c66792cf9cc"
+    },
+    {
+      "path": "app/components/about/AboutLearnByDoing.vue",
+      "beforeSha256": null,
+      "sha256": "c0db7b14140d068d124899d1066c6355b3f24dfa306d7d6191d174554c4851d2"
+    },
+    {
+      "path": "app/components/about/AboutMediaFrame.vue",
+      "beforeSha256": null,
+      "sha256": "f58a12807bc27a9f7cd51a45eb4ba75b64f3c728a5440dcd7430626d776b6307"
+    },
+    {
+      "path": "app/components/about/AboutPracticeFeedback.vue",
+      "beforeSha256": null,
+      "sha256": "db7f950d8f96ca880631d7a44d6e3a3a5e48f75ff806ae62a890ccba516c920b"
+    },
+    {
+      "path": "app/components/about/AboutSectionHeading.vue",
+      "beforeSha256": null,
+      "sha256": "05d626b7a09a0956bd5f6355412e12f4e2f932c7daab5abb977569aa12128d91"
+    },
+    {
+      "path": "app/components/about/AboutSourceShape.vue",
+      "beforeSha256": null,
+      "sha256": "a44e3a4c0ca699dbc3f2cd1503533d187d2a0bfe5ea22abfdfb8f661af830ac8"
+    },
+    {
+      "path": "app/components/about/AboutSourceText.vue",
+      "beforeSha256": null,
+      "sha256": "9072b15ccd2ebcfa880a2c98f09ba0a8fa025e8ce5dc3e9a3f4876d8ce846989"
+    },
+    {
+      "path": "app/components/feature/SiteFooter.vue",
+      "beforeSha256": "4c16d1691deaa0130dcc4aa551c5f5be0ba3e871c22c5ec84c863e501efc1ce0",
+      "sha256": "ea92d46bdf9739c142f1215c7a92c6ff666d5f9b945235bef8871e6cbbbbaae2"
+    },
+    {
+      "path": "app/components/figma/FigmaNativeText.vue",
+      "beforeSha256": "6c7803d2b1f369da64d45ff7890aba68494bf78bc207e08c0e9547fd5a893f56",
+      "sha256": "638ffb22a79f87fc2f5554f196b58874472e6d959cb38e98c62eb090d7b9d0f4"
+    },
+    {
+      "path": "app/components/figma/FigmaSceneNode.vue",
+      "beforeSha256": "79f043e1946538532d085268784b1dd84b9f1da9cd2fbffb69665b451b291d92",
+      "sha256": "7cb76bbb8375d46c034fcbf5443bf23bec092f91a4dc83f9127ed94c79f82156"
+    },
+    {
+      "path": "app/components/home/HomeBodyStage.vue",
+      "beforeSha256": "8bd228ecb8dadf0e76fc4cb203a178e10212b27c1a35ab0fc197e989dc875c93",
+      "sha256": "eac7c957de35a997d9ffd13e3fe0aa95084deb95525116a9748393abb19a3829"
+    },
+    {
+      "path": "app/components/home/HomeFigmaText.vue",
+      "beforeSha256": "e92f6d706c317f5e50f6aaee6e82805be3b8d3752de625a42bf71a721dcf3259",
+      "sha256": "f4855943c5c42d209f0c1a3159c2cbc5a348608a13ad9df5de5209ae2bfb2508"
+    },
+    {
+      "path": "app/composables/useAboutR1.ts",
+      "beforeSha256": null,
+      "sha256": "f698d91114d55c57f6153eeaf079942148ba1b9dd2f8a014a4ebcf38e21a93cd"
+    },
+    {
+      "path": "app/composables/useHomeBenefitsReveal.ts",
+      "beforeSha256": "4065fd3351658c967b44a0e1c618349e775feb05d8b8f0d154e96d2608b2af54",
+      "sha256": "51359f132594975dab563985e1aa398daba3d1894c37ed03396779a4ac9191f3"
+    },
+    {
+      "path": "app/composables/useHomeSpecialReveal.ts",
+      "beforeSha256": "dd11a68d33fb3f6694d95be7d91f5e01001995cb902df8533b74aaa118c8ec6c",
+      "sha256": "da4051c70df320ce41e5838353de7b9f58f4db226b20ebc793e8e72c47f35c59"
+    },
+    {
+      "path": "app/composables/useHomeTrainingReveal.ts",
+      "beforeSha256": "6cc6a363776a05d6f0dcf8e6be680c72c275518d68a18fbf7cbe47f84ec46d85",
+      "sha256": "9046407b1bcaeae7ce6cad030053bd65a4efe59348e74e369eb5552b52403481"
+    },
+    {
+      "path": "app/data/about-r1-assets.generated.ts",
+      "beforeSha256": null,
+      "sha256": "9c91a3852d8c5d9643eec2bc18ff1caa28a354bf739b28ab08d1cd5a60510c1c"
+    },
+    {
+      "path": "app/data/about-r1-copy.generated.ts",
+      "beforeSha256": null,
+      "sha256": "4913f6b66b924d937b55ac4957e888df9d60bd1f4e95b3dcc624a7f4ba80b5f3"
+    },
+    {
+      "path": "app/data/about-r1-manifest.ts",
+      "beforeSha256": null,
+      "sha256": "ca30c24c389bc1a7fb7fac21e19ed169a736a323acc4ffc8d4b23719c42e1871"
+    },
+    {
+      "path": "app/data/about-r1-shapes.generated.ts",
+      "beforeSha256": null,
+      "sha256": "d59ab7d1903471ae7d1ce1de5864dbbf6b3d6e419eb8cf847f242adc5a2fdcb2"
+    },
+    {
+      "path": "app/data/about-r1-types.ts",
+      "beforeSha256": null,
+      "sha256": "80ee622338864760dd51dcaf43fb09f2678afe02c34439e445140367bffb3632"
+    },
+    {
+      "path": "app/layouts/default.vue",
+      "beforeSha256": "c6464eac00479624068533ea8593c302aa86450a0a04733b3ba045fe47a3ac77",
+      "sha256": "97febc870e3f3591fcc82fc801cfddf99a40e018945d296a760dc7b21dc60106"
+    },
+    {
+      "path": "app/pages/about.vue",
+      "beforeSha256": "36ce34a1cd700c219a7d7e6ed135d9e3dbe2691ab1af9c3c6e691d50dde49c29",
+      "sha256": "f0064cfffb6befea99a5e8e08b364c3d7d145173a0793e5b5c26987c9f467d24"
+    },
+    {
+      "path": "app/pages/index.vue",
+      "beforeSha256": "659f0fc6d0cb33517c457b4dd8118db7008ab55064dbdb79dea5d62cc190b5a0",
+      "sha256": "656f3d87a7db6101dc13e6336a9de7d2562b919cc1c081875a787320de70d49d"
+    },
+    {
+      "path": "app/utils/aboutR1Admission.ts",
+      "beforeSha256": null,
+      "sha256": "fb3de0fc3591156e0071ac858592592289130ff7a50e6f11369263c29beebe44"
+    },
+    {
+      "path": "app/utils/aboutR1LayoutMath.ts",
+      "beforeSha256": null,
+      "sha256": "9b6cc67d76b111479dd68263edbda4abc8423a7de26dd1718a4b5283768b4ea0"
+    },
+    {
+      "path": "app/utils/aboutR1Operational.ts",
+      "beforeSha256": null,
+      "sha256": "1cf0ba58d08baab24cf4661e5e5cda55869d0f376960a0e0580182cfb4f06e70"
+    },
+    {
+      "path": "docs/migration/smd-about-r1/.gitattributes",
+      "beforeSha256": null,
+      "sha256": "e65d9135dec398a23376a9a72c66e94fc9205c0fa290d2f3eb0bfc033325100b"
+    },
+    {
+      "path": "docs/migration/smd-about-r1/README.md",
+      "beforeSha256": null,
+      "sha256": "67fbcabbb0506e084e25f51534b2dffcf3a601e6004790f8acf9ce7a9fd7e606"
+    },
+    {
+      "path": "docs/migration/smd-about-r1/source-manifest.json",
+      "beforeSha256": null,
+      "sha256": "13b1ae44af6e301bacfbe7b548d73505ed18d54a328cedcadc3787edb828e66c"
+    },
+    {
+      "path": "package.json",
+      "beforeSha256": "e0534eff3bd36d276cf477bd8911f662840b085d34d2c39cf41476d1c94ca3b9",
+      "sha256": "d000b1b0e90032356bf172784dac9ec9f2e081c727485292591cdaa59cc1da96"
+    },
+    {
+      "path": "public/about/%EC%8B%9C%EA%B3%B5%EC%82%AC%EC%A7%84_1.png",
+      "beforeSha256": null,
+      "sha256": "9b37177d0df0a66f3fc9ff0e663aa3b4c0ba7e3eb4c796ee8f9f92e7206d98ca"
+    },
+    {
+      "path": "public/about/.gitattributes",
+      "beforeSha256": null,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "public/about/dialog_8448728.svg",
+      "beforeSha256": null,
+      "sha256": "4d5fe8f8ddb8555a58135525581f16517596f9bb17fb7dad196bff8d49db13c4"
+    },
+    {
+      "path": "public/about/hammer_7352343.svg",
+      "beforeSha256": null,
+      "sha256": "3f3ef3518e4fdcf6cf954a894cf8de08e52d2c8daf4f6ec05c39e5db1457c61a"
+    },
+    {
+      "path": "public/about/helmet_12735488.svg",
+      "beforeSha256": null,
+      "sha256": "f1243be0751497f598ef21a7482f732dedea989d1968bf6b28f26837ffc9067c"
+    },
+    {
+      "path": "public/about/present-tag_7596386.svg",
+      "beforeSha256": null,
+      "sha256": "1fa2ebd767283d2a9c4a860cf4bf92c94c91ad85205f7b0b9101c8a7bad827a1"
+    },
+    {
+      "path": "public/about/목재 샘플을 다듬는 작업실.png",
+      "beforeSha256": null,
+      "sha256": "19b6723c1a38c0a603306216b3d8899c2d034d58d756b2f823e93e61e8b9666d"
+    },
+    {
+      "path": "public/about/목재 패널 샘플을 작업하는 장인.png",
+      "beforeSha256": null,
+      "sha256": "040c558fb645633a6a781bd7758dc72837fc117669f8cc39f284fa2b8a24d889"
+    },
+    {
+      "path": "public/about/문 설치 작업실의 현장 모습.png",
+      "beforeSha256": null,
+      "sha256": "42530b9b1916e0cda0a6415733aa22a44f84e5211fcf5eb7f6dbd66b6ce9144d"
+    },
+    {
+      "path": "public/about/미니멀한 사무실 점검 현장.png",
+      "beforeSha256": null,
+      "sha256": "e32e962523d1d2ec8baca7560edfe749fda39d8f346b616ef69ab41c17d6234a"
+    },
+    {
+      "path": "public/about/시공사진_2.png",
+      "beforeSha256": null,
+      "sha256": "d815cb8777b3f18207e0f4ef6b46f6d71cf421515ca677d05cc38288437e78b7"
+    },
+    {
+      "path": "public/about/창문 설치 작업 현장.png",
+      "beforeSha256": null,
+      "sha256": "3b9fb549e2146b7d1ff7d46c00f2cd011233b725ea3f12aa709bb7521fe890a3"
+    },
+    {
+      "path": "public/about/화이트 작업실 현장 점검 회의.png",
+      "beforeSha256": null,
+      "sha256": "bfa2a42d81c6f4b4ac0389b8fd65c16d86af8b9e2c4d608cb9f36244180735f4"
+    },
+    {
+      "path": "public/figma-r2/.gitattributes",
+      "beforeSha256": null,
+      "sha256": "3369a3581c57be1493bf784cb80bd185a64b90675070f201b913d218f9ceb2e6"
+    },
+    {
+      "path": "public/figma/.gitattributes",
+      "beforeSha256": null,
+      "sha256": "3369a3581c57be1493bf784cb80bd185a64b90675070f201b913d218f9ceb2e6"
+    },
+    {
+      "path": "public/figma/smd-academy-header-logo.svg",
+      "beforeSha256": "5bf6016355ee0f53ef2beb5e03e5c62824fbd65be97f81b5921931151200205e",
+      "sha256": "67a440b427e13f8031fdf299fb20651ce4736af3c31d134d9e706c97bfa1849c"
+    },
+    {
+      "path": "scripts/about-r1/apply-overlay.mjs",
+      "beforeSha256": null,
+      "sha256": "20850be5a04df25e551d5ec49cff0d62c58ceca002ff3348f6fda8e890dd1fe8"
+    },
+    {
+      "path": "scripts/about-r1/tests/apply-overlay.test.mjs",
+      "beforeSha256": null,
+      "sha256": "7169d8531407abf21c304d8f835e45ddc3501063a4bf9c2b744b9722d799ac9d"
+    },
+    {
+      "path": "scripts/about-r1/tests/operational.test.mjs",
+      "beforeSha256": null,
+      "sha256": "201d979f76b7087c76c59d6679b949ef86bb4257341d1278f52c6e46e6048d52"
+    },
+    {
+      "path": "scripts/about-r1/tests/source-layout.test.mjs",
+      "beforeSha256": null,
+      "sha256": "c53a0008c795da295f7636e4a827678fc3719611b0fd322a9d013522f28b164f"
+    },
+    {
+      "path": "scripts/about-r1/verify-source.mjs",
+      "beforeSha256": null,
+      "sha256": "3724d746715e1012519d71f0a704dd05baa3c016e318708e9953df10907265e8"
+    },
+    {
+      "path": "scripts/figma-r2/verify-home-benefits-browser.mjs",
+      "beforeSha256": "74047b488b2b03acbb90922d216f34a89d1ea8a74fb9c863d10ab570c4b9e1e1",
+      "sha256": "4a3a8ffedb81aac95e9f24e435f9b92affc282666b7e81f4145e9f29474f7a98"
+    },
+    {
+      "path": "scripts/figma-r2/verify-home-special-browser.mjs",
+      "beforeSha256": "a4a160f2385c1f5f9a1932e4dbbe27f8752f2cc35ad4c03fa74649e7828d3902",
+      "sha256": "f779464111b5d94f6bd6394ae86fa39296f67e57e6a871c3710cc0082507b161"
+    },
+    {
+      "path": "scripts/figma-r2/verify-home-training-browser.mjs",
+      "beforeSha256": "de28c33595cda2465d323dfc52259e1f22e3dcfa570d3c3c119cf504d7045da1",
+      "sha256": "c3aa4802db5ee2bb6691414a4882cfc98625726b05c3fff7d2704f084eaa4220"
+    }
+  ]
+}

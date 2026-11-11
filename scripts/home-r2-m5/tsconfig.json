@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "../../app",
+    "outDir": "../../.home-r2-m5-build",
+    "lib": [
+      "ES2022",
+      "DOM"
+    ],
+    "strict": true,
+    "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true,
+    "rewriteRelativeImportExtensions": true,
+    "types": []
+  },
+  "include": [
+    "../../app/utils/home-r2-v6-public.ts",
+    "../../app/data/home-r2-manifest.ts"
+  ]
+}

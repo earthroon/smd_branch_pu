@@ -1,0 +1,10 @@
+import {writeFileSync,mkdirSync,readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+const samples=Array.from({length:33},(_,i)=>{const t=i/32;return {offset:t,progress:1-(1-t)**3};});
+const rates=Array.from({length:16},(_,i)=>Math.exp(Math.log(.65)+i/15*Math.log(1.8/.65)));
+const value={revision:'FILM-CF4-1',duration:420,samples,rates};
+writeFileSync('app/data/home-film-lut.json',JSON.stringify(value));
+const names=['1(1).jpg','2.jpg','3.jpg'];
+mkdirSync('public/media/hero-focus',{recursive:true});
+const chunks=names.map((n,i)=>{const bytes=readFileSync(`public/media/hero/${n}`);const hash=createHash('sha256').update(bytes).digest('hex');writeFileSync(`public/media/hero-focus/${hash}.jpg`,bytes);return {id:`hero-${i+1}`,url:`/media/hero-focus/${hash}.jpg`,sha256:hash,uv:[0,0,1,1]};});
+writeFileSync('app/data/home-film-focus.json',JSON.stringify(chunks));

@@ -1,0 +1,1272 @@
+{
+  "contract": "SMD_HOME_R2_VISUAL_REPAIR_R4B",
+  "source": "LOCAL_DEV_FIXTURE",
+  "url": "http://127.0.0.1:3129/",
+  "originalSvgSha256": "2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+  "helmetOptical": [
+    {
+      "src": "/figma-r2/derived/helmet-weight-r3.svg",
+      "sourceWidth": 104,
+      "sourceHeight": 64,
+      "alphaPixels": 881,
+      "inkBounds": {
+        "x": 1,
+        "y": 1,
+        "width": 102,
+        "height": 62
+      },
+      "centroid": {
+        "x": 51.46197502837684,
+        "y": 39.82973893303065
+      }
+    },
+    {
+      "src": "/figma-r2/assets/asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595.svg",
+      "sourceWidth": 104,
+      "sourceHeight": 64,
+      "alphaPixels": 1695,
+      "inkBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 64
+      },
+      "centroid": {
+        "x": 51.46076696165192,
+        "y": 38.1787610619469
+      }
+    }
+  ],
+  "results": [
+    {
+      "width": 360,
+      "viewport": 360,
+      "documentWidth": 360,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "loadedPretendardFaces": 14,
+      "icons": [
+        {
+          "key": "node-1:414",
+          "count": 0,
+          "visible": false,
+          "box": null,
+          "href": null,
+          "assetId": null,
+          "assetSha": null,
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:477",
+          "count": 2,
+          "visible": false,
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "href": "/figma-r2/assets/asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616.svg",
+          "assetId": "asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "assetSha": "31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:482",
+          "count": 2,
+          "visible": false,
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "href": "/figma-r2/assets/asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595.svg",
+          "assetId": "asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "assetSha": "2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "authority": "USER_VISUAL_HELMET_OPTICAL_R4B",
+          "candidate": "B1_CANONICAL_SOURCE_NO_EROSION"
+        }
+      ],
+      "titles": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "text": "현장별 맞춤 교보재",
+          "sourceTextDigest": "54e8bc8e3a6096f849b72f3f23963749bd93075dfcae66f4cfd9d3e4dad9e2fb",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "text": "다양한 소재와 필름경험",
+          "sourceTextDigest": "a8a72a936fbdd4dc6c1ad7b66dfba766ff96cb9af586535054dffe1e1f80dba8",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "text": "밑작업 중심의 반복 실습",
+          "sourceTextDigest": "bc22e87b6d91e4bed222827400a5b20a9fc0f80d564018bfdf9db8e3267c200c",
+          "fontWeight": "600",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "loadedPretendardFaces": 14,
+      "icons": [
+        {
+          "key": "node-1:414",
+          "count": 0,
+          "visible": false,
+          "box": null,
+          "href": null,
+          "assetId": null,
+          "assetSha": null,
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:477",
+          "count": 2,
+          "visible": false,
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "href": "/figma-r2/assets/asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616.svg",
+          "assetId": "asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "assetSha": "31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:482",
+          "count": 2,
+          "visible": false,
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "href": "/figma-r2/assets/asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595.svg",
+          "assetId": "asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "assetSha": "2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "authority": "USER_VISUAL_HELMET_OPTICAL_R4B",
+          "candidate": "B1_CANONICAL_SOURCE_NO_EROSION"
+        }
+      ],
+      "titles": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "text": "현장별 맞춤 교보재",
+          "sourceTextDigest": "54e8bc8e3a6096f849b72f3f23963749bd93075dfcae66f4cfd9d3e4dad9e2fb",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "text": "다양한 소재와 필름경험",
+          "sourceTextDigest": "a8a72a936fbdd4dc6c1ad7b66dfba766ff96cb9af586535054dffe1e1f80dba8",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "text": "밑작업 중심의 반복 실습",
+          "sourceTextDigest": "bc22e87b6d91e4bed222827400a5b20a9fc0f80d564018bfdf9db8e3267c200c",
+          "fontWeight": "600",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "documentWidth": 430,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "loadedPretendardFaces": 14,
+      "icons": [
+        {
+          "key": "node-1:414",
+          "count": 0,
+          "visible": false,
+          "box": null,
+          "href": null,
+          "assetId": null,
+          "assetSha": null,
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:477",
+          "count": 2,
+          "visible": false,
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "href": "/figma-r2/assets/asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616.svg",
+          "assetId": "asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "assetSha": "31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:482",
+          "count": 2,
+          "visible": false,
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "href": "/figma-r2/assets/asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595.svg",
+          "assetId": "asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "assetSha": "2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "authority": "USER_VISUAL_HELMET_OPTICAL_R4B",
+          "candidate": "B1_CANONICAL_SOURCE_NO_EROSION"
+        }
+      ],
+      "titles": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "text": "현장별 맞춤 교보재",
+          "sourceTextDigest": "54e8bc8e3a6096f849b72f3f23963749bd93075dfcae66f4cfd9d3e4dad9e2fb",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "text": "다양한 소재와 필름경험",
+          "sourceTextDigest": "a8a72a936fbdd4dc6c1ad7b66dfba766ff96cb9af586535054dffe1e1f80dba8",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "text": "밑작업 중심의 반복 실습",
+          "sourceTextDigest": "bc22e87b6d91e4bed222827400a5b20a9fc0f80d564018bfdf9db8e3267c200c",
+          "fontWeight": "600",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 753,
+      "documentWidth": 753,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "loadedPretendardFaces": 14,
+      "icons": [
+        {
+          "key": "node-1:414",
+          "count": 0,
+          "visible": false,
+          "box": null,
+          "href": null,
+          "assetId": null,
+          "assetSha": null,
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:477",
+          "count": 2,
+          "visible": false,
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "href": "/figma-r2/assets/asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616.svg",
+          "assetId": "asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "assetSha": "31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:482",
+          "count": 2,
+          "visible": false,
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "href": "/figma-r2/assets/asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595.svg",
+          "assetId": "asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "assetSha": "2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "authority": "USER_VISUAL_HELMET_OPTICAL_R4B",
+          "candidate": "B1_CANONICAL_SOURCE_NO_EROSION"
+        }
+      ],
+      "titles": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "text": "현장별 맞춤 교보재",
+          "sourceTextDigest": "54e8bc8e3a6096f849b72f3f23963749bd93075dfcae66f4cfd9d3e4dad9e2fb",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "text": "다양한 소재와 필름경험",
+          "sourceTextDigest": "a8a72a936fbdd4dc6c1ad7b66dfba766ff96cb9af586535054dffe1e1f80dba8",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "text": "밑작업 중심의 반복 실습",
+          "sourceTextDigest": "bc22e87b6d91e4bed222827400a5b20a9fc0f80d564018bfdf9db8e3267c200c",
+          "fontWeight": "600",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "viewport": 1009,
+      "documentWidth": 1009,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "loadedPretendardFaces": 14,
+      "icons": [
+        {
+          "key": "node-1:414",
+          "count": 0,
+          "visible": false,
+          "box": null,
+          "href": null,
+          "assetId": null,
+          "assetSha": null,
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:477",
+          "count": 2,
+          "visible": false,
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "href": "/figma-r2/assets/asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616.svg",
+          "assetId": "asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "assetSha": "31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:482",
+          "count": 2,
+          "visible": false,
+          "box": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "href": "/figma-r2/assets/asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595.svg",
+          "assetId": "asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "assetSha": "2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "authority": "USER_VISUAL_HELMET_OPTICAL_R4B",
+          "candidate": "B1_CANONICAL_SOURCE_NO_EROSION"
+        }
+      ],
+      "titles": [
+        {
+          "key": "node-18:114",
+          "visible": false,
+          "text": "현장별 맞춤 교보재",
+          "sourceTextDigest": "54e8bc8e3a6096f849b72f3f23963749bd93075dfcae66f4cfd9d3e4dad9e2fb",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "key": "node-1:61",
+          "visible": false,
+          "text": "다양한 소재와 필름경험",
+          "sourceTextDigest": "a8a72a936fbdd4dc6c1ad7b66dfba766ff96cb9af586535054dffe1e1f80dba8",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "key": "node-18:116",
+          "visible": false,
+          "text": "밑작업 중심의 반복 실습",
+          "sourceTextDigest": "bc22e87b6d91e4bed222827400a5b20a9fc0f80d564018bfdf9db8e3267c200c",
+          "fontWeight": "600",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "foreignObjectBox": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "viewport": 1265,
+      "documentWidth": 1265,
+      "sceneVisible": true,
+      "reflowVisible": false,
+      "loadedPretendardFaces": 14,
+      "icons": [
+        {
+          "key": "node-1:414",
+          "count": 0,
+          "visible": false,
+          "box": null,
+          "href": null,
+          "assetId": null,
+          "assetSha": null,
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:477",
+          "count": 2,
+          "visible": true,
+          "box": {
+            "left": 528.4024047851562,
+            "top": 1811.428466796875,
+            "right": 589.0161743164062,
+            "bottom": 1872.042236328125,
+            "width": 60.61376953125,
+            "height": 60.61376953125
+          },
+          "href": "/figma-r2/assets/asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616.svg",
+          "assetId": "asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "assetSha": "31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:482",
+          "count": 2,
+          "visible": true,
+          "box": {
+            "left": 896.0381469726562,
+            "top": 1825.26416015625,
+            "right": 964.55810546875,
+            "bottom": 1867.4302978515625,
+            "width": 68.51995849609375,
+            "height": 42.1661376953125
+          },
+          "href": "/figma-r2/assets/asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595.svg",
+          "assetId": "asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "assetSha": "2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "authority": "USER_VISUAL_HELMET_OPTICAL_R4B",
+          "candidate": "B1_CANONICAL_SOURCE_NO_EROSION"
+        }
+      ],
+      "titles": [
+        {
+          "key": "node-18:114",
+          "visible": true,
+          "text": "현장별 맞춤 교보재",
+          "sourceTextDigest": "54e8bc8e3a6096f849b72f3f23963749bd93075dfcae66f4cfd9d3e4dad9e2fb",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 212.048095703125,
+            "top": 3567.270751953125,
+            "right": 382.8869323730469,
+            "bottom": 3595.6015625,
+            "width": 170.83883666992188,
+            "height": 28.330810546875
+          },
+          "foreignObjectBox": {
+            "left": 173.9375,
+            "top": 3560.0234375,
+            "right": 421.0078125,
+            "bottom": 3623.2734375,
+            "width": 247.0703125,
+            "height": 63.25
+          }
+        },
+        {
+          "key": "node-1:61",
+          "visible": true,
+          "text": "다양한 소재와 필름경험",
+          "sourceTextDigest": "a8a72a936fbdd4dc6c1ad7b66dfba766ff96cb9af586535054dffe1e1f80dba8",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 530.3467407226562,
+            "top": 3567.270751953125,
+            "right": 741.2315063476562,
+            "bottom": 3595.6015625,
+            "width": 210.884765625,
+            "height": 28.330810546875
+          },
+          "foreignObjectBox": {
+            "left": 492.1640625,
+            "top": 3560.0234375,
+            "right": 779.4244995117188,
+            "bottom": 3623.2734375,
+            "width": 287.26043701171875,
+            "height": 63.25
+          }
+        },
+        {
+          "key": "node-18:116",
+          "visible": true,
+          "text": "밑작업 중심의 반복 실습",
+          "sourceTextDigest": "bc22e87b6d91e4bed222827400a5b20a9fc0f80d564018bfdf9db8e3267c200c",
+          "fontWeight": "600",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 861.6268310546875,
+            "top": 3567.270751953125,
+            "right": 1077.3809814453125,
+            "bottom": 3595.6015625,
+            "width": 215.754150390625,
+            "height": 28.330810546875
+          },
+          "foreignObjectBox": {
+            "left": 824.2265625,
+            "top": 3560.0234375,
+            "right": 1114.78125,
+            "bottom": 3623.2734375,
+            "width": 290.5546875,
+            "height": 63.25
+          }
+        }
+      ],
+      "errors": [
+        "LEGACY_ICONS_INVALID",
+        "HELMET_MISSING_OR_DUPLICATED"
+      ]
+    },
+    {
+      "width": 1440,
+      "viewport": 1425,
+      "documentWidth": 1425,
+      "sceneVisible": true,
+      "reflowVisible": false,
+      "loadedPretendardFaces": 14,
+      "icons": [
+        {
+          "key": "node-1:414",
+          "count": 0,
+          "visible": false,
+          "box": null,
+          "href": null,
+          "assetId": null,
+          "assetSha": null,
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:477",
+          "count": 2,
+          "visible": true,
+          "box": {
+            "left": 595.2357788085938,
+            "top": 2075.44921875,
+            "right": 663.5161743164062,
+            "bottom": 2143.729736328125,
+            "width": 68.2803955078125,
+            "height": 68.280517578125
+          },
+          "href": "/figma-r2/assets/asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616.svg",
+          "assetId": "asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "assetSha": "31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:482",
+          "count": 2,
+          "visible": true,
+          "box": {
+            "left": 1009.3715209960938,
+            "top": 2091.03515625,
+            "right": 1086.55810546875,
+            "bottom": 2138.534423828125,
+            "width": 77.18658447265625,
+            "height": 47.499267578125
+          },
+          "href": "/figma-r2/assets/asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595.svg",
+          "assetId": "asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "assetSha": "2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "authority": "USER_VISUAL_HELMET_OPTICAL_R4B",
+          "candidate": "B1_CANONICAL_SOURCE_NO_EROSION"
+        }
+      ],
+      "titles": [
+        {
+          "key": "node-18:114",
+          "visible": true,
+          "text": "현장별 맞춤 교보재",
+          "sourceTextDigest": "54e8bc8e3a6096f849b72f3f23963749bd93075dfcae66f4cfd9d3e4dad9e2fb",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 238.868408203125,
+            "top": 4053.375,
+            "right": 431.3153076171875,
+            "bottom": 4085.2890625,
+            "width": 192.4468994140625,
+            "height": 31.9140625
+          },
+          "foreignObjectBox": {
+            "left": 195.9375,
+            "top": 4045.2109375,
+            "right": 474.2578125,
+            "bottom": 4116.4609375,
+            "width": 278.3203125,
+            "height": 71.25
+          }
+        },
+        {
+          "key": "node-1:61",
+          "visible": true,
+          "text": "다양한 소재와 필름경험",
+          "sourceTextDigest": "a8a72a936fbdd4dc6c1ad7b66dfba766ff96cb9af586535054dffe1e1f80dba8",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 597.4261474609375,
+            "top": 4053.375,
+            "right": 834.984130859375,
+            "bottom": 4085.2890625,
+            "width": 237.5579833984375,
+            "height": 31.9140625
+          },
+          "foreignObjectBox": {
+            "left": 554.4140625,
+            "top": 4045.2109375,
+            "right": 878.0078125,
+            "bottom": 4116.4609375,
+            "width": 323.59375,
+            "height": 71.25
+          }
+        },
+        {
+          "key": "node-18:116",
+          "visible": true,
+          "text": "밑작업 중심의 반복 실습",
+          "sourceTextDigest": "bc22e87b6d91e4bed222827400a5b20a9fc0f80d564018bfdf9db8e3267c200c",
+          "fontWeight": "600",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 970.6072998046875,
+            "top": 4053.375,
+            "right": 1213.6505126953125,
+            "bottom": 4085.2890625,
+            "width": 243.043212890625,
+            "height": 31.9140625
+          },
+          "foreignObjectBox": {
+            "left": 928.4765625,
+            "top": 4045.2109375,
+            "right": 1255.78125,
+            "bottom": 4116.4609375,
+            "width": 327.3046875,
+            "height": 71.25
+          }
+        }
+      ],
+      "errors": [
+        "LEGACY_ICONS_INVALID",
+        "HELMET_MISSING_OR_DUPLICATED"
+      ]
+    },
+    {
+      "width": 1920,
+      "viewport": 1905,
+      "documentWidth": 1905,
+      "sceneVisible": true,
+      "reflowVisible": false,
+      "loadedPretendardFaces": 14,
+      "icons": [
+        {
+          "key": "node-1:414",
+          "count": 0,
+          "visible": false,
+          "box": null,
+          "href": null,
+          "assetId": null,
+          "assetSha": null,
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:477",
+          "count": 2,
+          "visible": true,
+          "box": {
+            "left": 795.7357788085938,
+            "top": 2732.44921875,
+            "right": 887.0161743164062,
+            "bottom": 2823.729736328125,
+            "width": 91.2803955078125,
+            "height": 91.280517578125
+          },
+          "href": "/figma-r2/assets/asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616.svg",
+          "assetId": "asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "assetSha": "31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:482",
+          "count": 2,
+          "visible": true,
+          "box": {
+            "left": 1349.3714599609375,
+            "top": 2753.28515625,
+            "right": 1452.55810546875,
+            "bottom": 2816.784423828125,
+            "width": 103.1866455078125,
+            "height": 63.499267578125
+          },
+          "href": "/figma-r2/assets/asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595.svg",
+          "assetId": "asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "assetSha": "2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "authority": "USER_VISUAL_HELMET_OPTICAL_R4B",
+          "candidate": "B1_CANONICAL_SOURCE_NO_EROSION"
+        }
+      ],
+      "titles": [
+        {
+          "key": "node-18:114",
+          "visible": true,
+          "text": "현장별 맞춤 교보재",
+          "sourceTextDigest": "54e8bc8e3a6096f849b72f3f23963749bd93075dfcae66f4cfd9d3e4dad9e2fb",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 319.329345703125,
+            "top": 5376.625,
+            "right": 576.6004638671875,
+            "bottom": 5419.2890625,
+            "width": 257.2711181640625,
+            "height": 42.6640625
+          },
+          "foreignObjectBox": {
+            "left": 261.9375,
+            "top": 5365.7109375,
+            "right": 634.0078125,
+            "bottom": 5460.9609375,
+            "width": 372.0703125,
+            "height": 95.25
+          }
+        },
+        {
+          "key": "node-1:61",
+          "visible": true,
+          "text": "다양한 소재와 필름경험",
+          "sourceTextDigest": "a8a72a936fbdd4dc6c1ad7b66dfba766ff96cb9af586535054dffe1e1f80dba8",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 798.6644287109375,
+            "top": 5376.625,
+            "right": 1116.241943359375,
+            "bottom": 5419.2890625,
+            "width": 317.5775146484375,
+            "height": 42.6640625
+          },
+          "foreignObjectBox": {
+            "left": 741.1640625,
+            "top": 5365.7109375,
+            "right": 1173.7578125,
+            "bottom": 5460.9609375,
+            "width": 432.59375,
+            "height": 95.25
+          }
+        },
+        {
+          "key": "node-18:116",
+          "visible": true,
+          "text": "밑작업 중심의 반복 실습",
+          "sourceTextDigest": "bc22e87b6d91e4bed222827400a5b20a9fc0f80d564018bfdf9db8e3267c200c",
+          "fontWeight": "600",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 1297.5487060546875,
+            "top": 5376.625,
+            "right": 1622.4591064453125,
+            "bottom": 5419.2890625,
+            "width": 324.910400390625,
+            "height": 42.6640625
+          },
+          "foreignObjectBox": {
+            "left": 1241.2265625,
+            "top": 5365.7109375,
+            "right": 1678.78125,
+            "bottom": 5460.9609375,
+            "width": 437.5546875,
+            "height": 95.25
+          }
+        }
+      ],
+      "errors": [
+        "LEGACY_ICONS_INVALID",
+        "HELMET_MISSING_OR_DUPLICATED"
+      ]
+    },
+    {
+      "width": 2560,
+      "viewport": 2545,
+      "documentWidth": 2545,
+      "sceneVisible": true,
+      "reflowVisible": false,
+      "loadedPretendardFaces": 14,
+      "icons": [
+        {
+          "key": "node-1:414",
+          "count": 0,
+          "visible": false,
+          "box": null,
+          "href": null,
+          "assetId": null,
+          "assetSha": null,
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:477",
+          "count": 2,
+          "visible": true,
+          "box": {
+            "left": 1114.5,
+            "top": 2753,
+            "right": 1206.5,
+            "bottom": 2845,
+            "width": 92,
+            "height": 92
+          },
+          "href": "/figma-r2/assets/asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616.svg",
+          "assetId": "asset-31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "assetSha": "31e20f1fc3f43abb314fbe0ec3ee4a6c35997a8b10a51fefd68102a9775b4616",
+          "authority": null,
+          "candidate": null
+        },
+        {
+          "key": "node-1:482",
+          "count": 2,
+          "visible": true,
+          "box": {
+            "left": 1672.5,
+            "top": 2774,
+            "right": 1776.5,
+            "bottom": 2838,
+            "width": 104,
+            "height": 64
+          },
+          "href": "/figma-r2/assets/asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595.svg",
+          "assetId": "asset-2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "assetSha": "2b6d2381b996643b28e6926979f69304ca5572c50b047406d0c2a994c6acb595",
+          "authority": "USER_VISUAL_HELMET_OPTICAL_R4B",
+          "candidate": "B1_CANONICAL_SOURCE_NO_EROSION"
+        }
+      ],
+      "titles": [
+        {
+          "key": "node-18:114",
+          "visible": true,
+          "text": "현장별 맞춤 교보재",
+          "sourceTextDigest": "54e8bc8e3a6096f849b72f3f23963749bd93075dfcae66f4cfd9d3e4dad9e2fb",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 634.34375,
+            "top": 5418,
+            "right": 893.640625,
+            "bottom": 5461,
+            "width": 259.296875,
+            "height": 43
+          },
+          "foreignObjectBox": {
+            "left": 576.5,
+            "top": 5407,
+            "right": 951.5,
+            "bottom": 5503,
+            "width": 375,
+            "height": 96
+          }
+        },
+        {
+          "key": "node-1:61",
+          "visible": true,
+          "text": "다양한 소재와 필름경험",
+          "sourceTextDigest": "a8a72a936fbdd4dc6c1ad7b66dfba766ff96cb9af586535054dffe1e1f80dba8",
+          "fontWeight": "500",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 1117.453125,
+            "top": 5418,
+            "right": 1437.53125,
+            "bottom": 5461,
+            "width": 320.078125,
+            "height": 43
+          },
+          "foreignObjectBox": {
+            "left": 1059.5,
+            "top": 5407,
+            "right": 1495.5,
+            "bottom": 5503,
+            "width": 436,
+            "height": 96
+          }
+        },
+        {
+          "key": "node-18:116",
+          "visible": true,
+          "text": "밑작업 중심의 반복 실습",
+          "sourceTextDigest": "bc22e87b6d91e4bed222827400a5b20a9fc0f80d564018bfdf9db8e3267c200c",
+          "fontWeight": "600",
+          "fontSize": "36px",
+          "fontFamily": "\"Pretendard Variable\", Pretendard, sans-serif",
+          "glyph": {
+            "left": 1620.265625,
+            "top": 5418,
+            "right": 1947.734375,
+            "bottom": 5461,
+            "width": 327.46875,
+            "height": 43
+          },
+          "foreignObjectBox": {
+            "left": 1563.5,
+            "top": 5407,
+            "right": 2004.5,
+            "bottom": 5503,
+            "width": 441,
+            "height": 96
+          }
+        }
+      ],
+      "errors": [
+        "LEGACY_ICONS_INVALID",
+        "HELMET_MISSING_OR_DUPLICATED"
+      ]
+    }
+  ],
+  "visualApproved": false,
+  "originalFigmaPixelParity": "NOT_RUN",
+  "productionQualified": false
+}

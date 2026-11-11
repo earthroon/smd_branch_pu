@@ -1,0 +1,10 @@
+import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {resolve,dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const pin=JSON.parse(readFileSync(resolve(root,'vendor/content-contracts/RELEASE.json'),'utf8'));
+const bytes=readFileSync(resolve(root,'vendor/content-contracts',pin.tarball));
+const digest=createHash('sha256').update(bytes).digest('hex');
+if(digest!==pin.sha256)throw new Error('CONTRACT_ARTIFACT_DIGEST_MISMATCH');
+console.log('PASS_SMD_CONTRACT_TARBALL_SHA256',digest);

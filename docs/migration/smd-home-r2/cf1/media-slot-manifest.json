@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "sourceSnapshotDigest": "5e877e46cc1bad3e7985a553163120c59c9b9d0f731a66d575e781fa5c60146f",
+  "generatedFrom": "docs/migration/smd-home-r2/cf1/figma-source",
+  "generatorVersion": "SMD_HOME_R2_CF1_GEN_V1",
+  "slots": [
+    {
+      "slotId": "home.special-start.photo",
+      "sourceNodeKey": "node-1:126",
+      "sectionId": "special-start",
+      "sourceFrameRect": [
+        566,
+        115,
+        484,
+        484
+      ],
+      "sourceRadii": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "placeholderRgba": [
+        0.9254902005195618,
+        0.9372549057006836,
+        0.9725490212440491,
+        1
+      ],
+      "mediaState": "unbound",
+      "assetId": null
+    },
+    {
+      "slotId": "home.benefits.01.image",
+      "sourceNodeKey": "node-1:86",
+      "sectionId": "benefits",
+      "sourceFrameRect": [
+        0,
+        0,
+        515,
+        343.5247802734375
+      ],
+      "sourceRadii": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "placeholderRgba": [
+        0.9176470637321472,
+        0.9450980424880981,
+        1,
+        1
+      ],
+      "mediaState": "unbound",
+      "assetId": null
+    },
+    {
+      "slotId": "home.benefits.02.image",
+      "sourceNodeKey": "node-18:145",
+      "sectionId": "benefits",
+      "sourceFrameRect": [
+        0,
+        0,
+        515,
+        343.5247802734375
+      ],
+      "sourceRadii": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "placeholderRgba": [
+        0.9176470637321472,
+        0.9450980424880981,
+        1,
+        1
+      ],
+      "mediaState": "unbound",
+      "assetId": null
+    },
+    {
+      "slotId": "home.benefits.03.image",
+      "sourceNodeKey": "node-18:126",
+      "sectionId": "benefits",
+      "sourceFrameRect": [
+        0,
+        0,
+        515,
+        343.5247802734375
+      ],
+      "sourceRadii": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "placeholderRgba": [
+        0.9176470637321472,
+        0.9450980424880981,
+        1,
+        1
+      ],
+      "mediaState": "unbound",
+      "assetId": null
+    },
+    {
+      "slotId": "home.benefits.04.image",
+      "sourceNodeKey": "node-18:132",
+      "sectionId": "benefits",
+      "sourceFrameRect": [
+        0,
+        0,
+        515,
+        343.5247802734375
+      ],
+      "sourceRadii": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "placeholderRgba": [
+        0.9176470637321472,
+        0.9450980424880981,
+        1,
+        1
+      ],
+      "mediaState": "unbound",
+      "assetId": null
+    },
+    {
+      "slotId": "home.methods.01.image",
+      "sourceNodeKey": "node-1:54",
+      "sectionId": "methods",
+      "sourceFrameRect": [
+        0,
+        0,
+        490.9326477050781,
+        416
+      ],
+      "sourceRadii": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "placeholderRgba": [
+        0.45098039507865906,
+        0.5137255191802979,
+        0.6078431606292725,
+        1
+      ],
+      "mediaState": "unbound",
+      "assetId": null
+    },
+    {
+      "slotId": "home.methods.02.image",
+      "sourceNodeKey": "node-1:56",
+      "sectionId": "methods",
+      "sourceFrameRect": [
+        512.53369140625,
+        0,
+        490.9326477050781,
+        416
+      ],
+      "sourceRadii": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "placeholderRgba": [
+        0.45098039507865906,
+        0.5137255191802979,
+        0.6078431606292725,
+        1
+      ],
+      "mediaState": "unbound",
+      "assetId": null
+    },
+    {
+      "slotId": "home.methods.03.image",
+      "sourceNodeKey": "node-1:58",
+      "sectionId": "methods",
+      "sourceFrameRect": [
+        1025,
+        0,
+        490.9326477050781,
+        416
+      ],
+      "sourceRadii": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "placeholderRgba": [
+        0.45098039507865906,
+        0.5137255191802979,
+        0.6078431606292725,
+        1
+      ],
+      "mediaState": "unbound",
+      "assetId": null
+    }
+  ],
+  "overlaidOrInnerFrameKeys": [
+    "node-18:87",
+    "node-1:57",
+    "node-1:59"
+  ]
+}

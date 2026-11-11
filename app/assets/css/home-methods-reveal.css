@@ -1,0 +1,47 @@
+/* SMD_HOME_METHODS_REVEAL_R1. Motion wrappers only: title, three Figma card
+   frames, and six sibling text nodes. No source geometry/clip/paint mutations. */
+@media (min-width:1380px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+  .smd-home-body-stage[data-methods-prepared="true"]:is([data-methods-phase="unarmed"], [data-methods-phase="ready"], [data-methods-phase="entering"])
+  [data-wide-section="methods"] .smd-home-methods__title {
+    opacity: 0;
+    transform: translateY(-26px);
+  }
+  .smd-home-body-stage[data-methods-prepared="true"]:is([data-methods-phase="unarmed"], [data-methods-phase="ready"], [data-methods-phase="entering"])
+  [data-wide-section="methods"] .smd-home-methods__card {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  .smd-home-body-stage[data-methods-prepared="true"]:is([data-methods-phase="unarmed"], [data-methods-phase="ready"], [data-methods-phase="entering"])
+  [data-wide-section="methods"] .smd-home-methods__text {
+    opacity: 0;
+  }
+  .smd-home-body-stage[data-methods-phase="revealing"] [data-wide-section="methods"] .smd-home-methods__title {
+    will-change: opacity, transform;
+    opacity: var(--smd-methods-title-opacity, 1);
+    transform: translateY(var(--smd-methods-title-y, 0px));
+  }
+  .smd-home-body-stage[data-methods-phase="revealing"] [data-wide-section="methods"] .smd-home-methods__card {
+    will-change: opacity, transform;
+  }
+  .smd-home-body-stage[data-methods-phase="revealing"] [data-wide-section="methods"] .smd-home-methods__card[data-methods-card-index="0"] {
+    opacity: var(--smd-methods-card-0-opacity, 1);
+    transform: translateY(var(--smd-methods-card-0-y, 0px));
+  }
+  .smd-home-body-stage[data-methods-phase="revealing"] [data-wide-section="methods"] .smd-home-methods__card[data-methods-card-index="1"] {
+    opacity: var(--smd-methods-card-1-opacity, 1);
+    transform: translateY(var(--smd-methods-card-1-y, 0px));
+  }
+  .smd-home-body-stage[data-methods-phase="revealing"] [data-wide-section="methods"] .smd-home-methods__card[data-methods-card-index="2"] {
+    opacity: var(--smd-methods-card-2-opacity, 1);
+    transform: translateY(var(--smd-methods-card-2-y, 0px));
+  }
+  .smd-home-body-stage[data-methods-phase="revealing"] [data-wide-section="methods"] .smd-home-methods__text[data-methods-text-index="0"] {
+    opacity: var(--smd-methods-text-0-opacity, 1);
+  }
+  .smd-home-body-stage[data-methods-phase="revealing"] [data-wide-section="methods"] .smd-home-methods__text[data-methods-text-index="1"] {
+    opacity: var(--smd-methods-text-1-opacity, 1);
+  }
+  .smd-home-body-stage[data-methods-phase="revealing"] [data-wide-section="methods"] .smd-home-methods__text[data-methods-text-index="2"] {
+    opacity: var(--smd-methods-text-2-opacity, 1);
+  }
+}

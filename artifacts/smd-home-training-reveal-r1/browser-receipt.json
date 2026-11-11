@@ -1,0 +1,4953 @@
+{
+  "contract": "SMD_HOME_TRAINING_REVEAL_R1",
+  "url": "http://127.0.0.1:3000/",
+  "status": "FAIL",
+  "failure": null,
+  "results": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "variant": "completed",
+      "initial": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 0,
+        "training": {
+          "top": 2219.546875,
+          "bottom": 2882.5625,
+          "height": 663.015625
+        },
+        "benefits": {
+          "top": 2882.5625,
+          "bottom": 3940.71875,
+          "height": 1058.15625
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2519.429443359375,
+              "bottom": 2649.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2519.429443359375,
+              "bottom": 2649.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2519.429443359375,
+              "bottom": 2649.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2343.07177734375,
+              "bottom": 2436.08740234375,
+              "height": 93.015625
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2419.716552734375,
+              "bottom": 2529.84716796875,
+              "height": 110.130615234375
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "introDone": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 320,
+        "training": {
+          "top": 1899.546875,
+          "bottom": 2562.5625,
+          "height": 663.015625
+        },
+        "benefits": {
+          "top": 2562.5625,
+          "bottom": 3620.71875,
+          "height": 1058.15625
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2199.429443359375,
+              "bottom": 2329.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2199.429443359375,
+              "bottom": 2329.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2199.429443359375,
+              "bottom": 2329.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2023.0716552734375,
+              "bottom": 2116.08740234375,
+              "height": 93.0157470703125
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2099.716552734375,
+              "bottom": 2209.84716796875,
+              "height": 110.130615234375
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "specialDone": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 640,
+        "training": {
+          "top": 1579.546875,
+          "bottom": 2242.5625,
+          "height": 663.015625
+        },
+        "benefits": {
+          "top": 2242.5625,
+          "bottom": 3300.71875,
+          "height": 1058.15625
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1879.4293212890625,
+              "bottom": 2009.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1879.4293212890625,
+              "bottom": 2009.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1879.4293212890625,
+              "bottom": 2009.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1703.0716552734375,
+              "bottom": 1796.0872802734375,
+              "height": 93.015625
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1779.716552734375,
+              "bottom": 1889.84716796875,
+              "height": 110.130615234375
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "mid": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 960,
+        "training": {
+          "top": 1259.546875,
+          "bottom": 1922.5625,
+          "height": 663.015625
+        },
+        "benefits": {
+          "top": 1922.5625,
+          "bottom": 2980.71875,
+          "height": 1058.15625
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1383.0716552734375,
+              "bottom": 1476.0872802734375,
+              "height": 93.015625
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1459.716552734375,
+              "bottom": 1569.84716796875,
+              "height": 110.130615234375
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "done": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 960,
+        "training": {
+          "top": 1259.546875,
+          "bottom": 1922.5625,
+          "height": 663.015625
+        },
+        "benefits": {
+          "top": 1922.5625,
+          "bottom": 2980.71875,
+          "height": 1058.15625
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1383.0716552734375,
+              "bottom": 1476.0872802734375,
+              "height": 93.015625
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1459.716552734375,
+              "bottom": 1569.84716796875,
+              "height": 110.130615234375
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "replay": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 80,
+        "training": {
+          "top": 2139.546875,
+          "bottom": 2802.5625,
+          "height": 663.015625
+        },
+        "benefits": {
+          "top": 2802.5625,
+          "bottom": 3860.71875,
+          "height": 1058.15625
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2439.429443359375,
+              "bottom": 2569.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2439.429443359375,
+              "bottom": 2569.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2439.429443359375,
+              "bottom": 2569.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2263.07177734375,
+              "bottom": 2356.08740234375,
+              "height": 93.015625
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2339.716552734375,
+              "bottom": 2449.84716796875,
+              "height": 110.130615234375
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": [
+        "INTRO_NOT_RELEASED",
+        "SPECIAL_NOT_COMPLETED",
+        "TRAINING_NOT_READY",
+        "TRAINING_NOT_REVEALING",
+        "TRAINING_START_COUNT",
+        "DIAGRAM_TOO_EARLY",
+        "TRAINING_NOT_COMPLETED",
+        "COMPLETED_REPLAY"
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        1080
+      ],
+      "variant": "completed",
+      "initial": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          2560,
+          1080
+        ],
+        "scrollY": 0,
+        "training": {
+          "top": 2227.796875,
+          "bottom": 2896.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2896.046875,
+          "bottom": 3962.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2530.046875,
+              "bottom": 2661.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2530.046875,
+              "bottom": 2661.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2530.046875,
+              "bottom": 2661.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2352.296875,
+              "bottom": 2446.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2429.546875,
+              "bottom": 2540.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "introDone": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          2560,
+          1080
+        ],
+        "scrollY": 320,
+        "training": {
+          "top": 1907.796875,
+          "bottom": 2576.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2576.046875,
+          "bottom": 3642.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2210.046875,
+              "bottom": 2341.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2210.046875,
+              "bottom": 2341.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2210.046875,
+              "bottom": 2341.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2032.296875,
+              "bottom": 2126.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2109.546875,
+              "bottom": 2220.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "specialDone": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          2560,
+          1080
+        ],
+        "scrollY": 640,
+        "training": {
+          "top": 1587.796875,
+          "bottom": 2256.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2256.046875,
+          "bottom": 3322.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1890.046875,
+              "bottom": 2021.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1890.046875,
+              "bottom": 2021.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1890.046875,
+              "bottom": 2021.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1712.296875,
+              "bottom": 1806.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1789.546875,
+              "bottom": 1900.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "mid": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          2560,
+          1080
+        ],
+        "scrollY": 960,
+        "training": {
+          "top": 1267.796875,
+          "bottom": 1936.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 1936.046875,
+          "bottom": 3002.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1392.296875,
+              "bottom": 1486.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1469.546875,
+              "bottom": 1580.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "done": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          2560,
+          1080
+        ],
+        "scrollY": 960,
+        "training": {
+          "top": 1267.796875,
+          "bottom": 1936.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 1936.046875,
+          "bottom": 3002.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1392.296875,
+              "bottom": 1486.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1469.546875,
+              "bottom": 1580.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "replay": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          2560,
+          1080
+        ],
+        "scrollY": 80,
+        "training": {
+          "top": 2147.796875,
+          "bottom": 2816.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2816.046875,
+          "bottom": 3882.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2450.046875,
+              "bottom": 2581.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2450.046875,
+              "bottom": 2581.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2450.046875,
+              "bottom": 2581.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2272.296875,
+              "bottom": 2366.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2349.546875,
+              "bottom": 2460.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": [
+        "INTRO_NOT_RELEASED",
+        "SPECIAL_NOT_COMPLETED",
+        "TRAINING_NOT_READY",
+        "TRAINING_NOT_REVEALING",
+        "TRAINING_START_COUNT",
+        "DIAGRAM_TOO_EARLY",
+        "TRAINING_NOT_COMPLETED",
+        "COMPLETED_REPLAY"
+      ]
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "variant": "completed",
+      "initial": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3440,
+          1440
+        ],
+        "scrollY": 0,
+        "training": {
+          "top": 2587.796875,
+          "bottom": 3256.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 3256.046875,
+          "bottom": 4322.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2890.046875,
+              "bottom": 3021.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2890.046875,
+              "bottom": 3021.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2890.046875,
+              "bottom": 3021.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2712.296875,
+              "bottom": 2806.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2789.546875,
+              "bottom": 2900.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "introDone": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3440,
+          1440
+        ],
+        "scrollY": 320,
+        "training": {
+          "top": 2267.796875,
+          "bottom": 2936.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2936.046875,
+          "bottom": 4002.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2570.046875,
+              "bottom": 2701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2570.046875,
+              "bottom": 2701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2570.046875,
+              "bottom": 2701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2392.296875,
+              "bottom": 2486.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2469.546875,
+              "bottom": 2580.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "specialDone": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3440,
+          1440
+        ],
+        "scrollY": 640,
+        "training": {
+          "top": 1947.796875,
+          "bottom": 2616.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2616.046875,
+          "bottom": 3682.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2250.046875,
+              "bottom": 2381.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2250.046875,
+              "bottom": 2381.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2250.046875,
+              "bottom": 2381.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2072.296875,
+              "bottom": 2166.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2149.546875,
+              "bottom": 2260.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "mid": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3440,
+          1440
+        ],
+        "scrollY": 960,
+        "training": {
+          "top": 1627.796875,
+          "bottom": 2296.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2296.046875,
+          "bottom": 3362.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1930.046875,
+              "bottom": 2061.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1930.046875,
+              "bottom": 2061.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1930.046875,
+              "bottom": 2061.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1752.296875,
+              "bottom": 1846.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1829.546875,
+              "bottom": 1940.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "done": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3440,
+          1440
+        ],
+        "scrollY": 960,
+        "training": {
+          "top": 1627.796875,
+          "bottom": 2296.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2296.046875,
+          "bottom": 3362.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1930.046875,
+              "bottom": 2061.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1930.046875,
+              "bottom": 2061.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1930.046875,
+              "bottom": 2061.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1752.296875,
+              "bottom": 1846.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1829.546875,
+              "bottom": 1940.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "replay": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3440,
+          1440
+        ],
+        "scrollY": 80,
+        "training": {
+          "top": 2507.796875,
+          "bottom": 3176.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 3176.046875,
+          "bottom": 4242.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2810.046875,
+              "bottom": 2941.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2810.046875,
+              "bottom": 2941.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2810.046875,
+              "bottom": 2941.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2632.296875,
+              "bottom": 2726.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2709.546875,
+              "bottom": 2820.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": [
+        "INTRO_NOT_RELEASED",
+        "SPECIAL_NOT_COMPLETED",
+        "TRAINING_NOT_READY",
+        "TRAINING_NOT_REVEALING",
+        "TRAINING_START_COUNT",
+        "DIAGRAM_TOO_EARLY",
+        "TRAINING_NOT_COMPLETED",
+        "COMPLETED_REPLAY"
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        1080
+      ],
+      "variant": "completed",
+      "initial": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3840,
+          1080
+        ],
+        "scrollY": 0,
+        "training": {
+          "top": 2227.796875,
+          "bottom": 2896.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2896.046875,
+          "bottom": 3962.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2530.046875,
+              "bottom": 2661.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2530.046875,
+              "bottom": 2661.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2530.046875,
+              "bottom": 2661.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2352.296875,
+              "bottom": 2446.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2429.546875,
+              "bottom": 2540.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "introDone": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3840,
+          1080
+        ],
+        "scrollY": 320,
+        "training": {
+          "top": 1907.796875,
+          "bottom": 2576.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2576.046875,
+          "bottom": 3642.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2210.046875,
+              "bottom": 2341.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2210.046875,
+              "bottom": 2341.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2210.046875,
+              "bottom": 2341.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2032.296875,
+              "bottom": 2126.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2109.546875,
+              "bottom": 2220.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "specialDone": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3840,
+          1080
+        ],
+        "scrollY": 640,
+        "training": {
+          "top": 1587.796875,
+          "bottom": 2256.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2256.046875,
+          "bottom": 3322.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1890.046875,
+              "bottom": 2021.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1890.046875,
+              "bottom": 2021.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1890.046875,
+              "bottom": 2021.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1712.296875,
+              "bottom": 1806.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1789.546875,
+              "bottom": 1900.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "mid": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3840,
+          1080
+        ],
+        "scrollY": 960,
+        "training": {
+          "top": 1267.796875,
+          "bottom": 1936.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 1936.046875,
+          "bottom": 3002.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1392.296875,
+              "bottom": 1486.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1469.546875,
+              "bottom": 1580.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "done": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3840,
+          1080
+        ],
+        "scrollY": 960,
+        "training": {
+          "top": 1267.796875,
+          "bottom": 1936.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 1936.046875,
+          "bottom": 3002.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1570.046875,
+              "bottom": 1701.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1392.296875,
+              "bottom": 1486.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1469.546875,
+              "bottom": 1580.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "replay": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          3840,
+          1080
+        ],
+        "scrollY": 80,
+        "training": {
+          "top": 2147.796875,
+          "bottom": 2816.046875,
+          "height": 668.25
+        },
+        "benefits": {
+          "top": 2816.046875,
+          "bottom": 3882.546875,
+          "height": 1066.5
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2450.046875,
+              "bottom": 2581.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2450.046875,
+              "bottom": 2581.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2450.046875,
+              "bottom": 2581.296875,
+              "height": 131.25
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2272.296875,
+              "bottom": 2366.046875,
+              "height": 93.75
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2349.546875,
+              "bottom": 2460.546875,
+              "height": 111
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": [
+        "INTRO_NOT_RELEASED",
+        "SPECIAL_NOT_COMPLETED",
+        "TRAINING_NOT_READY",
+        "TRAINING_NOT_REVEALING",
+        "TRAINING_START_COUNT",
+        "DIAGRAM_TOO_EARLY",
+        "TRAINING_NOT_COMPLETED",
+        "COMPLETED_REPLAY"
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "variant": "skip",
+      "mid": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 960,
+        "training": {
+          "top": 1259.546875,
+          "bottom": 1922.5625,
+          "height": 663.015625
+        },
+        "benefits": {
+          "top": 1922.5625,
+          "bottom": 2980.71875,
+          "height": 1058.15625
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1383.0716552734375,
+              "bottom": 1476.0872802734375,
+              "height": 93.015625
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1459.716552734375,
+              "bottom": 1569.84716796875,
+              "height": 110.130615234375
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "skipped": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 1280,
+        "training": {
+          "top": 939.546875,
+          "bottom": 1602.5625,
+          "height": 663.015625
+        },
+        "benefits": {
+          "top": 1602.5625,
+          "bottom": 2660.71875,
+          "height": 1058.15625
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1239.4293212890625,
+              "bottom": 1369.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1239.4293212890625,
+              "bottom": 1369.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1239.4293212890625,
+              "bottom": 1369.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1063.0716552734375,
+              "bottom": 1156.0872802734375,
+              "height": 93.015625
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1139.716552734375,
+              "bottom": 1249.84716796875,
+              "height": 110.130615234375
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "replay": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 380,
+        "training": {
+          "top": 1839.546875,
+          "bottom": 2502.5625,
+          "height": 663.015625
+        },
+        "benefits": {
+          "top": 2502.5625,
+          "bottom": 3560.71875,
+          "height": 1058.15625
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2139.429443359375,
+              "bottom": 2269.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2139.429443359375,
+              "bottom": 2269.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2139.429443359375,
+              "bottom": 2269.6513671875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1963.0716552734375,
+              "bottom": 2056.08740234375,
+              "height": 93.0157470703125
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 2039.716552734375,
+              "bottom": 2149.84716796875,
+              "height": 110.130615234375
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": [
+        "SKIP_PRECONDITION_NOT_REVEALING",
+        "SKIP_NOT_TERMINAL",
+        "BENEFITS_NOT_ALIGNED",
+        "SKIPPED_REPLAY"
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "variant": "special-skip-handoff",
+      "handoff": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          1920,
+          1080
+        ],
+        "scrollY": 960,
+        "training": {
+          "top": 1259.546875,
+          "bottom": 1922.5625,
+          "height": 663.015625
+        },
+        "benefits": {
+          "top": 1922.5625,
+          "bottom": 2980.71875,
+          "height": 1058.15625
+        },
+        "header": {
+          "top": 0,
+          "bottom": 93.75,
+          "height": 93.75
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1559.4293212890625,
+              "bottom": 1689.6512451171875,
+              "height": 130.221923828125
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1383.0716552734375,
+              "bottom": 1476.0872802734375,
+              "height": 93.015625
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 1459.716552734375,
+              "bottom": 1569.84716796875,
+              "height": 110.130615234375
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": [
+        "SPECIAL_NOT_SKIPPED_DOWN",
+        "TRAINING_DUPLICATE_OR_MISSING_START",
+        "TRAINING_HANDOFF_NOT_REVEALING"
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "variant": "touch",
+      "initial": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          390,
+          844
+        ],
+        "scrollY": 0,
+        "training": {
+          "top": 0,
+          "bottom": 0,
+          "height": 0
+        },
+        "benefits": {
+          "top": 0,
+          "bottom": 0,
+          "height": 0
+        },
+        "header": {
+          "top": 0,
+          "bottom": 76,
+          "height": 76
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 0,
+              "bottom": 0,
+              "height": 0
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 0,
+              "bottom": 0,
+              "height": 0
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 0,
+              "bottom": 0,
+              "height": 0
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 0,
+              "bottom": 0,
+              "height": 0
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 0,
+              "bottom": 0,
+              "height": 0
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": [
+        "MOBILE_PHASE_NOT_DISABLED"
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "variant": "touch",
+      "initial": {
+        "phase": "unarmed",
+        "outcome": "not-started",
+        "starts": 0,
+        "skips": 0,
+        "prepared": "false",
+        "reason": null,
+        "specialPhase": "unarmed",
+        "specialReason": null,
+        "introPhase": "disabled",
+        "introRelease": null,
+        "viewport": [
+          1024,
+          768
+        ],
+        "scrollY": 0,
+        "training": {
+          "top": 0,
+          "bottom": 0,
+          "height": 0
+        },
+        "benefits": {
+          "top": 0,
+          "bottom": 0,
+          "height": 0
+        },
+        "header": {
+          "top": 0,
+          "bottom": 80,
+          "height": 80
+        },
+        "targets": [
+          {
+            "index": 3,
+            "source": "node-1:315",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 0,
+              "bottom": 0,
+              "height": 0
+            }
+          },
+          {
+            "index": 4,
+            "source": "node-1:95",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 0,
+              "bottom": 0,
+              "height": 0
+            }
+          },
+          {
+            "index": 2,
+            "source": "node-1:313",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 0,
+              "bottom": 0,
+              "height": 0
+            }
+          },
+          {
+            "index": 0,
+            "source": "node-1:103",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 0,
+              "bottom": 0,
+              "height": 0
+            }
+          },
+          {
+            "index": 1,
+            "source": "node-1:104",
+            "opacity": 1,
+            "transform": "none",
+            "bounds": {
+              "top": 0,
+              "bottom": 0,
+              "height": 0
+            }
+          }
+        ],
+        "diagram": [
+          {
+            "source": "node-1:501",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:555",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:493",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:499",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:494",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:486",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:489",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:488",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:500",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:492",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:495",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:496",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:497",
+            "opacity": 1,
+            "transform": "none"
+          },
+          {
+            "source": "node-1:498",
+            "opacity": 1,
+            "transform": "none"
+          }
+        ]
+      },
+      "errors": [
+        "MOBILE_PHASE_NOT_DISABLED"
+      ]
+    }
+  ],
+  "figmaPixelParity": "NOT_RUN",
+  "performance": "NOT_MEASURED"
+}

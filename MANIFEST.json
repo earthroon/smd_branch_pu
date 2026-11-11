@@ -1,0 +1,151 @@
+{
+  "contract": "SMD_HOME_INTRO_VIEWPORT_FILL_R4",
+  "parentArchive": "SMD_HOME_INTRO_VUE_PAINT_STACK_R3_full_baked_unverified.zip",
+  "sourceEvidence": "SOURCE_BAKED",
+  "files": [
+    {
+      "path": "app/assets/css/home-hero-film.css",
+      "parentSha256": "5e8348bdd84d6c1d5ea669a94a3181cec9af41f0fa91bd2afb04447e015aa403",
+      "targetSha256": "aa6cac776b3230d15de2292a3961a6ab31afa2ce45adf5add3bd2530c5edf9c4",
+      "action": "modify",
+      "byteLength": 621
+    },
+    {
+      "path": "app/assets/css/home-r2-interaction.css",
+      "parentSha256": "a28f66e4ecd5457b23c27f7b594414a145f73cefe4541def45557981374160a4",
+      "targetSha256": "5510d3fa07fa7bef78a4467192fe7610fe7ad38bfd537c7d98b275566c7f8878",
+      "action": "modify",
+      "byteLength": 1862
+    },
+    {
+      "path": "app/components/figma/FigmaSceneSection.vue",
+      "parentSha256": "8a30082c61e75cf9af7bef0a90d4c9628a6eac4cbfd10abc8235384db2028079",
+      "targetSha256": "c7bef2c966fbfeb8384932ba6a9673c23404a05526ec4281d15aa850842c43d6",
+      "action": "modify",
+      "byteLength": 4024
+    },
+    {
+      "path": "app/components/home/HeroSection.vue",
+      "parentSha256": "bef874595fc0b774564bb82b88ddfa4ab185ebcfd3b81793b51a8989b91c0914",
+      "targetSha256": "1e025b91cb38934de81584ad4e977e34ff3f9982455e4fc24e86104e84d4cb18",
+      "action": "modify",
+      "byteLength": 2913
+    },
+    {
+      "path": "app/components/home/HomeHeroFilm.vue",
+      "parentSha256": "54ad2d96436582450326d4100ec02de64071418f23f4a297de0f1723524460ec",
+      "targetSha256": "5bfb4ca2cfc92c2d8f5a870b8149e8e5041dc77a0ce9039b4a748b7469e79156",
+      "action": "modify",
+      "byteLength": 45488
+    },
+    {
+      "path": "app/components/home/HomeIntroStage.vue",
+      "parentSha256": "f57e31b19a1e3168d3ed3b14f1a15e37d2d8ec34a5da9be45ac9a18893c23d7a",
+      "targetSha256": "d3c751b2e0838e35b3e5e1d4775b095974811e04038fe86371fa5e4454412f7c",
+      "action": "modify",
+      "byteLength": 10495
+    },
+    {
+      "path": "app/utils/homeFilmLayout.ts",
+      "parentSha256": "11a1d0005cc0a5ac29c33994637452fe079bcee98e0d5c3540a2c7e060f804c6",
+      "targetSha256": "dc932e89605edca925bb4877a96a740ac963159e99f4c7ef1f4173f82bdf3551",
+      "action": "modify",
+      "byteLength": 12173
+    },
+    {
+      "path": "app/utils/homeIntroViewportGeometry.ts",
+      "parentSha256": null,
+      "targetSha256": "9126334d169be7cf7e2fdacf4795bf878b6c5e9b7cb6e8597d2d3c280c7a94cd",
+      "action": "add",
+      "byteLength": 2150
+    },
+    {
+      "path": "scripts/figma-r2/verify-home-intro-browser.mjs",
+      "parentSha256": "38d3d174ffeb6b6947801fd948bdc673b1c76562fdac66a4e8ab78b27c9b101e",
+      "targetSha256": "853d22832de2aa92082ea0e6efab7061397622517f68961eb2d0afc7daffddba",
+      "action": "modify",
+      "byteLength": 14610
+    },
+    {
+      "path": "scripts/tests/hero-film-cf1-cf3.test.mjs",
+      "parentSha256": "60e62f72be3f59982ec0b628ae3c0cda791761eb9391016a7c592062015321f0",
+      "targetSha256": "ca53776ba35bae742db73d1059ec2f42693f2b548add56a6ddac4a8dda1232f8",
+      "action": "modify",
+      "byteLength": 2960
+    },
+    {
+      "path": "scripts/tests/hero-film-cf4-cf6.test.mjs",
+      "parentSha256": "19c16eaeb111f35be981385a95d848bb341f6ca88c2363c6bffa996a17267d7a",
+      "targetSha256": "f958bb5d5f2fbc686054ff1596bd68cdb0402b3a6d4ab6ef1c2d29d5f337f897",
+      "action": "modify",
+      "byteLength": 6587
+    },
+    {
+      "path": "scripts/tests/hero-film-cf5-cf6.test.mjs",
+      "parentSha256": "5e56703f856102107d500288567cf87decad0d1d86301bb12d35718515793c0e",
+      "targetSha256": "6ab33411f0d825737a75815ef9a2f5f122028088b696ba077604a9d4534b2487",
+      "action": "modify",
+      "byteLength": 13194
+    },
+    {
+      "path": "scripts/tests/hero-film-runtime-harness.mjs",
+      "parentSha256": "42c564acd90e00b4d5a858b72fe1940bc8b9295497423718fce173525f4fa65e",
+      "targetSha256": "ecc16a8ea4a7845c6e634080569a5ec77b4ed0032de0ee81b1f98739541d22e5",
+      "action": "modify",
+      "byteLength": 6118
+    },
+    {
+      "path": "scripts/tests/hero-film-wind.test.mjs",
+      "parentSha256": "48b4fe8efc48a7552c2228cd949b4398a7ce99879d5e735934f24cda3f13b1d0",
+      "targetSha256": "d0fa93123c3971ef13bc81602114f116af1a4278f1c60ed1252edb3a1add86eb",
+      "action": "modify",
+      "byteLength": 8107
+    },
+    {
+      "path": "scripts/tests/home-intro-compact-reveal.test.mjs",
+      "parentSha256": "47b6b03cab3092e70145298615c62f43c407bf86cade5de20a3ca1f8161f3ff5",
+      "targetSha256": "1245d2fc9a463fb1625186c924c52b62016409848d6ad06effa4baa950e9cd5e",
+      "action": "modify",
+      "byteLength": 4432
+    },
+    {
+      "path": "scripts/tests/home-intro-scroll.test.mjs",
+      "parentSha256": "4a38d6b59f9a3e027c28c7078ec219a9df7b992422ef9a25c6ec5c412bf375aa",
+      "targetSha256": "dba15384100a50aef7e0abba0a261fe6b0e3aea9b8cf2862a11d3a37c634ada3",
+      "action": "modify",
+      "byteLength": 4818
+    },
+    {
+      "path": "scripts/tests/home-intro-viewport-fill-r4.test.mjs",
+      "parentSha256": null,
+      "targetSha256": "956c667c3183bc5ca1e4d6927f7ad699506b3b585828229d0280fb3982be1bfa",
+      "action": "add",
+      "byteLength": 5337
+    },
+    {
+      "path": "scripts/tests/home-intro-vue-paint-stack-r3.test.mjs",
+      "parentSha256": "47e382e03a8b4dc3e0b8e7392d8a8bb037cea0c921e4cb1a8d54ef52e375efa2",
+      "targetSha256": "59d70a5fb9fbf5b53c875a33d4cd0ae23203b8676fcb868efec28cbd8b10d508",
+      "action": "modify",
+      "byteLength": 6766
+    },
+    {
+      "path": "scripts/verify-hero-film-browser.mjs",
+      "parentSha256": "04675fb855d65e5cb4ca9bae310f06cd797bfbf07e826445f2ab3ce87d087c12",
+      "targetSha256": "b774c14b047d45ee29151de8477d9d6e913066c4c34a5bfa45c41d04694d50d0",
+      "action": "modify",
+      "byteLength": 9803
+    }
+  ],
+  "immutableInputs": {
+    "app/data/figma-r2-scene.generated.ts": "c3f39325450227616c506778bafec6d5507dff28e5d8561882c0d9787e8e7189",
+    "app/data/home-film-wind-lut.json": "352a821d71706362ccdec3b825c8b38e46ed438e0c37d93e8527efb98e5269fd",
+    "app/data/home-film-speed.json": "d3ce450cabe2f3d959ce2685499d171ded14e4208e56d039805825504e423e33",
+    "app/data/home-film.ts": "8e722f126478a49d45f1c9254e4b56e1926d1756856ce99907379ebeebf527c6",
+    "app/utils/homeIntroTimeline.ts": "33be014066fb7a5f8f55e34d1e58feb0e8e3992b78b169808edd09a3a02437f3",
+    "public/media/hero/1(1).jpg": "f081c045fe38b579462e47d280e2d1051d64b3b3986af12679a20f46da5da517",
+    "public/media/hero/2.jpg": "9e921dce9448bd228323bfcd9c312f5d5438ee0e3c3e2f99851aa87215d41db1",
+    "public/media/hero/3.jpg": "19afa7306eed6c89449f3a3472615706d1e5857edb6df647d3d4a5fd1120b20d",
+    "app/assets/css/home-r2-header.css": "614a941e4896a0c8903fdb5ece5db53934549c79f9732270d07154ae3c1cdf02"
+  }
+}

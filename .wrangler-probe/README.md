@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "smd-web" generated at 2026-10-13T06:50:06.921Z.

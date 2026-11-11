@@ -1,0 +1,18 @@
+{
+  "contract": "SMD-HOME-R2-CF2",
+  "sourceSnapshotDigest": "5e877e46cc1bad3e7985a553163120c59c9b9d0f731a66d575e781fa5c60146f",
+  "expectedBodySections": 9,
+  "actualBodySections": 9,
+  "homeTextSourceCount": 76,
+  "exposedOrPendingTextCount": 60,
+  "unboundMediaSlotCount": 8,
+  "duplicateHeaderFooterCount": 0,
+  "legacyCmsSlotAdmission": "FAIL_CLOSED",
+  "noTouchFilesVerified": true,
+  "staticStatus": "PASS",
+  "typecheck": "NOT_RUN",
+  "build": "NOT_RUN",
+  "browserParity": "NOT_RUN",
+  "physicalQualification": "NOT_RUN",
+  "productCommitAllowed": false
+}

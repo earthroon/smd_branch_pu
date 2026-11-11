@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {resolve,dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const src=readFileSync(resolve(root,'app/components/feature/PracticeBlock.vue'),'utf8');
+assert.match(src,/<SiteImage v-if="siteImage_0\?\.kind==='v5'" class="col-span-2 min-w-0"/);
+assert.match(src,/<div class="col-span-2 aspect-\[16\/10\]/);
+assert.match(src,/<SiteImage v-if="siteImage_1\?\.kind==='v5'"/);
+assert.equal((src.match(/<SiteImage /g)??[]).length,2);
+assert.equal((src.match(/<img /g)??[]).length,2);
+const legacy=readFileSync(resolve(root,'docs/site-media/image-slot-inventory.v1.json'),'utf8');
+assert.ok(legacy.includes('home.practiceTeaser.mainImage'));
+console.log('PASS_SMD_CF6R4_PRACTICE_LAYOUT_STATIC');

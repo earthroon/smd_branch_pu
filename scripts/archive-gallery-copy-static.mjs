@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {resolve} from 'node:path';
+const root=resolve(import.meta.dirname,'..');
+const archive=readFileSync(resolve(root,'app/pages/archive.vue'),'utf8');
+const header=readFileSync(resolve(root,'app/components/feature/SiteHeader.vue'),'utf8');
+const gallery=readFileSync(resolve(root,'app/components/archive/ArchiveGallery.vue'),'utf8');
+assert.match(archive,/archiveNavigationLabel=computed/);
+assert.match(archive,/useSeoMeta\(\{title:computed/);
+assert.match(archive,/link\.to==='\/archive'/);
+assert.match(header,/\{\{ item\.label \}\}/);
+assert.match(gallery,/\{\{pages\?\.archive\.sectionHeading\}\}/);
+console.log('PASS_SMD_ARCHIVE_GALLERY_COPY_PUBLIC_STATIC');

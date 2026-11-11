@@ -1,0 +1,168 @@
+{
+  "contract": "SMD-NUXT-R2-CF03",
+  "status": "SOURCE_BAKED_STATIC_MODEL_PASS_COMPILE_BLOCKED",
+  "identity": {
+    "originalArchiveSha256": "dafe2bf558842066ec5dd0aa1234005880a0ad303575ae08e964a263b80ccfe3",
+    "parentCF02FullSha256": "43b8119d25b9717849d8a7e0174e51d0b8699932a23f7e6d232982995e6e5caf",
+    "originalSourceFileCount": 41,
+    "parentFileCount": 85,
+    "candidateFileCount": 92,
+    "modifiedParentFiles": [
+      "app/pages/contact.vue"
+    ],
+    "newFiles": [
+      "docs/migration/cf03/README.md",
+      "docs/migration/cf03/receipt.json",
+      "docs/migration/cf03/source-reference.json",
+      "scripts/cf03-interaction-static.mjs",
+      "scripts/tests/cf03-interaction.test.mjs",
+      "scripts/tests/fixtures/cf03-archive-categories.json",
+      "scripts/tests/fixtures/cf03-route-navigation.json"
+    ],
+    "unchangedParentFiles": 84,
+    "unexpectedModifiedFiles": []
+  },
+  "implementation": {
+    "telTargetSourceDelta": {
+      "from": ":target=\"channel.href.startsWith('tel:')?undefined:'_blank'\"",
+      "to": "target=\"_blank\"",
+      "policy": "RESTORE_ORIGINAL_REACT_DOM_ATTRIBUTE",
+      "publishedContactPhoneUriRule": "tel:${contactPhone.replace(/[^0-9]/g, \"\")}",
+      "phonePhysicalHandoff": "NOT_OBSERVED"
+    },
+    "headerArchiveRevealCtaCodeChanges": 0,
+    "globalRouterScrollPolicyCreated": false,
+    "botPublicActivated": false,
+    "workerAndCMSChanged": false
+  },
+  "verification": {
+    "CF03Static": {
+      "passed": 63,
+      "total": 63,
+      "status": "PASS_ON_CANDIDATE"
+    },
+    "CF03NodeModelsAndMutationNegatives": {
+      "passed": 29,
+      "total": 29,
+      "positive": 11,
+      "negative": 18,
+      "status": "PASS_DEPENDENCY_FREE_SCRIPT_MODEL_ONLY"
+    },
+    "CF01LayoutCandidate": {
+      "passed": 38,
+      "total": 38,
+      "status": "PASS"
+    },
+    "CF02StaticParentReplay": {
+      "passed": 119,
+      "total": 119,
+      "status": "PASS_ON_CLEAN_CF02_PARENT"
+    },
+    "CF02ModelParentReplay": {
+      "passed": 17,
+      "total": 17,
+      "status": "PASS_ON_CLEAN_CF02_PARENT"
+    },
+    "CF02StaticCandidateLegacyGate": {
+      "passed": 117,
+      "total": 119,
+      "status": "EXPECTED_REJECTION",
+      "failingChecks": [
+        "changed paths only approved",
+        "tel target semantic deferred CF03"
+      ],
+      "scopeNote": "CF02 legacy gate is parent SHA pinned and expects old target semantics; CF03 supersedes exactly those checks with new immutable-parent/diff admission."
+    },
+    "CF00ModelCandidate": {
+      "passed": 7,
+      "total": 7,
+      "status": "PASS"
+    },
+    "WorkerRegressionCandidate": {
+      "passed": 25,
+      "total": 25,
+      "status": "PASS"
+    },
+    "TypeScriptScriptModel": {
+      "status": "PASS_SCRIPT_BODY_EXECUTION_WITH_MODELLED_VUE_LIFECYCLE_NOT_VUE_COMPILATION"
+    },
+    "NuxtTypecheck": {
+      "status": "BLOCKED_DEPENDENCIES_UNAVAILABLE",
+      "reason": "nuxt not installed; npm registry probe EAI_AGAIN"
+    },
+    "NuxtBuild": {
+      "status": "BLOCKED_DEPENDENCIES_UNAVAILABLE",
+      "reason": "nuxt not installed; npm registry probe EAI_AGAIN"
+    },
+    "SSR": {
+      "status": "UNKNOWN_NOT_RUN",
+      "fixtureDigest": null
+    },
+    "Hydration": {
+      "status": "UNKNOWN_NOT_RUN"
+    },
+    "BrowserInteractionE01toE17": {
+      "status": "UNKNOWN_NOT_RUN",
+      "testedScenarios": 0,
+      "totalScenarios": 17
+    },
+    "PhoneHardwareHandoff": {
+      "status": "NOT_OBSERVED"
+    },
+    "ScrollParity": {
+      "status": "UNKNOWN_NOT_MEASURED"
+    },
+    "VisualParity": {
+      "status": "UNKNOWN_NOT_MEASURED"
+    },
+    "Performance": {
+      "status": "NOT_MEASURED"
+    }
+  },
+  "knownGaps": [
+    {
+      "name": "promotionBenefits[0].desc source-vs-CMS difference",
+      "owner": "CF04",
+      "status": "UNCHANGED"
+    },
+    {
+      "name": "contact form transport/Turnstile and consent vs original",
+      "owner": "CF07",
+      "status": "UNCHANGED"
+    },
+    {
+      "name": "bot product widget public activation",
+      "owner": "CF08",
+      "status": "DEFERRED"
+    },
+    {
+      "name": "original/Candidate scroll and link browser evidence",
+      "owner": "CF03_BROWSER_CAMPAIGN",
+      "status": "UNKNOWN"
+    },
+    {
+      "name": "Nuxt dependency install/build",
+      "owner": "COMPILE_CLOSURE",
+      "status": "BLOCKED_EAI_AGAIN"
+    }
+  ],
+  "evidence": {
+    "source": "BAKED",
+    "static": "PASS",
+    "scriptModel": "PASS",
+    "compile": "BLOCKED",
+    "runtime": "UNKNOWN",
+    "physical": "UNKNOWN",
+    "performance": "NOT_MEASURED",
+    "promoted": false
+  },
+  "markersIssued": [
+    "PASS_SMD_NUXT_R2_CF03_ROUTE_LINK_STATIC",
+    "PASS_SMD_NUXT_R2_CF03_MOBILE_LIFECYCLE_MODEL",
+    "PASS_SMD_NUXT_R2_CF03_ARCHIVE_FILTER_MODEL",
+    "PASS_SMD_NUXT_R2_CF03_REVEAL_LIFECYCLE_MODEL",
+    "PASS_SMD_NUXT_R2_CF03_PARENT_REGRESSION"
+  ],
+  "rootMarkerIssued": false,
+  "productPromotion": false
+}

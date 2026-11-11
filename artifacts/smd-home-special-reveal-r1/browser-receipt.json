@@ -1,0 +1,9 @@
+{
+  "contract": "SMD_HOME_SPECIAL_REVEAL_R1",
+  "url": "http://127.0.0.1:3000/",
+  "status": "BLOCKED",
+  "failure": "Error: SMD_SPECIAL_NAVIGATION_FAILED net::ERR_CONNECTION_REFUSED\n    at nav (file:///C:/SMD_pu/SMD_NUXT_R3_S1_S2_PUBLIC_FULL_BAKED_UNVERIFIED/smd-public/scripts/figma-r2/verify-home-special-browser.mjs:83:41)\n    at async file:///C:/SMD_pu/SMD_NUXT_R3_S1_S2_PUBLIC_FULL_BAKED_UNVERIFIED/smd-public/scripts/figma-r2/verify-home-special-browser.mjs:109:5",
+  "results": [],
+  "figmaPixelParity": "NOT_RUN",
+  "performance": "NOT_MEASURED"
+}

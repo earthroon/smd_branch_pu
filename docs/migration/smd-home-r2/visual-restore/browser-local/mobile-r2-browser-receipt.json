@@ -1,0 +1,2987 @@
+{
+  "contract": "SMD_HOME_R2_MOBILE_VUE3_R2",
+  "localUrl": "http://127.0.0.1:3129/",
+  "results": [
+    {
+      "requestedWidth": 360,
+      "viewport": 360,
+      "scrollWidth": 360,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "specialPoints": [
+        {
+          "index": 0,
+          "visible": true,
+          "lines": 2,
+          "text": "수강생이 스스로 작업할 수 있는 수준까지 교육하는 것을 목표로 합니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 62,
+            "y": 972.46875,
+            "right": 342,
+            "bottom": 1026.84375,
+            "w": 280,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 18,
+            "y": 972.46875,
+            "right": 50,
+            "bottom": 1004.46875,
+            "w": 32,
+            "h": 32
+          }
+        },
+        {
+          "index": 1,
+          "visible": true,
+          "lines": 3,
+          "text": "현장 매커니즘을 반영하여 오전 일작업과 프라이머 도포, 오후 필름 래핑 순으로 현장감 있게 수업합니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 62,
+            "y": 1046.84375,
+            "right": 342,
+            "bottom": 1128.40625,
+            "w": 280,
+            "h": 81.5625
+          },
+          "numberBox": {
+            "x": 18,
+            "y": 1046.84375,
+            "right": 50,
+            "bottom": 1078.84375,
+            "w": 32,
+            "h": 32
+          }
+        },
+        {
+          "index": 2,
+          "visible": true,
+          "lines": 2,
+          "text": "수료 후 개인별 맞춤 · 취업 창업 컨설팅을 통해 필름 시장 진입을 돕습니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 62,
+            "y": 1148.40625,
+            "right": 342,
+            "bottom": 1202.78125,
+            "w": 280,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 18,
+            "y": 1148.40625,
+            "right": 50,
+            "bottom": 1180.40625,
+            "w": 32,
+            "h": 32
+          }
+        }
+      ],
+      "trainingCards": [
+        {
+          "id": "node-1:102",
+          "derived": null,
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 18,
+            "y": 2005.09375,
+            "right": 174,
+            "bottom": 2179.09375,
+            "w": 156,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 59,
+            "y": 2019.09375,
+            "right": 133,
+            "bottom": 2087.09375,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 74.046875,
+            "y": 2096.09375,
+            "right": 117.953125,
+            "bottom": 2116.09375,
+            "w": 43.90625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 55.484375,
+            "y": 2121.09375,
+            "right": 136.515625,
+            "bottom": 2149.09375,
+            "w": 81.03125,
+            "h": 28
+          },
+          "text": "6주· 총 42시간",
+          "labelText": "교육기간"
+        },
+        {
+          "id": "node-1:479",
+          "derived": null,
+          "visible": true,
+          "icon": "field",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 186,
+            "y": 2005.09375,
+            "right": 342,
+            "bottom": 2179.09375,
+            "w": 156,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 227,
+            "y": 2019.09375,
+            "right": 301,
+            "bottom": 2087.09375,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 242.046875,
+            "y": 2096.09375,
+            "right": 285.953125,
+            "bottom": 2116.09375,
+            "w": 43.90625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 212.671875,
+            "y": 2121.09375,
+            "right": 315.328125,
+            "bottom": 2149.09375,
+            "w": 102.65625,
+            "h": 28
+          },
+          "text": "인테리어· 유리 필름",
+          "labelText": "교육분야"
+        },
+        {
+          "id": "node-1:484",
+          "derived": null,
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 18,
+            "y": 2191.09375,
+            "right": 174,
+            "bottom": 2365.09375,
+            "w": 156,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 59,
+            "y": 2205.09375,
+            "right": 133,
+            "bottom": 2273.09375,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 72.578125,
+            "y": 2282.09375,
+            "right": 119.40625,
+            "bottom": 2302.09375,
+            "w": 46.828125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 73.015625,
+            "y": 2307.09375,
+            "right": 118.984375,
+            "bottom": 2335.09375,
+            "w": 45.96875,
+            "h": 28
+          },
+          "text": "2회 이상",
+          "labelText": "현장 경험"
+        },
+        {
+          "id": "derived-summary",
+          "derived": "training-timeline-summary-r2",
+          "visible": true,
+          "icon": "timeline",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 186,
+            "y": 2191.09375,
+            "right": 342,
+            "bottom": 2365.09375,
+            "w": 156,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 227,
+            "y": 2205.09375,
+            "right": 301,
+            "bottom": 2273.09375,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 236.984375,
+            "y": 2282.09375,
+            "right": 291,
+            "bottom": 2302.09375,
+            "w": 54.015625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 209.34375,
+            "y": 2307.09375,
+            "right": 318.65625,
+            "bottom": 2335.09375,
+            "w": 109.3125,
+            "h": 28
+          },
+          "text": "밑작업 → 필름 래핑",
+          "labelText": "오전 · 오후"
+        }
+      ],
+      "gridColumns": "156px 156px",
+      "timelineVisible": true,
+      "oldTimelineVisible": false,
+      "stages": [
+        {
+          "key": "morning",
+          "source": "node-1:493",
+          "visible": true,
+          "text": "오전밑작업",
+          "box": {
+            "x": 20,
+            "y": 2397.09375,
+            "right": 340,
+            "bottom": 2455.09375,
+            "w": 320,
+            "h": 58
+          }
+        },
+        {
+          "key": "repeat",
+          "source": "node-1:499",
+          "visible": true,
+          "text": "밑작업",
+          "box": {
+            "x": 20,
+            "y": 2495.09375,
+            "right": 340,
+            "bottom": 2546.28125,
+            "w": 320,
+            "h": 51.1875
+          }
+        },
+        {
+          "key": "afternoon",
+          "source": "node-1:494",
+          "visible": true,
+          "text": "오후필름 래핑",
+          "box": {
+            "x": 20,
+            "y": 2586.28125,
+            "right": 340,
+            "bottom": 2644.28125,
+            "w": 320,
+            "h": 58
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "node": "node-1:501",
+          "visible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 20,
+            "y": 2455.09375,
+            "right": 84,
+            "bottom": 2495.09375,
+            "w": 64,
+            "h": 40
+          }
+        },
+        {
+          "node": "node-1:555",
+          "visible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 20,
+            "y": 2546.28125,
+            "right": 84,
+            "bottom": 2586.28125,
+            "w": 64,
+            "h": 40
+          }
+        }
+      ],
+      "fontLoaded": true,
+      "errors": []
+    },
+    {
+      "requestedWidth": 390,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "specialPoints": [
+        {
+          "index": 0,
+          "visible": true,
+          "lines": 2,
+          "text": "수강생이 스스로 작업할 수 있는 수준까지 교육하는 것을 목표로 합니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 63.5,
+            "y": 975.4375,
+            "right": 370.5,
+            "bottom": 1029.8125,
+            "w": 307,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 19.5,
+            "y": 975.4375,
+            "right": 51.5,
+            "bottom": 1007.4375,
+            "w": 32,
+            "h": 32
+          }
+        },
+        {
+          "index": 1,
+          "visible": true,
+          "lines": 3,
+          "text": "현장 매커니즘을 반영하여 오전 일작업과 프라이머 도포, 오후 필름 래핑 순으로 현장감 있게 수업합니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 63.5,
+            "y": 1049.8125,
+            "right": 370.5,
+            "bottom": 1131.375,
+            "w": 307,
+            "h": 81.5625
+          },
+          "numberBox": {
+            "x": 19.5,
+            "y": 1049.8125,
+            "right": 51.5,
+            "bottom": 1081.8125,
+            "w": 32,
+            "h": 32
+          }
+        },
+        {
+          "index": 2,
+          "visible": true,
+          "lines": 2,
+          "text": "수료 후 개인별 맞춤 · 취업 창업 컨설팅을 통해 필름 시장 진입을 돕습니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 63.5,
+            "y": 1151.375,
+            "right": 370.5,
+            "bottom": 1205.75,
+            "w": 307,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 19.5,
+            "y": 1151.375,
+            "right": 51.5,
+            "bottom": 1183.375,
+            "w": 32,
+            "h": 32
+          }
+        }
+      ],
+      "trainingCards": [
+        {
+          "id": "node-1:102",
+          "derived": null,
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 19.5,
+            "y": 2047.59375,
+            "right": 189,
+            "bottom": 2221.59375,
+            "w": 169.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 67.25,
+            "y": 2061.59375,
+            "right": 141.25,
+            "bottom": 2129.59375,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 82.296875,
+            "y": 2138.59375,
+            "right": 126.203125,
+            "bottom": 2158.59375,
+            "w": 43.90625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 61.359375,
+            "y": 2163.59375,
+            "right": 147.125,
+            "bottom": 2191.59375,
+            "w": 85.765625,
+            "h": 28
+          },
+          "text": "6주· 총 42시간",
+          "labelText": "교육기간"
+        },
+        {
+          "id": "node-1:479",
+          "derived": null,
+          "visible": true,
+          "icon": "field",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 201,
+            "y": 2047.59375,
+            "right": 370.5,
+            "bottom": 2221.59375,
+            "w": 169.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 248.75,
+            "y": 2061.59375,
+            "right": 322.75,
+            "bottom": 2129.59375,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 263.796875,
+            "y": 2138.59375,
+            "right": 307.703125,
+            "bottom": 2158.59375,
+            "w": 43.90625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 231.40625,
+            "y": 2163.59375,
+            "right": 340.078125,
+            "bottom": 2191.59375,
+            "w": 108.671875,
+            "h": 28
+          },
+          "text": "인테리어· 유리 필름",
+          "labelText": "교육분야"
+        },
+        {
+          "id": "node-1:484",
+          "derived": null,
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 19.5,
+            "y": 2233.59375,
+            "right": 189,
+            "bottom": 2407.59375,
+            "w": 169.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 67.25,
+            "y": 2247.59375,
+            "right": 141.25,
+            "bottom": 2315.59375,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 80.828125,
+            "y": 2324.59375,
+            "right": 127.65625,
+            "bottom": 2344.59375,
+            "w": 46.828125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 79.921875,
+            "y": 2349.59375,
+            "right": 128.578125,
+            "bottom": 2377.59375,
+            "w": 48.65625,
+            "h": 28
+          },
+          "text": "2회 이상",
+          "labelText": "현장 경험"
+        },
+        {
+          "id": "derived-summary",
+          "derived": "training-timeline-summary-r2",
+          "visible": true,
+          "icon": "timeline",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 201,
+            "y": 2233.59375,
+            "right": 370.5,
+            "bottom": 2407.59375,
+            "w": 169.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 248.75,
+            "y": 2247.59375,
+            "right": 322.75,
+            "bottom": 2315.59375,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 258.734375,
+            "y": 2324.59375,
+            "right": 312.75,
+            "bottom": 2344.59375,
+            "w": 54.015625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 228.609375,
+            "y": 2349.59375,
+            "right": 342.875,
+            "bottom": 2377.59375,
+            "w": 114.265625,
+            "h": 28
+          },
+          "text": "밑작업 → 필름 래핑",
+          "labelText": "오전 · 오후"
+        }
+      ],
+      "gridColumns": "169.5px 169.5px",
+      "timelineVisible": true,
+      "oldTimelineVisible": false,
+      "stages": [
+        {
+          "key": "morning",
+          "source": "node-1:493",
+          "visible": true,
+          "text": "오전밑작업",
+          "box": {
+            "x": 35,
+            "y": 2439.59375,
+            "right": 355,
+            "bottom": 2497.59375,
+            "w": 320,
+            "h": 58
+          }
+        },
+        {
+          "key": "repeat",
+          "source": "node-1:499",
+          "visible": true,
+          "text": "밑작업",
+          "box": {
+            "x": 35,
+            "y": 2537.59375,
+            "right": 355,
+            "bottom": 2588.78125,
+            "w": 320,
+            "h": 51.1875
+          }
+        },
+        {
+          "key": "afternoon",
+          "source": "node-1:494",
+          "visible": true,
+          "text": "오후필름 래핑",
+          "box": {
+            "x": 35,
+            "y": 2628.78125,
+            "right": 355,
+            "bottom": 2686.78125,
+            "w": 320,
+            "h": 58
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "node": "node-1:501",
+          "visible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 35,
+            "y": 2497.59375,
+            "right": 99,
+            "bottom": 2537.59375,
+            "w": 64,
+            "h": 40
+          }
+        },
+        {
+          "node": "node-1:555",
+          "visible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 35,
+            "y": 2588.78125,
+            "right": 99,
+            "bottom": 2628.78125,
+            "w": 64,
+            "h": 40
+          }
+        }
+      ],
+      "fontLoaded": true,
+      "errors": []
+    },
+    {
+      "requestedWidth": 430,
+      "viewport": 430,
+      "scrollWidth": 430,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "specialPoints": [
+        {
+          "index": 0,
+          "visible": true,
+          "lines": 2,
+          "text": "수강생이 스스로 작업할 수 있는 수준까지 교육하는 것을 목표로 합니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 65.5,
+            "y": 981.59375,
+            "right": 408.5,
+            "bottom": 1035.96875,
+            "w": 343,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 21.5,
+            "y": 981.59375,
+            "right": 53.5,
+            "bottom": 1013.59375,
+            "w": 32,
+            "h": 32
+          }
+        },
+        {
+          "index": 1,
+          "visible": true,
+          "lines": 2,
+          "text": "현장 매커니즘을 반영하여 오전 일작업과 프라이머 도포, 오후 필름 래핑 순으로 현장감 있게 수업합니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 65.5,
+            "y": 1055.96875,
+            "right": 408.5,
+            "bottom": 1110.34375,
+            "w": 343,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 21.5,
+            "y": 1055.96875,
+            "right": 53.5,
+            "bottom": 1087.96875,
+            "w": 32,
+            "h": 32
+          }
+        },
+        {
+          "index": 2,
+          "visible": true,
+          "lines": 2,
+          "text": "수료 후 개인별 맞춤 · 취업 창업 컨설팅을 통해 필름 시장 진입을 돕습니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 65.5,
+            "y": 1130.34375,
+            "right": 408.5,
+            "bottom": 1184.71875,
+            "w": 343,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 21.5,
+            "y": 1130.34375,
+            "right": 53.5,
+            "bottom": 1162.34375,
+            "w": 32,
+            "h": 32
+          }
+        }
+      ],
+      "trainingCards": [
+        {
+          "id": "node-1:102",
+          "derived": null,
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 21.5,
+            "y": 2079.265625,
+            "right": 209,
+            "bottom": 2253.265625,
+            "w": 187.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 78.25,
+            "y": 2093.265625,
+            "right": 152.25,
+            "bottom": 2161.265625,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 93.296875,
+            "y": 2170.265625,
+            "right": 137.203125,
+            "bottom": 2190.265625,
+            "w": 43.90625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 68.953125,
+            "y": 2195.265625,
+            "right": 161.546875,
+            "bottom": 2223.265625,
+            "w": 92.59375,
+            "h": 28
+          },
+          "text": "6주· 총 42시간",
+          "labelText": "교육기간"
+        },
+        {
+          "id": "node-1:479",
+          "derived": null,
+          "visible": true,
+          "icon": "field",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 221,
+            "y": 2079.265625,
+            "right": 408.5,
+            "bottom": 2253.265625,
+            "w": 187.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 277.75,
+            "y": 2093.265625,
+            "right": 351.75,
+            "bottom": 2161.265625,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 292.796875,
+            "y": 2170.265625,
+            "right": 336.703125,
+            "bottom": 2190.265625,
+            "w": 43.90625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 256.078125,
+            "y": 2195.265625,
+            "right": 373.40625,
+            "bottom": 2223.265625,
+            "w": 117.328125,
+            "h": 28
+          },
+          "text": "인테리어· 유리 필름",
+          "labelText": "교육분야"
+        },
+        {
+          "id": "node-1:484",
+          "derived": null,
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 21.5,
+            "y": 2265.265625,
+            "right": 209,
+            "bottom": 2439.265625,
+            "w": 187.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 78.25,
+            "y": 2279.265625,
+            "right": 152.25,
+            "bottom": 2347.265625,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 91.828125,
+            "y": 2356.265625,
+            "right": 138.65625,
+            "bottom": 2376.265625,
+            "w": 46.828125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 88.984375,
+            "y": 2381.265625,
+            "right": 141.515625,
+            "bottom": 2409.265625,
+            "w": 52.53125,
+            "h": 28
+          },
+          "text": "2회 이상",
+          "labelText": "현장 경험"
+        },
+        {
+          "id": "derived-summary",
+          "derived": "training-timeline-summary-r2",
+          "visible": true,
+          "icon": "timeline",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 221,
+            "y": 2265.265625,
+            "right": 408.5,
+            "bottom": 2439.265625,
+            "w": 187.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 277.75,
+            "y": 2279.265625,
+            "right": 351.75,
+            "bottom": 2347.265625,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 287.734375,
+            "y": 2356.265625,
+            "right": 341.75,
+            "bottom": 2376.265625,
+            "w": 54.015625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 254.046875,
+            "y": 2381.265625,
+            "right": 375.4375,
+            "bottom": 2409.265625,
+            "w": 121.390625,
+            "h": 28
+          },
+          "text": "밑작업 → 필름 래핑",
+          "labelText": "오전 · 오후"
+        }
+      ],
+      "gridColumns": "187.5px 187.5px",
+      "timelineVisible": true,
+      "oldTimelineVisible": false,
+      "stages": [
+        {
+          "key": "morning",
+          "source": "node-1:493",
+          "visible": true,
+          "text": "오전밑작업",
+          "box": {
+            "x": 55,
+            "y": 2471.265625,
+            "right": 375,
+            "bottom": 2529.265625,
+            "w": 320,
+            "h": 58
+          }
+        },
+        {
+          "key": "repeat",
+          "source": "node-1:499",
+          "visible": true,
+          "text": "밑작업",
+          "box": {
+            "x": 55,
+            "y": 2569.265625,
+            "right": 375,
+            "bottom": 2620.453125,
+            "w": 320,
+            "h": 51.1875
+          }
+        },
+        {
+          "key": "afternoon",
+          "source": "node-1:494",
+          "visible": true,
+          "text": "오후필름 래핑",
+          "box": {
+            "x": 55,
+            "y": 2660.453125,
+            "right": 375,
+            "bottom": 2718.453125,
+            "w": 320,
+            "h": 58
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "node": "node-1:501",
+          "visible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 55,
+            "y": 2529.265625,
+            "right": 119,
+            "bottom": 2569.265625,
+            "w": 64,
+            "h": 40
+          }
+        },
+        {
+          "node": "node-1:555",
+          "visible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 55,
+            "y": 2620.453125,
+            "right": 119,
+            "bottom": 2660.453125,
+            "w": 64,
+            "h": 40
+          }
+        }
+      ],
+      "fontLoaded": true,
+      "errors": []
+    },
+    {
+      "requestedWidth": 600,
+      "viewport": 585,
+      "scrollWidth": 585,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "specialPoints": [
+        {
+          "index": 0,
+          "visible": true,
+          "lines": 1,
+          "text": "수강생이 스스로 작업할 수 있는 수준까지 교육하는 것을 목표로 합니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 68,
+            "y": 991.46875,
+            "right": 561,
+            "bottom": 1018.65625,
+            "w": 493,
+            "h": 27.1875
+          },
+          "numberBox": {
+            "x": 24,
+            "y": 991.46875,
+            "right": 56,
+            "bottom": 1023.46875,
+            "w": 32,
+            "h": 32
+          }
+        },
+        {
+          "index": 1,
+          "visible": true,
+          "lines": 2,
+          "text": "현장 매커니즘을 반영하여 오전 일작업과 프라이머 도포, 오후 필름 래핑 순으로 현장감 있게 수업합니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 68,
+            "y": 1043.46875,
+            "right": 561,
+            "bottom": 1097.84375,
+            "w": 493,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 24,
+            "y": 1043.46875,
+            "right": 56,
+            "bottom": 1075.46875,
+            "w": 32,
+            "h": 32
+          }
+        },
+        {
+          "index": 2,
+          "visible": true,
+          "lines": 1,
+          "text": "수료 후 개인별 맞춤 · 취업 창업 컨설팅을 통해 필름 시장 진입을 돕습니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 68,
+            "y": 1117.84375,
+            "right": 561,
+            "bottom": 1145.03125,
+            "w": 493,
+            "h": 27.1875
+          },
+          "numberBox": {
+            "x": 24,
+            "y": 1117.84375,
+            "right": 56,
+            "bottom": 1149.84375,
+            "w": 32,
+            "h": 32
+          }
+        }
+      ],
+      "trainingCards": [
+        {
+          "id": "node-1:102",
+          "derived": null,
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 24,
+            "y": 2179.8125,
+            "right": 286.5,
+            "bottom": 2353.8125,
+            "w": 262.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 118.25,
+            "y": 2193.8125,
+            "right": 192.25,
+            "bottom": 2261.8125,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 133.296875,
+            "y": 2270.8125,
+            "right": 177.203125,
+            "bottom": 2290.8125,
+            "w": 43.90625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 108.953125,
+            "y": 2295.8125,
+            "right": 201.546875,
+            "bottom": 2323.8125,
+            "w": 92.59375,
+            "h": 28
+          },
+          "text": "6주· 총 42시간",
+          "labelText": "교육기간"
+        },
+        {
+          "id": "node-1:479",
+          "derived": null,
+          "visible": true,
+          "icon": "field",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 298.5,
+            "y": 2179.8125,
+            "right": 561,
+            "bottom": 2353.8125,
+            "w": 262.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 392.75,
+            "y": 2193.8125,
+            "right": 466.75,
+            "bottom": 2261.8125,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 407.796875,
+            "y": 2270.8125,
+            "right": 451.703125,
+            "bottom": 2290.8125,
+            "w": 43.90625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 371.078125,
+            "y": 2295.8125,
+            "right": 488.40625,
+            "bottom": 2323.8125,
+            "w": 117.328125,
+            "h": 28
+          },
+          "text": "인테리어· 유리 필름",
+          "labelText": "교육분야"
+        },
+        {
+          "id": "node-1:484",
+          "derived": null,
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 24,
+            "y": 2365.8125,
+            "right": 286.5,
+            "bottom": 2539.8125,
+            "w": 262.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 118.25,
+            "y": 2379.8125,
+            "right": 192.25,
+            "bottom": 2447.8125,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 131.828125,
+            "y": 2456.8125,
+            "right": 178.65625,
+            "bottom": 2476.8125,
+            "w": 46.828125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 128.984375,
+            "y": 2481.8125,
+            "right": 181.515625,
+            "bottom": 2509.8125,
+            "w": 52.53125,
+            "h": 28
+          },
+          "text": "2회 이상",
+          "labelText": "현장 경험"
+        },
+        {
+          "id": "derived-summary",
+          "derived": "training-timeline-summary-r2",
+          "visible": true,
+          "icon": "timeline",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 298.5,
+            "y": 2365.8125,
+            "right": 561,
+            "bottom": 2539.8125,
+            "w": 262.5,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 392.75,
+            "y": 2379.8125,
+            "right": 466.75,
+            "bottom": 2447.8125,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 402.734375,
+            "y": 2456.8125,
+            "right": 456.75,
+            "bottom": 2476.8125,
+            "w": 54.015625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 369.046875,
+            "y": 2481.8125,
+            "right": 490.4375,
+            "bottom": 2509.8125,
+            "w": 121.390625,
+            "h": 28
+          },
+          "text": "밑작업 → 필름 래핑",
+          "labelText": "오전 · 오후"
+        }
+      ],
+      "gridColumns": "262.5px 262.5px",
+      "timelineVisible": true,
+      "oldTimelineVisible": false,
+      "stages": [
+        {
+          "key": "morning",
+          "source": "node-1:493",
+          "visible": true,
+          "text": "오전밑작업",
+          "box": {
+            "x": 132.5,
+            "y": 2571.8125,
+            "right": 452.5,
+            "bottom": 2629.8125,
+            "w": 320,
+            "h": 58
+          }
+        },
+        {
+          "key": "repeat",
+          "source": "node-1:499",
+          "visible": true,
+          "text": "밑작업",
+          "box": {
+            "x": 132.5,
+            "y": 2669.8125,
+            "right": 452.5,
+            "bottom": 2721,
+            "w": 320,
+            "h": 51.1875
+          }
+        },
+        {
+          "key": "afternoon",
+          "source": "node-1:494",
+          "visible": true,
+          "text": "오후필름 래핑",
+          "box": {
+            "x": 132.5,
+            "y": 2761,
+            "right": 452.5,
+            "bottom": 2819,
+            "w": 320,
+            "h": 58
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "node": "node-1:501",
+          "visible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 132.5,
+            "y": 2629.8125,
+            "right": 196.5,
+            "bottom": 2669.8125,
+            "w": 64,
+            "h": 40
+          }
+        },
+        {
+          "node": "node-1:555",
+          "visible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 132.5,
+            "y": 2721,
+            "right": 196.5,
+            "bottom": 2761,
+            "w": 64,
+            "h": 40
+          }
+        }
+      ],
+      "fontLoaded": true,
+      "errors": []
+    },
+    {
+      "requestedWidth": 699,
+      "viewport": 684,
+      "scrollWidth": 684,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "specialPoints": [
+        {
+          "index": 0,
+          "visible": true,
+          "lines": 1,
+          "text": "수강생이 스스로 작업할 수 있는 수준까지 교육하는 것을 목표로 합니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 68,
+            "y": 991.46875,
+            "right": 660,
+            "bottom": 1018.65625,
+            "w": 592,
+            "h": 27.1875
+          },
+          "numberBox": {
+            "x": 24,
+            "y": 991.46875,
+            "right": 56,
+            "bottom": 1023.46875,
+            "w": 32,
+            "h": 32
+          }
+        },
+        {
+          "index": 1,
+          "visible": true,
+          "lines": 2,
+          "text": "현장 매커니즘을 반영하여 오전 일작업과 프라이머 도포, 오후 필름 래핑 순으로 현장감 있게 수업합니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 68,
+            "y": 1043.46875,
+            "right": 660,
+            "bottom": 1097.84375,
+            "w": 592,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 24,
+            "y": 1043.46875,
+            "right": 56,
+            "bottom": 1075.46875,
+            "w": 32,
+            "h": 32
+          }
+        },
+        {
+          "index": 2,
+          "visible": true,
+          "lines": 1,
+          "text": "수료 후 개인별 맞춤 · 취업 창업 컨설팅을 통해 필름 시장 진입을 돕습니다.",
+          "sourceMatches": true,
+          "fontSize": "16px",
+          "whiteSpace": "normal",
+          "box": {
+            "x": 68,
+            "y": 1117.84375,
+            "right": 660,
+            "bottom": 1145.03125,
+            "w": 592,
+            "h": 27.1875
+          },
+          "numberBox": {
+            "x": 24,
+            "y": 1117.84375,
+            "right": 56,
+            "bottom": 1149.84375,
+            "w": 32,
+            "h": 32
+          }
+        }
+      ],
+      "trainingCards": [
+        {
+          "id": "node-1:102",
+          "derived": null,
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 24,
+            "y": 2225.765625,
+            "right": 336,
+            "bottom": 2399.765625,
+            "w": 312,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 143,
+            "y": 2239.765625,
+            "right": 217,
+            "bottom": 2307.765625,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 158.046875,
+            "y": 2316.765625,
+            "right": 201.953125,
+            "bottom": 2336.765625,
+            "w": 43.90625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 133.703125,
+            "y": 2341.765625,
+            "right": 226.296875,
+            "bottom": 2369.765625,
+            "w": 92.59375,
+            "h": 28
+          },
+          "text": "6주· 총 42시간",
+          "labelText": "교육기간"
+        },
+        {
+          "id": "node-1:479",
+          "derived": null,
+          "visible": true,
+          "icon": "field",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 348,
+            "y": 2225.765625,
+            "right": 660,
+            "bottom": 2399.765625,
+            "w": 312,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 467,
+            "y": 2239.765625,
+            "right": 541,
+            "bottom": 2307.765625,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 482.046875,
+            "y": 2316.765625,
+            "right": 525.953125,
+            "bottom": 2336.765625,
+            "w": 43.90625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 445.328125,
+            "y": 2341.765625,
+            "right": 562.65625,
+            "bottom": 2369.765625,
+            "w": 117.328125,
+            "h": 28
+          },
+          "text": "인테리어· 유리 필름",
+          "labelText": "교육분야"
+        },
+        {
+          "id": "node-1:484",
+          "derived": null,
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 24,
+            "y": 2411.765625,
+            "right": 336,
+            "bottom": 2585.765625,
+            "w": 312,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 143,
+            "y": 2425.765625,
+            "right": 217,
+            "bottom": 2493.765625,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 156.578125,
+            "y": 2502.765625,
+            "right": 203.40625,
+            "bottom": 2522.765625,
+            "w": 46.828125,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 153.734375,
+            "y": 2527.765625,
+            "right": 206.265625,
+            "bottom": 2555.765625,
+            "w": 52.53125,
+            "h": 28
+          },
+          "text": "2회 이상",
+          "labelText": "현장 경험"
+        },
+        {
+          "id": "derived-summary",
+          "derived": "training-timeline-summary-r2",
+          "visible": true,
+          "icon": "timeline",
+          "iconVisible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 348,
+            "y": 2411.765625,
+            "right": 660,
+            "bottom": 2585.765625,
+            "w": 312,
+            "h": 174
+          },
+          "iconBox": {
+            "x": 467,
+            "y": 2425.765625,
+            "right": 541,
+            "bottom": 2493.765625,
+            "w": 74,
+            "h": 68
+          },
+          "labelBox": {
+            "x": 476.984375,
+            "y": 2502.765625,
+            "right": 531,
+            "bottom": 2522.765625,
+            "w": 54.015625,
+            "h": 20
+          },
+          "valueBox": {
+            "x": 443.296875,
+            "y": 2527.765625,
+            "right": 564.6875,
+            "bottom": 2555.765625,
+            "w": 121.390625,
+            "h": 28
+          },
+          "text": "밑작업 → 필름 래핑",
+          "labelText": "오전 · 오후"
+        }
+      ],
+      "gridColumns": "312px 312px",
+      "timelineVisible": true,
+      "oldTimelineVisible": false,
+      "stages": [
+        {
+          "key": "morning",
+          "source": "node-1:493",
+          "visible": true,
+          "text": "오전밑작업",
+          "box": {
+            "x": 182,
+            "y": 2617.765625,
+            "right": 502,
+            "bottom": 2675.765625,
+            "w": 320,
+            "h": 58
+          }
+        },
+        {
+          "key": "repeat",
+          "source": "node-1:499",
+          "visible": true,
+          "text": "밑작업",
+          "box": {
+            "x": 182,
+            "y": 2715.765625,
+            "right": 502,
+            "bottom": 2766.953125,
+            "w": 320,
+            "h": 51.1875
+          }
+        },
+        {
+          "key": "afternoon",
+          "source": "node-1:494",
+          "visible": true,
+          "text": "오후필름 래핑",
+          "box": {
+            "x": 182,
+            "y": 2806.953125,
+            "right": 502,
+            "bottom": 2864.953125,
+            "w": 320,
+            "h": 58
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "node": "node-1:501",
+          "visible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 182,
+            "y": 2675.765625,
+            "right": 246,
+            "bottom": 2715.765625,
+            "w": 64,
+            "h": 40
+          }
+        },
+        {
+          "node": "node-1:555",
+          "visible": true,
+          "imageLoaded": true,
+          "box": {
+            "x": 182,
+            "y": 2766.953125,
+            "right": 246,
+            "bottom": 2806.953125,
+            "w": 64,
+            "h": 40
+          }
+        }
+      ],
+      "fontLoaded": true,
+      "errors": []
+    },
+    {
+      "requestedWidth": 768,
+      "viewport": 753,
+      "scrollWidth": 753,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "specialPoints": [
+        {
+          "index": 0,
+          "visible": true,
+          "lines": 3,
+          "text": "수강생이 스스로 작업할 수 있는 수준까지 교육하는 것을 목표로 합니다.",
+          "sourceMatches": true,
+          "fontSize": "18px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 78.046875,
+            "y": 1105.28125,
+            "right": 361.125,
+            "bottom": 1186.84375,
+            "w": 283.078125,
+            "h": 81.5625
+          },
+          "numberBox": {
+            "x": 30.71875,
+            "y": 1105.28125,
+            "right": 58.046875,
+            "bottom": 1137.28125,
+            "w": 27.328125,
+            "h": 32
+          }
+        },
+        {
+          "index": 1,
+          "visible": true,
+          "lines": 3,
+          "text": "현장 매커니즘을 반영하여 오전 일작업과 프라이머 도포, 오후 필름 래핑 순으로 현장감 있게 수업합니다.",
+          "sourceMatches": true,
+          "fontSize": "18px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 78.90625,
+            "y": 1210.84375,
+            "right": 358.421875,
+            "bottom": 1292.40625,
+            "w": 279.515625,
+            "h": 81.5625
+          },
+          "numberBox": {
+            "x": 30.71875,
+            "y": 1210.84375,
+            "right": 58.90625,
+            "bottom": 1242.84375,
+            "w": 28.1875,
+            "h": 32
+          }
+        },
+        {
+          "index": 2,
+          "visible": true,
+          "lines": 2,
+          "text": "수료 후 개인별 맞춤 · 취업 창업 컨설팅을 통해 필름 시장 진입을 돕습니다.",
+          "sourceMatches": true,
+          "fontSize": "18px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 79.578125,
+            "y": 1316.40625,
+            "right": 360.6875,
+            "bottom": 1370.78125,
+            "w": 281.109375,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 30.71875,
+            "y": 1316.40625,
+            "right": 59.578125,
+            "bottom": 1348.40625,
+            "w": 28.859375,
+            "h": 32
+          }
+        }
+      ],
+      "trainingCards": [
+        {
+          "id": "node-1:102",
+          "derived": null,
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 30.71875,
+            "y": 2003.234375,
+            "right": 247.890625,
+            "bottom": 2111.234375,
+            "w": 217.171875,
+            "h": 108
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 52.71875,
+            "y": 2025.234375,
+            "right": 225.890625,
+            "bottom": 2049.234375,
+            "w": 173.171875,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 52.71875,
+            "y": 2061.234375,
+            "right": 225.890625,
+            "bottom": 2089.234375,
+            "w": 173.171875,
+            "h": 28
+          },
+          "text": "6주· 총 42시간",
+          "labelText": "교육기간"
+        },
+        {
+          "id": "node-1:479",
+          "derived": null,
+          "visible": true,
+          "icon": "field",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 267.890625,
+            "y": 2003.234375,
+            "right": 485.078125,
+            "bottom": 2111.234375,
+            "w": 217.1875,
+            "h": 108
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 289.890625,
+            "y": 2025.234375,
+            "right": 463.078125,
+            "bottom": 2049.234375,
+            "w": 173.1875,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 289.890625,
+            "y": 2061.234375,
+            "right": 463.078125,
+            "bottom": 2089.234375,
+            "w": 173.1875,
+            "h": 28
+          },
+          "text": "인테리어· 유리 필름",
+          "labelText": "교육분야"
+        },
+        {
+          "id": "node-1:484",
+          "derived": null,
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 505.078125,
+            "y": 2003.234375,
+            "right": 722.265625,
+            "bottom": 2111.234375,
+            "w": 217.1875,
+            "h": 108
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 527.078125,
+            "y": 2025.234375,
+            "right": 700.265625,
+            "bottom": 2049.234375,
+            "w": 173.1875,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 527.078125,
+            "y": 2061.234375,
+            "right": 700.265625,
+            "bottom": 2089.234375,
+            "w": 173.1875,
+            "h": 28
+          },
+          "text": "2회 이상",
+          "labelText": "현장 경험"
+        },
+        {
+          "id": "derived-summary",
+          "derived": "training-timeline-summary-r2",
+          "visible": false,
+          "icon": "timeline",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "text": "밑작업 → 필름 래핑",
+          "labelText": "오전 · 오후"
+        }
+      ],
+      "gridColumns": "217.172px 217.188px 217.188px",
+      "timelineVisible": false,
+      "oldTimelineVisible": true,
+      "stages": [
+        {
+          "key": "morning",
+          "source": "node-1:493",
+          "visible": false,
+          "text": "오전밑작업",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "key": "repeat",
+          "source": "node-1:499",
+          "visible": false,
+          "text": "밑작업",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "key": "afternoon",
+          "source": "node-1:494",
+          "visible": false,
+          "text": "오후필름 래핑",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "node": "node-1:501",
+          "visible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "node": "node-1:555",
+          "visible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "fontLoaded": true,
+      "errors": []
+    },
+    {
+      "requestedWidth": 1024,
+      "viewport": 1009,
+      "scrollWidth": 1009,
+      "sceneVisible": false,
+      "reflowVisible": true,
+      "specialPoints": [
+        {
+          "index": 0,
+          "visible": true,
+          "lines": 2,
+          "text": "수강생이 스스로 작업할 수 있는 수준까지 교육하는 것을 목표로 합니다.",
+          "sourceMatches": true,
+          "fontSize": "18px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 89.46875,
+            "y": 1184.84375,
+            "right": 372.75,
+            "bottom": 1239.21875,
+            "w": 283.28125,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 40.953125,
+            "y": 1184.84375,
+            "right": 69.46875,
+            "bottom": 1216.84375,
+            "w": 28.515625,
+            "h": 32
+          }
+        },
+        {
+          "index": 1,
+          "visible": true,
+          "lines": 3,
+          "text": "현장 매커니즘을 반영하여 오전 일작업과 프라이머 도포, 오후 필름 래핑 순으로 현장감 있게 수업합니다.",
+          "sourceMatches": true,
+          "fontSize": "18px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 90.359375,
+            "y": 1263.21875,
+            "right": 369.875,
+            "bottom": 1344.78125,
+            "w": 279.515625,
+            "h": 81.5625
+          },
+          "numberBox": {
+            "x": 40.953125,
+            "y": 1263.21875,
+            "right": 70.359375,
+            "bottom": 1295.21875,
+            "w": 29.40625,
+            "h": 32
+          }
+        },
+        {
+          "index": 2,
+          "visible": true,
+          "lines": 2,
+          "text": "수료 후 개인별 맞춤 · 취업 창업 컨설팅을 통해 필름 시장 진입을 돕습니다.",
+          "sourceMatches": true,
+          "fontSize": "18px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 91.0625,
+            "y": 1368.78125,
+            "right": 372.171875,
+            "bottom": 1423.15625,
+            "w": 281.109375,
+            "h": 54.375
+          },
+          "numberBox": {
+            "x": 40.953125,
+            "y": 1368.78125,
+            "right": 71.0625,
+            "bottom": 1400.78125,
+            "w": 30.109375,
+            "h": 32
+          }
+        }
+      ],
+      "trainingCards": [
+        {
+          "id": "node-1:102",
+          "derived": null,
+          "visible": true,
+          "icon": "duration",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 40.953125,
+            "y": 2228.375,
+            "right": 336.640625,
+            "bottom": 2336.375,
+            "w": 295.6875,
+            "h": 108
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 62.953125,
+            "y": 2250.375,
+            "right": 314.640625,
+            "bottom": 2274.375,
+            "w": 251.6875,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 62.953125,
+            "y": 2286.375,
+            "right": 314.640625,
+            "bottom": 2314.375,
+            "w": 251.6875,
+            "h": 28
+          },
+          "text": "6주· 총 42시간",
+          "labelText": "교육기간"
+        },
+        {
+          "id": "node-1:479",
+          "derived": null,
+          "visible": true,
+          "icon": "field",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 356.640625,
+            "y": 2228.375,
+            "right": 652.328125,
+            "bottom": 2336.375,
+            "w": 295.6875,
+            "h": 108
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 378.640625,
+            "y": 2250.375,
+            "right": 630.328125,
+            "bottom": 2274.375,
+            "w": 251.6875,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 378.640625,
+            "y": 2286.375,
+            "right": 630.328125,
+            "bottom": 2314.375,
+            "w": 251.6875,
+            "h": 28
+          },
+          "text": "인테리어· 유리 필름",
+          "labelText": "교육분야"
+        },
+        {
+          "id": "node-1:484",
+          "derived": null,
+          "visible": true,
+          "icon": "experience",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 672.328125,
+            "y": 2228.375,
+            "right": 968.03125,
+            "bottom": 2336.375,
+            "w": 295.703125,
+            "h": 108
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 694.328125,
+            "y": 2250.375,
+            "right": 946.03125,
+            "bottom": 2274.375,
+            "w": 251.703125,
+            "h": 24
+          },
+          "valueBox": {
+            "x": 694.328125,
+            "y": 2286.375,
+            "right": 946.03125,
+            "bottom": 2314.375,
+            "w": 251.703125,
+            "h": 28
+          },
+          "text": "2회 이상",
+          "labelText": "현장 경험"
+        },
+        {
+          "id": "derived-summary",
+          "derived": "training-timeline-summary-r2",
+          "visible": false,
+          "icon": "timeline",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "text": "밑작업 → 필름 래핑",
+          "labelText": "오전 · 오후"
+        }
+      ],
+      "gridColumns": "295.688px 295.688px 295.703px",
+      "timelineVisible": false,
+      "oldTimelineVisible": true,
+      "stages": [
+        {
+          "key": "morning",
+          "source": "node-1:493",
+          "visible": false,
+          "text": "오전밑작업",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "key": "repeat",
+          "source": "node-1:499",
+          "visible": false,
+          "text": "밑작업",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "key": "afternoon",
+          "source": "node-1:494",
+          "visible": false,
+          "text": "오후필름 래핑",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "node": "node-1:501",
+          "visible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "node": "node-1:555",
+          "visible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "fontLoaded": true,
+      "errors": []
+    },
+    {
+      "requestedWidth": 1280,
+      "viewport": 1265,
+      "scrollWidth": 1265,
+      "sceneVisible": true,
+      "reflowVisible": false,
+      "specialPoints": [
+        {
+          "index": 0,
+          "visible": false,
+          "lines": 0,
+          "text": "수강생이 스스로 작업할 수 있는 수준까지 교육하는 것을 목표로 합니다.",
+          "sourceMatches": true,
+          "fontSize": "18px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "numberBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "index": 1,
+          "visible": false,
+          "lines": 0,
+          "text": "현장 매커니즘을 반영하여 오전 일작업과 프라이머 도포, 오후 필름 래핑 순으로 현장감 있게 수업합니다.",
+          "sourceMatches": true,
+          "fontSize": "18px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "numberBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "index": 2,
+          "visible": false,
+          "lines": 0,
+          "text": "수료 후 개인별 맞춤 · 취업 창업 컨설팅을 통해 필름 시장 진입을 돕습니다.",
+          "sourceMatches": true,
+          "fontSize": "18px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "numberBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "trainingCards": [
+        {
+          "id": "node-1:102",
+          "derived": null,
+          "visible": false,
+          "icon": "duration",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "text": "6주· 총 42시간",
+          "labelText": "교육기간"
+        },
+        {
+          "id": "node-1:479",
+          "derived": null,
+          "visible": false,
+          "icon": "field",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "text": "인테리어· 유리 필름",
+          "labelText": "교육분야"
+        },
+        {
+          "id": "node-1:484",
+          "derived": null,
+          "visible": false,
+          "icon": "experience",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "text": "2회 이상",
+          "labelText": "현장 경험"
+        },
+        {
+          "id": "derived-summary",
+          "derived": "training-timeline-summary-r2",
+          "visible": false,
+          "icon": "timeline",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "text": "밑작업 → 필름 래핑",
+          "labelText": "오전 · 오후"
+        }
+      ],
+      "gridColumns": "repeat(3, minmax(0px, 1fr))",
+      "timelineVisible": false,
+      "oldTimelineVisible": false,
+      "stages": [
+        {
+          "key": "morning",
+          "source": "node-1:493",
+          "visible": false,
+          "text": "오전밑작업",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "key": "repeat",
+          "source": "node-1:499",
+          "visible": false,
+          "text": "밑작업",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "key": "afternoon",
+          "source": "node-1:494",
+          "visible": false,
+          "text": "오후필름 래핑",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "node": "node-1:501",
+          "visible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "node": "node-1:555",
+          "visible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "fontLoaded": true,
+      "errors": []
+    },
+    {
+      "requestedWidth": 1920,
+      "viewport": 1905,
+      "scrollWidth": 1905,
+      "sceneVisible": true,
+      "reflowVisible": false,
+      "specialPoints": [
+        {
+          "index": 0,
+          "visible": false,
+          "lines": 0,
+          "text": "수강생이 스스로 작업할 수 있는 수준까지 교육하는 것을 목표로 합니다.",
+          "sourceMatches": true,
+          "fontSize": "24.9999px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "numberBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "index": 1,
+          "visible": false,
+          "lines": 0,
+          "text": "현장 매커니즘을 반영하여 오전 일작업과 프라이머 도포, 오후 필름 래핑 순으로 현장감 있게 수업합니다.",
+          "sourceMatches": true,
+          "fontSize": "24.9999px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "numberBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "index": 2,
+          "visible": false,
+          "lines": 0,
+          "text": "수료 후 개인별 맞춤 · 취업 창업 컨설팅을 통해 필름 시장 진입을 돕습니다.",
+          "sourceMatches": true,
+          "fontSize": "24.9999px",
+          "whiteSpace": "pre-line",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "numberBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "trainingCards": [
+        {
+          "id": "node-1:102",
+          "derived": null,
+          "visible": false,
+          "icon": "duration",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "text": "6주· 총 42시간",
+          "labelText": "교육기간"
+        },
+        {
+          "id": "node-1:479",
+          "derived": null,
+          "visible": false,
+          "icon": "field",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "text": "인테리어· 유리 필름",
+          "labelText": "교육분야"
+        },
+        {
+          "id": "node-1:484",
+          "derived": null,
+          "visible": false,
+          "icon": "experience",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "text": "2회 이상",
+          "labelText": "현장 경험"
+        },
+        {
+          "id": "derived-summary",
+          "derived": "training-timeline-summary-r2",
+          "visible": false,
+          "icon": "timeline",
+          "iconVisible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "iconBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "labelBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "valueBox": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          },
+          "text": "밑작업 → 필름 래핑",
+          "labelText": "오전 · 오후"
+        }
+      ],
+      "gridColumns": "repeat(3, minmax(0px, 1fr))",
+      "timelineVisible": false,
+      "oldTimelineVisible": false,
+      "stages": [
+        {
+          "key": "morning",
+          "source": "node-1:493",
+          "visible": false,
+          "text": "오전밑작업",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "key": "repeat",
+          "source": "node-1:499",
+          "visible": false,
+          "text": "밑작업",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "key": "afternoon",
+          "source": "node-1:494",
+          "visible": false,
+          "text": "오후필름 래핑",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "arrows": [
+        {
+          "node": "node-1:501",
+          "visible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "node": "node-1:555",
+          "visible": false,
+          "imageLoaded": true,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "fontLoaded": true,
+      "errors": []
+    }
+  ],
+  "originalFigmaPixelParity": "NOT_RUN",
+  "actualCmsPublication": "NOT_TESTED"
+}

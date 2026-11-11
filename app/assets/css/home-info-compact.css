@@ -1,0 +1,19 @@
+/* SMD_HOME_LAYOUT_R1 CF3: info-bar presentation viewport only.
+   Original source canvas remains 1920x310 in figmaScene; SVG viewBox is 1920x253.8.
+   Clip old background paint beyond the compact bar boundary, never stretch the SVG. */
+.smd-home-intro .smd-figma-scene-section--info-bar .smd-figma-scene-svg {
+  height: auto;
+  overflow: hidden;
+}
+/* .smd-home-intro__item owns opacity/translateY; the nested layout <g>
+   owns only SVG-local icon/text placement. Never override either transform in CSS. */
+
+/* SMD-HOME-OPTICAL-R1 CF2: only the fourth info value owns intrinsic-width
+   centering. Its Figma 234px node rect and original text runs stay unchanged.
+   FigmaNativeText's parent flex align-items:center owns the final ink center. */
+.smd-home-intro .smd-figma-scene-section--info-bar
+  foreignObject[data-figma-text-instance="node-18:59"] .smd-figma-native-text__runs {
+  width: max-content;
+  min-width: 100%;
+  max-width: none;
+}

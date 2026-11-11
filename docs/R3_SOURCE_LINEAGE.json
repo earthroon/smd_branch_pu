@@ -1,0 +1,619 @@
+{
+  "schema": "SMD_R3_S1_S2_SOURCE_LINEAGE_V1",
+  "project": "smd-public",
+  "parentZip": "SMD_NUXT_R2_CF05_CF2_P4_P5_FULL_BAKED_UNVERIFIED.zip",
+  "parentSha256": "0cb284d6cc57323e508fcaa9abf5e46eaffbb06402a7256141194661959c9ff0",
+  "entries": [
+    {
+      "parent": ".env.example",
+      "project": "both",
+      "destination": "GENERATE_SEPARATE_ENV_AND_IGNORE",
+      "sourceSha256": "69623c25db0e795c50289060f8ea1217ad2486dbe2b3786dde8c4a783c7f3211",
+      "action": "EXPLICIT_REGENERATE"
+    },
+    {
+      "parent": ".gitignore",
+      "project": "both",
+      "destination": "GENERATE_SEPARATE_ENV_AND_IGNORE",
+      "sourceSha256": "64e5d8a8b4062b2100ff11548765c59c0113783c7a0f3824992c7f0fd59b0192",
+      "action": "EXPLICIT_REGENERATE"
+    },
+    {
+      "parent": "README.md",
+      "project": "both",
+      "destination": "GENERATE_INDEPENDENT_READMES",
+      "sourceSha256": "e6b048e3dc681a7d5b64b4d154fa549bd33cea6d198eaf91eddb095986813b35",
+      "action": "EXPLICIT_REGENERATE"
+    },
+    {
+      "parent": "app/app.vue",
+      "project": "smd-public",
+      "destination": "app/app.vue",
+      "sourceSha256": "38788925746d632e4cf743680da041004d182d167f8e8ada093c876367e9a19c",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/assets/css/main.css",
+      "project": "smd-public",
+      "destination": "app/assets/css/main.css",
+      "sourceSha256": "e695e2bb90ffeb2f3b8ec5ace7ed18c20cf73362ecbccd95ac3b3ef5363054d6",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/bot/InquiryBot.vue",
+      "project": "smd-public",
+      "destination": "app/components/bot/InquiryBot.vue",
+      "sourceSha256": "a7bfb0686319342696592d238c241ad5fde0b1e3164c5174bfda764cf53bccdb",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/cms/CardGridBlock.vue",
+      "project": "smd-public",
+      "destination": "app/components/cms/CardGridBlock.vue",
+      "sourceSha256": "bdbe989ba9e8e1887cc8ba0843c251d7cb5dcc48928cdb7ad79076e39cb1bc68",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/cms/CmsSlot.vue",
+      "project": "smd-public",
+      "destination": "app/components/cms/CmsSlot.vue",
+      "sourceSha256": "2723f957a88a98a9d23cba24fa53870dff7aaeb64324ee59295fa6d292130a20",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/cms/FaqGroupBlock.vue",
+      "project": "smd-public",
+      "destination": "app/components/cms/FaqGroupBlock.vue",
+      "sourceSha256": "44cb6ac56912d8b50e3d0ffe6c1f2b672c79b8ea414d012104ade67b267f0428",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/cms/FaqItemBlock.vue",
+      "project": "smd-public",
+      "destination": "app/components/cms/FaqItemBlock.vue",
+      "sourceSha256": "a5038f18f0a9307fdffffdcf070508afa052e2a877eb133d84a87ae95707b08c",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/cms/ImageCardBlock.vue",
+      "project": "smd-public",
+      "destination": "app/components/cms/ImageCardBlock.vue",
+      "sourceSha256": "c535f9ec8fa00325364a006e75ffb5033a0b597f8e920483169ba2dbf42a0ddb",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/cms/NoticeBlock.vue",
+      "project": "smd-public",
+      "destination": "app/components/cms/NoticeBlock.vue",
+      "sourceSha256": "45c569adae5b67d2bc3ba8e38dd14e605d2470970a06c1fbcc670f974dd6a59b",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/cms/cms-component-registry.ts",
+      "project": "smd-public",
+      "destination": "app/components/cms/cms-component-registry.ts",
+      "sourceSha256": "d3a7164465b84203b174954789af3b51ad0ee1c6ec7ce58f1f7e5d67260022d4",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/contact/ContactForm.vue",
+      "project": "smd-public",
+      "destination": "app/components/contact/ContactForm.vue",
+      "sourceSha256": "f8bd21e066abab054bfb793280c55306d17d17c3eec329d1b3112bceb5b606fe",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/contact/TurnstileWidget.vue",
+      "project": "smd-public",
+      "destination": "app/components/contact/TurnstileWidget.vue",
+      "sourceSha256": "26ffa565784e093467787cc1a4b5e70369f4d70cad149cfe9121a057c9d9f2a8",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/feature/ArchiveGallery.vue",
+      "project": "smd-public",
+      "destination": "app/components/feature/ArchiveGallery.vue",
+      "sourceSha256": "f829ece4cab891b16d250dc1411ca4e69a8dea469f2d70df3a51309d7918c2b5",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/feature/CtaBand.vue",
+      "project": "smd-public",
+      "destination": "app/components/feature/CtaBand.vue",
+      "sourceSha256": "71623081deb4792e8f75c2475223b4f1eb3fb293a793680e8fd5e57216df81cb",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/feature/PageHero.vue",
+      "project": "smd-public",
+      "destination": "app/components/feature/PageHero.vue",
+      "sourceSha256": "eb818e8cf2d8896993df13ec91205c1477662ed4dda4c13281aa19f53e907050",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/feature/PracticeBlock.vue",
+      "project": "smd-public",
+      "destination": "app/components/feature/PracticeBlock.vue",
+      "sourceSha256": "1a9e7a251fddd50f324f9cbfb07452767288d0853cd50692ede7fd06586875f9",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/feature/Reveal.vue",
+      "project": "smd-public",
+      "destination": "app/components/feature/Reveal.vue",
+      "sourceSha256": "f42e5fd9a8a3eab9a37a4c2b076ba596e8e29d827c90c263cc9859039d8e171e",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/feature/SiteFooter.vue",
+      "project": "smd-public",
+      "destination": "app/components/feature/SiteFooter.vue",
+      "sourceSha256": "950d93f31a9401baa55470b9549b13f62f4076604e316f8aba60559084fab79e",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/feature/SiteHeader.vue",
+      "project": "smd-public",
+      "destination": "app/components/feature/SiteHeader.vue",
+      "sourceSha256": "f43bc14a0238efad4332fe9d758372d2611fee53b7876fae2255c328a2ce7cdf",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/feature/TeachGrid.vue",
+      "project": "smd-public",
+      "destination": "app/components/feature/TeachGrid.vue",
+      "sourceSha256": "8178794145f81091e569e2c3fa79606918b784ca0a1309b6e864b9f224e6812f",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/home/HeroSection.vue",
+      "project": "smd-public",
+      "destination": "app/components/home/HeroSection.vue",
+      "sourceSha256": "1477041194de56ba113c5fff7627d8b50d69bbdee3c615365fde13bd5b5a1b8d",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/home/StatementSection.vue",
+      "project": "smd-public",
+      "destination": "app/components/home/StatementSection.vue",
+      "sourceSha256": "ae3038f5b83079a4b56d53093ec22971ba4485d53c18da883461d444abb5bd12",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/home/TeachSection.vue",
+      "project": "smd-public",
+      "destination": "app/components/home/TeachSection.vue",
+      "sourceSha256": "63e352362c5c4176a23dc89aa7daa80746644d1c82de16d40b92e67afa9cc44e",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/pages/ArchiveCategoryPage.vue",
+      "project": "smd-public",
+      "destination": "app/components/pages/ArchiveCategoryPage.vue",
+      "sourceSha256": "e8ede8bbed8388540545b3bd0a0c4ad0f59d84089bd4200bc1ad26270c05f8b7",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/components/pages/CategoryStandardPage.vue",
+      "project": "smd-public",
+      "destination": "app/components/pages/CategoryStandardPage.vue",
+      "sourceSha256": "c2b81671980192a730b7559cf5df71243c994c751947f791cb920a01e176bc22",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/composables/useSelectedCategoryPage.ts",
+      "project": "smd-public",
+      "destination": "app/composables/useSelectedCategoryPage.ts",
+      "sourceSha256": "f0d61dcf87927fdf259f68c751dc6dae407d414c63ac13655e3701ae1905bac2",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/composables/useSiteContent.ts",
+      "project": "smd-public",
+      "destination": "app/composables/useSiteContent.ts",
+      "sourceSha256": "a287fc58c0cb50790d182e899100d5db4aa8f358a8a2767ecb9ad32fa6da54fd",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/error.vue",
+      "project": "smd-public",
+      "destination": "app/error.vue",
+      "sourceSha256": "046199ac29705b6aa45a0853b8e325c285fda321de62f66feb97fbf45a9f1686",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/layouts/default.vue",
+      "project": "smd-public",
+      "destination": "app/layouts/default.vue",
+      "sourceSha256": "c6464eac00479624068533ea8593c302aa86450a0a04733b3ba045fe47a3ac77",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/pages/[...slug].vue",
+      "project": "smd-public",
+      "destination": "app/pages/[...slug].vue",
+      "sourceSha256": "54d281100d1b6ac0a2e20732b1568491a3adb1379e0febd35c779658320343c8",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/pages/about.vue",
+      "project": "smd-public",
+      "destination": "app/pages/about.vue",
+      "sourceSha256": "37657cf2e2020df44da86bd75f6e878438f448e3a9ddcd6941ce8402bfb667fc",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/pages/archive.vue",
+      "project": "smd-public",
+      "destination": "app/pages/archive.vue",
+      "sourceSha256": "4483609ee4593ce7d1e45bc410a523792f47326f59913447f922f10ad0c1ab3e",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/pages/contact.vue",
+      "project": "smd-public",
+      "destination": "app/pages/contact.vue",
+      "sourceSha256": "a33c734c59024094f6b8943d04b2c8658da856899d2ffe1cdf5489fe9e7c9fe8",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/pages/curriculum.vue",
+      "project": "smd-public",
+      "destination": "app/pages/curriculum.vue",
+      "sourceSha256": "9662d07008ba22a3a3e822660187822b386ef6ec1eac38356751fb6382a46415",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/pages/index.vue",
+      "project": "smd-public",
+      "destination": "app/pages/index.vue",
+      "sourceSha256": "b73f1ad5f17150bbe477852f3cdc664a618a9ea843e2b9adfc19f3e33098148d",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/pages/practice.vue",
+      "project": "smd-public",
+      "destination": "app/pages/practice.vue",
+      "sourceSha256": "10268cea9875f6b7ff932aa6f5f7808ffea4ef0cf3475f2a84c89a258c18f3e9",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/pages/privacy.vue",
+      "project": "smd-public",
+      "destination": "app/pages/privacy.vue",
+      "sourceSha256": "f8681fc149123377d40b6f03a20a072740e093e6dbadb9beb347087a1bb280a1",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/pages/promotion.vue",
+      "project": "smd-public",
+      "destination": "app/pages/promotion.vue",
+      "sourceSha256": "08e46784043b7fdd778bc9d72b350d3f3757a98bf980581525fc585503fe9f4f",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "app/stores/inquiryBot.ts",
+      "project": "smd-public",
+      "destination": "app/stores/inquiryBot.ts",
+      "sourceSha256": "c76f527fea56e6ed37d3900b7d1040a21e8ae87ad28d38d4b74555aec1aeb570",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/deployment.md",
+      "project": "both",
+      "destination": "DOCUMENTATION_SPLIT",
+      "sourceSha256": "a8f14cf5bd3c1baeab597045eca5726a4d787d1fe42d32a501af6281e20fede2",
+      "action": "EXPLICIT_REGENERATE"
+    },
+    {
+      "parent": "docs/migration/cf00/USAGE.md",
+      "project": "smd-public",
+      "destination": "docs/migration/cf00/USAGE.md",
+      "sourceSha256": "db18f937504738587edd9aa8e0e4aa83dfe6b993ebc84deb1772c9d2f458ab3c",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf00/content-baseline.json",
+      "project": "smd-public",
+      "destination": "docs/migration/cf00/content-baseline.json",
+      "sourceSha256": "ae19354f4675f13037a824df36a9bf79d79c3192fbfe0b8ed877e2af17eb94b1",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf00/head-manifest.json",
+      "project": "smd-public",
+      "destination": "docs/migration/cf00/head-manifest.json",
+      "sourceSha256": "29d21243c759646c3a48e2937c7a24552dc4988e36b5c749753d2c99c807e860",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf00/receipt.json",
+      "project": "smd-public",
+      "destination": "docs/migration/cf00/receipt.json",
+      "sourceSha256": "bd5f76cea1ae92ee8ef95719087828b4831e4bf243f64682f8e2251a6ed50d30",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf00/route-section-manifest.json",
+      "project": "smd-public",
+      "destination": "docs/migration/cf00/route-section-manifest.json",
+      "sourceSha256": "453749f9f4c1d5e38f3761d6541631350d016dc020bca498cf6f7dd2695a2b25",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf00/source-manifest.json",
+      "project": "smd-public",
+      "destination": "docs/migration/cf00/source-manifest.json",
+      "sourceSha256": "4092236cb2b66699416d530c01b2a88329060b6ea422dcce2ecfec509eebd809",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf00/style-asset-manifest.json",
+      "project": "smd-public",
+      "destination": "docs/migration/cf00/style-asset-manifest.json",
+      "sourceSha256": "25c4aced9e655b3f12b870630c859181732702f7c9d68e4dbf96ad2a91cb47c3",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf02/README.md",
+      "project": "smd-public",
+      "destination": "docs/migration/cf02/README.md",
+      "sourceSha256": "cb7fe53a4c986c248f413eb7bb3f977837721b64c7b85bfa0345466c6b087eee",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf02/receipt.json",
+      "project": "smd-public",
+      "destination": "docs/migration/cf02/receipt.json",
+      "sourceSha256": "a5617e75a96aebc67b8b9d2f614da85c29e1fcf1efce14010c4d370e7d93ec07",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf02/source-reference.json",
+      "project": "smd-public",
+      "destination": "docs/migration/cf02/source-reference.json",
+      "sourceSha256": "e037db7f44266a16ba65dfce83c425a1bc97024a57b955b7a6a1f6a56af3e888",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf03/README.md",
+      "project": "smd-public",
+      "destination": "docs/migration/cf03/README.md",
+      "sourceSha256": "0c5a42077fe4253417f82cbb6b06e7a465a1711d8f51fea75d796822522cf55f",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf03/receipt.json",
+      "project": "smd-public",
+      "destination": "docs/migration/cf03/receipt.json",
+      "sourceSha256": "f2e22dc280c1290d0a345f231000cf3cf2bbe17facb9f7f5aff17b9c24be866e",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/migration/cf03/source-reference.json",
+      "project": "smd-public",
+      "destination": "docs/migration/cf03/source-reference.json",
+      "sourceSha256": "9f29bbd778bad3314e2907e36b05e97f8f921ef2a8892e5eb987d4e186829f53",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/partition-plan.md",
+      "project": "both",
+      "destination": "DOCUMENTATION_SPLIT",
+      "sourceSha256": "24e6d7005ebc175634b08c2abe99bbee657509882bba79d5d4278656c271db6c",
+      "action": "EXPLICIT_REGENERATE"
+    },
+    {
+      "parent": "docs/receipt.json",
+      "project": "both",
+      "destination": "DOCUMENTATION_SPLIT",
+      "sourceSha256": "a33f893ededb5b3bcfb70e5f27456fd6db10810bcb6d7a0729c9ffb4a25f339c",
+      "action": "EXPLICIT_REGENERATE"
+    },
+    {
+      "parent": "docs/source-audit.md",
+      "project": "smd-public",
+      "destination": "docs/source-audit.md",
+      "sourceSha256": "59cf573089ccf1655486e9d3e6d8e6053ef6ac4d6b218bd79a6653f4e401df01",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "docs/verification.md",
+      "project": "smd-public",
+      "destination": "docs/verification.md",
+      "sourceSha256": "1554d318e87cb7ade94d0b0c453500dff9612b01048dcac96bdda7e00ed6e428",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "nuxt.config.ts",
+      "project": "smd-public",
+      "destination": "nuxt.config.ts",
+      "sourceSha256": "ebd1db767388aff17ed83d1a87e3714b8ddec01107f4571756efd7e0f7796d0c",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "package.json",
+      "project": "both",
+      "destination": "GENERATE_INDEPENDENT_PACKAGES",
+      "sourceSha256": "b054ad0e3b3da39901f52046837af8cf089b4c853ace8629ea7ef0d6b7c27186",
+      "action": "EXPLICIT_REGENERATE"
+    },
+    {
+      "parent": "scripts/cf00-freeze.mjs",
+      "project": "smd-public",
+      "destination": "scripts/cf00-freeze.mjs",
+      "sourceSha256": "325668e5a498b938f2ddb5929a69bc9480168a0a532f130800bde167514a2447",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/cf00-verify.mjs",
+      "project": "smd-public",
+      "destination": "scripts/cf00-verify.mjs",
+      "sourceSha256": "413a53c30496229b2b1dc9c7644ec545d1c7a2642b4cd9c602b1c4bbd3254d1f",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/cf01-layout-static.mjs",
+      "project": "smd-public",
+      "destination": "scripts/cf01-layout-static.mjs",
+      "sourceSha256": "7c4616b87ed7cef9e2bdbae7cee75fc794bdc13af9b4439b08c9e11eab874be5",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/cf02-page-static.mjs",
+      "project": "smd-public",
+      "destination": "scripts/cf02-page-static.mjs",
+      "sourceSha256": "0788cbb04474a41ce0662ab888b23d363c15ef9bfa61a139559601f5d065b47b",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/cf03-interaction-static.mjs",
+      "project": "smd-public",
+      "destination": "scripts/cf03-interaction-static.mjs",
+      "sourceSha256": "77dcb0cc4276594a3b7b6ad14023f82ee770444cebc134e49edc7cf11c79bf9e",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/lib/cf00-archive.mjs",
+      "project": "smd-public",
+      "destination": "scripts/lib/cf00-archive.mjs",
+      "sourceSha256": "494c34a5ab2746156bbf7434f38834910c4db06c310607d48f2fb32c2713569d",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/lib/cf00-manifest.mjs",
+      "project": "smd-public",
+      "destination": "scripts/lib/cf00-manifest.mjs",
+      "sourceSha256": "fdffb754366d34a96e7ae3c58bddfd2f8369bdf50db552ad50d9a4c2e2cde5eb",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/lib/cf00-reference.mjs",
+      "project": "smd-public",
+      "destination": "scripts/lib/cf00-reference.mjs",
+      "sourceSha256": "5d1f72a48c33d9187276a001c5fc22b0d5fb05eb26044cab246ac2a4bf2dde9f",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/lib/cf02-template.mjs",
+      "project": "smd-public",
+      "destination": "scripts/lib/cf02-template.mjs",
+      "sourceSha256": "949a410898e1409e3037b0a142f18f9b057a16ff370de4d05c6a94b61fabe9be",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/lib/cf04-audit.mjs",
+      "project": "smd-public",
+      "destination": "scripts/lib/cf04-audit.mjs",
+      "sourceSha256": "88f559e9858d37c88e8b6096cff54e8771d901db8e9d281232988904ee026240",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/tests/cf00-cf01.test.mjs",
+      "project": "smd-public",
+      "destination": "scripts/tests/cf00-cf01.test.mjs",
+      "sourceSha256": "5ea838c4dd1fd356c1094052577ceff29f0f4b4089c54076b2adbe5ed70f2048",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/tests/cf02-page.test.mjs",
+      "project": "smd-public",
+      "destination": "scripts/tests/cf02-page.test.mjs",
+      "sourceSha256": "965bb9109b8357e9de5da331efa660719d329d9791538f5fe789e673c0f1b705",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/tests/cf03-interaction.test.mjs",
+      "project": "smd-public",
+      "destination": "scripts/tests/cf03-interaction.test.mjs",
+      "sourceSha256": "2bba4204935174c4194d7efffc3a138f7544b39e6e7e1a240c577513ec33e979",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/tests/fixtures/cf03-archive-categories.json",
+      "project": "smd-public",
+      "destination": "scripts/tests/fixtures/cf03-archive-categories.json",
+      "sourceSha256": "3c5b5603696cc630cc346b3df4cc651da3b79dbd2a59a1369d9ed7d27115d953",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "scripts/tests/fixtures/cf03-route-navigation.json",
+      "project": "smd-public",
+      "destination": "scripts/tests/fixtures/cf03-route-navigation.json",
+      "sourceSha256": "a12cd5398b957162d0231d48430b4cb772ffc7d138f9f004d7542dcdb299833f",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "server/api/bot/ask.post.ts",
+      "project": "smd-public",
+      "destination": "server/api/bot/ask.post.ts",
+      "sourceSha256": "4fd9d09ed8cb1609615f70cf07ac3d27471dda5f018a6d593b33c943f529ffaf",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "server/api/bot/webhook.post.ts",
+      "project": "smd-public",
+      "destination": "server/api/bot/webhook.post.ts",
+      "sourceSha256": "0cc42797c74b169885b1fccc8759378a3215d237c7d530399de13252b18b7a44",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "server/api/content.get.ts",
+      "project": "smd-public",
+      "destination": "server/api/content.get.ts",
+      "sourceSha256": "357283d87d808f90ca62826a9507aeba1b7d005a28000eff5d5920b3e8a9743e",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "server/api/inquiries.post.ts",
+      "project": "smd-public",
+      "destination": "server/api/inquiries.post.ts",
+      "sourceSha256": "21751874643f04aae6ce484ef3cbf5d76f4d536eb838e64c3d4ca9e214eac547",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "server/api/render.get.ts",
+      "project": "smd-public",
+      "destination": "server/api/render.get.ts",
+      "sourceSha256": "fbb4a89a1d539cea1f438d5d0ccb3d85254980705561800286a00560027286dc",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "server/routes/sitemap.xml.ts",
+      "project": "smd-public",
+      "destination": "server/routes/sitemap.xml.ts",
+      "sourceSha256": "bff170787172016a4f4ceb3b5286c4f6d8358a2b2e7950e94f0c4e1f24268839",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "server/utils/core.ts",
+      "project": "both",
+      "destination": "SPLIT: public server/utils/public-core.ts + CMS server/utils/admin-core.ts",
+      "sourceSha256": "5208e3c859de2daa9cd3ee5547a2c9fe212d5a37f7ab4153f1e5e7904c8a0492",
+      "action": "EXPLICIT_REGENERATE"
+    },
+    {
+      "parent": "server/utils/render.ts",
+      "project": "smd-public",
+      "destination": "server/utils/render.ts",
+      "sourceSha256": "277f413eb69f7467e52b900300502a0b6977281f6ff78c666281d5a094752069",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "tailwind.config.ts",
+      "project": "smd-public",
+      "destination": "tailwind.config.ts",
+      "sourceSha256": "2d2146a2ba778ae373d70e70fb1d5e7b4816649573defaa2cda2b15c4d7d3200",
+      "action": "COPY_BEFORE_TRANSFORM"
+    },
+    {
+      "parent": "wrangler.toml",
+      "project": "smd-public",
+      "destination": "wrangler.toml",
+      "sourceSha256": "14ff91c0dcd7e54ecc19919682ded9a88c8a83688b7900eee8c35fb929a34a1e",
+      "action": "COPY_BEFORE_TRANSFORM"
+    }
+  ],
+  "contractSourceDigest": "b86aaeb448bf1a8fca75db3d7c8bc63ceb408003f3692d5a65f11e206157be09",
+  "contractArtifactSha256": "95286b4ce3b294976a029b6ff0d7950a8fd287c5a1cfb44a2cddfe12e20f2cc7"
+}

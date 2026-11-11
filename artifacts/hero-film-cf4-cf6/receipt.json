@@ -1,0 +1,31 @@
+{
+  "scope": "CF4-CF6 existing hero only",
+  "changed": [
+    "HERO_FILM_CF4_CF6.md",
+    "package.json",
+    "scripts/verify-hero-film-browser.mjs",
+    "app/data/home-film-lut.json",
+    "app/data/home-film-focus.json",
+    "app/composables/useHomeIntroReveal.ts",
+    "app/utils/homeFilmInput.ts",
+    "app/workers/home-film-focus.ts",
+    "app/components/home/HomeHeroFilm.vue",
+    "scripts/film/bake.mjs",
+    "scripts/tests/hero-film-cf4-cf6.test.mjs",
+    "scripts/tests/hero-film-cf1-cf3.test.mjs",
+    "public/media/hero-focus/1bc3129fb413dbaf819362f56958d69f0b57a04b3a7a17297a2506473ee5eb63.png",
+    "public/media/hero-focus/1e26ef5c80ce4f76418bc5e4bbfd2e3e808f8f11d118f8db164367a79101c0e2.png",
+    "public/media/hero-focus/125dc9aaac0584811e7a2008232ddb78a21ad9b141fa4e768c938ea6955ace9e.png"
+  ],
+  "typecheck": "PASS",
+  "build": "PASS",
+  "tests": {
+    "passed": 18,
+    "failed": 0,
+    "GPU": "MOCK_ONLY"
+  },
+  "browser": "NOT_RUN_ENVIRONMENT_BLOCKED",
+  "physicalGPU": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "CF6": "PARTIAL"
+}

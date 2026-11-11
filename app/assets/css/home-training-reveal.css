@@ -1,0 +1,45 @@
+/* SMD_HOME_TRAINING_REVEAL_R1. Only the 5 named title/card groups and the
+ * 14 diagram nodes are affected. No transforms on Figma ancestor/backgrounds. */
+@media (min-width:1380px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+  .smd-home-body-stage[data-training-prepared="true"]:is([data-training-phase="unarmed"], [data-training-phase="ready"], [data-training-phase="entering"])
+  [data-wide-section="training-track"] .smd-home-training__target,
+  .smd-home-body-stage[data-training-prepared="true"]:is([data-training-phase="unarmed"], [data-training-phase="ready"], [data-training-phase="entering"])
+  [data-wide-section="training-track"] .smd-home-training__diagram-part {
+    opacity: 0;
+  }
+  .smd-home-body-stage[data-training-prepared="true"]:is([data-training-phase="unarmed"], [data-training-phase="ready"], [data-training-phase="entering"])
+  [data-wide-section="training-track"] .smd-home-training__target {
+    transform: translateY(30px);
+  }
+  .smd-home-body-stage[data-training-prepared="true"]:is([data-training-phase="unarmed"], [data-training-phase="ready"], [data-training-phase="entering"])
+  [data-wide-section="training-track"] .smd-home-training__target:is([data-training-item-index="0"], [data-training-item-index="1"]) {
+    transform: translateY(24px);
+  }
+  .smd-home-body-stage[data-training-phase="revealing"] [data-wide-section="training-track"] .smd-home-training__target {
+    will-change: opacity, transform;
+  }
+  .smd-home-body-stage[data-training-phase="revealing"] [data-wide-section="training-track"] .smd-home-training__target[data-training-item-index="0"] {
+    opacity: var(--smd-training-0-opacity, 1);
+    transform: translateY(var(--smd-training-0-y, 0px));
+  }
+  .smd-home-body-stage[data-training-phase="revealing"] [data-wide-section="training-track"] .smd-home-training__target[data-training-item-index="1"] {
+    opacity: var(--smd-training-1-opacity, 1);
+    transform: translateY(var(--smd-training-1-y, 0px));
+  }
+  .smd-home-body-stage[data-training-phase="revealing"] [data-wide-section="training-track"] .smd-home-training__target[data-training-item-index="2"] {
+    opacity: var(--smd-training-2-opacity, 1);
+    transform: translateY(var(--smd-training-2-y, 0px));
+  }
+  .smd-home-body-stage[data-training-phase="revealing"] [data-wide-section="training-track"] .smd-home-training__target[data-training-item-index="3"] {
+    opacity: var(--smd-training-3-opacity, 1);
+    transform: translateY(var(--smd-training-3-y, 0px));
+  }
+  .smd-home-body-stage[data-training-phase="revealing"] [data-wide-section="training-track"] .smd-home-training__target[data-training-item-index="4"] {
+    opacity: var(--smd-training-4-opacity, 1);
+    transform: translateY(var(--smd-training-4-y, 0px));
+  }
+  .smd-home-body-stage[data-training-phase="revealing"] [data-wide-section="training-track"] .smd-home-training__diagram-part {
+    will-change: opacity;
+    opacity: var(--smd-training-diagram-opacity, 1);
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "contract": "SMD_GALLERY_R1_CF4_CF5_NO_TOUCH_PARENT_SHA_V1",
+  "parentZipSha256": "978a7ee062d39a68939bc1c7b9b5de37b8ed751062eead0b95a9bbd20344720b",
+  "files": {
+    "app/app.vue": "285f1fce060ab5a013a6a3bdc87d8eba2919ddf44c997794582dcb8fffc3fde1",
+    "app/assets/css/home-body-compact.css": "6926cfb6a19bb54c21eaaa2a762e5ccd4bc312c4a167f4639b1a3992539f4e76",
+    "app/assets/css/home-r2-header.css": "614a941e4896a0c8903fdb5ece5db53934549c79f9732270d07154ae3c1cdf02",
+    "app/components/archive/ArchiveCard.vue": "5bcfcb76b87e25e7e07b6a574057cca01b2727c293a2f5f2c32bf88ca8482316",
+    "app/components/archive/ArchiveGallery.vue": "a3f2d6b96fadd05a94d9309c9f59e1a794d416f352d83aac3c1cc6055e9c4aa5",
+    "app/components/cms/CmsSlot.vue": "f05bf7ea56fc434c26dc4524e541eef15f2e63ccaf1b296b02abefd4e53c1731",
+    "app/components/feature/ArchiveGallery.vue": "c17216552fd4078bca0c5b862b8cec78ebcd421207de5a3263c3ba9866ceceb0",
+    "app/components/feature/CtaBand.vue": "9bceb7ebdc0fc7784c58c7fdedbd1340439367f197f0e6e0da27a21a90ea6123",
+    "app/composables/useSiteContent.ts": "c8815ded33a8b58911f34044f7abc142d5483757c10ab734bfc876f92ebbbb5b",
+    "app/layouts/default.vue": "f71c1a4ff752530c091e8aa2dadb120f65346801793611fed7fabfea54e6ef65",
+    "app/pages/index.vue": "7f6d9c5feb4a8551385121c317345915e37a845498695ba27d9316e2e81504b8",
+    "app/pages/videos.vue": "3ee2e6adbf38fb663dde1afa6a364094fc835710a319dced7196643872422a0d",
+    "app/utils/archive-view.ts": "aff7ac93241296e5011384450e91f65cc0d31d4552143654655de5545f9de602",
+    "app/utils/gallery-view.ts": "0e32acfa7f06b523745109710ea00dd5d2ae7b4133e7fd1630c26a44696e428a",
+    "package-lock.json": "899f98a11fcb5f9300c3a99f5c2fb9876463143788ba860dae723b8bff347221",
+    "package.json": "2feca0a8399de8ea8349fb178fca8a34ab159fff40f107b473e8ade634cba936",
+    "server/api/archive/media/[file].get.ts": "3ab1256be17fe2a94bb70ace0de967ff39a7bdd428172ecde037c6f2db800f06",
+    "server/api/render.get.ts": "70df9b1a559e58bd9ec146533a3c40ab290c45c4896415568317bdecfd9870d7",
+    "server/utils/public-core.ts": "e2e9da63472cf380ef4f73b0560dff41ac21f1a6fe62060a9c56da7a1c506944",
+    "vendor/content-contracts/RELEASE.json": "a0d8237629a40e3cd71c2f4adda9e9dcae284686ea02b2781db5046b24db0572",
+    "vendor/content-contracts/smd-content-contracts-0.7.0.tgz": "a3c7a2743aff98ccc82554e6a3ce397ef5a26693b0d97d2869f08a6b12add8f1"
+  }
+}

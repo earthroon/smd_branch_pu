@@ -1,0 +1,285 @@
+:root { --smd-header-height: 80px; }
+/* CF3/CF4: Figma header shell, 1920×1080 reference. Does not alter category body CSS. */
+/* SMD-GLOBAL-HEADER-BRAND-SSOT-R2: SiteHeader container is sole responsive geometry owner for brand symbol. */
+.smd-site-header {
+  --smd-header-v2-brand-symbol-size: 40px;
+  position: fixed; inset: 0 0 auto; z-index: 50;
+  height: 80px; background: rgba(255,255,255,.96);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  font-family: var(--font-ui);
+  transition: background-color 180ms ease, box-shadow 180ms ease;
+}
+.smd-site-header--scrolled { box-shadow: 0 4px 24px rgba(0,0,0,.06); }
+.smd-site-header__inner {
+  max-width: 1638px; width: calc(100% - 48px); margin-inline: auto;
+  height: 100%; display: flex; gap: clamp(16px, 1.8vw, 36px); align-items: center;
+}
+.smd-site-header__brand {
+  min-width: 0; display: inline-flex; align-items: center; gap: 14px;
+  flex-shrink: 0; color: #2f2f2f; text-decoration: none; overflow: visible;
+}
+.smd-site-header__symbol {
+  width: var(--smd-header-v2-brand-symbol-size);
+  height: var(--smd-header-v2-brand-symbol-size);
+  flex: 0 0 var(--smd-header-v2-brand-symbol-size);
+}
+.smd-site-header__symbol, .smd-site-header__symbol > * {display: inline-flex; align-items: center; justify-content: center;}
+.smd-site-header__symbol img, .smd-site-header__symbol > span {width: 100%; height: 100%;}
+/* SMD-HEADER-FIGMA-LOGO-AUTHORITY-R3: Figma node-1:8 owns header-brand SVG; size comes exclusively from V2 header variable. */
+.smd-site-header__figma-logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.smd-site-header__logo-error {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  font-size: 9px;
+  color: #9b1c1c;
+}
+
+.smd-site-header__brand-label {
+  display: block; flex: 0 0 auto; min-width: max-content; white-space: nowrap;
+  overflow: visible; font-family: var(--font-ui); font-size: 20px; font-weight: 800;
+  letter-spacing: -.008em; line-height: 1.35;
+}
+.smd-site-header__desktop-nav {display: flex; align-items: center; justify-content: flex-end; gap: clamp(18px, 1.7vw, 32px); margin-left: auto; min-width: 0;}
+.smd-site-header__nav-link {
+  flex-shrink: 0; white-space: nowrap; font-size: clamp(16px, 1.041667vw, 20px); font-weight: 400;
+  letter-spacing: -.008em; color: #2f2f2f; text-decoration: none;
+  transition: color 150ms ease;
+}
+.smd-site-header__nav-link:hover, .smd-site-header__nav-link[aria-current=page] {color: var(--smd-action-orange);}
+.smd-site-header__cta {
+  width: 105px; min-width: 105px; height: 45px; display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 3.5px; background: var(--smd-action-orange); color: white;
+  font-weight: 400; font-size: 20px; white-space: nowrap; letter-spacing: -.008em;
+  text-decoration: none;
+}
+.smd-site-header__cta:hover {background: #bd4c19;}
+.smd-site-header__cta-unavailable {font-size: 12px; color: #99461d; white-space: nowrap;}
+.smd-site-header__toggle {display: none; min-width: 44px; min-height: 44px; align-items: center; justify-content: center; border-radius: 6px; color: #2f2f2f; background: transparent;}
+.smd-site-header__drawer {visibility: hidden; max-height: 0; overflow: hidden;}
+.smd-site-header__drawer-nav {display: flex; flex-direction: column; padding: 10px 24px 24px;}
+.smd-site-header__drawer-link {display: block; padding: 13px 5px; border-bottom: 1px solid #e6e6e6; color: #2f2f2f; font-size: 16px;}
+.smd-site-header__drawer-link[aria-current=page] {color: var(--smd-action-orange);}
+.smd-site-header__drawer-cta {display: flex; justify-content: center; margin-top: 20px; padding: 14px 20px; color: white; background: var(--smd-action-orange); border-radius: 4px; font-size: 16px;}
+.smd-site-header__drawer-unavailable {color: #94431c; padding-block: 16px;}
+.smd-site-header a:focus-visible,.smd-site-header button:focus-visible {outline: 3px solid var(--smd-action-orange); outline-offset: 3px;}
+
+/* SMD_HOME_LAYOUT_R1_HEADER_GRAY_R2: desktop visual geometry is 75% of the 125px Figma header.
+   This is the only desktop header-height authority; compact/mobile header remains unchanged. */
+@media (min-width: 1380px) {
+  :root { --smd-desktop-header-height: 93.75px; --smd-header-height: var(--smd-desktop-header-height); }
+  .smd-site-header {
+    height: var(--smd-desktop-header-height);
+    border-bottom: 0;
+    background: white;
+    --smd-header-v2-brand-symbol-size: 60px;
+  }
+  .smd-site-header__inner {
+    max-width: 1228.5px;
+    width: calc(100% - 36px);
+    gap: clamp(12px, 1.35vw, 27px);
+  }
+  .smd-site-header__brand { gap: 10.5px; }
+  .smd-site-header .smd-site-header__brand-label { font-size: 22.5px; }
+  .smd-site-header__desktop-nav { gap: clamp(13.5px, 1.275vw, 24px); }
+  .smd-site-header__nav-link { font-size: clamp(12px, .78125vw, 15px); }
+  .smd-site-header__cta {
+    width: 78.75px;
+    min-width: 78.75px;
+    height: 33.75px;
+    border-radius: 2.625px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1379px) {
+  .smd-site-header__desktop-nav, .smd-site-header__desktop-cta {display: none;}
+  .smd-site-header__toggle {display: inline-flex; margin-left: auto;}
+  .smd-site-header__drawer {position: absolute; inset: 100% 0 auto; background: #fff; border-top: 1px solid #e9e9e9;
+    transition: max-height 180ms ease;}
+  .smd-site-header__drawer--open {visibility: visible; max-height: min(530px, calc(100dvh - 80px)); overflow-y: auto; box-shadow: 0 16px 22px rgba(0,0,0,.08);}
+}
+@media (max-width: 599px) {
+  .smd-site-header {height: 76px; --smd-header-v2-brand-symbol-size: 36px;}
+  .smd-site-header__inner {width: calc(100% - 36px); gap: 10px;}
+  .smd-site-header__brand {gap: 9px;}
+  .smd-site-header__brand-label {font-size: 18px;}
+  .smd-site-header__drawer--open {max-height: min(530px, calc(100dvh - 76px));}
+}
+@media (prefers-reduced-motion: reduce) {
+  .smd-site-header, .smd-site-header__drawer, .smd-site-header__nav-link {transition: none;}
+}
+.smd-scaffold-page {min-height: 65vh; padding: 160px 24px 110px; background: #f2f2f2; font-family: var(--font-ui);}
+.smd-scaffold-page__body {max-width: 1100px; margin-inline: auto;}
+.smd-scaffold-page h1 {font-size: clamp(35px,4.5vw,60px); font-weight: 600; color: #2f2f2f;}
+.smd-scaffold-page p {margin-top: 26px; font-size: 18px; line-height: 1.7; color: #555;}
+@media (max-width: 599px) {.smd-scaffold-page {padding-top: 130px;}}
+
+/* Preserve each route's original clearance below the header while resizing its height. */
+@media (min-width: 1380px) {
+  .smd-page-hero.smd-page-hero,
+  .smd-video-lane-head.smd-video-lane-head {
+    padding-top: calc(var(--smd-desktop-header-height) + 64px);
+  }
+  .smd-scaffold-page.smd-scaffold-page {
+    padding-top: calc(var(--smd-desktop-header-height) + 80px);
+  }
+}
+
+@media (max-width: 599px) { :root { --smd-header-height: 76px; } }
+
+/*
+ * SMD HOME HEADER · R1 CROSS DISSOLVE
+ *
+ * Desktop homepage only.
+ * TOP  : White Solid, no navigation chrome.
+ * MENU : Existing header content is revealed.
+ *
+ * Figma geometry and header height remain unchanged.
+ */
+
+@media (min-width: 1380px) {
+  .smd-site-header--home {
+    background: #fff;
+    border-bottom: 0;
+  }
+
+  /* Existing menu is the single content owner. */
+  .smd-site-header--home .smd-site-header__inner {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+
+    transition:
+      opacity 360ms cubic-bezier(.22, 1, .36, 1),
+      visibility 0s linear 0s;
+  }
+
+  /* Top of homepage: pure white surface. */
+  .smd-site-header--home[data-home-header-mode="top"] {
+    background: #fff;
+    box-shadow: none;
+  }
+
+  .smd-site-header--home[data-home-header-mode="top"]
+  .smd-site-header__inner {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition:
+      opacity 360ms cubic-bezier(.22, 1, .36, 1),
+      visibility 0s linear 360ms;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .smd-site-header--home .smd-site-header__inner {
+    transition: none !important;
+  }
+}
+
+/* HOME HEADER · TRANSPARENT TOP / SOLID SCROLLED */
+
+/* 메뉴 내용은 처음부터 반드시 표시 */
+.smd-site-header--home .smd-site-header__inner {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* Y=0: 배경은 투명, 메뉴 내용은 흰색 */
+.smd-site-header--home[data-home-header-mode="top"] {
+  background: transparent !important;
+  border: 0;
+  box-shadow: none;
+}
+
+.smd-site-header--home[data-home-header-mode="top"]
+:is(
+  .smd-site-header__brand,
+  .smd-site-header__brand-label,
+  .smd-site-header__nav-link,
+  .smd-site-header__toggle
+) {
+  color: #fff;
+}
+
+.smd-site-header--home[data-home-header-mode="top"]
+.smd-site-header__figma-logo {
+  filter: brightness(0) invert(1);
+}
+
+.smd-site-header--home[data-home-header-mode="top"]
+.smd-site-header__cta {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* 스크롤 시작: 흰색 메뉴바로 크로스디졸브 */
+.smd-site-header--home[data-home-header-mode="menu"] {
+  background: #fff;
+  border: 0;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.smd-site-header--home[data-home-header-mode="menu"]
+:is(
+  .smd-site-header__brand,
+  .smd-site-header__brand-label,
+  .smd-site-header__nav-link,
+  .smd-site-header__toggle
+) {
+  color: #2f2f2f;
+}
+
+.smd-site-header--home[data-home-header-mode="menu"]
+.smd-site-header__figma-logo {
+  filter: none;
+}
+
+.smd-site-header--home[data-home-header-mode="menu"]
+.smd-site-header__cta {
+  background: var(--smd-action-orange);
+  color: #fff;
+  border: 0;
+}
+
+/* 동일 좌표에서 색상만 전환 */
+.smd-site-header--home {
+  transition:
+    background-color 360ms ease,
+    box-shadow 360ms ease;
+}
+
+.smd-site-header--home .smd-site-header__brand,
+.smd-site-header--home .smd-site-header__brand-label,
+.smd-site-header--home .smd-site-header__nav-link,
+.smd-site-header--home .smd-site-header__toggle {
+  transition: color 360ms ease;
+}
+
+.smd-site-header--home .smd-site-header__figma-logo {
+  transition: filter 360ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .smd-site-header--home,
+  .smd-site-header--home .smd-site-header__brand,
+  .smd-site-header--home .smd-site-header__brand-label,
+  .smd-site-header--home .smd-site-header__nav-link,
+  .smd-site-header--home .smd-site-header__toggle,
+  .smd-site-header--home .smd-site-header__figma-logo {
+    transition: none;
+  }
+}
+.smd-home--figma-scene,
+.smd-home--semantic-reflow {
+  --home-header-offset: 0px;
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "SMD_R3_S1_S2_EVIDENCE_STATUS_V1",
+  "project": "smd-public",
+  "source": "BAKED",
+  "static": {
+    "pass": 633,
+    "fail": 0
+  },
+  "tests": {
+    "public": 8,
+    "cmsCore": 34,
+    "cmsAdminBoundary": 5
+  },
+  "compiledContracts": "PASS",
+  "nuxtTypecheck": "BLOCKED_DEPENDENCIES_NOT_INSTALLED",
+  "nuxtBuild": "BLOCKED_DEPENDENCIES_NOT_INSTALLED",
+  "lockfile": "NOT_GENERATED_OFFLINE_ENOTCACHED",
+  "workerBundle": "UNKNOWN",
+  "accessJwtPhysical": "UNKNOWN",
+  "d1Physical": "UNKNOWN",
+  "ssrPhysical": "UNKNOWN",
+  "v3Published": "false"
+}

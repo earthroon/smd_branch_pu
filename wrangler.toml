@@ -1,0 +1,24 @@
+name = "smd-aca-pu"
+main = ".output/server/index.mjs"
+compatibility_date = "2026-10-12"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[assets]
+directory = ".output/public"
+binding = "ASSETS"
+
+# Standalone media-only service binding; routing and content mode remain unchanged.
+[[services]]
+binding = "SMD_CORE"
+service = "smd-core"
+entrypoint = "PublicSurface"
+
+[vars]
+NUXT_PUBLIC_CONTENT_MODE = "standalone"
+# CF8 gate stays local until Source Lock + staging publication are verified.
+NUXT_PUBLIC_STANDALONE_MEDIA_MODE = "local"
+NUXT_PUBLIC_STANDALONE_MEDIA_SOURCE_LOCK_DIGEST = ""
+
+[observability]
+enabled = true

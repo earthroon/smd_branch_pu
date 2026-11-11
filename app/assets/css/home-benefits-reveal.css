@@ -1,0 +1,43 @@
+/* SMD_HOME_BENEFITS_REVEAL_R1. Presentation-only wrappers around exactly
+   the heading + four card groups. The Benefits backdrop and R4 paint correction
+   must not be animated, and no original SVG affine/rect is changed. */
+@media (min-width:1380px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+  .smd-home-body-stage[data-benefits-prepared="true"]:is([data-benefits-phase="unarmed"], [data-benefits-phase="ready"], [data-benefits-phase="entering"])
+  [data-wide-section="benefits"] .smd-home-benefits__target {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  .smd-home-body-stage[data-benefits-prepared="true"]:is([data-benefits-phase="unarmed"], [data-benefits-phase="ready"], [data-benefits-phase="entering"])
+  [data-wide-section="benefits"] .smd-home-benefits__target[data-benefits-item-index="0"] {
+    transform: translateY(-26px);
+  }
+  .smd-home-body-stage[data-benefits-phase="revealing"]
+  [data-wide-section="benefits"] .smd-home-benefits__target {
+    will-change: opacity, transform;
+  }
+  .smd-home-body-stage[data-benefits-phase="revealing"]
+  [data-wide-section="benefits"] .smd-home-benefits__target[data-benefits-item-index="0"] {
+    opacity: var(--smd-benefits-0-opacity, 1);
+    transform: translateY(var(--smd-benefits-0-y, 0px));
+  }
+  .smd-home-body-stage[data-benefits-phase="revealing"]
+  [data-wide-section="benefits"] .smd-home-benefits__target[data-benefits-item-index="1"] {
+    opacity: var(--smd-benefits-1-opacity, 1);
+    transform: translateY(var(--smd-benefits-1-y, 0px));
+  }
+  .smd-home-body-stage[data-benefits-phase="revealing"]
+  [data-wide-section="benefits"] .smd-home-benefits__target[data-benefits-item-index="2"] {
+    opacity: var(--smd-benefits-2-opacity, 1);
+    transform: translateY(var(--smd-benefits-2-y, 0px));
+  }
+  .smd-home-body-stage[data-benefits-phase="revealing"]
+  [data-wide-section="benefits"] .smd-home-benefits__target[data-benefits-item-index="3"] {
+    opacity: var(--smd-benefits-3-opacity, 1);
+    transform: translateY(var(--smd-benefits-3-y, 0px));
+  }
+  .smd-home-body-stage[data-benefits-phase="revealing"]
+  [data-wide-section="benefits"] .smd-home-benefits__target[data-benefits-item-index="4"] {
+    opacity: var(--smd-benefits-4-opacity, 1);
+    transform: translateY(var(--smd-benefits-4-y, 0px));
+  }
+}
