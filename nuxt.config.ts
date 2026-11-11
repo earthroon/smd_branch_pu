@@ -4,7 +4,11 @@ export default defineNuxtConfig({
   modules: ['@pinia/nuxt', 'motion-v/nuxt'],
   postcss: { plugins: { tailwindcss: {}, autoprefixer: {} } },
   css: ['~/assets/css/main.css', '~/assets/css/catalogue-r7.css', '~/assets/css/catalogue-r7-home.css', '~/assets/css/catalogue-r7-routes.css'],
-  nitro: { preset: 'cloudflare-module' },
+  nitro: {
+    preset: process.env.GITHUB_PAGES === '1'
+      ? 'github_pages'
+      : 'cloudflare-module'
+  },
   app: {
     head: {
       htmlAttrs: { lang: 'ko' },
