@@ -7,7 +7,10 @@ export default defineNuxtConfig({
   nitro: {
     preset: process.env.GITHUB_PAGES === '1'
       ? 'github_pages'
-      : 'cloudflare-module'
+      : 'cloudflare-module',
+    prerender: process.env.GITHUB_PAGES === '1'
+      ? { ignore: ['/videos'] }
+      : undefined
   },
   app: {
     head: {
